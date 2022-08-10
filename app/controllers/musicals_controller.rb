@@ -4,4 +4,9 @@ class MusicalsController < ApplicationController
     def index 
         render json: Musical.all.order(:name) 
     end
+
+    def show
+        musical = Musical.find(params[:id])
+        render json: musical
+    end
 end
