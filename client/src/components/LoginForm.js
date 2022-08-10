@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-//import { useHistory } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 
 const LoginForm = ( { setCurrentUser } ) => {
   const [ formData, setFormData ] = useState({
@@ -7,7 +7,7 @@ const LoginForm = ( { setCurrentUser } ) => {
     password: ""
   })
 
-  //const history = useHistory();
+  const history = useHistory();
 
   const { username, password } = formData;
 
@@ -26,14 +26,14 @@ const LoginForm = ( { setCurrentUser } ) => {
         "Content-Type": "application/json",
       },
       body: JSON.stringify(formData)
-    }).then( (resp) => {
-      if (resp.ok) {
-        resp.json().then( (user) => {
+    }).then( (r) => {
+      if (r.ok) {
+        r.json().then( (user) => {
           setCurrentUser(user);
-          //history.push(`/`);
+          history.push(`/`);
         });
       } else {
-        resp.json().then( (json) => {
+        r.json().then( (json) => {
           alert(json.errors)
         });
       }

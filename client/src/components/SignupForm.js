@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import { useHistory } from "react-router-dom";
 
 function SignupForm({ setCurrentUser }){
   const [formData, setFormData] = useState({
@@ -10,6 +10,7 @@ function SignupForm({ setCurrentUser }){
   })
 
   const { username, email, password, confirmPassword } = formData
+  const history = useHistory();
 
   const onSubmit = (event) => {
     event.preventDefault();
@@ -26,13 +27,14 @@ function SignupForm({ setCurrentUser }){
         'Content-Type': 'application/json',
       },
       body: JSON.stringify(user),
-    }).then((response) => {
-      if (response.ok) {
-        response.json().then((user) => {
+    }).then((r) => {
+      if (r.ok) {
+        r.json().then((user) => {
           setCurrentUser(user)
+          history.push(`/`)
         });
       } else {
-        response.json().then((resp) => alert(resp.errors));
+        r.json().then((r) => alert(r.errors));
       }
     })
   }
