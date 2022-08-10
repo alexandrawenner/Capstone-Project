@@ -11,7 +11,28 @@ import AllMusicals from './components/AllMusicals';
 
 function App() {
 
+  const [currentUser, setCurrentUser] = useState(false)
+  const [errors, setErrors] = useState(false)
   const [musicals, setMusicals] = useState([])
+
+   // Check if current user is authorized and set to current user
+   useEffect(() => {
+    fetch('/authorized_user')
+    .then((res) => {
+      if (res.ok) {
+        res.json().then((user) => {
+          setCurrentUser(user);
+        });
+      } else {
+        res.json().then( (json) => {
+          if (json.errors !== undefined) {
+            alert(json.errors);
+          }
+        });
+      }
+    })
+  },[]);
+
 
   useEffect(() => {
     fetch('/musicals')
@@ -22,22 +43,22 @@ function App() {
 
   return (
     <div className="navigation">
-      <Sidebar/>
+      <Sidebar
+      currentUser={currentUser}
+      setCurrentUser={setCurrentUser}
+      />
       <Switch>
           <Route exact path="/">
             <Home musicals={musicals}/>
           </Route>
           <Route exact path="/login">
-            <LoginForm />
+            <LoginForm setCurrentUser={setCurrentUser}/>
           </Route>
           <Route exact path="/signup">
-            <SignupForm />
+            <SignupForm setCurrentUser={setCurrentUser}/>
           </Route>
       </Switch>
 
-      <div>
-        <h1>"Hello"</h1>
-        </div>
     </div>
   );
 }
