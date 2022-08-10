@@ -1,10 +1,13 @@
 import React, { useState } from "react";
+//import { useHistory } from "react-router-dom";
 
 const LoginForm = ( { setCurrentUser } ) => {
   const [ formData, setFormData ] = useState({
     username: "",
     password: ""
   })
+
+  //const history = useHistory();
 
   const { username, password } = formData;
 
@@ -27,6 +30,7 @@ const LoginForm = ( { setCurrentUser } ) => {
       if (resp.ok) {
         resp.json().then( (user) => {
           setCurrentUser(user);
+          //history.push(`/`);
         });
       } else {
         resp.json().then( (json) => {
@@ -51,9 +55,9 @@ const LoginForm = ( { setCurrentUser } ) => {
               <label className='password'>Password:</label>
               <input type='password' required onChange={handleChange} name='password' value={password}/>
             </div>
+        <button type='submit' >Login</button>
         </form>
 
-        <button type='submit' >Login</button>
       </div>
     );
   };

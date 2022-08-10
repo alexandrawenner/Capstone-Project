@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-//import { useHistory } from "react-router-dom";
-//import { FormInput } from "./FormInput";
+
 
 function SignupForm({ setCurrentUser }){
   const [formData, setFormData] = useState({
@@ -64,9 +63,9 @@ console.log(setCurrentUser)
               <label className='confirmPassword'>Confirm Password:</label>
               <input type='password' required onChange={handleChange} name='confirmPassword' value={confirmPassword}/>
             </div>
+      <button type='submit'>Create Account</button>
       </form>
 
-      <button type='submit'>Create Account</button>
     </div>
   )
     };

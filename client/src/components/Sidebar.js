@@ -2,7 +2,7 @@ import { NavLink } from 'react-router-dom'
 //import "./Sidebar.css";
 
 const Sidebar = ( { currentUser, setCurrentUser } ) => {
-  //const history = useHistory();
+
 
   const handleLogout = () => {
     fetch('/logout', {
@@ -11,7 +11,6 @@ const Sidebar = ( { currentUser, setCurrentUser } ) => {
     .then((res) => {
       if (res.ok) {
         setCurrentUser(false);
-        //history.push('/');
       }
     });
   };
