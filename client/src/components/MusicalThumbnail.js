@@ -3,42 +3,14 @@ import { NavLink } from "react-router-dom";
 import "./MusicalThumbnail.css"
 import SongRow from "./SongRow";
 
-const MusicalThumbnail = ( { musical, currentUser } ) => {
+const MusicalThumbnail = ( { musical } ) => {
 
   const { id, image, name } = musical
-
-  //const [liked, setLiked] = useState(false)
-  //const [userAlbums, setUserAlbums] = useState([])
-
-  function truncate(str, n) {
-    return str?.length > n ? str.substr(0, n - 1) + "..." : str;
-  }
-
-  // const formData = {
-  //   user_id: currentUser ? currentUser.id : 1,
-  //   musical_id: musical.id
-  // }
-
-//   function handleAddAlbum() {
-//     fetch('/user_albums', {
-//       method: "POST",
-//       headers: {
-//         "Content-Type": "application/json",
-//         Accept: "application/json",
-//       },
-//       body: JSON.stringify(formData)
-//     })
-//     setLiked(true)
-//   }
-
-  // let destructuredIds  
-
-  // currentUser ? destructuredIds = currentUser.user_albums.map(userMusical => userMusical.musical).map(userMusical => userMusical.id) : destructuredIds = []
 
   return (
     <div className="thumbnail_container">
 
-      <NavLink exact to={`/musicals/${musical.id}`}>
+      <NavLink exact to={`/musicals/${id}`} state={ id }>
         <img 
               key={id} 
               src={image} 
@@ -49,28 +21,11 @@ const MusicalThumbnail = ( { musical, currentUser } ) => {
       <div className="thumbnail_info">
 
         <div className="column_one">
-          <NavLink exact to={`/musicals/${musical.id}`}>
-            <h3>{truncate(musical.name, 14)}</h3>
+          <NavLink exact to={`/musicals/${id}`}>
+            <h3>{name}</h3>
           </NavLink>
-            {/* <p>{album.artist.name}</p> */}
-        </div>
-
-        <SongRow musical={musical} />
-
-        {/* <div className="column_two">
-
-          {currentUser ? 
           
-            destructuredIds.indexOf(id) !== -1 || liked ? <i class="fa-solid fa-heart albumheart liked" onClick={handleAddAlbum}></i> : <i class="fa-solid fa-heart albumheart" onClick={handleAddAlbum}></i> 
-
-            :
-
-            null
-        
-          }
-
-        </div> */}
-
+        </div>
       </div>
   </div>
   );
