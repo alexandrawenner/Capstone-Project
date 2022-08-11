@@ -1,3 +1,5 @@
+import Row from "./Row";
+
 const Home = ( { musical } ) => {
 
   

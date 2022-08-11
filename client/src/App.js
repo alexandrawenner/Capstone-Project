@@ -6,6 +6,7 @@ import SignupForm from './components/SignupForm';
 import Sidebar from './components/Sidebar';
 import Home from './components/Home';
 import AllMusicals from './components/AllMusicals';
+import AllActors from './components/AllActors'
 
 
 
@@ -14,6 +15,8 @@ function App() {
   const [currentUser, setCurrentUser] = useState(false)
   const [errors, setErrors] = useState(false)
   const [musicals, setMusicals] = useState([])
+  const [actors, setActors] = useState([])
+  const [search, setSearch] = useState("")
 
    // Check if current user is authorized and set to current user
    useEffect(() => {
@@ -33,13 +36,20 @@ function App() {
     })
   },[]);
 
-
+//fetch all musicals
   useEffect(() => {
     fetch('/musicals')
     .then(res => res.json())
     .then(musicals => setMusicals(musicals))
   }, []);
 
+  const allMusicals = musicals.filter(musical => musical.name.toLowerCase().includes(search.toLowerCase()))
+  const allActors = actors.filter(actor => actor.name.toLowerCase().includes(search.toLowerCase()))
+
+  //search musicals and actors
+  function handleSearch(e){
+    setSearch(e.target.value)
+  }
 
   return (
     <div className="navigation">
@@ -49,13 +59,19 @@ function App() {
       />
       <Switch>
           <Route exact path="/">
-            <Home musicals={musicals}/>
+            <Home allmusicals={allMusicals}/>
           </Route>
           <Route exact path="/login">
             <LoginForm setCurrentUser={setCurrentUser}/>
           </Route>
           <Route exact path="/signup">
             <SignupForm setCurrentUser={setCurrentUser}/>
+          </Route>
+          <Route exact path="/musicals">
+            <AllMusicals currentUser={currentUser} handleSearch={handleSearch} search={search} allmusicals={allMusicals}/>
+          </Route>
+          <Route exact path="/actors">
+            <AllActors currentUser={currentUser} handleSearch={handleSearch} search={search} allActors={allActors}/>
           </Route>
       </Switch>
 
