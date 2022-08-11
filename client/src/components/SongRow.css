@@ -3,12 +3,12 @@
     color: white;
   } */
   
-  /* .songRow h1{
+  .songRow h1{
     display: inline-block;
     margin: 0;
     margin-right: 15px;
     font-size: 15px;
-  } */
+  }
   
   /* .songRow p{
     margin: 0;
@@ -19,7 +19,7 @@
     display: flex;
     align-items: center;
     z-index: 100;
-    color: white;
+    color: rgb(7, 86, 120);
     margin-bottom: 15px;
   }
   
@@ -38,18 +38,18 @@
     font-size: 16px;
   }
   
-  .songRow__info > p {
+  /* .songRow__info > p {
     font-size: 14px;
     margin-top: 3px;
     color: gray;
-  }
+  } */
   
   .music_video{
     margin: 20px auto;
     align-items: center;
     text-align: center;
   }
-  
+
   .fa-play{
-    margin-right: 20px;
+    margin-right: 50px;
   }
