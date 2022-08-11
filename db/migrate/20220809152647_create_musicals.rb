@@ -3,10 +3,13 @@ class CreateMusicals < ActiveRecord::Migration[6.1]
     create_table :musicals do |t|
       t.string :name
       t.string :image
+      t.string :opening_date
       t.string :director
       t.string :playwrites
       t.string :composers
       t.string :synopsis
+      t.string :status
+      t.string :location
 
       t.timestamps
     end

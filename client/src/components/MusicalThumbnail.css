@@ -1,0 +1,72 @@
+/* .all_musicals_body {
+    padding-bottom: 20px;
+    padding-top: 5px;
+    width: 100%;
+    color: white;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 1));
+    background-color: rgb(91, 87, 115);
+  }
+
+.all_musicals_body h1{
+    margin: 30px 32px;
+}   */
+
+.thumbnail_image {
+    max-height: 180px;
+    object-fit: contain;
+    border-radius: 5px;
+}
+
+.thumbnail_container{
+    background-color: black;
+    margin-right: 20px;
+    border-radius: 10px;
+    padding: 18px;
+    padding-bottom: 8px;
+    transition: 500ms;
+    float: left;
+    margin-bottom: 30px;
+}
+
+.thumbnail_info {
+    width: 80%;
+    margin-left: 2px;
+}
+
+.thumbnail_info h3{
+    margin: 5px 0;
+    font-size: 15px;
+}
+
+.thumbnail_info h3:hover{
+    text-decoration: underline;
+}
+
+.thumbnail_info h3:active{
+    color: black;
+}
+
+.thumbnail_info a{
+    text-decoration: none;
+    color: white;
+}
+
+.thumbnail_info p{
+    font-size: 13px;
+    margin: 0;
+}
+
+.thumbnail_title{
+    margin-bottom: 15px;
+    margin-left: 5px;
+}
+
+.thumbnail_container:hover {
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.column_one{
+    float: left;
+    width: 85%;
+}

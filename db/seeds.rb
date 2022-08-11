@@ -25,9 +25,12 @@ diggs = Actor.create(name: "Daveed Diggs", image: "https://media.npr.org/assets/
 
 platt = Actor.create(name: "Ben Platt", image: "https://m.media-amazon.com/images/M/MV5BMjQ0NjUwMTYwNF5BMl5BanBnXkFtZTgwMDg4MTMwNTM@._V1_.jpg", birthday: "September 24, 1993", bio: "Benjamin Schiff Platt is an American actor, singer, and songwriter. He began his acting career in musical theater as a child and appeared in productions of The Sound of Music and The Book of Mormon, rising to prominence for originating the title role in Broadway coming-of-age musical Dear Evan Hansen.", other_work: "The Book of Mormon")
 
+dreyfuss= Actor.create(name: "Lauren Dreyfuss", image: "https://assets.playbill.com/head-shots/dc39625cf4addec2250df102db75f9d0-laura-dreyfuss.jpg", birthday: "August 22, 1988", bio: "Laura Catherine Dreyfuss is an American actress and singer, known for her roles as Zoe Murphy in the Broadway musical Dear Evan Hansen, Madison McCarthy on the FOX musical series Glee and McAfee Westbrook on the Netflix series The Politician.", other_work: "Hair, Once")
+
 tveit = Actor.create(name: "Aaron Tveit", image: "https://assets.playbill.com/head-shots/8d3c9f95095e234515f37e0381c58fcb-aaron-tveit.jpg", birthday: "October 21, 1983", bio: "Aaron Kyle Tveit is an American actor and singer. Tveit originated the lead role of Christian in the stage adaptation of Moulin Rouge! on Broadway, a performance for which he won the 2020 Tony Award for Best Actor in a Musical and received a 2020 Grammy Award nomination.", other_work: "Hairspray, Wicked, Next to Normal, Catch Me If You Can")
 
 olivo = Actor.create(name: "Karen Olivo", image: "https://s3.ibdb.com/ibdb/media/person/98858/personfull_1560957568.jpg", birthday: "August 7, 1976", bio: "Karen Olivo is an American stage and television actor, theater educator, and singer. In 2008, Olivo originated the role of Vanessa in In the Heights on Broadway. The following year, they won the 2009 Tony Award for Best Featured Actress in a Musical for their performance as Anita in a revival of West Side Story.", other_work: "Rent, Brooklyn, In the Heights, West Side Story")
+
 sierra = Actor.create(name: "Sierra Boggess", image: "https://assets.playbill.com/editorial/_articleLeadImage/c5e11acbd4018fdf7a9204f1da14a0a3-proxy.jsp.jpeg", birthday: "May 20, 1982", bio: "Sierra Marjory Boggess is an American theater actress and singer. She is best known for originating the role of Ariel in The Little Mermaid on Broadway, and for her multiple appearances as Christine Daaé in The Phantom of the Opera. She began by playing the role in the Las Vegas production of Phantom in 2006.", other_work: "The Little Mermaid, It Shoulda Been You, School of Rock")
 
 ramin = Actor.create(name: "Ramin Karimloo", image: "https://hollywoodlife.com/wp-content/uploads/2022/04/Ramin-Karimloo-excl-ftr.jpg", birthday: "September 19, 1978", bio: "Ramin Karimloo is a Canadian actor, singer and composer recognized for his work in London's West End and Broadway theater.", other_work: "Les Misérables, Anastasia, Funny Girl")
@@ -70,47 +73,76 @@ ads = Actor.create(name: "André De Shields", image: "https://upload.wikimedia.o
 
 nkeki = Actor.create(name: "Nkeki Obi-Melekwe", image: "https://assets.playbill.com/head-shots/57e2311bb6a12c81ad0e8bae72df6b8b-nkeki-obi-melekwe.jpg", birthday: "January 12, 1946", bio: "André Robin De Shields is an American actor, singer, dancer, director, and choreographer. De Shields originated the role of Hermes on Broadway in the musical Hadestown, winning the 2019 Tony Award.", other_work: "N/A")
 
-misc = Actor.create(name: "Various Artists", image: "https://thumbs.dreamstime.com/b/music-logo-template-vector-icon-design-172049257.jpg", birthday: "N/A", bio: "N/A", other_work: "N/A")
+spivey = Actor.create(name: "Jaquel Spivey", image: "https://cloudimages.broadwayworld.com/headshots/434189sm.jpg", birthday: "N/A", bio: "Jaquel Spivey made his professional debut in A Strange Loop. He graduated from Point Park University with a degree in Musical Theatre.", other_work: "N/A")
+
+lml = Actor.create(name: "L Morgan Lee", image: "https://assets.playbill.com/head-shots/L-Morgan-Lee-Headshot-Cropped-1.jpg", birthday: "N/A", bio: "L Morgan Lee is an American actress. She received a Tony Award for Best Featured Actress in a Musical nomination for her performance in A Strange Loop, becoming the first out transgender person to receive a Tony Award nomination.", other_work: "N/A")
+
+frost = Actor.create(name: "Myles Frost", image: "https://assets.playbill.com/head-shots/01fec49fd187ecaad4066dbffd520c59-mj-t.%20Olds-Sample%20Cropped%20(1).jpg", birthday: "July 21, 1999", bio: "Myles Frost is an American actor, dancer, and singer. He won the 2022 Tony Award for Best Actor in a Musical for his portrayal of Michael Jackson in the Broadway theatre production of MJ the Musical.", other_work: "N/A")
+
+tos  = Actor.create(name: "Tavon Olds-Sample", image: "https://imaging.broadway.com/images/regular-43/w735/120017-11.jpg", birthday: "N/A", bio: "Tavon Olds-Sample made his Broadway debut in MJ: The Musical when the show opened in 2022.", other_work: "N/A")
+
+levine  = Actor.create(name: "Apollo Levine", image: "https://imaging.broadway.com/images/regular-43/w735/120983-11.jpg", birthday: "N/A", bio: "Apollo Levine hails from Abbeville, LA by way of South Bend, IN. He made his Broadway debut in MJ", other_work: "N/A")
+
+cda  = Actor.create(name: "Charlotte d’Amboise", image: "https://imaging.broadway.com/images/regular-43/w735/88036-9.jpg", birthday: "May 11, 1964", bio: "Charlotte d'Amboise is an American actress and dancer. She has played starring roles in musical theatre, and has been nominated for two Tony Awards and won the Los Angeles Ovation Awards for Best Leading Actress in a Musical for Chicago. She has also appeared in films.", other_work: "Pippin, A Chorus Line, Sweet Charity, Contact, Company, Damn Yankees, Jerome Robbins’ Broadway, Carrie, Song and Dance, Cats")
+
+gord  = Actor.create(name: "Lana Gordon", image: "https://imaging.broadway.com/images/regular-43/w735/121748-11.jpeg", birthday: "N/A", bio: "Lana Gordon most recently played Velma Kelly in Chicago on Broadway and tour. She was born in New London, Connecticut and studied dance at New York City's Alvin Ailey School on a scholarship where she excelled as a dancer.", other_work: "Hadestown, Jesus Christ Superstar, The Lion King")
+
+bergen  = Actor.create(name: "Erich Bergen", image: "https://www.dallassymphony.org/wp-content/uploads/2021/04/Erich-Bergen-1200x1200-1.jpg", birthday: "December 31, 1985", bio: "Erich Bergen is an American actor, singer and presenter, best known for his roles as Bob Gaudio in the biographical musical drama film Jersey Boys and as Blake Moran in the CBS television series Madam Secretary.", other_work: "Waitress, An American Daughter")
+
+remy  = Actor.create(name: "Jelani Remy", image: "https://54below-media.nyc3.digitaloceanspaces.com/app/uploads/2021/10/Jelani_Remy_800x800_acf_cropped.jpeg", birthday: "N/A", bio: "Jelani Remy is a Montclair State Alumni and New Jersey Native. He made his Broadway debut playing the role of Simba in Disney’s The Lion King", other_work: "Ain’t Too Proud - The Life and Times of the Temptations")
+
+khwezi  = Actor.create(name: "Pearl Khwezi", image: "https://imaging.broadway.com/images/square-11/w800/122454-11.jpg", birthday: "N/A", bio: "Pearl Khwezi is from Durban South Africa and has been performing in The Lion King since 2018.", other_work: "N/A")
+
+altomare  = Actor.create(name: "Christy Altomare", image: "https://assets.playbill.com/head-shots/4524860242655f32333873fc237173b0-christy-altomare.jpg", birthday: "June 23, 1986", bio: "Christine (Christy) Altomare is an American actress and singer-songwriter. Altomare played Wendla in the first national tour of the rock musical Spring Awakening, played Sue Snell in the off-Broadway revival of Carrie, and made her Broadway debut as Sophie in Mamma Mia!.", other_work: "Mamma Mia!")
+
+klena  = Actor.create(name: "Derek Klena", image: "https://assets.playbill.com/head-shots/MOULIN-ROUGE-D.-Klena-Cropped-1.jpg", birthday: "October 3, 1991", bio: "Derek Anthony Klena is an American actor and singer. He is best known for his work on Broadway, including originating the roles of Nick Healy in Jagged Little Pill, Dmitry in Anastasia, and Michael in The Bridges of Madison County.", other_work: "Wicked, The Bridges of Madison County, Moulin Rouge, Jagged Little Pill")
+
+jbolt  = Actor.create(name: "John Bolton", image: "https://assets.playbill.com/head-shots/d1b1f68c029bef929abc898136cda738-john-bolton.jpg", birthday: "December 29, 1965", bio: "John Bolton is an American actor and Broadway regular. Bolton is best known for originating the role (The Old Man) in the Broadway show A Christmas Story: The Musical. He portrayed Vlad Popov in the 2017 Broadway production of Anastasia.", other_work: "How To Succeed In Business Without Really Trying, Damn Yankees, Titanic, Dreamgirls, Funnygirl, Spamalot, A Christmas Story The Musical, Dames At Sea")
+
+
 
 
 puts "🌱 Seeding Musicals..."
 
-ham = Musical.create(name: "Hamilton", image: "https://m.media-amazon.com/images/I/71iZLrkVhDL._AC_SY679_.jpg", director: "Alex Lacamoire", playwrites: "Lin-Manuel Miranda", composers: "Lin-Manuel Miranda",synopsis: "Hamilton: An American Musical is a sung-and-rapped-through musical by Lin-Manuel Miranda. It took over seven years to compose. It tells the story of American Founding Father Alexander Hamilton. Miranda said that he was inspired to write the musical after reading the 2004 biography Alexander Hamilton by Ron Chernow.")
+ham = Musical.create(name: "Hamilton", image: "https://m.media-amazon.com/images/I/71iZLrkVhDL._AC_SY679_.jpg", opening_date: "January 20, 2015", director: "Alex Lacamoire", playwrites: "Lin-Manuel Miranda", composers: "Lin-Manuel Miranda",synopsis: "Hamilton: An American Musical is a sung-and-rapped-through musical by Lin-Manuel Miranda. It took over seven years to compose. It tells the story of American Founding Father Alexander Hamilton. Miranda said that he was inspired to write the musical after reading the 2004 biography Alexander Hamilton by Ron Chernow.", status: "On Broadway", location: "Richard Rodgers Theatre")
 
-wicked = Musical.create(name: "Wicked", image: "https://m.media-amazon.com/images/I/61Dyzt7uM9L._AC_SY741_.jpg", director: "Dan Micciche", playwrites: "Winnie Holzman", composers: "Stephen Schwartz", synopsis: " Wicked is a musical with music and lyrics by Stephen Schwartz, and a book by Winnie Holzman. It is based on the 1995 Gregory Maguire novel Wicked: The Life and Times of the Wicked Witch of the West, which is based on the characters and setting of the 1900 novel The Wonderful Wizard of Oz by L. Frank Baum and the 1939 Metro-Goldwyn-Mayer film The Wizard of Oz.")
+wicked = Musical.create(name: "Wicked", image: "https://m.media-amazon.com/images/I/61Dyzt7uM9L._AC_SY741_.jpg", opening_date: "June 10, 2003", director: "Dan Micciche", playwrites: "Winnie Holzman", composers: "Stephen Schwartz", synopsis: " Wicked is a musical with music and lyrics by Stephen Schwartz, and a book by Winnie Holzman. It is based on the 1995 Gregory Maguire novel Wicked: The Life and Times of the Wicked Witch of the West, which is based on the characters and setting of the 1900 novel The Wonderful Wizard of Oz by L. Frank Baum and the 1939 Metro-Goldwyn-Mayer film The Wizard of Oz.", status: "On Broadway", location: "Gershwin Theatre")
 
-mr = Musical.create(name: "Moulin Rouge!", image: "https://www.playbillstore.com/resize/shared/images/product/Moulin-Rouge-Poster.png?bw=1000&w=1000&bh=1000&h=1000", director: "Alex Timbers", playwrites: "John Logan", composers: "Various Artists", synopsis: "Moulin Rouge! The Musical is a jukebox musical with a book by John Logan. The musical is based on the 2001 film Moulin Rouge! directed by Baz Luhrmann and written by Luhrmann and Craig Pearce.")
+mr = Musical.create(name: "Moulin Rouge!", image: "https://www.playbillstore.com/resize/shared/images/product/Moulin-Rouge-Poster.png?bw=1000&w=1000&bh=1000&h=1000", opening_date: "July 10, 2018", director: "Alex Timbers", playwrites: "John Logan", composers: "Various Artists", synopsis: "Moulin Rouge! The Musical is a jukebox musical with a book by John Logan. The musical is based on the 2001 film Moulin Rouge! directed by Baz Luhrmann and written by Luhrmann and Craig Pearce.", status: "On Broadway", location: "Ali Hirschfeld Theatre")
 
-mj = Musical.create(name: "MJ", image: "https://mjthemusical.com/wp-content/uploads/2020/01/mj-hero-art.png", director: "Christopher Wheeldon", playwrites: "Lynn Nottage", composers: "Various Artists", synopsis: "MJ The Musical delves into the genius of Michael Jackson, often known as the King of Pop, at the time of the creation of his Dangerous World Tour in 1992. The show explores Jackson's creative drive, signature moves, and his childhood stardom, all while featuring more than 25 of his biggest hits.")
+mj = Musical.create(name: "MJ", image: "https://mjthemusical.com/wp-content/uploads/2020/01/mj-hero-art.png", opening_date: "February 1, 2022", director: "Christopher Wheeldon", playwrites: "Lynn Nottage", composers: "Various Artists", synopsis: "MJ The Musical delves into the genius of Michael Jackson, often known as the King of Pop, at the time of the creation of his Dangerous World Tour in 1992. The show explores Jackson's creative drive, signature moves, and his childhood stardom, all while featuring more than 25 of his biggest hits.", status: "On Broadway", location: "Neil Simon Theatre")
 
-bom = Musical.create(name: "The Book of Mormon", image: "https://m.media-amazon.com/images/M/MV5BOGIxZWQwYTYtNWUyYS00NTU5LWJjNzQtNzRlNzg0ZmZmNTY4XkEyXkFqcGdeQXVyNTk5NTQzNDI@._V1_.jpg", director: "Trey Parker", playwrites: "Trey Parker, Matt Stone, Robert Lopez", composers: "Trey Parker, Matt Stone, Robert Lopez", synopsis: "The Book of Mormon is a musical comedy with music, lyrics, and book by Trey Parker, Robert Lopez, and Matt Stone. First staged in 2011, the play is a satirical examination of the beliefs and practices of The Church of Jesus Christ of Latter-day Saints.")
+bom = Musical.create(name: "The Book of Mormon", image: "https://m.media-amazon.com/images/M/MV5BOGIxZWQwYTYtNWUyYS00NTU5LWJjNzQtNzRlNzg0ZmZmNTY4XkEyXkFqcGdeQXVyNTk5NTQzNDI@._V1_.jpg", opening_date: "March 24, 2011", director: "Trey Parker", playwrites: "Trey Parker, Matt Stone, Robert Lopez", composers: "Trey Parker, Matt Stone, Robert Lopez", synopsis: "The Book of Mormon is a musical comedy with music, lyrics, and book by Trey Parker, Robert Lopez, and Matt Stone. First staged in 2011, the play is a satirical examination of the beliefs and practices of The Church of Jesus Christ of Latter-day Saints.", status: "On Broadway", location: "Eugene O’Neil Theatre")
 
-aladdin = Musical.create(name: "Aladdin", image: "https://imaging.broadway.com/images/poster-178275/w230/222222/111616-4.jpg", director: "Casey Nicholaw", playwrites: "Chad Beguelin", composers: "Alan Menken", synopsis: "Aladdin is a Broadway musical based on the 1992 Disney animated film of the same name with a book by Chad Beguelin, music by Alan Menken and lyrics by Howard Ashman, Tim Rice and Beguelin. Set in the fictional Arabian city of Agrabah, the story follows the familiar tale of a poor young man who is granted three wishes by a genie in a lamp, which he uses to woo a princess and to thwart the sultan's evil Grand Vizier.")
+aladdin = Musical.create(name: "Aladdin", image: "https://imaging.broadway.com/images/poster-178275/w230/222222/111616-4.jpg", opening_date: "July 7, 2011", director: "Casey Nicholaw", playwrites: "Chad Beguelin", composers: "Alan Menken", synopsis: "Aladdin is a Broadway musical based on the 1992 Disney animated film of the same name with a book by Chad Beguelin, music by Alan Menken and lyrics by Howard Ashman, Tim Rice and Beguelin. Set in the fictional Arabian city of Agrabah, the story follows the familiar tale of a poor young man who is granted three wishes by a genie in a lamp, which he uses to woo a princess and to thwart the sultan's evil Grand Vizier.", status: "On Broadway", location: "New Amsterdam Theatre")
 
-sat_night = Musical.create(name: "Mr. Saturday Night", image: "https://imaging.broadway.com/images/poster-178275/w300/122177-3.jpg", director: "Billy Crystal", playwrites: "Billy Crystal, Lowell Ganz, Babaloo Mandel", composers: "James Robert Brown", synopsis: "Mr. Saturday Night is a stage musical with music by Jason Robert Brown, lyrics by Amanda Green, and a book by Billy Crystal, Lowell Ganz, and Babaloo Mandel, based on the 1992 film. The musical follows comedian Buddy Young, Jr, decades past his prime, as he attempts a second chance at fame and his family.")
+sat_night = Musical.create(name: "Mr. Saturday Night", image: "https://imaging.broadway.com/images/poster-178275/w300/122177-3.jpg", opening_date: "October 22, 2021", director: "Billy Crystal", playwrites: "Billy Crystal, Lowell Ganz, Babaloo Mandel", composers: "James Robert Brown", synopsis: "Mr. Saturday Night is a stage musical with music by Jason Robert Brown, lyrics by Amanda Green, and a book by Billy Crystal, Lowell Ganz, and Babaloo Mandel, based on the 1992 film. The musical follows comedian Buddy Young, Jr, decades past his prime, as he attempts a second chance at fame and his family.", status: "On Broadway", location: "Nederlander Theatre")
 
-beetlejuice = Musical.create(name: "Beetlejuice", image: "https://imaging.broadway.com/images/poster-178275/w230/222222/102286-13.jpg", director: "Kris Kukul", playwrites: "Scott Brown, Anthony King", composers: "Eddie Perfect", synopsis: "Beetlejuice is a musical with music and lyrics by Eddie Perfect and book by Scott Brown and Anthony King. It is based on the 1988 film of the same name. The story concerns a deceased couple who try to haunt the new inhabitants of their former home and call for help from a devious bio-exorcist ghost named Betelgeuse, who is summoned by saying his name three times.")
+beetlejuice = Musical.create(name: "Beetlejuice", image: "https://imaging.broadway.com/images/poster-178275/w230/222222/102286-13.jpg", opening_date: "October 14, 2018", director: "Kris Kukul", playwrites: "Scott Brown, Anthony King", composers: "Eddie Perfect", synopsis: "Beetlejuice is a musical with music and lyrics by Eddie Perfect and book by Scott Brown and Anthony King. It is based on the 1988 film of the same name. The story concerns a deceased couple who try to haunt the new inhabitants of their former home and call for help from a devious bio-exorcist ghost named Betelgeuse, who is summoned by saying his name three times.", status: "On Broadway", location: "Marquis Theatre")
 
-six = Musical.create(name: "SIX", image: "https://imaging.broadway.com/images/poster-178275/w230/222222/119932-13.jpeg", director: "Jamie Armitage", playwrites: "Lucy Moss, Toby Marlow", composers: "Lucy Moss, Toby Marlow", synopsis: "From Tudor Queens to Pop Princesses, the Six wives of Henry VIII take the mic to remix five hundred years of historical heartbreak into an exuberant celebration of 21st century girl power! This new original musical is the global sensation that everyone is losing their head over. The New York Times says Six is “pure entertainment!” and Evening Standard hails Six as “the most uplifting new British musical I have ever had the privilege to watch.”")
+six = Musical.create(name: "SIX", image: "https://imaging.broadway.com/images/poster-178275/w230/222222/119932-13.jpeg", opening_date: "October 3, 2021", director: "Jamie Armitage", playwrites: "Lucy Moss, Toby Marlow", composers: "Lucy Moss, Toby Marlow", synopsis: "From Tudor Queens to Pop Princesses, the Six wives of Henry VIII take the mic to remix five hundred years of historical heartbreak into an exuberant celebration of 21st century girl power!", status: "On Broadway", location: "Brooks Atkinson Theatre")
 
-cfa = Musical.create(name: "Come From Away", image: "https://imaging.broadway.com/images/poster-178275/w300/120658-5.jpg", director: "Christopher Ashley", playwrites: "Irene Sankoff, David Hein", composers: "Irene Sankoff", synopsis: "Come from Away is a Canadian musical, with book, music and lyrics by Irene Sankoff and David Hein. It is based on the events in the Newfoundland town of Gander during the week following the September 11 attacks, when 38 planes, carrying approximately 7,000 passengers, were ordered to land unexpectedly at Gander International Airport.")
+cfa = Musical.create(name: "Come From Away", image: "https://imaging.broadway.com/images/poster-178275/w300/120658-5.jpg", director: "Christopher Ashley", playwrites: "Irene Sankoff, David Hein", composers: "Irene Sankoff", synopsis: "Come from Away is a Canadian musical, with book, music and lyrics by Irene Sankoff and David Hein. It is based on the events in the Newfoundland town of Gander during the week following the September 11 attacks, when 38 planes, carrying approximately 7,000 passengers, were ordered to land unexpectedly at Gander International Airport.", status: "On Broadway", location: "Schoenfeld Theatre")
 
-hadestown = Musical.create(name: "Hadestown", image: "http://www.playbillstore.com/shared/images/product/Hadestown-Program.png", director: "Rachel Chavkin", playwrites: "Anaïs Mitchell", composers: "Anaïs Mitchell", synopsis: "Hadestown is a musical with music, lyrics, and book by Anaïs Mitchell. It tells a version of the ancient Greek myth of Orpheus and Eurydice. Eurydice, a young girl looking for something to eat, goes to work in a hellish industrial underworld to escape climate-change induced poverty before her poor singer-songwriter lover Orpheus comes to rescue her and together show others the way to escape.")
+hadestown = Musical.create(name: "Hadestown", image: "http://www.playbillstore.com/shared/images/product/Hadestown-Program.png", opening_date: "May 23, 2016", director: "Rachel Chavkin", playwrites: "Anaïs Mitchell", composers: "Anaïs Mitchell", synopsis: "Hadestown is a musical with music, lyrics, and book by Anaïs Mitchell. It tells a version of the ancient Greek myth of Orpheus and Eurydice. Eurydice, a young girl looking for something to eat, goes to work in a hellish industrial underworld to escape climate-change induced poverty before her poor singer-songwriter lover Orpheus comes to rescue her and together show others the way to escape.", status: "On Broadway", location: "Walter Kerr Theatre")
 
-tina = Musical.create(name: "Tina Turner: The Musical", image: "http://www.playbillstore.com/Shared/Images/Product/Tina-The-Tina-Turner-Musical-Poster/Tina-Window-Card.png", director: "Phyllida Lloyd", playwrites: "Katori Hall, Kees Prins, Frank Ketelaar", composers: "Various Artists", synopsis: "Tina: The Tina Turner Musical is a jukebox musical featuring the music of Tina Turner and depicting her life from her humble beginnings in Nutbush, Tennessee, to her transformation into a rock 'n roll star. Directed by Phyllida Lloyd with a book by Katori Hall, Frank Ketelaar, and Kees Prins, the musical had its world premiere on 17 April 2018 at the Aldwych Theatre in London. The Broadway production opened on 7 November 2019.")
+tina = Musical.create(name: "Tina Turner: The Musical", image: "http://www.playbillstore.com/Shared/Images/Product/Tina-The-Tina-Turner-Musical-Poster/Tina-Window-Card.png", opening_date: "April 17, 2018", director: "Phyllida Lloyd", playwrites: "Katori Hall, Kees Prins, Frank Ketelaar", composers: "Various Artists", synopsis: "Tina: The Tina Turner Musical is a jukebox musical featuring the music of Tina Turner and depicting her life from her humble beginnings in Nutbush, Tennessee, to her transformation into a rock 'n roll star. Directed by Phyllida Lloyd with a book by Katori Hall, Frank Ketelaar, and Kees Prins, the musical had its world premiere on 17 April 2018 at the Aldwych Theatre in London. The Broadway production opened on 7 November 2019.", status: "On Broadway", location: "Lunt-Fontanne Theatre")
 
-lion_king = Musical.create(name: "The Lion King", image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/58/The_Lion_King_Musical.svg/1200px-The_Lion_King_Musical.svg.png", director: "Julie Taylor", playwrites: "Roger Allers, Irene Mecchi", composers: "Elton John, Julie Taylor, Hans Zimmer, LeboM", synopsis: "The Lion King is a musical play based on the 1994 Walt Disney Animation Studios' animated feature film of the same name with music by Elton John, lyrics by Tim Rice, and book by Roger Allers and Irene Mecchi, along with additional music and lyrics by Lebo M, Mark Mancina, Jay Rifkin, Julie Taymor, and Hans Zimmer.")
+lion_king = Musical.create(name: "The Lion King", image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/58/The_Lion_King_Musical.svg/1200px-The_Lion_King_Musical.svg.png", opening_date: "July 8, 1997", director: "Julie Taylor", playwrites: "Roger Allers, Irene Mecchi", composers: "Elton John, Julie Taylor, Hans Zimmer, LeboM", synopsis: "The Lion King is a musical play based on the 1994 Walt Disney Animation Studios' animated feature film of the same name with music by Elton John, lyrics by Tim Rice, and book by Roger Allers and Irene Mecchi, along with additional music and lyrics by Lebo M, Mark Mancina, Jay Rifkin, Julie Taymor, and Hans Zimmer.")
 
-music_man = Musical.create(name: "The Music Man", image: "https://imaging.broadway.com/images/poster-178275/w230/222222/120598-3.png", director: "Morton DaCosta", playwrites: "Meridith Wilson, Franklin Lacey", composers: "Meridith Wilson", synopsis: "The Music Man is a musical with book, music, and lyrics by Meredith Willson, based on a story by Willson and Franklin Lacey. The plot concerns con man Harold Hill, who poses as a boys' band organizer and leader and sells band instruments and uniforms to naïve Midwestern townsfolk, promising to train the members of the new band.")
+music_man = Musical.create(name: "The Music Man", image: "https://imaging.broadway.com/images/poster-178275/w230/222222/120598-3.png", opening_date: "May 20, 2021", director: "Morton DaCosta", playwrites: "Meridith Wilson, Franklin Lacey", composers: "Meridith Wilson", synopsis: "The Music Man is a musical with book, music, and lyrics by Meredith Willson, based on a story by Willson and Franklin Lacey. The plot concerns con man Harold Hill, who poses as a boys' band organizer and leader and sells band instruments and uniforms to naïve Midwestern townsfolk, promising to train the members of the new band.", status: "On Broadway", location: "Winter Garden Theatre")
 
 
-phantom = Musical.create(name: "The Phantom of the Opera", image: "http://www.playbillstore.com/Shared/Images/Product/Phantom-of-the-Opera-the-Musical-Broadway-Poster/Phantom-WC.jpeg", director: "Nick Morris", playwrites: "Andrew Lloyd Webber", composers: "Andrew Lloyd Webber", synopsis: "The Phantom of the Opera is a musical with music by Andrew Lloyd Webber, lyrics by Charles Hart, and a libretto by Lloyd Webber and Richard Stilgoe. Based on the 1910 French novel of the same name by Gaston Leroux, it tells the story of a beautiful soprano, Christine Daaé, who becomes the obsession of a mysterious, masked musical genius living in the subterranean labyrinth beneath the Paris Opéra House.")
+phantom = Musical.create(name: "The Phantom of the Opera", image: "http://www.playbillstore.com/Shared/Images/Product/Phantom-of-the-Opera-the-Musical-Broadway-Poster/Phantom-WC.jpeg", opening_date: "January 26, 1988", director: "Nick Morris", playwrites: "Andrew Lloyd Webber", composers: "Andrew Lloyd Webber", synopsis: "The Phantom of the Opera is a musical with music by Andrew Lloyd Webber, lyrics by Charles Hart, and a libretto by Lloyd Webber and Richard Stilgoe. Based on the 1910 French novel of the same name by Gaston Leroux, it tells the story of a beautiful soprano, Christine Daaé, who becomes the obsession of a mysterious, masked musical genius living in the subterranean labyrinth beneath the Paris Opéra House.", status: "On Broadway", location: "Majestic Theatre")
 
-deh = Musical.create(name: "Dear Evan Hansen", image: "https://imaging.broadway.com/images/poster-178275/w230/222222/102147-1.jpg", director: "Michael Greif", playwrites: "Steven Levenson", composers: "Benj Pasek, Justin Paul", synopsis: "Dear Evan Hansen is a musical with music and lyrics by Benj Pasek and Justin Paul, and a book by Steven Levenson. The musical follows Evan Hansen, a high school senior with social anxiety who invents an important role for himself in a tragedy that he did not earn.")
+deh = Musical.create(name: "Dear Evan Hansen", image: "https://imaging.broadway.com/images/poster-178275/w230/222222/102147-1.jpg", opening_date: "December 4, 2016", director: "Michael Greif", playwrites: "Steven Levenson", composers: "Benj Pasek, Justin Paul", synopsis: "Dear Evan Hansen is a musical with music and lyrics by Benj Pasek and Justin Paul, and a book by Steven Levenson. The musical follows Evan Hansen, a high school senior with social anxiety who invents an important role for himself in a tragedy that he did not earn.", status: "On Broadway", location: "Music Box Theatre")
 
-asl = Musical.create(name: "A Strange Loop", image: "https://www.bworldonline.com/wp-content/uploads/2022/05/280120377_437045938225808_2384446498227007469_n.jpg", director: "Stephen Brackett", playwrites: "Michael R. Jackson", composers: "Michael R. Jackson", synopsis: "A Strange Loop is a musical with book, music and lyrics by Michael R. Jackson. The show follows Usher, a Black, queer writer writing a musical about a Black, queer writer writing a musical about a Black, queer writer. The title refers to a cognitive science term coined by Douglas Hofstadter, as well as a song by Liz Phair.")
+asl = Musical.create(name: "A Strange Loop", image: "https://www.bworldonline.com/wp-content/uploads/2022/05/280120377_437045938225808_2384446498227007469_n.jpg", opening_date: "April 14, 2021", director: "Stephen Brackett", playwrites: "Michael R. Jackson", composers: "Michael R. Jackson", synopsis: "A Strange Loop is a musical with book, music and lyrics by Michael R. Jackson. The show follows Usher, a Black, queer writer writing a musical about a Black, queer writer writing a musical about a Black, queer writer. The title refers to a cognitive science term coined by Douglas Hofstadter, as well as a song by Liz Phair.", status: "On Broadway", location: "Lyceum Theatre")
 
-chicago = Musical.create(name: "Chicago", image: "https://imaging.broadway.com/images/poster-178275/w230/222222/123018-3.jpg", director: "Rob Marshall", playwrites: "Bob Fosse, Fred Ebb", composers: "John Kander", synopsis: "Chicago is a 1975 American musical with music by John Kander, lyrics by Fred Ebb, and book by Ebb and Bob Fosse. Set in Chicago in the jazz age, the musical is based on a 1926 play of the same title by reporter Maurine Dallas Watkins, about actual criminals and the crimes on which she reported. The story is a satire on corruption in the administration of criminal justice and the concept of the celebrity criminal.")
+chicago = Musical.create(name: "Chicago", image: "https://imaging.broadway.com/images/poster-178275/w230/222222/123018-3.jpg", opening_date: "June 3, 1975", director: "Rob Marshall", playwrites: "Bob Fosse, Fred Ebb", composers: "John Kander", synopsis: "Chicago is a 1975 American musical with music by John Kander, lyrics by Fred Ebb, and book by Ebb and Bob Fosse. Set in Chicago in the jazz age, the musical is based on a 1926 play of the same title by reporter Maurine Dallas Watkins, about actual criminals and the crimes on which she reported. The story is a satire on corruption in the administration of criminal justice and the concept of the celebrity criminal.", status: "On Broadway", location: "Ambassador Theatre")
+
+anastasia = Musical.create(name: "Anastasia", image: "https://static.onecms.io/wp-content/uploads/sites/6/2016/08/anastasia.jpg", opening_date: "May 27, 2016", director: "Darko Tresnjak", playwrites: "Terrence McNally", composers: "Stephen Flaherty, Lynn Ahrens", synopsis: "Based on the 1997 animated film of the same name, the musical adapts the legend of Grand Duchess Anastasia Nikolaevna of Russia, who could have escaped the execution of her family.", status: "On Tour", location: "Multiple")
+
 
 
 
@@ -699,7 +731,7 @@ actor: loj,
     year: 2015,
     musical: ham,
     featured: "Original Broadway Cast of Hamilton",
-    actor: soo,
+actor: soo,
     image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg",
     music_video: "https://www.youtube.com/watch?v=jWFHPGnHuY0&ab_channel=BroadcastZero"
         },
@@ -708,7 +740,7 @@ actor: loj,
     year: 1996,
     musical: chicago,
     featured: "Orchestra",
-    actor: misc,
+actor: cda,
     image: "https://upload.wikimedia.org/wikipedia/en/9/9b/Chicago_original_poster_art.jpg",
     music_video: "https://www.youtube.com/watch?v=GG0g6DTkioY"
         },
@@ -716,8 +748,8 @@ actor: loj,
     title: "All That Jazz",
     year: 1996,
     musical: chicago,
-    featured: "Velma Kelly and Company",
-    actor: misc,
+    featured: "Bebe Neuwirth",
+actor: gord,
     image: "https://upload.wikimedia.org/wikipedia/en/9/9b/Chicago_original_poster_art.jpg",
     music_video: "https://www.youtube.com/watch?v=wClDO5gU-is"
         },
@@ -725,8 +757,8 @@ actor: loj,
     title: "Funny Honey",
     year: 1996,
     musical: chicago,
-    featured: "Roxie Hart",
-actor: misc,
+    featured: "Ann Reinking",
+actor: cda,
     image: "https://upload.wikimedia.org/wikipedia/en/9/9b/Chicago_original_poster_art.jpg",
     music_video: "https://www.youtube.com/watch?v=ipuWYCSAoG0"
         },
@@ -734,8 +766,8 @@ actor: misc,
     title: "Cell Block Tango",
     year: 1996,
     musical: chicago,
-    featured: "Velma Kelly and the Murderesses",
-actor: misc,
+    featured: "Bebe Neuwirth",
+actor: gord,
     image: "https://upload.wikimedia.org/wikipedia/en/9/9b/Chicago_original_poster_art.jpg",
     music_video: "https://www.youtube.com/watch?v=ly3ccyTI-Js"
         },
@@ -743,8 +775,8 @@ actor: misc,
     title: "When You're Good to Mama",
     year: 1996,
     musical: chicago,
-    featured: "Matron Mama Morton",
-actor: misc,
+    featured: "Marica Lewis",
+actor: cda,
     image: "https://upload.wikimedia.org/wikipedia/en/9/9b/Chicago_original_poster_art.jpg",
     music_video: "https://www.youtube.com/watch?v=jOHeo4qIhe4"
         },
@@ -752,8 +784,8 @@ actor: misc,
     title: "All I Care About",
     year: 1996,
     musical: chicago,
-    featured: "Billy Flynn and the Girls",
-actor: misc,
+    featured: "James Naughton",
+actor: bergen,
     image: "https://upload.wikimedia.org/wikipedia/en/9/9b/Chicago_original_poster_art.jpg",
     music_video: "https://www.youtube.com/watch?v=V27J-RSAack"
         },
@@ -761,8 +793,8 @@ actor: misc,
     title: "A Little Bit of Good",
     year: 1996,
     musical: chicago,
-    featured: "Mary Sunshine",
-actor: misc,
+    featured: "David Sabella-Mills",
+actor: cda,
     image: "https://upload.wikimedia.org/wikipedia/en/9/9b/Chicago_original_poster_art.jpg",
     music_video: "https://www.youtube.com/watch?v=jEr036TKFaY"
         },
@@ -770,8 +802,8 @@ actor: misc,
     title: "We Both Reached for the Gun",
     year: 1996,
     musical: chicago,
-    featured: "Billy Flynn, Roxie Hart, Mary Sunshine and the Reporters",
-actor: misc,
+    featured: "James Naughton, Ann Reinking, David Sabella-Mills",
+actor: cda,
     image: "https://upload.wikimedia.org/wikipedia/en/9/9b/Chicago_original_poster_art.jpg",
     music_video: "https://www.youtube.com/watch?v=KHo2SXcYvsc"
         },
@@ -779,8 +811,8 @@ actor: misc,
     title: "Roxie",
     year: 1996,
     musical: chicago,
-    featured: "Roxie Hart and the Boys",
-actor: misc,
+    featured: "Ann Reinking",
+actor: cda,
     image: "https://upload.wikimedia.org/wikipedia/en/9/9b/Chicago_original_poster_art.jpg",
     music_video: "https://www.youtube.com/watch?v=kkbrCGHybHY"
         },
@@ -788,8 +820,8 @@ actor: misc,
     title: "I Can’t Do It Alone",
     year: 1996,
     musical: chicago,
-    featured: "Velma Kelly",
-actor: misc,
+    featured: "Bebe Neuwirth",
+actor: gord,
     image: "https://upload.wikimedia.org/wikipedia/en/9/9b/Chicago_original_poster_art.jpg",
     music_video: "https://www.youtube.com/watch?v=efdsqizD4fA"
         },
@@ -797,8 +829,8 @@ actor: misc,
     title: "I Can’t Do It Alone (Reprise)",
     year: 1996,
     musical: chicago,
-    featured: "Velma Kelly",
-actor: misc,
+    featured: "Bebe Neuwirth",
+actor: gord,
     image: "https://upload.wikimedia.org/wikipedia/en/9/9b/Chicago_original_poster_art.jpg",
     music_video: "https://www.youtube.com/watch?v=j1luoqek1qo"
         },
@@ -806,8 +838,8 @@ actor: misc,
     title: "My Own Best Friend",
     year: 1996,
     musical: chicago,
-    featured: "Roxie Hart, Velma Kelly",
-actor: misc,
+    featured: "Ann Reinking, Bebe Neuwirth",
+actor: cda,
     image: "https://upload.wikimedia.org/wikipedia/en/9/9b/Chicago_original_poster_art.jpg",
     music_video: "https://www.youtube.com/watch?v=HIUwfociUSg"
         },
@@ -816,7 +848,7 @@ actor: misc,
     year: 1996,
     musical: chicago,
     featured: "Orchestra",
-actor: misc,
+actor: cda,
     image: "https://upload.wikimedia.org/wikipedia/en/9/9b/Chicago_original_poster_art.jpg",
     music_video: "https://www.youtube.com/watch?v=5kYD9iWv3fI"
         },
@@ -824,8 +856,8 @@ actor: misc,
     title: "I Know a Girl",
     year: 1996,
     musical: chicago,
-    featured: "Velma Kelly",
-actor: misc,
+    featured: "Bebe Neuwirth",
+actor: gord,
     image: "https://upload.wikimedia.org/wikipedia/en/9/9b/Chicago_original_poster_art.jpg",
     music_video: "https://www.youtube.com/watch?v=-z0Qp-85fsk"
         },
@@ -833,8 +865,8 @@ actor: misc,
     title: "Me and My Baby",
     year: 1996,
     musical: chicago,
-    featured: "Roxie Hart and Company",
-actor: misc,
+    featured: "Ann Reinking",
+actor: cda,
     image: "https://upload.wikimedia.org/wikipedia/en/9/9b/Chicago_original_poster_art.jpg",
     music_video: "https://www.youtube.com/watch?v=pUbaPjUg6_s"
         },
@@ -842,8 +874,8 @@ actor: misc,
     title: "My Cellophane",
     year: 1996,
     musical: chicago,
-    featured: "Amos Hart",
-actor: misc,
+    featured: "Joel Grey",
+actor: cda,
     image: "https://upload.wikimedia.org/wikipedia/en/9/9b/Chicago_original_poster_art.jpg",
     music_video: "https://www.youtube.com/watch?v=pUbaPjUg6_s"
         },
@@ -851,8 +883,8 @@ actor: misc,
     title: "When Velma Takes the Stand",
     year: 1996,
     musical: chicago,
-    featured: "Velma Kelly and the Boys",
-    actor: misc,
+    featured: "Bebe Neuwirth",
+actor: gord,
     image: "https://upload.wikimedia.org/wikipedia/en/9/9b/Chicago_original_poster_art.jpg",
     music_video: "https://www.youtube.com/watch?v=cYNj1Ydra1Y"
         },
@@ -860,8 +892,8 @@ actor: misc,
     title: "Razzle Dazzle",
     year: 1996,
     musical: chicago,
-    featured: "Billy Flynn and Company",
-actor: misc,
+    featured: "James Naughton and Company",
+actor: bergen,
     image: "https://upload.wikimedia.org/wikipedia/en/9/9b/Chicago_original_poster_art.jpg",
     music_video: "https://www.youtube.com/watch?v=_qLrcTzUkGo"
         },
@@ -869,8 +901,8 @@ actor: misc,
     title: "Class",
     year: 1996,
     musical: chicago,
-    featured: "Velma Kelly, Matron Mama Morton",
-actor: misc,
+    featured: "Bebe Neuwirth, Marica Lewis",
+actor: gord,
     image: "https://upload.wikimedia.org/wikipedia/en/9/9b/Chicago_original_poster_art.jpg",
     music_video: "https://www.youtube.com/watch?v=tq-F0TZ2oMM"
         },
@@ -878,8 +910,8 @@ actor: misc,
     title: "Nowadays",
     year: 1996,
     musical: chicago,
-    featured: "Velma Kelly, Roxie Hart",
-actor: misc,
+    featured: "Bebe Neuwirth, Ann Reinking",
+actor: cda,
     image: "https://upload.wikimedia.org/wikipedia/en/9/9b/Chicago_original_poster_art.jpg",
     music_video: "https://www.youtube.com/watch?v=Nd5hw4Ytyq0"
         },
@@ -887,8 +919,8 @@ actor: misc,
     title: "Hot Honey Rag",
     year: 1996,
     musical: chicago,
-    featured: "Velma Kelly, Roxie Hart",
-    actor: misc,
+    featured: "Bebe Neuwirth, Ann Reinking",
+actor: cda,
     image: "https://upload.wikimedia.org/wikipedia/en/9/9b/Chicago_original_poster_art.jpg",
     music_video: "https://www.youtube.com/watch?v=eU3tvOnKCE0"
         },
@@ -897,7 +929,7 @@ actor: misc,
     year: 1996,
     musical: chicago,
     featured: "Company",
-    actor: misc,
+actor: cda,
     image: "https://upload.wikimedia.org/wikipedia/en/9/9b/Chicago_original_poster_art.jpg",
     music_video: "https://www.youtube.com/watch?v=vc7doAVkXuk"
         },
@@ -906,7 +938,7 @@ actor: misc,
     year: 2019,
     musical: mr,
     featured: "Aaron Tveit, Danny Burnstein, Danny Burstein, Holly James, Jacqueline B. Arnold, Jeigh Madjus, Karen Olivo, Original Broadway Cast of Moulin Rouge! The Musical, Original Broadway Company of Moulin Rouge! The Musical",
-    actor: tveit,
+actor: tveit,
     image: "https://t2.genius.com/unsafe/300x300/https%3A%2F%2Fimages.genius.com%2F3a5d58e7fe15d5982b771b4852bedee9.1000x1000x1.jpg",
     music_video: "https://www.youtube.com/watch?v=J7aPCbsyVBk&ab_channel=OriginalBroadwayCastofMoulinRouge%21TheMusical-Topic"
         },
@@ -1428,7 +1460,7 @@ actor: hugh,
     year: 1962,
     musical: music_man,
     featured: "Robert Preston, Shirley Jones",
-    actor: sutton,
+actor: sutton,
     image: "https://m.media-amazon.com/images/I/714hhM4W1bL._SL1200_.jpg",
     music_video: "https://www.youtube.com/watch?v=q4cC4mLp0w8&list=PLJ60eOPu5DcG-jmIIayaVJU0pceJ0N1OK&index=17&ab_channel=BarbaraCook-Topic"
         },
@@ -1437,7 +1469,7 @@ actor: hugh,
     year: 1962,
     musical: music_man,
     featured: "Robert Preston, Shirley Jones",
-    actor: hugh,
+actor: hugh,
     image: "https://m.media-amazon.com/images/I/714hhM4W1bL._SL1200_.jpg",
     music_video: "https://www.youtube.com/watch?v=W2Wroa1VHvI&list=PLJ60eOPu5DcG-jmIIayaVJU0pceJ0N1OK&index=18&ab_channel=RobertPreston-Topic"
         },
@@ -1446,7 +1478,7 @@ actor: hugh,
     year: 2021,
     musical: six,
     featured: "Adrianna Hicks, Andrea Macasaet, Abby Mueller, Brittney Mack, Samantha Pauly, Anna Uzele",
-    actor: hicks,
+actor: hicks,
     image: "https://m.media-amazon.com/images/I/71ChQLRD8uL._SS500_.jpg",
     music_video: "https://www.youtube.com/watch?v=3ygJY2d8daI&ab_channel=SIX"
         },
@@ -2067,7 +2099,7 @@ title: "Dead Mom",
     year: 2019,
     musical: beetlejuice,
     featured: "Sophia Anne Caruso",
-actor: brightman,
+actor:  brightman,
     image: "https://m.media-amazon.com/images/I/81zCfhnHo7L._SL1500_.jpg",
     music_video: "https://www.youtube.com/watch?v=KEct4Nod2iU&list=PLFz9HEJrpQx-29bqIXa8i4bt9nfjuds61&index=5&ab_channel=VariousArtists-Topic"
         },
@@ -2076,7 +2108,7 @@ title: "Fright of Their Lives",
     year: 2019,
     musical: beetlejuice,
     featured: "Alex Brightman, Adam McClure, Kerry Butler",
-actor: brightman,
+actor:  brightman,
     image: "https://m.media-amazon.com/images/I/81zCfhnHo7L._SL1500_.jpg",
     music_video: "https://www.youtube.com/watch?v=e-Hh50x-j8g&list=PLFz9HEJrpQx-29bqIXa8i4bt9nfjuds61&index=6&ab_channel=VariousArtists-Topic"
         },
@@ -2085,7 +2117,7 @@ title: "Ready Set (Reprise)",
     year: 2019,
     musical: beetlejuice,
     featured: "Adam McClure, Kerry Butler",
-actor: brightman,
+actor:  brightman,
     image: "https://m.media-amazon.com/images/I/81zCfhnHo7L._SL1500_.jpg",
     music_video: "https://www.youtube.com/watch?v=5kc9MeMrwz0&list=PLFz9HEJrpQx-29bqIXa8i4bt9nfjuds61&index=7&ab_channel=KerryButler-Topic"
         },
@@ -2094,7 +2126,7 @@ title: "No Reason",
     year: 2019,
     musical: beetlejuice,
     featured: "Leslie Kritzer, Beetlejuice Original Broadway Cast",
-actor: brightman,
+actor:  brightman,
     image: "https://m.media-amazon.com/images/I/81zCfhnHo7L._SL1500_.jpg",
     music_video: "https://www.youtube.com/watch?v=LBMZ2Y_QGa4&list=PLFz9HEJrpQx-29bqIXa8i4bt9nfjuds61&index=8&ab_channel=LeslieKritzer-Topic"
         },
@@ -2103,7 +2135,7 @@ title: "Invisible (Reprise)/On the Roof",
     year: 2019,
     musical: beetlejuice,
     featured: "Alex Brightman, Beetlejuice Original Broadway Cast",
-actor: brightman,
+actor:  brightman,
     image: "https://m.media-amazon.com/images/I/81zCfhnHo7L._SL1500_.jpg",
     music_video: "https://www.youtube.com/watch?v=nuZbwU8-K6o&list=PLFz9HEJrpQx-29bqIXa8i4bt9nfjuds61&index=9&ab_channel=AlexBrightman-Topic"
         },
@@ -2112,7 +2144,7 @@ title: "Say My Name",
     year: 2019,
     musical: beetlejuice,
     featured: "Alex Brightman, Sophia Anne Caruso",
-actor: brightman,
+actor:  brightman,
     image: "https://m.media-amazon.com/images/I/81zCfhnHo7L._SL1500_.jpg",
     music_video: "https://www.youtube.com/watch?v=nHKNP3sN_P4&list=PLFz9HEJrpQx-29bqIXa8i4bt9nfjuds61&index=10&ab_channel=AlexBrightman-Topic"
         },
@@ -2121,7 +2153,7 @@ title: "Day-O",
     year: 2019,
     musical: beetlejuice,
     featured: "Leslie Kritzer, Alex Brightman, Sophia Anne Caruso, Beetlejuice Original Broadway Cast",
-actor: brightman,
+actor:  brightman,
     image: "https://m.media-amazon.com/images/I/81zCfhnHo7L._SL1500_.jpg",
     music_video: "https://www.youtube.com/watch?v=6c2N_YjbYGs&list=PLFz9HEJrpQx-29bqIXa8i4bt9nfjuds61&index=11&ab_channel=LeslieKritzer-Topic"
         },
@@ -2184,7 +2216,7 @@ title: "Jump In Line/Dead Mom (Reprise)",
     year: 2019,
     musical: beetlejuice,
     featured: "Alex Brightman, Sophia Anne Caruso, Leslie Kritzer, Adam McClure, Kerry Butler, Beetlejuice Original Broadway Cast",
-    actor:  brightman,
+actor:  brightman,
     image: "https://m.media-amazon.com/images/I/81zCfhnHo7L._SL1500_.jpg",
     music_video: "https://www.youtube.com/watch?v=BfJaJbyBQ2A&list=PLFz9HEJrpQx-29bqIXa8i4bt9nfjuds61&index=18&ab_channel=LeslieKritzer-Topic"
         },
@@ -2193,7 +2225,7 @@ title: "Welcome To The Rock",
     year: 2017,
     musical: cfa,
     featured: "Come Far Away Original Broadway Cast",
-    actor:  colella,
+actor:  colella,
     image: "https://upload.wikimedia.org/wikipedia/en/6/68/ComeFromAwayLogo.jpg",
     music_video: "https://www.youtube.com/watch?v=V49bo9b9UQE&list=PLhyGNAmDNkQFa83vonw49VagpxMHBz0ps&index=1&ab_channel=JoelHatch-Topic"
         },
@@ -2941,7 +2973,7 @@ title: "Finale",
     year: 2021,
     musical: tina,
     featured: "Tina: The Tina Turner Musical Original London Company",
-actor:  nkeki,
+actor: nkeki,
     image: "https://upload.wikimedia.org/wikipedia/en/7/70/Tina_musical_poster.png",
     music_video: "https://www.youtube.com/watch?v=U7IRASfGFNw&list=PL1ERvMunLuj6JoiDGkvcqbXw3NKQr8_qo&index=24&ab_channel=TinaBroadway"
         },
@@ -2950,7 +2982,7 @@ title: "Circle of Life",
     year: 1997,
     musical: lion_king,
     featured: "Tsidii Le Loka, The Lion King Original Broadway Cast",
-actor: misc,
+actor: remy,
     image: "https://www.musickorea.com/storage/woo680821EN/www/prefix/product/2017/05/O/product.10570.148601968432083.JPG",
     music_video: "https://www.youtube.com/watch?v=5oAe_jy5BUg&list=PLB8184E2908C5916C&ab_channel=TheSonicMaster23"
         },
@@ -2959,7 +2991,7 @@ title: "Grassland Chant",
     year: 1997,
     musical: lion_king,
     featured: "The Lion King Original Broadway Cast",
-actor: misc,
+actor: remy,
     image: "https://www.musickorea.com/storage/woo680821EN/www/prefix/product/2017/05/O/product.10570.148601968432083.JPG",
     music_video: "https://www.youtube.com/watch?v=Z0yWJAEgo0g&list=PLB8184E2908C5916C&index=2&ab_channel=TheSonicMaster23"
         },
@@ -2968,7 +3000,7 @@ title: "The Morning Report",
     year: 1997,
     musical: lion_king,
     featured: "Geoff Hoyle, The Lion King Original Broadway Cast",
-actor: misc,
+actor: remy,
     image: "https://www.musickorea.com/storage/woo680821EN/www/prefix/product/2017/05/O/product.10570.148601968432083.JPG",
     music_video: "https://www.youtube.com/watch?v=gsJYQcaYPgw&list=PLB8184E2908C5916C&index=3&ab_channel=TheSonicMaster23"
         },
@@ -2977,7 +3009,7 @@ title: "The Lioness Hunt",
     year: 1997,
     musical: lion_king,
     featured: "Kajuana Shuford, The Lion King Original Broadway Cast",
-actor: misc,
+actor: remy,
     image: "https://www.musickorea.com/storage/woo680821EN/www/prefix/product/2017/05/O/product.10570.148601968432083.JPG",
     music_video: "https://www.youtube.com/watch?v=5-_NiZwyD-0&list=PLB8184E2908C5916C&index=4&ab_channel=TheSonicMaster23"
         },
@@ -2986,7 +3018,7 @@ title: "I Just Can’t Wait to Be King",
     year: 1997,
     musical: lion_king,
     featured: "Scott Irby-Ranniar, The Lion King Original Broadway Cast",
-actor: misc,
+actor: remy,
     image: "https://www.musickorea.com/storage/woo680821EN/www/prefix/product/2017/05/O/product.10570.148601968432083.JPG",
     music_video: "https://www.youtube.com/watch?v=RdZTLR4pvBY&list=PLB8184E2908C5916C&index=5&ab_channel=TheSonicMaster23"
         },
@@ -2995,7 +3027,7 @@ title: "Chow Down",
     year: 1997,
     musical: lion_king,
     featured: "Scott Irby-Ranniar, Kevin Cahoon, Tracy Nicole Chapman, Stanley Wayne Mathis, The Lion King Original Broadway Cast",
-actor: misc,
+actor: remy,
     image: "https://www.musickorea.com/storage/woo680821EN/www/prefix/product/2017/05/O/product.10570.148601968432083.JPG",
     music_video: "https://www.youtube.com/watch?v=6NSHzZQ0gPE&list=PLB8184E2908C5916C&index=6&ab_channel=TheSonicMaster23"
         },
@@ -3004,7 +3036,7 @@ title: "They Live in You",
     year: 1997,
     musical: lion_king,
     featured: "Scott Irby-Ranniar, Samuel E. Wright, The Lion King Original Broadway Cast",
-actor: misc,
+actor: remy,
     image: "https://www.musickorea.com/storage/woo680821EN/www/prefix/product/2017/05/O/product.10570.148601968432083.JPG",
     music_video: "https://www.youtube.com/watch?v=DChx_95_AmM&list=PLB8184E2908C5916C&index=7&ab_channel=TheSonicMaster23"
         },
@@ -3013,7 +3045,7 @@ title: "Be Prepared",
     year: 1997,
     musical: lion_king,
     featured: "John Vickery, The Lion King Original Broadway Cast",
-actor: misc,
+actor: remy,
     image: "https://www.musickorea.com/storage/woo680821EN/www/prefix/product/2017/05/O/product.10570.148601968432083.JPG",
     music_video: "https://www.youtube.com/watch?v=FKWOB8EoRBQ&list=PLB8184E2908C5916C&index=8&ab_channel=TheSonicMaster23"
         },
@@ -3022,7 +3054,7 @@ title: "The Stampede",
     year: 1997,
     musical: lion_king,
     featured: "The Lion King Original Broadway Cast",
-actor: misc,
+actor: remy,
     image: "https://www.musickorea.com/storage/woo680821EN/www/prefix/product/2017/05/O/product.10570.148601968432083.JPG",
     music_video: "https://www.youtube.com/watch?v=ASB7Zhmlhj0&list=PLB8184E2908C5916C&index=9&ab_channel=TheSonicMaster23"
         },
@@ -3031,7 +3063,7 @@ title: "Rafiki Mourns",
     year: 1997,
     musical: lion_king,
     featured: "Tsidii Le Loka, The Lion King Original Broadway Cast",
-actor: misc,
+actor: remy,
     image: "https://www.musickorea.com/storage/woo680821EN/www/prefix/product/2017/05/O/product.10570.148601968432083.JPG",
     music_video: "https://www.youtube.com/watch?v=-245r-u1o5M&list=PLB8184E2908C5916C&index=10&ab_channel=TheSonicMaster23"
         },
@@ -3040,7 +3072,7 @@ title: "Hakuna Matata",
     year: 1997,
     musical: lion_king,
     featured: "Jason Raize, Max Casella, Tom Alan Robbins, The Lion King Original Broadway Cast",
-actor: misc,
+actor: remy,
     image: "https://www.musickorea.com/storage/woo680821EN/www/prefix/product/2017/05/O/product.10570.148601968432083.JPG",
     music_video: "https://www.youtube.com/watch?v=_xUVa5u2gJQ&list=PLB8184E2908C5916C&index=11&ab_channel=TheSonicMaster23"
         },
@@ -3049,7 +3081,7 @@ title: "One by One",
     year: 1997,
     musical: lion_king,
     featured: "Jason Raize, The Lion King Original Broadway Cast",
-actor: misc,
+actor: remy,
     image: "https://www.musickorea.com/storage/woo680821EN/www/prefix/product/2017/05/O/product.10570.148601968432083.JPG",
     music_video: "https://www.youtube.com/watch?v=nN99Bg1OwAk&list=PLB8184E2908C5916C&index=12&ab_channel=TheSonicMaster23"
         },
@@ -3058,7 +3090,7 @@ title: "The Madness of Scar",
     year: 1997,
     musical: lion_king,
     featured: "John Vickery, The Lion King Original Broadway Cast",
-actor: misc,
+actor: remy,
     image: "https://www.musickorea.com/storage/woo680821EN/www/prefix/product/2017/05/O/product.10570.148601968432083.JPG",
     music_video: "https://www.youtube.com/watch?v=3PfXwHEYdlE&list=PLB8184E2908C5916C&index=13&ab_channel=TheSonicMaster23"
         },
@@ -3067,7 +3099,7 @@ title: "Shadowland",
     year: 1997,
     musical: lion_king,
     featured: "Heather Headley, The Lion King Original Broadway Cast",
-actor: misc,
+actor: khwezi,
     image: "https://www.musickorea.com/storage/woo680821EN/www/prefix/product/2017/05/O/product.10570.148601968432083.JPG",
     music_video: "https://www.youtube.com/watch?v=BX2e270rmeM&list=PLB8184E2908C5916C&index=14&ab_channel=TheSonicMaster23"
         },
@@ -3076,7 +3108,7 @@ title: "The Lion Sleeps Tonight",
     year: 1997,
     musical: lion_king,
     featured: "Max Casella, Tom Alan Robbins, The Lion King Original Broadway Cast",
-actor: misc,
+actor: remy,
     image: "https://www.musickorea.com/storage/woo680821EN/www/prefix/product/2017/05/O/product.10570.148601968432083.JPG",
     music_video: "https://www.youtube.com/watch?v=Tb87WgRrnH8&list=PLB8184E2908C5916C&index=15&ab_channel=TheSonicMaster23"
         },
@@ -3085,7 +3117,7 @@ title: "Endless Night",
     year: 1997,
     musical: lion_king,
     featured: "Jason Raize, The Lion King Original Broadway Cast",
-actor: misc,
+actor: remy,
     image: "https://www.musickorea.com/storage/woo680821EN/www/prefix/product/2017/05/O/product.10570.148601968432083.JPG",
     music_video: "https://www.youtube.com/watch?v=pLaChLkIY_g&list=PLB8184E2908C5916C&index=16&ab_channel=TheSonicMaster23"
         },
@@ -3094,7 +3126,7 @@ title: "Can You Feel the Love Tonight",
     year: 1997,
     musical: lion_king,
     featured: "Jason Raize, Heather Headley, Max Casella, Tom Alan Robbins, The Lion King Original Broadway Cast",
-actor: misc,
+actor: khwezi,
     image: "https://www.musickorea.com/storage/woo680821EN/www/prefix/product/2017/05/O/product.10570.148601968432083.JPG",
     music_video: "https://www.youtube.com/watch?v=OB1v4Vq1Oyw&list=PLB8184E2908C5916C&index=17&ab_channel=TheSonicMaster23"
         },
@@ -3103,7 +3135,7 @@ title: "He Lives in You",
     year: 1997,
     musical: lion_king,
     featured: "Tsidii Le Loka, The Lion King Original Broadway Cast",
-actor: misc,
+actor: remy,
     image: "https://www.musickorea.com/storage/woo680821EN/www/prefix/product/2017/05/O/product.10570.148601968432083.JPG",
     music_video: "https://www.youtube.com/watch?v=1GqyE7GiRJ4&list=PLB8184E2908C5916C&index=18&ab_channel=TheSonicMaster23"
         },
@@ -3112,7 +3144,7 @@ title: "Simba Confronts Scar",
     year: 1997,
     musical: lion_king,
     featured: "The Lion King Original Broadway Cast",
-actor: misc,
+actor: remy,
     image: "https://www.musickorea.com/storage/woo680821EN/www/prefix/product/2017/05/O/product.10570.148601968432083.JPG",
     music_video: "https://www.youtube.com/watch?v=QkD4mp4VnMo&list=PLB8184E2908C5916C&index=19&ab_channel=TheSonicMaster23"
         },
@@ -3121,11 +3153,705 @@ title: "King of Pride Rock/ Circle of Life (Reprise)",
     year: 1997,
     musical: lion_king,
     featured: "Tsidii Le Loka, The Lion King Original Broadway Cast",
-    actor: misc,
+actor: remy,
     image: "https://www.musickorea.com/storage/woo680821EN/www/prefix/product/2017/05/O/product.10570.148601968432083.JPG",
     music_video: "https://www.youtube.com/watch?v=VtcXezrfgH0&list=PLB8184E2908C5916C&index=20&ab_channel=TheSonicMaster23"
         },
+{
+    title: "Intermission Song",
+    year: 2019,
+    musical: asl,
+    featured: "Larry Owens, L Morgan Lee, James Jackson Jr., Jason Veasey, Antwayn Hopper, John-Michael Lyles, John-Andrew Morrison",
+actor: spivey,
+    image: "https://upload.wikimedia.org/wikipedia/en/a/a0/A_Strange_Loop_poster.jpeg",
+    music_video: "https://www.youtube.com/watch?v=eL5mrTLuQMM"
+        },
+{
+    title: "Today",
+    year: 2019,
+    musical: asl,
+    featured: "Larry Owens, L Morgan Lee, James Jackson Jr., Jason Veasey, Antwayn Hopper, John-Michael Lyles, John-Andrew Morrison",
+actor: spivey,
+    image: "https://upload.wikimedia.org/wikipedia/en/a/a0/A_Strange_Loop_poster.jpeg",
+    music_video: "https://www.youtube.com/watch?v=2-5W1eQc19A"
+        },
+{
+    title: "We Wanna Know",
+    year: 2019,
+    musical: asl,
+    featured: "Larry Owens, L Morgan Lee, James Jackson Jr., Jason Veasey, Antwayn Hopper, John-Michael Lyles, John-Andrew Morrison",
+actor: spivey,
+    image: "https://upload.wikimedia.org/wikipedia/en/a/a0/A_Strange_Loop_poster.jpeg",
+    music_video: "https://www.youtube.com/watch?v=u2NR7qZEZw8"
+        },
+{
+    title: "Inner White Girl",
+    year: 2019,
+    musical: asl,
+    featured: "Larry Owens, L Morgan Lee, James Jackson Jr., Jason Veasey, Antwayn Hopper, John-Michael Lyles, John-Andrew Morrison",
+actor: spivey,
+    image: "https://upload.wikimedia.org/wikipedia/en/a/a0/A_Strange_Loop_poster.jpeg",
+    music_video: "https://www.youtube.com/watch?v=dkCiZ_wY054"
+        },
+{
+    title: "Didn’t Want Nothin",
+    year: 2019,
+    musical: asl,
+    featured: "Larry Owens, L Morgan Lee, James Jackson Jr., Jason Veasey, Antwayn Hopper, John-Michael Lyles, John-Andrew Morrison",
+actor: spivey,
+    image: "https://upload.wikimedia.org/wikipedia/en/a/a0/A_Strange_Loop_poster.jpeg",
+    music_video: "https://www.youtube.com/watch?v=7JqswjHHv4k"
+        },
+{
+    title: "Exile in Gayville",
+    year: 2019,
+    musical: asl,
+    featured: "Larry Owens, L Morgan Lee, James Jackson Jr., Jason Veasey, Antwayn Hopper, John-Michael Lyles, John-Andrew Morrison",
+actor: spivey,
+    image: "https://upload.wikimedia.org/wikipedia/en/a/a0/A_Strange_Loop_poster.jpeg",
+    music_video: "https://www.youtube.com/watch?v=nh3vQigIja4"
+        },
+{
+    title: "Second Wave",
+    year: 2019,
+    musical: asl,
+    featured: "Larry Owens",
+actor: spivey,
+    image: "https://upload.wikimedia.org/wikipedia/en/a/a0/A_Strange_Loop_poster.jpeg",
+    music_video: "https://www.youtube.com/watch?v=pDwRElTbaAg"
+        },
+{
+    title: "Tyler Perry Writes Real Life",
+    year: 2019,
+    musical: asl,
+    featured: "Larry Owens, L Morgan Lee, James Jackson Jr., Jason Veasey, Antwayn Hopper, John-Michael Lyles, John-Andrew Morrison",
+actor: spivey,
+    image: "https://upload.wikimedia.org/wikipedia/en/a/a0/A_Strange_Loop_poster.jpeg",
+    music_video: "https://www.youtube.com/watch?v=aDTsN-8PmZ8"
+        },
+{
+    title: "Writing A Gospel Play",
+    year: 2019,
+    musical: asl,
+    featured: "Larry Owens, L Morgan Lee, James Jackson Jr., Jason Veasey, Antwayn Hopper, John-Michael Lyles, John-Andrew Morrison",
+actor: spivey,
+    image: "https://upload.wikimedia.org/wikipedia/en/a/a0/A_Strange_Loop_poster.jpeg",
+    music_video: "https://www.youtube.com/watch?v=6fbQU2KDj9Q"
+        },
+{
+    title: "A Sympathetic Ear",
+    year: 2019,
+    musical: asl,
+    featured: "L Morgan Lee",
+actor: lml,
+    image: "https://upload.wikimedia.org/wikipedia/en/a/a0/A_Strange_Loop_poster.jpeg",
+    music_video: "https://www.youtube.com/watch?v=wvOPo4TF0XE"
+        },
+{
+    title: "Inwood Daddy",
+    year: 2019,
+    musical: asl,
+    featured: "Larry Owens, L Morgan Lee, James Jackson Jr., Jason Veasey, Antwayn Hopper, John-Michael Lyles, John-Andrew Morrison",
+actor: spivey,
+    image: "https://upload.wikimedia.org/wikipedia/en/a/a0/A_Strange_Loop_poster.jpeg",
+    music_video: "https://www.youtube.com/watch?v=ejwTDVefvq0"
+        },
+{
+    title: "Boundaries",
+    year: 2019,
+    musical: asl,
+    featured: "Larry Owens",
+actor: spivey,
+    image: "https://upload.wikimedia.org/wikipedia/en/a/a0/A_Strange_Loop_poster.jpeg",
+    music_video: "https://www.youtube.com/watch?v=hp2kT9dIOhQ"
+        },
+{
+    title: "Periodically",
+    year: 2019,
+    musical: asl,
+    featured: "Larry Owens, John-Andrew Morrison",
+actor: spivey,
+    image: "https://upload.wikimedia.org/wikipedia/en/a/a0/A_Strange_Loop_poster.jpeg",
+    music_video: "https://www.youtube.com/watch?v=HIy7bOIHcVI"
+        },
+{
+    title: "Didn’t Want Nothin Reprise",
+    year: 2019,
+    musical: asl,
+    featured: "Jason Veasey",
+actor: spivey,
+    image: "https://upload.wikimedia.org/wikipedia/en/a/a0/A_Strange_Loop_poster.jpeg",
+    music_video: "https://www.youtube.com/watch?v=FVeG-S3KRA0&list=PLTiObFOxfef39IPtWy06EDxY3vMXLBfvZ&index=10"
+        },
+{
+    title: "Precious Little Dream / AIDS Is God's Punishment",
+    year: 2019,
+    musical: asl,
+    featured: "Larry Owens, L Morgan Lee, James Jackson Jr., Jason Veasey, Antwayn Hopper, John-Michael Lyles, John-Andrew Morrison",
+actor: spivey,
+    image: "https://upload.wikimedia.org/wikipedia/en/a/a0/A_Strange_Loop_poster.jpeg",
+    music_video: "https://www.youtube.com/watch?v=_ZZt3vxzZKs"
+        },
+{
+    title: "Memory Song",
+    year: 2019,
+    musical: asl,
+    featured: "Larry Owens, L Morgan Lee, James Jackson Jr., Jason Veasey, Antwayn Hopper, John-Michael Lyles, John-Andrew Morrison",
+actor: spivey,
+    image: "https://upload.wikimedia.org/wikipedia/en/a/a0/A_Strange_Loop_poster.jpeg",
+    music_video: "https://www.youtube.com/watch?v=VpS_KTB7HZs"
+        },
+{
+    title: "A Strange Loop",
+    year: 2019,
+    musical: asl,
+    featured: "Larry Owens, L Morgan Lee, James Jackson Jr., Jason Veasey, Antwayn Hopper, John-Michael Lyles, John-Andrew Morrison",
+actor: spivey,
+    image: "https://upload.wikimedia.org/wikipedia/en/a/a0/A_Strange_Loop_poster.jpeg",
+    music_video: "https://www.youtube.com/watch?v=Y9pgnWV29xA"
+        },
+{
+    title: "Anybody Have a Map",
+    year: 2015,
+    musical: deh,
+    featured: "Rachel Bay Jones, Jennifer Laura Thompson",
+actor: platt,
+    image: "https://upload.wikimedia.org/wikipedia/en/9/91/DearEvanposter.png",
+    music_video: "https://www.youtube.com/watch?v=6f1-QF9jvBM"
+        },
+{
+    title: "Waving Through a Window",
+    year: 2015,
+    musical: deh,
+    featured: "Ben Platt",
+actor: platt,
+    image: "https://upload.wikimedia.org/wikipedia/en/9/91/DearEvanposter.png",
+    music_video: "https://www.youtube.com/watch?v=kfnMvo87fQU"
+        },
+{
+    title: "For Forever",
+    year: 2015,
+    musical: deh,
+    featured: "Ben Platt",
+actor: platt,
+    image: "https://upload.wikimedia.org/wikipedia/en/9/91/DearEvanposter.png",
+    music_video: "https://www.youtube.com/watch?v=xkdPRcY0k4o"
+        },
+{
+    title: "Sincerely, Me",
+    year: 2015,
+    musical: deh,
+    featured: "Mike Faist, Ben Platt, Will Roland",
+actor: platt,
+    image: "https://upload.wikimedia.org/wikipedia/en/9/91/DearEvanposter.png",
+    music_video: "https://www.youtube.com/watch?v=HOYAA13Bm9M"
+        },
+{
+    title: "Requiem",
+    year: 2015,
+    musical: deh,
+    featured: "Laura Dreyfuss, Michael Park, Jennifer Laura Thompson",
+actor: dreyfuss,
+    image: "https://upload.wikimedia.org/wikipedia/en/9/91/DearEvanposter.png",
+    music_video: "https://www.youtube.com/watch?v=AN9x0v2-deU"
+        },
+{
+    title: "If I Could Tell Her",
+    year: 2015,
+    musical: deh,
+    featured: "Ben Platt, Laura Dreyfuss",
+actor: dreyfuss,
+    image: "https://upload.wikimedia.org/wikipedia/en/9/91/DearEvanposter.png",
+    music_video: "https://www.youtube.com/watch?v=B7h7c_L_Yp4"
+        },
+{
+    title: "Disappear",
+    year: 2015,
+    musical: deh,
+    featured: "Ben Platt, Mike Faist, Kristolyn Lloyd, Will Roland, Jennifer Laura Thompson",
+actor: platt,
+    image: "https://upload.wikimedia.org/wikipedia/en/9/91/DearEvanposter.png",
+    music_video: "https://www.youtube.com/watch?v=Lx9oP2YyY88"
+        },
+{
+    title: "You Will Be Found",
+    year: 2015,
+    musical: deh,
+    featured: "Ben Platt, Kristolyn Lloyd, Will Roland, Laura Dreyfuss",
+actor: platt,
+    image: "https://upload.wikimedia.org/wikipedia/en/9/91/DearEvanposter.png",
+    music_video: "https://www.youtube.com/watch?v=mSfH2AuhXfw"
+        },
+{
+    title: "To Break in a Glove",
+    year: 2015,
+    musical: deh,
+    featured: "Michael Park, Ben Platt",
+actor: platt,
+    image: "https://upload.wikimedia.org/wikipedia/en/9/91/DearEvanposter.png",
+    music_video: "https://www.youtube.com/watch?v=h8z6qYV1qjA"
+        },
+{
+    title: "Only Us",
+    year: 2015,
+    musical: deh,
+    featured: "Ben Platt, Laura Dreyfuss",
+actor: platt,
+    image: "https://upload.wikimedia.org/wikipedia/en/9/91/DearEvanposter.png",
+    music_video: "https://www.youtube.com/watch?v=PPvO1sZkOx0"
+        },
+{
+    title: "Good for You",
+    year: 2015,
+    musical: deh,
+    featured: "Rachel Bay Jones, Kristolyn Lloyd, Will Roland, Ben Platt",
+actor: platt,
+    image: "https://upload.wikimedia.org/wikipedia/en/9/91/DearEvanposter.png",
+    music_video: "https://www.youtube.com/watch?v=v5B9RWJor4c"
+        },
+{
+    title: "Words Fail",
+    year: 2015,
+    musical: deh,
+    featured: "Ben Platt",
+actor: platt,
+    image: "https://upload.wikimedia.org/wikipedia/en/9/91/DearEvanposter.png",
+    music_video: "https://www.youtube.com/watch?v=RKP9UdIcXFk"
+        },
+{
+    title: "So Big / So Small",
+    year: 2015,
+    musical: deh,
+    featured: "Rachel Bay Jones",
+actor: platt,
+    image: "https://upload.wikimedia.org/wikipedia/en/9/91/DearEvanposter.png",
+    music_video: "https://www.youtube.com/watch?v=9vD2JBq0ns8"
+        },
+{
+    title: "Finale",
+    year: 2015,
+    musical: deh,
+    featured: "Ben Platt",
+actor: platt,
+    image: "https://upload.wikimedia.org/wikipedia/en/9/91/DearEvanposter.png",
+    music_video: "https://www.youtube.com/watch?v=r-nKoW1rVu8"
+        },
+{
+    title: "Beat It",
+    year: 2022,
+    musical: mj,
+    featured: "Myles Frost, John Edwards, Ayana George, Apollo Levine, Tavon Olds-Sample, Lamont Walker II",
+actor: frost,
+    image: "https://upload.wikimedia.org/wikipedia/en/9/9a/MJ_Musical.png",
+    music_video: "https://www.youtube.com/watch?v=GmPe10fEjOA"
+        },
+{
+    title: "Jackson 5 Medley",
+    year: 2022,
+    musical: mj,
+    featured: "Christian Wilson, Devin Trey Campbell, John Edwards, Apollo Levine, Lamont Walker II",
+actor: levine,
+    image: "https://upload.wikimedia.org/wikipedia/en/9/9a/MJ_Musical.png",
+    music_video: "https://www.youtube.com/watch?v=TZAOpH6-818"
+        },
+{
+    title: "I’ll Be There",
+    year: 2022,
+    musical: mj,
+    featured: "Ayana George, Christian Wilson, Myles Frost",
+actor: frost,
+    image: "https://upload.wikimedia.org/wikipedia/en/9/9a/MJ_Musical.png",
+    music_video: "https://www.youtube.com/watch?v=6noXIZhpSkM"
+        },
+{
+    title: `Don\'t Stop \'Til You Get Enough / Blame It on the Boogie / Dancing Machine`,
+    year: 2022,
+    musical: mj,
+    featured: "Myles Frost, Tavon Olds-Sample, Original Broadway Cast of MJ",
+actor: frost,
+    image: "https://upload.wikimedia.org/wikipedia/en/9/9a/MJ_Musical.png",
+    music_video: "https://www.youtube.com/watch?v=ZM2R0XGBlsY"
+        },
+{
+    title: "Stranger in Moscow",
+    year: 2022,
+    musical: mj,
+    featured: "Myles Frost, John Edwards, Ayana George, Apollo Levine, Tavon Olds-Sample, Lamont Walker II",
+actor: frost,
+    image: "https://upload.wikimedia.org/wikipedia/en/9/9a/MJ_Musical.png",
+    music_video: "https://www.youtube.com/watch?v=sUuqMdAFlRw"
+        },
+{
+    title: "You Can’t Win",
+    year: 2022,
+    musical: mj,
+    featured: "Antoine L. Smith, Tavon Olds-Sample, Cast",
+actor: tos,
+    image: "https://upload.wikimedia.org/wikipedia/en/9/9a/MJ_Musical.png",
+    music_video: "https://www.youtube.com/watch?v=WGSj6LBzv-s"
+        },
+{
+    title: "I Can’t Help It",
+    year: 2022,
+    musical: mj,
+    featured: "Tavon Olds-Sample, Myles Frost",
+actor: frost,
+    image: "https://upload.wikimedia.org/wikipedia/en/9/9a/MJ_Musical.png",
+    music_video: "https://www.youtube.com/watch?v=ibCrc0YTQqM"
+        },
+{
+    title: "Keep the Faith",
+    year: 2022,
+    musical: mj,
+    featured: "Apollo Levine, Tavon Olds-Sample, John Edwards, Ayana George, Lamont Walker II",
+actor: tos,
+    image: "https://upload.wikimedia.org/wikipedia/en/9/9a/MJ_Musical.png",
+    music_video: "https://www.youtube.com/watch?v=KTPmGeiZA08"
+        },
+{
+    title: "Wanna Be Startin’ Somethin",
+    year: 2022,
+    musical: mj,
+    featured: "Tavon Olds-Sample, Myles Frost, Cast",
+actor: frost,
+    image: "https://upload.wikimedia.org/wikipedia/en/9/9a/MJ_Musical.png",
+    music_video: "https://www.youtube.com/watch?v=aGJBKRw6d3A"
+        },
+{
+    title: "Earth Song / They Don\'t Care About Us",
+    year: 2022,
+    musical: mj,
+    featured: "Myles Frost, Cast",
+actor: frost,
+    image: "https://upload.wikimedia.org/wikipedia/en/9/9a/MJ_Musical.png",
+    music_video: "https://www.youtube.com/watch?v=ld_6Q_sEAPk"
+        },
+{
+    title: "Billie Jean",
+    year: 2022,
+    musical: mj,
+    featured: "Myles Frost, John Edwards, Ayana George, Apollo Levine, Tavon Olds-Sample, Lamont Walker II",
+actor: frost,
+    image: "https://upload.wikimedia.org/wikipedia/en/9/9a/MJ_Musical.png",
+    music_video: "https://www.youtube.com/watch?v=cDu__D7XtHc"
+        },
+{
+    title: "Smooth Criminal",
+    year: 2022,
+    musical: mj,
+    featured: "Myles Frost, John Edwards, Ayana George, Apollo Levine, Tavon Olds-Sample, Lamont Walker II",
+actor: frost,
+    image: "https://upload.wikimedia.org/wikipedia/en/9/9a/MJ_Musical.png",
+    music_video: "https://www.youtube.com/watch?v=8N-JwOYV2gE"
+        },
+{
+    title: "Victory Tour (For the Love Of Money / Can You Feel It)",
+    year: 2022,
+    musical: mj,
+    featured: "Quentin Earl Darrington, Tavon Olds-Sample, Raymond Baynard, John Edwards, Ayana George, Apollo Levine, Lamont Walker II, Zelig Williams",
+actor: tos,
+    image: "https://upload.wikimedia.org/wikipedia/en/9/9a/MJ_Musical.png",
+    music_video: "https://www.youtube.com/watch?v=kUJkEJq4es0"
+        },
+{
+    title: "Keep the Faith (Reprise)",
+    year: 2022,
+    musical: mj,
+    featured: "Myles Frost, Quentin Earl Darrington, Cast",
+actor: frost,
+    image: "https://upload.wikimedia.org/wikipedia/en/9/9a/MJ_Musical.png",
+    music_video: "https://www.youtube.com/watch?v=659LWupwLow"
+        },
+{
+    title: "She\'s Out of My Life",
+    year: 2022,
+    musical: mj,
+    featured: "Myles Frost, Tavon Olds-Sample",
+actor: frost,
+    image: "https://upload.wikimedia.org/wikipedia/en/9/9a/MJ_Musical.png",
+    music_video: "https://www.youtube.com/watch?v=c9pl6yXsgW0"
+        },
+{
+    title: "Human Nature",
+    year: 2022,
+    musical: mj,
+    featured: "Myles Frost, Whitney Bashor, Cast",
+actor: frost,
+    image: "https://upload.wikimedia.org/wikipedia/en/9/9a/MJ_Musical.png",
+    music_video: "https://www.youtube.com/watch?v=xduowN1Ty28"
+        },
+{
+    title: "Bad / 2 Bad",
+    year: 2022,
+    musical: mj,
+    featured: "Myles Frost, Cast",
+actor: frost,
+    image: "https://upload.wikimedia.org/wikipedia/en/9/9a/MJ_Musical.png",
+    music_video: "https://www.youtube.com/watch?v=YejCXb_jfuo"
+        },
+{
+    title: "Thriller",
+    year: 2022,
+    musical: mj,
+    featured: "Myles Frost, Christian Wilson, Quentin Earl Darrington, John Edwards, Ayana George, Apollo Levine, Tavon Olds-Sample, Lamont Walker II",
+actor: frost,
+    image: "https://upload.wikimedia.org/wikipedia/en/9/9a/MJ_Musical.png",
+    music_video: "https://www.youtube.com/watch?v=y6gPTxH0IFw"
+        },
+{
+    title: "Man in the Mirror",
+    year: 2022,
+    musical: mj,
+    featured: "Cast",
+actor: frost,
+    image: "https://upload.wikimedia.org/wikipedia/en/9/9a/MJ_Musical.png",
+    music_video: "https://www.youtube.com/watch?v=3AmF9tjvyIk"
+        },
+{
+    title: "Finale (Jam / Black or White / Wanna Be Startin\' Somethin\')",
+    year: 2022,
+    musical: mj,
+    featured: "Cast",
+actor: frost,
+    image: "https://upload.wikimedia.org/wikipedia/en/9/9a/MJ_Musical.png",
+    music_video: "https://www.youtube.com/watch?v=zN7OUhS02oE"
+        },
+{
+    title: "Finale (Jam / Black or White / Wanna Be Startin\' Somethin\')",
+    year: 2022,
+    musical: mj,
+    featured: "Cast",
+actor: frost,
+    image: "https://upload.wikimedia.org/wikipedia/en/9/9a/MJ_Musical.png",
+    music_video: "https://www.youtube.com/watch?v=zN7OUhS02oE"
+        },
+{
+    title: "Prologue",
+    year: 2016,
+    musical: anastasia,
+    featured: "Anastasia Original Broadway Cast",
+actor: ramin,
+    image: "https://imaging.broadway.com/images/square-11/w800/83575-7.jpg",
+    music_video: "https://www.youtube.com/watch?v=7yiWmctknGA&list=PLZ-QxD8_O6sbBk0mnIUhCZyZg-fOQIl9i"
+        },
+{
+    title: "Rumor in St. Petersburg",
+    year: 2016,
+    musical: anastasia,
+    featured: "Ramin Karimloo, Derek Klena, John Bolton, Anastasia Original Broadway Cast",
+actor: klena,
+    image: "https://imaging.broadway.com/images/square-11/w800/83575-7.jpg",
+    music_video: "https://www.youtube.com/watch?v=Qh7sIrvdnwc&list=PLZ-QxD8_O6sbBk0mnIUhCZyZg-fOQIl9i&index=2i"
+        },
+{
+    title: "In My Dreams",
+    year: 2016,
+    musical: anastasia,
+    featured: "Christy Altomare",
+actor: altomare,
+    image: "https://imaging.broadway.com/images/square-11/w800/83575-7.jpg",
+    music_video: "https://www.youtube.com/watch?v=4Jf0AeLepiE&list=PLZ-QxD8_O6sbBk0mnIUhCZyZg-fOQIl9i&index=3"
+        },
+{
+    title: "Learn To Do It",
+    year: 2016,
+    musical: anastasia,
+    featured: "Christy Altomare, John Bolton, Derek Klena",
+actor: jbolt,
+    image: "https://imaging.broadway.com/images/square-11/w800/83575-7.jpg",
+    music_video: "https://www.youtube.com/watch?v=hSxqfByKW6g&list=PLZ-QxD8_O6sbBk0mnIUhCZyZg-fOQIl9i&index=4"
+        },
+{
+    title: "The Neva Flows",
+    year: 2016,
+    musical: anastasia,
+    featured: "Ramin Karimloo",
+actor: ramin,
+    image: "https://imaging.broadway.com/images/square-11/w800/83575-7.jpg",
+    music_video: "https://www.youtube.com/watch?v=y45QURGsDjc&list=PLZ-QxD8_O6sbBk0mnIUhCZyZg-fOQIl9i&index=5"
+        },
+{
+    title: "My Petersburg",
+    year: 2016,
+    musical: anastasia,
+    featured: "Derek Klena",
+actor: klena,
+    image: "https://imaging.broadway.com/images/square-11/w800/83575-7.jpg",
+    music_video: "https://www.youtube.com/watch?v=_hVaGhGLKqQ&list=PLZ-QxD8_O6sbBk0mnIUhCZyZg-fOQIl9i&index=6"
+        },
+{
+    title: "Once Upon A December",
+    year: 2016,
+    musical: anastasia,
+    featured: "Christy Altomare",
+actor: altomare,
+    image: "https://imaging.broadway.com/images/square-11/w800/83575-7.jpg",
+    music_video: "https://www.youtube.com/watch?v=FfeFUOjQsVQ&list=PLZ-QxD8_O6sbBk0mnIUhCZyZg-fOQIl9i&index=7"
+        },
+{
+    title: "Say, I Pray You",
+    year: 2016,
+    musical: anastasia,
+    featured: "Christy Altomare, Derek Klena, Michael Bolton, Anastasia Original Broadway Cast",
+actor: jbolt,
+    image: "https://imaging.broadway.com/images/square-11/w800/83575-7.jpg",
+    music_video: "https://www.youtube.com/watch?v=1cvJo31jGfo&list=PLZ-QxD8_O6sbBk0mnIUhCZyZg-fOQIl9i&index=8"
+        },
+{
+    title: "We’ll Go From There",
+    year: 2016,
+    musical: anastasia,
+    featured: "Christy Altomare, John Bolton, Derek Klena, Anastasia Original Broadway Cast",
+actor: jbolt,
+    image: "https://imaging.broadway.com/images/square-11/w800/83575-7.jpg",
+    music_video: "https://www.youtube.com/watch?v=_93XiuInY4M&list=PLZ-QxD8_O6sbBk0mnIUhCZyZg-fOQIl9i&index=9"
+        },
+{
+    title: "Still",
+    year: 2016,
+    musical: anastasia,
+    featured: "Ramin Karimloo",
+actor: ramin,
+    image: "https://imaging.broadway.com/images/square-11/w800/83575-7.jpg",
+    music_video: "https://www.youtube.com/watch?v=07kj0aCpjIo&list=PLZ-QxD8_O6sbBk0mnIUhCZyZg-fOQIl9i&index=10"
+        },
+{
+    title: "Journey To The Past",
+    year: 2016,
+    musical: anastasia,
+    featured: "Christy Altomare",
+actor: altomare,
+    image: "https://imaging.broadway.com/images/square-11/w800/83575-7.jpg",
+    music_video: "https://www.youtube.com/watch?v=0Cd7s2ujr3c&list=PLZ-QxD8_O6sbBk0mnIUhCZyZg-fOQIl9i&index=11"
+        },
+{
+    title: "Paris Holds The Key",
+    year: 2016,
+    musical: anastasia,
+    featured: "Christy Altomare, John Bolton, Derek Klena, Anastasia Original Broadway Cast",
+actor: klena,
+    image: "https://imaging.broadway.com/images/square-11/w800/83575-7.jpg",
+    music_video: "https://www.youtube.com/watch?v=EkJggNuSE_E&list=PLZ-QxD8_O6sbBk0mnIUhCZyZg-fOQIl9i&index=12"
+        },
+{
+    title: "Crossing This Bridge",
+    year: 2016,
+    musical: anastasia,
+    featured: "Christy Altomare",
+actor: altomare,
+    image: "https://imaging.broadway.com/images/square-11/w800/83575-7.jpg",
+    music_video: "https://www.youtube.com/watch?v=BPTGuXZfOyI&list=PLZ-QxD8_O6sbBk0mnIUhCZyZg-fOQIl9i&index=13"
+        },
+{
+    title: "Close the Door",
+    year: 2016,
+    musical: anastasia,
+    featured: "Christy Altomare, John Bolton, Derek Klena, Anastasia Original Broadway Cast",
+actor: altomare,
+    image: "https://imaging.broadway.com/images/square-11/w800/83575-7.jpg",
+    music_video: "https://www.youtube.com/watch?v=2t6R--HWq4I&list=PLZ-QxD8_O6sbBk0mnIUhCZyZg-fOQIl9i&index=14"
+        },
+{
+    title: "Land of Yesterday",
+    year: 2016,
+    musical: anastasia,
+    featured: "Christy Altomare, John Bolton, Derek Klena, Anastasia Original Broadway Cast",
+actor: jbolt,
+    image: "https://imaging.broadway.com/images/square-11/w800/83575-7.jpg",
+    music_video: "https://www.youtube.com/watch?v=I73pYRVNgGw&list=PLZ-QxD8_O6sbBk0mnIUhCZyZg-fOQIl9i&index=15"
+        },
+{
+    title: "The Countess and the Commonman",
+    year: 2016,
+    musical: anastasia,
+    featured: "John Bolton, Anastasia Original Broadway Cast",
+actor: jbolt,
+    image: "https://imaging.broadway.com/images/square-11/w800/83575-7.jpg",
+    music_video: "https://www.youtube.com/watch?v=r-yep960vio&list=PLZ-QxD8_O6sbBk0mnIUhCZyZg-fOQIl9i&index=16"
+        },
+{
+    title: "In A Crowd of Thousands",
+    year: 2016,
+    musical: anastasia,
+    featured: "Christy Altomare, Derek Klena",
+actor: klena,
+    image: "https://imaging.broadway.com/images/square-11/w800/83575-7.jpg",
+    music_video: "https://www.youtube.com/watch?v=x7B1cT0oQFY&list=PLZ-QxD8_O6sbBk0mnIUhCZyZg-fOQIl9i&index=17"
+        },
+{
+    title: "Meant To Be",
+    year: 2016,
+    musical: anastasia,
+    featured: "Christy Altomare, Derek Klena, John Bolton, Anastasia Original Broadway Cast",
+actor: jbolt,
+    image: "https://imaging.broadway.com/images/square-11/w800/83575-7.jpg",
+    music_video: "https://www.youtube.com/watch?v=c79fJZfYhmA&list=PLZ-QxD8_O6sbBk0mnIUhCZyZg-fOQIl9i&index=18"
+        },
+{
+    title: "Quartet at the Ballet",
+    year: 2016,
+    musical: anastasia,
+    featured: "Anastasia Original Broadway Cast",
+actor: altomare,
+    image: "https://imaging.broadway.com/images/square-11/w800/83575-7.jpg",
+    music_video: "https://www.youtube.com/watch?v=alOABw4ePZo&list=PLZ-QxD8_O6sbBk0mnIUhCZyZg-fOQIl9i&index=19"
+        },
+{
+    title: "Everything To Win",
+    year: 2016,
+    musical: anastasia,
+    featured: "Derek Klena",
+actor: klena,
+    image: "https://imaging.broadway.com/images/square-11/w800/83575-7.jpg",
+    music_video: "https://www.youtube.com/watch?v=BqhAaMGR70A&list=PLZ-QxD8_O6sbBk0mnIUhCZyZg-fOQIl9i&index=20"
+        },
+{
+    title: "Once Upon A December (Reprise)",
+    year: 2016,
+    musical: anastasia,
+    featured: "Christy Altomare",
+actor: altomare,
+    image: "https://imaging.broadway.com/images/square-11/w800/83575-7.jpg",
+    music_video: "https://www.youtube.com/watch?v=T8wp0M7zxAQ&list=PLZ-QxD8_O6sbBk0mnIUhCZyZg-fOQIl9i&index=21"
+        },
+{
+    title: "The Press Conference",
+    year: 2016,
+    musical: anastasia,
+    featured: "Anastasia Original Broadway Cast",
+actor: altomare,
+    image: "https://imaging.broadway.com/images/square-11/w800/83575-7.jpg",
+    music_video: "https://www.youtube.com/watch?v=pQT9AZh1gUU&list=PLZ-QxD8_O6sbBk0mnIUhCZyZg-fOQIl9i&index=22"
+        },
+{
+    title: "Everything To Win (Reprise)",
+    year: 2016,
+    musical: anastasia,
+    featured: "Christy Altomare",
+actor: altomare,
+    image: "https://imaging.broadway.com/images/square-11/w800/83575-7.jpg",
+    music_video: "https://www.youtube.com/watch?v=B5jVo6zOng8&list=PLZ-QxD8_O6sbBk0mnIUhCZyZg-fOQIl9i&index=23"
+        },
+{
+    title: "Still/ The Nevs Flows (Reprise)",
+    year: 2016,
+    musical: anastasia,
+    featured: "Christy Altomare, Ramin Karimloo",
+actor: ramin,
+    image: "https://imaging.broadway.com/images/square-11/w800/83575-7.jpg",
+    music_video: "https://www.youtube.com/watch?v=8C7npTee554&list=PLZ-QxD8_O6sbBk0mnIUhCZyZg-fOQIl9i&index=24"
+        },
+{
+    title: "Finale",
+    year: 2016,
+    musical: anastasia,
+    featured: "Christy Altomare, Ramin Karimloo, Derek Klena, John Bolton, Anastasia Original Broadway Cast",
+actor: ramin,
+    image: "https://imaging.broadway.com/images/square-11/w800/83575-7.jpg",
+    music_video: "https://www.youtube.com/watch?v=xbJMHGa9fJ4&list=PLZ-QxD8_O6sbBk0mnIUhCZyZg-fOQIl9i&index=25"
+        },
 ]
+
 
 
 array.each do |o|

@@ -43,8 +43,14 @@ function App() {
     .then(musicals => setMusicals(musicals))
   }, []);
 
-  const allMusicals = musicals.filter(musical => musical.name.toLowerCase().includes(search.toLowerCase()))
-  const allActors = actors.filter(actor => actor.name.toLowerCase().includes(search.toLowerCase()))
+  useEffect(() => {
+    fetch('/actors')
+    .then(res => res.json())
+    .then(actors => setActors(actors))
+  }, []);
+
+  // const allMusicals = musicals.filter(musical => musical.name.toLowerCase().includes(search.toLowerCase()))
+  // const allActors = actors.filter(actor => actor.name.toLowerCase().includes(search.toLowerCase()))
 
   //search musicals and actors
   function handleSearch(e){
@@ -59,7 +65,7 @@ function App() {
       />
       <Switch>
           <Route exact path="/">
-            <Home allmusicals={allMusicals}/>
+            <Home />
           </Route>
           <Route exact path="/login">
             <LoginForm setCurrentUser={setCurrentUser}/>
@@ -68,10 +74,10 @@ function App() {
             <SignupForm setCurrentUser={setCurrentUser}/>
           </Route>
           <Route exact path="/musicals">
-            <AllMusicals currentUser={currentUser} handleSearch={handleSearch} search={search} allmusicals={allMusicals}/>
+            <AllMusicals currentUser={currentUser} handleSearch={handleSearch} search={search} musicals={musicals}/>
           </Route>
           <Route exact path="/actors">
-            <AllActors currentUser={currentUser} handleSearch={handleSearch} search={search} allActors={allActors}/>
+            <AllActors currentUser={currentUser} handleSearch={handleSearch} search={search} actors={actors}/>
           </Route>
       </Switch>
 

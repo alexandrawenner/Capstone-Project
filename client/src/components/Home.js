@@ -1,12 +1,12 @@
-import Row from "./Row";
+//import Row from "./Row";
 
-const Home = ( { musical } ) => {
+const Home = ( { allMusicals } ) => {
 
   
     return (
   
       <div >
-         {musical}
+         {allMusicals}
       </div>
     );
   };

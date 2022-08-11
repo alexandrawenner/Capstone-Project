@@ -28,10 +28,13 @@ ActiveRecord::Schema.define(version: 2022_08_09_182549) do
   create_table "musicals", force: :cascade do |t|
     t.string "name"
     t.string "image"
+    t.string "opening_date"
     t.string "director"
     t.string "playwrites"
     t.string "composers"
     t.string "synopsis"
+    t.string "status"
+    t.string "location"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

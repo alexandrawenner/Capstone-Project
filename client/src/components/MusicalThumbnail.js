@@ -2,7 +2,7 @@
 import { NavLink } from "react-router-dom";
 //import "./MusicalThumbnail.css"
 
-const MusicalThumbnail = ( { musical } ) => {
+const MusicalThumbnail = ( { musical, currentUser } ) => {
 
   const { id, image, name } = musical
 
@@ -13,10 +13,10 @@ const MusicalThumbnail = ( { musical } ) => {
     return str?.length > n ? str.substr(0, n - 1) + "..." : str;
   }
 
-//   const formData = {
-//     user_id: currentUser ? currentUser.id : 1,
-//     album_id: album.id
-//   }
+  // const formData = {
+  //   user_id: currentUser ? currentUser.id : 1,
+  //   musical_id: musical.id
+  // }
 
 //   function handleAddAlbum() {
 //     fetch('/user_albums', {
@@ -30,9 +30,9 @@ const MusicalThumbnail = ( { musical } ) => {
 //     setLiked(true)
 //   }
 
-//   let destructuredIds  
+  // let destructuredIds  
 
-//   currentUser ? destructuredIds = currentUser.user_albums.map(userAlbum => userAlbum.album).map(userAlbum => userAlbum.id) : destructuredIds = []
+  // currentUser ? destructuredIds = currentUser.user_albums.map(userMusical => userMusical.musical).map(userMusical => userMusical.id) : destructuredIds = []
 
   return (
     <div className="thumbnail_container">
