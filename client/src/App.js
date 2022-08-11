@@ -6,7 +6,9 @@ import SignupForm from './components/SignupForm';
 import Sidebar from './components/Sidebar';
 import Home from './components/Home';
 import AllMusicals from './components/AllMusicals';
-import AllActors from './components/AllActors'
+import AllActors from './components/AllActors';
+import MusicalDetails from './components/MusicalDetails';
+import ActorDetails from './components/ActorDetails'
 
 
 
@@ -78,6 +80,13 @@ function App() {
           </Route>
           <Route exact path="/actors">
             <AllActors currentUser={currentUser} handleSearch={handleSearch} search={search} actors={actors}/>
+          </Route>
+          <Route exact path="/musicals/:id">
+            <MusicalDetails currentUser={currentUser}/>
+          </Route>
+          <ActorDetails currentUser={currentUser}/>
+          <Route exact path="/actor/:id">
+            
           </Route>
       </Switch>
 

@@ -1,6 +1,7 @@
 //import { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
-//import "./MusicalThumbnail.css"
+import "./MusicalThumbnail.css"
+import SongRow from "./SongRow";
 
 const MusicalThumbnail = ( { musical, currentUser } ) => {
 
@@ -53,6 +54,8 @@ const MusicalThumbnail = ( { musical, currentUser } ) => {
           </NavLink>
             {/* <p>{album.artist.name}</p> */}
         </div>
+
+        <SongRow musical={musical} />
 
         {/* <div className="column_two">
 
