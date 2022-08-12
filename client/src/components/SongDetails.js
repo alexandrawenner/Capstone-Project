@@ -10,7 +10,7 @@ const SongDetails = ( { currentUser } ) => {
 
   const [isLoaded, setIsLoaded] = useState(false)
   const [song, setSong] = useState([])
-  const [songVideos, setSongVideos] = useState([])
+  //const [songVideos, setSongVideos] = useState([])
   const { id } = useParams();
 
   const opts = {
@@ -24,7 +24,7 @@ const SongDetails = ( { currentUser } ) => {
     .then(song => {
       setSong(song);
       setIsLoaded(true)
-      setSongVideos([...song.song_videos])
+      //setSongVideos([...song.song_videos])
   })
 }, [id])
 
@@ -49,7 +49,7 @@ const videoId = song.music_video.slice(32, 43)
     <div className="song_body">
       <SongBanner song={song} />
       <div className="song_about">
-        <p>{song.about}</p>
+        {/* <p>{song.featured}</p> */}
       </div>
       <YouTube videoId={videoId} opts={opts} className="song_video"/>
 

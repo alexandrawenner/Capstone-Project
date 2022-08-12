@@ -1,35 +1,38 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import ActorBanner from "./ActorBanner"
 
 const ActorDetails = ( { currentUser } ) => {
 
-//     const [isLoaded, setIsLoaded] = useState(false)
-//     const [album, setAlbum] = useState([])
-//     const { id } = useParams();
+    const [isLoaded, setIsLoaded] = useState(false)
+    const [actor, setActor] = useState([])
+    const { id } = useParams();
   
-//     useEffect(() => {
-//       fetch(`/albums/${id}`)
-//       .then((r) => r.json())
-//       .then(album => {
-//         setAlbum(album);
-//         setIsLoaded(true)
-//     })
-//   }, [id])
+    useEffect(() => {
+      fetch(`/actor/${id}`)
+      .then((r) => r.json())
+      .then(actor => {
+        console.log(actor);
+        setIsLoaded(true)
+    })
+  }, [id])
   
-//   if (!isLoaded) return <h2>Loading...</h2>
+  if (!isLoaded) return <h2>Loading...</h2>
   
-//   const {year, label, artist} = album
+  const {name, birthday, bio, other_work} = actor
   
     return (
   
       <div className="actor_body">
-        {/* <AlbumBanner album={album} artist={artist}/>
-        <ol className="album_list_item">
-          {album.songs.map(song =>
-            <li><SongRow song={song} artist={artist} currentUser={currentUser}/></li>
-          )}
+        <ActorBanner actor={actor} />
+        <ol className="actor_info">
+          {actor.songs}
+          <h1>{name}</h1>
+          <p><b>Birthday:</b> {birthday}</p>
+          <p><b>Biography:</b> {bio}</p>
+          <p><b>Other Work:</b> {other_work}</p>
         </ol>
-        <p className="album_details">{year}, {label}</p>    */}
+       
       </div>
     );
   };

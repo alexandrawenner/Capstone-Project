@@ -9,4 +9,15 @@ class SongsController < ApplicationController
         song = Song.find(params[:id])
         render json: song
     end
+
+    def create
+        song = Song.create!(song_params)
+        render json: song, status: :created
+    end
+
+    private
+
+    def song_params
+        params.permit(:title, :image, :music_video)
+    end
 end

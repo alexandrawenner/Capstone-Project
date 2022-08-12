@@ -3,16 +3,12 @@ import { NavLink } from "react-router-dom";
 const ActorThumbnail = ( { actor } ) => {
 
     const { id, image, name } = actor
-
-    function truncate(str, n) {
-        return str?.length > n ? str.substr(0, n - 1) + "..." : str;
-      }
   
     return (
   
         <div className="thumbnail_container">
 
-        <NavLink exact to={`/actors/${actor.id}`}>
+        <NavLink exact to={`/actors/${id}`}>
           <img 
                 key={id} 
                 src={image} 
@@ -23,8 +19,8 @@ const ActorThumbnail = ( { actor } ) => {
         <div className="thumbnail_info">
   
           <div className="column_one">
-            <NavLink exact to={`/actors/${actor.id}`}>
-              <h3>{truncate(actor.name, 14)}</h3>
+            <NavLink exact to={`/actors/${id}`}>
+              <h3>{name}</h3>
             </NavLink>
               {/* <p>{album.artist.name}</p> */}
           </div>
