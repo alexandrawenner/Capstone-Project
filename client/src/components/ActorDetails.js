@@ -1,18 +1,17 @@
 import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
-import ActorBanner from "./ActorBanner"
+import { useParams } from "react-router-dom"
 
 const ActorDetails = ( { currentUser } ) => {
 
     const [isLoaded, setIsLoaded] = useState(false)
     const [actor, setActor] = useState([])
     const { id } = useParams();
-  
+
     useEffect(() => {
-      fetch(`/actor/${id}`)
+      fetch(`/actors/${id}`)
       .then((r) => r.json())
       .then(actor => {
-        console.log(actor);
+        setActor(actor);
         setIsLoaded(true)
     })
   }, [id])
@@ -24,9 +23,7 @@ const ActorDetails = ( { currentUser } ) => {
     return (
   
       <div className="actor_body">
-        <ActorBanner actor={actor} />
         <ol className="actor_info">
-          {actor.songs}
           <h1>{name}</h1>
           <p><b>Birthday:</b> {birthday}</p>
           <p><b>Biography:</b> {bio}</p>

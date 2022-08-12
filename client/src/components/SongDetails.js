@@ -47,7 +47,7 @@ const videoId = song.music_video.slice(32, 43)
 
   return (
     <div className="song_body">
-      <SongBanner song={song} />
+      {/* <SongBanner song={song} /> */}
       <div className="song_about">
         {/* <p>{song.featured}</p> */}
       </div>
@@ -57,7 +57,7 @@ const videoId = song.music_video.slice(32, 43)
           { currentUser ? 
             <div>
               <h1>Add a Live Performance or Cover!</h1> 
-              <SongVideoForm id={id} currentUser={currentUser} addSongVideos={addSongVideos}/> 
+              {/* <SongVideoForm id={id} currentUser={currentUser} addSongVideos={addSongVideos}/>  */}
             </div>
             :
             <h1>Sign Up to Add a Live Performance or Cover!</h1> } 
@@ -65,7 +65,7 @@ const videoId = song.music_video.slice(32, 43)
       
       
       <div>
-          {songVideoArray}
+          {/* {songVideoArray} */}
       </div>     
     </div>
   );

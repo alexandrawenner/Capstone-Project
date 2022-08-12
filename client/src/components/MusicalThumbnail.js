@@ -10,7 +10,7 @@ const MusicalThumbnail = ( { musical } ) => {
   return (
     <div className="thumbnail_container">
 
-      <NavLink exact to={`/musicals/${id}`} state={ id }>
+      <NavLink exact to={`/musicals/${id}`}>
         <img 
               key={id} 
               src={image} 

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_08_12_004402) do
+ActiveRecord::Schema.define(version: 2022_08_12_162012) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -30,7 +30,7 @@ ActiveRecord::Schema.define(version: 2022_08_12_004402) do
     t.string "image"
     t.string "opening_date"
     t.string "director"
-    t.string "playwrites"
+    t.string "playwrights"
     t.string "composers"
     t.string "synopsis"
     t.string "status"
@@ -65,6 +65,15 @@ ActiveRecord::Schema.define(version: 2022_08_12_004402) do
     t.index ["musical_id"], name: "index_songs_on_musical_id"
   end
 
+  create_table "user_musicals", force: :cascade do |t|
+    t.bigint "user_id", null: false
+    t.bigint "musical_id", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["musical_id"], name: "index_user_musicals_on_musical_id"
+    t.index ["user_id"], name: "index_user_musicals_on_user_id"
+  end
+
   create_table "users", force: :cascade do |t|
     t.string "username"
     t.string "email"
@@ -77,4 +86,6 @@ ActiveRecord::Schema.define(version: 2022_08_12_004402) do
   add_foreign_key "song_videos", "users"
   add_foreign_key "songs", "actors"
   add_foreign_key "songs", "musicals"
+  add_foreign_key "user_musicals", "musicals"
+  add_foreign_key "user_musicals", "users"
 end

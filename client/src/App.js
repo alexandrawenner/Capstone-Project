@@ -9,6 +9,8 @@ import AllMusicals from './components/AllMusicals';
 import AllActors from './components/AllActors';
 import MusicalDetails from './components/MusicalDetails';
 import ActorDetails from './components/ActorDetails'
+import MyMusicals from './components/MyMusicals';
+import SongDetails from './components/SongDetails';
 
 
 
@@ -84,9 +86,14 @@ function App() {
           <Route exact path="/musicals/:id">
             <MusicalDetails currentUser={currentUser}/>
           </Route>
-          <ActorDetails currentUser={currentUser}/>
-          <Route exact path="/actor/:id">
-            
+          <Route exact path="/actors/:id">
+            <ActorDetails currentUser={currentUser}/>
+          </Route>
+          <Route exact path="/songs/:id">
+            <SongDetails currentUser={currentUser}/>
+          </Route>
+          <Route exact path="/mymusicals">
+            <MyMusicals currentUser={currentUser}/>
           </Route>
       </Switch>
 

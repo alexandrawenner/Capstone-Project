@@ -49,25 +49,22 @@ const Sidebar = ( { currentUser, setCurrentUser } ) => {
           <p><span>Actors</span></p>
         </NavLink>
 
-            {/* { currentUser ? 
+            { currentUser ? 
             <div>
-              <div className="my_collection">
+              <div className="wishlist">
                 <span>MY COLLECTION</span>
               </div>
               
-              <NavLink to='/myartists'>
+              <NavLink to='/mymusicals'>
                 <p><span>My Artists</span></p>
               </NavLink>
 
-              <NavLink to='/mysongs'>
+              <NavLink to='/bucketlist'>
                 <p><span>My Songs</span></p>
               </NavLink>
-
-              <NavLink to='/myalbums'>
-                <p><span>My Albums</span></p>
-              </NavLink>
+              
             </div> : ""
-            } */}
+            } 
 
         </nav>
     </div>

@@ -7,6 +7,7 @@ const Home = ( { allMusicals } ) => {
   
       <div >
          {allMusicals}
+         <h1>"Hi"</h1>
       </div>
     );
   };

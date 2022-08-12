@@ -22,23 +22,7 @@ const ActorThumbnail = ( { actor } ) => {
             <NavLink exact to={`/actors/${id}`}>
               <h3>{name}</h3>
             </NavLink>
-              {/* <p>{album.artist.name}</p> */}
           </div>
-  
-          {/* <div className="column_two">
-  
-            {currentUser ? 
-            
-              destructuredIds.indexOf(id) !== -1 || liked ? <i class="fa-solid fa-heart albumheart liked" onClick={handleAddAlbum}></i> : <i class="fa-solid fa-heart albumheart" onClick={handleAddAlbum}></i> 
-  
-              :
-  
-              null
-          
-            }
-  
-          </div> */}
-  
         </div>
     </div>
     );

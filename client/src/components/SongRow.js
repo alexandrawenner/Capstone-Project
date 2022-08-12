@@ -1,7 +1,6 @@
 import YouTube from 'react-youtube'
 import React, { useState } from 'react'
 import { NavLink } from 'react-router-dom'
-//import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './SongRow.css'
 
 const SongRow = ( { song } ) => {

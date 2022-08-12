@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   
+  resources :user_musicals
   resources :song_videos
   resources :users, only: [ :show, :create ]
   resources :songs
@@ -7,6 +8,9 @@ Rails.application.routes.draw do
   resources :actors
   # Routing logic: fallback requests for React Router.
   # Leave this here to help deploy your app later!
+
+  #get '/actors/id', to "actors#show"
+
   post '/login', to: "sessions#create"
 
   delete '/logout', to: "sessions#destroy"
