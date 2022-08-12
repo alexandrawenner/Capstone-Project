@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   
+  resources :song_video_comments
   resources :user_musicals
   resources :song_videos
   resources :users, only: [ :show, :create ]

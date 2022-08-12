@@ -24,6 +24,7 @@ const ActorDetails = ( { currentUser } ) => {
   
       <div className="actor_body">
         <ol className="actor_info">
+          {/* {actor.songs} */}
           <h1>{name}</h1>
           <p><b>Birthday:</b> {birthday}</p>
           <p><b>Biography:</b> {bio}</p>

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_08_12_162012) do
+ActiveRecord::Schema.define(version: 2022_08_12_193130) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -37,6 +37,16 @@ ActiveRecord::Schema.define(version: 2022_08_12_162012) do
     t.string "location"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "song_video_comments", force: :cascade do |t|
+    t.bigint "user_id", null: false
+    t.string "body"
+    t.bigint "song_video_id", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["song_video_id"], name: "index_song_video_comments_on_song_video_id"
+    t.index ["user_id"], name: "index_song_video_comments_on_user_id"
   end
 
   create_table "song_videos", force: :cascade do |t|
@@ -82,6 +92,8 @@ ActiveRecord::Schema.define(version: 2022_08_12_162012) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
+  add_foreign_key "song_video_comments", "song_videos"
+  add_foreign_key "song_video_comments", "users"
   add_foreign_key "song_videos", "songs"
   add_foreign_key "song_videos", "users"
   add_foreign_key "songs", "actors"

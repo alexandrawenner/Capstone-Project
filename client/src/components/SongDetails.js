@@ -2,15 +2,15 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import YouTube from 'react-youtube'
 //import SongBanner from "./SongBanner";
-//import SongVideo from "./SongVideo";
+import SongVideo from "./SongVideo";
 //import "./SongDetails.css"
-//import SongVideoForm from "./SongVideoForm";
+import SongVideoForm from "./SongVideoForm";
 
 const SongDetails = ( { currentUser } ) => {
 
   const [isLoaded, setIsLoaded] = useState(false)
   const [song, setSong] = useState([])
-  //const [songVideos, setSongVideos] = useState([])
+  const [songVideos, setSongVideos] = useState([])
   const { id } = useParams();
 
   const opts = {
@@ -24,7 +24,7 @@ const SongDetails = ( { currentUser } ) => {
     .then(song => {
       setSong(song);
       setIsLoaded(true)
-      //setSongVideos([...song.song_videos])
+      setSongVideos([...song.song_videos])
   })
 }, [id])
 
@@ -32,17 +32,19 @@ if (!isLoaded) return <h2>Loading...</h2>
 
 const videoId = song.music_video.slice(32, 43)
 
+//Adds A new SongVideo to each song per user's choice
+function addSongVideos(newVideo) {
+  setSongVideos([...songVideos, newVideo])
+}
 
-// function addSongVideos(newVideo) {
-//   setSongVideos([...songVideos, newVideo])
-// }
+//Delete a songVideo
+function onHandleDelete(id) {
+  const updatedSongVideos = songVideos.filter(songVideo => songVideo.id !== id)
+  setSongVideos(updatedSongVideos) 
+}
 
-// function onHandleDelete(id) {
-//   const updatedSongVideos = songVideos.filter(songVideo => songVideo.id !== id)
-//   setSongVideos(updatedSongVideos) 
-// }
-
-// const songVideoArray = songVideos.map(songVideo => <SongVideo key={songVideo} songVideo={songVideo} videoId={videoId} opts={opts} onHandleDelete={onHandleDelete} currentUser={currentUser}/>)
+//Library of all SongVideos added to each song
+const songVideoArray = songVideos.map(songVideo => <SongVideo key={songVideo} songVideo={songVideo} videoId={videoId} opts={opts} onHandleDelete={onHandleDelete} currentUser={currentUser}/>)
 
 
   return (
@@ -57,7 +59,7 @@ const videoId = song.music_video.slice(32, 43)
           { currentUser ? 
             <div>
               <h1>Add a Live Performance or Cover!</h1> 
-              {/* <SongVideoForm id={id} currentUser={currentUser} addSongVideos={addSongVideos}/>  */}
+              <SongVideoForm id={id} currentUser={currentUser} addSongVideos={addSongVideos}/> 
             </div>
             :
             <h1>Sign Up to Add a Live Performance or Cover!</h1> } 
@@ -65,7 +67,7 @@ const videoId = song.music_video.slice(32, 43)
       
       
       <div>
-          {/* {songVideoArray} */}
+          {songVideoArray}
       </div>     
     </div>
   );
