@@ -1,0 +1,55 @@
+.signup {
+    width: 380px;
+    margin: auto;
+    border-radius: 25px;
+    background-color: rgba(0,0,0,0);
+    text-align: center;
+    padding-top: 25px;
+}
+
+.signup h1 {
+    font-family: 'Raleway Dots', cursive;
+    text-align: center;
+    color: white;
+}
+
+.signup h2 {
+    font-family: 'Raleway Dots', cursive;
+    text-align: center;
+    margin-bottom: 60px;
+    color: white;
+}
+
+.signup-form input {
+    width: 300px;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding-left: 40px;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 25px;
+}
+
+.signup-form i {
+    position: absolute;
+    left: 15px;
+    color: #333;
+    font-size: 16px;
+    top: 2px;
+}
+
+
+.signup-form button {
+    padding-left: 0%;
+    background-color: rgb(114, 8, 8);
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    width: 300px;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    margin-bottom: 40px;
+}

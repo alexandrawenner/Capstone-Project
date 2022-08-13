@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useHistory } from "react-router-dom";
+import './LoginForm.css'
 
 const LoginForm = ( { setCurrentUser } ) => {
   const [ formData, setFormData ] = useState({
@@ -43,21 +44,25 @@ const LoginForm = ( { setCurrentUser } ) => {
   console.log(setCurrentUser)
     return (
   
-      <div >
-         <form className="login-form" onSubmit={ handleSubmit }>
-        <h1>Welcome back!</h1>
-        <span>Login to continue</span>
-            <div>
-              <label className='username'>Username:</label>
-              <input type='text' required onChange={handleChange} name='username' value={username}/>
+      <div className="login-background">
+        <div className="login">
+            <h1>Welcome back!</h1>
+            <h2>Login to continue</h2>
+              <div className="main">
+                <form className="login-form" onSubmit={ handleSubmit }>
+                  <span>
+                  <i class="fa-solid fa-masks-theater"></i>
+                        <input type='text' required onChange={handleChange} placeholder="username" name='username' value={username}/>
+                      </span><br/>
+                      <span>
+                      <i class="fa-solid fa-lock"></i>
+                        <input type='password' required onChange={handleChange} placeholder="password" name='password' value={password}/>
+                      </span><br/>
+                  <button type='login-btn' >Login</button>
+                
+                </form>
             </div>
-            <div>
-              <label className='password'>Password:</label>
-              <input type='password' required onChange={handleChange} name='password' value={password}/>
-            </div>
-        <button type='submit' >Login</button>
-        </form>
-
+          </div>
       </div>
     );
   };
