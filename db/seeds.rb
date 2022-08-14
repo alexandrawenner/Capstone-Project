@@ -47,7 +47,7 @@ mueller = Actor.create(name: "Abby Mueller", image: "https://assets.playbill.com
 
 mack = Actor.create(name: "Brittney Mack", image: "https://assets.playbill.com/head-shots/6c8b991a41aae0ef7c0798042224fa03-brittney-mack.jpg", birthday: "August 20, 1989", bio: "Brittney is beyond excited to be making her Broadway debut in Six, such a heartfelt and timely show. She hails from Chicago! Favorite credits include tour: Memphis (Networks). Regional: Beehive, Ain’t Misbehavin’, Avenue Q, All Shook Up, Shrek, Rent. International: Royal Caribbean Cruise Lines.", other_work: "N/A")
 
-pauly = Actor.create(name: "Smantha Pauly", image: "https://assets.playbill.com/head-shots/c8fccebdb1b9dd8879c39c5015701bf9-samantha-pauly.jpg", birthday: "November 20, 1989", bio: "Pauly has starred in many regional productions in Chicago including Betsy in Honeymoon in Vegas, Eva Peron in Evita, Jovie in Elf the Musical, and Amber von Tussle in Hairspray, to name a few.", other_work: "N/A")
+pauly = Actor.create(name: "Samantha Pauly", image: "https://assets.playbill.com/head-shots/c8fccebdb1b9dd8879c39c5015701bf9-samantha-pauly.jpg", birthday: "November 20, 1989", bio: "Pauly has starred in many regional productions in Chicago including Betsy in Honeymoon in Vegas, Eva Peron in Evita, Jovie in Elf the Musical, and Amber von Tussle in Hairspray, to name a few.", other_work: "N/A")
 
 uzele = Actor.create(name: "Anna Uzele", image: "https://assets.playbill.com/head-shots/41b78f553b4ac4c26c5ffeeb1d026d74-anna-uzele.jpg", birthday: "November 7, 1995", bio: "Anna Leah Uzele is an American actress, singer, dancer, and director. She played Catherine Parr in the Broadway Production of Six the Musical, beginning on 13 February 2020. She also played the same role in the North American Tour from 14 May to 22 December 2019.", other_work: "Once on This Island")
 
@@ -111,7 +111,31 @@ bundy  = Actor.create(name: "Laura Bell Bundy", image: "https://assets.playbill.
 
 mccartan  = Actor.create(name: "Ryan McCartan", image: "https://assets.playbill.com/head-shots/9ec58b7070e0f4b2ae0ff825c572fe7b-ryan-mccartan.jpg", birthday: "June 14, 1993", bio: "Ryan Jerome McCartan is an American actor and singer. As an actor, he is known for playing Jason Dean in the original off-Broadway production of Heathers: The Musical and for playing Brad Majors in the 2016 Fox musical television film The Rocky Horror Picture Show: Let's Do the Time Warp Again.", other_work: "Frozen, Wicked, ")
 
+bww  = Actor.create(name: "Barrett Wilbert Weed", image: "https://assets.playbill.com/head-shots/7cf55da42da99ac4a1cfdc3e74ac5ddf-barrett-wilbert-weed.jpg", birthday: "November 6, 1988", bio: "Barrett Wilbert Weed is an American actress and singer. She is best known for originating the roles of Veronica Sawyer in the Off-Broadway production of Heathers: The Musical.", other_work: "Lysistrata Jones, Mean Girls")
 
+erika  = Actor.create(name: "Erika Henningsen", image: "https://assets.playbill.com/head-shots/2cf9f277ef93d2f328f77a3c90c9fadb-erika-henningsen.jpg", birthday: "August 13, 1992", bio: "Erika Leigh Henningsen is an American actress and singer. She is best known for her work on Broadway and for originating the role of Cady Heron in the 2018 Tony-nominated musical Mean Girls.", other_work: "Les Misérables")
+
+jj  = Actor.create(name: "Jeremy Jordan", image: "https://assets.playbill.com/head-shots/994acb232f615d088fced35d1d407bb3-jeremy-jordan.jpg", birthday: "November 20, 1984", bio: "Jeremy Michael Jordan is an American actor and singer. He has performed on Broadway, in television and film, in concert, as well as in other theatrical productions. He made his Broadway debut in 2009 as part of Rock of Ages.", other_work: "Waitress, American Son, Bonnie & Clyde, West Side Story, Rock of Ages")
+
+kara  = Actor.create(name: "Kara Lindsay", image: "https://assets.playbill.com/head-shots/306db21d7abc04de68d1716401dd82f4-kara-lindsay.jpg", birthday: "February 16, 1985", bio: "Kara Lynn Massey, known professionally as Kara Lindsay, is an American stage actress and singer, best known for her roles as Katherine Plumber in Newsies and Glinda in Wicked.", other_work: "Beautiful: The Carole King Musical, Wicked")
+
+doss  = Actor.create(name: "John Dossett", image: "https://assets.playbill.com/head-shots/Paradise-Square-J.-Dossett-Cropped.jpg", birthday: "April 15, 1958", bio: "John Dossett is an American actor and singer who attended Mount Pleasant High School in Wilmington, Delaware, from 1972 through 1976.", other_work: "Paradise Square, War Paint, Chicago, Pippen, The Constant Wife, Children and Art, Democracy, Gypsy, Dinner at Eight, An Almost Holy Picture, Mamma Mia!, The Adventures of Tom Sawyer, Ragtime, Prelude to a Kiss, Mastergate, Fifth of July, King of Schnorrers")
+
+louderman = Actor.create(name: "Taylor Louderman", image: "https://assets.playbill.com/head-shots/Paradise-Square-J.-Dossett-Cropped.jpg", birthday: "December 21, 1990", bio: "Taylor Elizabeth Louderman is an American actress, singer, and dancer. She is best known for originating the role of Regina George in the Broadway musical Mean Girls, for which she was nominated for the Tony Award for Best Actress in a Musical in 2018.", other_work: "Kinky Boots, Bring It On: The Musical")
+
+jessie = Actor.create(name: "Jessie Mueller", image: "https://assets.playbill.com/head-shots/72a27139a13d4a2f813d6f2a00f0d0c7-jessie-mueller.jpg", birthday: "February 20, 1983", bio: "Jessica Ruth Mueller is an American actress and singer. She started her acting career in Chicago and won two Joseph Jefferson Awards in 2008 and 2011 for her roles as Carrie Pipperidge in Carousel and Amalia Balash in She Loves Me.", other_work: "The Minutes, Carousel, Beautiful: The Carole King Musical, The Mystery of Edwin Drood, Nice Work If You Can Get It, On A Clear Day You Can See Forever")
+
+glenn = Actor.create(name: "Kimiko Glenn", image: "https://i.pinimg.com/236x/03/52/63/03526313743425d3dbbbb735402c613f--kimiko-glenn.jpg", birthday: "June 27, 1989", bio: "Kimiko Elizabeth Glenn is an American actress and Broadway performer known for portraying Brook Soso in the Netflix series Orange Is the New Black, for which she received three ensemble Screen Actors Guild Awards.", other_work: "N/A")
+
+lea = Actor.create(name: "Lea Michele", image: "https://assets.playbill.com/head-shots/6cda0c72c89ff2cc86e8bd52c7843b43-Lea-Michele.1283451729.jpg", birthday: "August 29, 1986", bio: "Lea Michele Sarfati is an American actress, singer, songwriter, and author. She began her career as a child actress on Broadway, appearing in productions of Les Misérables, Ragtime, Fiddler on the Roof, and Spring Awakening.", other_work: "Fiddler on the Roof, Ragtime, Les Misérables")
+
+jgj = Actor.create(name: "John Gallagher Jr.", image: "https://assets.playbill.com/head-shots/b69e1d7037873a0e8a19b55dd4652d41-john-gallagher-jr.jpg", birthday: "June 17, 1984", bio: "John Howard Gallagher Jr. is an American actor and musician best known for originating the role of Moritz Stiefel in the 2006 rock musical Spring Awakening, which earned him a Tony Award for Best Featured Actor in a Musical.", other_work: "Long Day’s Journey Into Night, Jerusalem, American Idiot, Rabbit Hole")
+
+rapp = Actor.create(name: "Anthony Rapp", image: "https://assets.playbill.com/head-shots/db045ebad8edf5aafafa6174f4bb6015-Anthony-Rapp.1393366160.jpg", birthday: "October 26, 1971", bio: "Anthony Deane Rapp is an American actor and singer who originated the role of Mark Cohen in the Broadway production of Rent.", other_work: "Rent, You’re A Good Man, Charlie Brown, Six Degrees of Separation, Precious Sons, The Little Prince and The Aviator")
+
+lachanze = Actor.create(name: "LaChanze", image: "https://assets.playbill.com/head-shots/020358a38ae744ef041d930d89fc27f3-trouble-in-mind-lachanze-cropped-1.jpg", birthday: "December 16, 1961", bio: "Rhonda LaChanze Sapp, known professionally as LaChanze, is an American actress, singer, and dancer. She won the Tony Award for Best Actress in a Leading Role in a Musical in 2006 for her role as Celie Harris Johnson in The Color Purple.", other_work: "Kimberly Akimbo, Topdog/Underdog, Trouble in Mind, A Christmas Carol, Summer: The Donna Summer Musical, The Color Purple, Funny Girl, Once On This Island, Ragtime, Company, Dreamgirls, Uptown...It’s Hot!")
+
+keala = Actor.create(name: "Keala Settle", image: "https://www.dresscircle.co.uk/uploads/headshots/talent/headshot/1364/keala-settle-69.jpg", birthday: "November 5, 1975", bio: "Keala Joan Settle is an American actress and singer. Settle originated the role of Norma Valverde in Hands on a Hardbody, which ran on Broadway in 2013, and was nominated for the Outer Critics Circle Award, Drama Desk Award, and Tony Award for Best Featured Actress in a Musical.", other_work: "Priscilla Queen of the Desert, Hands on a Hardbody, Les Misérables")
 
 
 
@@ -175,7 +199,7 @@ sor = Musical.create(name: "School of Rock", image: "https://boston.broadway.com
 
 wait = Musical.create(name: "Waitress", image: "https://ih1.redbubble.net/image.594726314.5304/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg", opening_date: "August 19, 2015", director: "Diane Paulus", playwrights: "Jessie Nelson", composers: "Sara Bareilles", synopsis: "Waitress is a musical that is based on the 2007 film of the same name. It tells the story of Jenna Hunterson, a baker and waitress in an abusive relationship with her husband, Earl. After Jenna unexpectedly becomes pregnant, she begins an affair with her doctor, Dr. Jim Pomatter. Looking for ways out of her troubles, she sees a pie baking contest and its grand prize as her chance.", status: "On Tour", location: "Multiple")
 
-mermaid = Musical.create(name: "The Little Mermaid", image: "https://www.subplotstudio.com/resources/images/products/2574/product.437.jpg", opening_date: "January 10, 2008", director: "Francesca Zambello", playwrights: "Doug Wright", composers: "Alan Menken", synopsis: "The Little Mermaid is a stage musical produced by Disney Theatrical, based on the animated 1989 Disney film of the same name and the classic story by Hans Christian Andersen about a mermaid who dreams of the world above the sea and gives up her voice to find true love.", status: "Closed", location: "N/A")
+mermaid = Musical.create(name: "The Little Mermaid", image: "https://d31029zd06w0t6.cloudfront.net/wp-content/uploads/sites/22/2016/02/web1_LM_BLUE_4C.jpg", opening_date: "January 10, 2008", director: "Francesca Zambello", playwrights: "Doug Wright", composers: "Alan Menken", synopsis: "The Little Mermaid is a stage musical produced by Disney Theatrical, based on the animated 1989 Disney film of the same name and the classic story by Hans Christian Andersen about a mermaid who dreams of the world above the sea and gives up her voice to find true love.", status: "Closed", location: "N/A")
 
 
 
@@ -3883,6 +3907,1871 @@ actor: ramin,
     image: "https://imaging.broadway.com/images/square-11/w800/83575-7.jpg",
     music_video: "https://www.youtube.com/watch?v=xbJMHGa9fJ4&list=PLZ-QxD8_O6sbBk0mnIUhCZyZg-fOQIl9i&index=25"
         },
+        {
+    title: "Vuelie / Let the Sun Shine On",
+    year: 2018,
+    musical: frozen,
+    featured: "Frozen Original Broadway Cast",
+actor: patti,
+    image: "https://d4ov6iqsvotvt.cloudfront.net/uploads/show/poster_image/2768/medium_1584472361-Frozen_Global_KeyArt_800x1200.jpg",
+    music_video: "https://www.youtube.com/watch?v=EiUM2vUOqkg"
+        },
+{
+    title: "A Little Bit of You",
+    year: 2018,
+    musical: frozen,
+    featured: "Brooklyn Nelson, Audrey Bennett",
+actor: patti,
+    image: "https://d4ov6iqsvotvt.cloudfront.net/uploads/show/poster_image/2768/medium_1584472361-Frozen_Global_KeyArt_800x1200.jpg",
+    music_video: "https://www.youtube.com/watch?v=-2dmTv2qNTM"
+        },
+{
+    title: "Do You Want To Build A Snowman?",
+    year: 2018,
+    musical: frozen,
+    featured: "Patti Murin, Mattea Conforti, Caissie Levy, Ayla Schwartz",
+actor: patti,
+    image: "https://d4ov6iqsvotvt.cloudfront.net/uploads/show/poster_image/2768/medium_1584472361-Frozen_Global_KeyArt_800x1200.jpg",
+    music_video: "https://www.youtube.com/watch?v=KKP0Txebobg"
+        },
+{
+    title: "For the First Time in Forever",
+    year: 2018,
+    musical: frozen,
+    featured: "Patti Murin, Caissie Levy",
+actor: patti,
+    image: "https://d4ov6iqsvotvt.cloudfront.net/uploads/show/poster_image/2768/medium_1584472361-Frozen_Global_KeyArt_800x1200.jpg",
+    music_video: "https://www.youtube.com/watch?v=pmC9BhueIZo"
+        },
+{
+    title: "Hans of the Southern Isles",
+    year: 2018,
+    musical: frozen,
+    featured: "John Riddle",
+actor: riddle,
+    image: "https://d4ov6iqsvotvt.cloudfront.net/uploads/show/poster_image/2768/medium_1584472361-Frozen_Global_KeyArt_800x1200.jpg",
+    music_video: "https://www.youtube.com/watch?v=DCIuNPArM6Y"
+        },
+{
+    title: "Queen Anointed",
+    year: 2018,
+    musical: frozen,
+    featured: "Frozen Original Broadway Cast",
+actor: levy,
+    image: "https://d4ov6iqsvotvt.cloudfront.net/uploads/show/poster_image/2768/medium_1584472361-Frozen_Global_KeyArt_800x1200.jpg",
+    music_video: "https://www.youtube.com/watch?v=huB2drpVigM"
+        },
+{
+    title: "Dangerous to Dream",
+    year: 2018,
+    musical: frozen,
+    featured: "Cassie Levy",
+actor: levy,
+    image: "https://d4ov6iqsvotvt.cloudfront.net/uploads/show/poster_image/2768/medium_1584472361-Frozen_Global_KeyArt_800x1200.jpg",
+    music_video: "https://www.youtube.com/watch?v=mteCnI5-NU8"
+        },
+{
+    title: "Love Is an Open Door",
+    year: 2018,
+    musical: frozen,
+    featured: "Patti Murin, John Riddle",
+actor: patti,
+    image: "https://d4ov6iqsvotvt.cloudfront.net/uploads/show/poster_image/2768/medium_1584472361-Frozen_Global_KeyArt_800x1200.jpg",
+    music_video: "https://www.youtube.com/watch?v=NvS7cpv2SX8"
+        },
+{
+    title: "Reindeer(s) Are Better Than People",
+    year: 2018,
+    musical: frozen,
+    featured: "Jelani Alladin",
+actor: jelani,
+    image: "https://d4ov6iqsvotvt.cloudfront.net/uploads/show/poster_image/2768/medium_1584472361-Frozen_Global_KeyArt_800x1200.jpg",
+    music_video: "https://www.youtube.com/watch?v=EBylFteXQvk"
+        },
+{
+    title: "What Do You Know About Love?",
+    year: 2018,
+    musical: frozen,
+    featured: "Patti Murin, Jelani Alladin",
+actor: jelani,
+    image: "https://d4ov6iqsvotvt.cloudfront.net/uploads/show/poster_image/2768/medium_1584472361-Frozen_Global_KeyArt_800x1200.jpg",
+    music_video: "https://www.youtube.com/watch?v=0ActYfwTz_I"
+        },
+{
+    title: "In Summer",
+    year: 2018,
+    musical: frozen,
+    featured: "Greg Hildreth",
+actor: jelani,
+    image: "https://d4ov6iqsvotvt.cloudfront.net/uploads/show/poster_image/2768/medium_1584472361-Frozen_Global_KeyArt_800x1200.jpg",
+    music_video: "https://www.youtube.com/watch?v=_XCEIxO16ZU"
+        },
+{
+    title: "Hans of the Southern Isles (reprise)",
+    year: 2018,
+    musical: frozen,
+    featured: "John Riddle, Robert Creighton",
+actor: riddle,
+    image: "https://d4ov6iqsvotvt.cloudfront.net/uploads/show/poster_image/2768/medium_1584472361-Frozen_Global_KeyArt_800x1200.jpg",
+    music_video: "https://www.youtube.com/watch?v=VXQFB0CObbA"
+        },
+{
+    title: "Let It Go",
+    year: 2018,
+    musical: frozen,
+    featured: "Cassie Levy",
+actor: levy,
+    image: "https://d4ov6iqsvotvt.cloudfront.net/uploads/show/poster_image/2768/medium_1584472361-Frozen_Global_KeyArt_800x1200.jpg",
+    music_video: "https://www.youtube.com/watch?v=sn-06qX_5ig"
+        },
+{
+    title: "Hygge",
+    year: 2018,
+    musical: frozen,
+    featured: "Patti Murin, Jelani Alladin, Greg Hildreth, Kevin Del Aguila",
+actor: patti,
+    image: "https://d4ov6iqsvotvt.cloudfront.net/uploads/show/poster_image/2768/medium_1584472361-Frozen_Global_KeyArt_800x1200.jpg",
+    music_video: "https://www.youtube.com/watch?v=Pfi8Jn6BoCY"
+        },
+{
+    title: "For the First Time in Forever (reprise)",
+    year: 2018,
+    musical: frozen,
+    featured: "Patti Murin, Caissie Levy",
+actor: patti,
+    image: "https://d4ov6iqsvotvt.cloudfront.net/uploads/show/poster_image/2768/medium_1584472361-Frozen_Global_KeyArt_800x1200.jpg",
+    music_video: "https://www.youtube.com/watch?v=TA_wSy8V1go"
+        },
+{
+    title: "Fixer Upper",
+    year: 2018,
+    musical: frozen,
+    featured: "Greg Hildreth, Timothy Hughes, Olivia Phillip",
+actor: jelani,
+    image: "https://d4ov6iqsvotvt.cloudfront.net/uploads/show/poster_image/2768/medium_1584472361-Frozen_Global_KeyArt_800x1200.jpg",
+    music_video: "https://www.youtube.com/watch?v=h4eU6NNEvNY"
+        },
+{
+    title: "Kristoff Lullaby",
+    year: 2018,
+    musical: frozen,
+    featured: "Jelani Alladin",
+actor: jelani,
+    image: "https://d4ov6iqsvotvt.cloudfront.net/uploads/show/poster_image/2768/medium_1584472361-Frozen_Global_KeyArt_800x1200.jpg",
+    music_video: "https://www.youtube.com/watch?v=uFNkmYfsGoQ"
+        },
+{
+    title: "Monster",
+    year: 2018,
+    musical: frozen,
+    featured: "Caissie Levy, John Riddle",
+actor: levy,
+    image: "https://d4ov6iqsvotvt.cloudfront.net/uploads/show/poster_image/2768/medium_1584472361-Frozen_Global_KeyArt_800x1200.jpg",
+    music_video: "https://www.youtube.com/watch?v=X-L40JAuaGU"
+        },
+{
+    title: "True Love",
+    year: 2018,
+    musical: frozen,
+    featured: "Patti Murin",
+actor: patti,
+    image: "https://d4ov6iqsvotvt.cloudfront.net/uploads/show/poster_image/2768/medium_1584472361-Frozen_Global_KeyArt_800x1200.jpg",
+    music_video: "https://www.youtube.com/watch?v=kQ_-3Gb4XVg"
+        },
+{
+    title: "Colder by the Minute",
+    year: 2018,
+    musical: frozen,
+    featured: "Patti Murin, Caissie Levy, Jelani Alladin, John Riddle",
+actor: riddle,
+    image: "https://d4ov6iqsvotvt.cloudfront.net/uploads/show/poster_image/2768/medium_1584472361-Frozen_Global_KeyArt_800x1200.jpg",
+    music_video: "https://www.youtube.com/watch?v=5dwHqzuxJfQ"
+        },
+{
+    title: "Finale / Let It Go",
+    year: 2018,
+    musical: frozen,
+    featured: "Frozen Original Broadway Cast",
+actor: levy,
+    image: "https://d4ov6iqsvotvt.cloudfront.net/uploads/show/poster_image/2768/medium_1584472361-Frozen_Global_KeyArt_800x1200.jpg",
+    music_video: "https://www.youtube.com/watch?v=t7G3WUw0HCI"
+        },
+{
+    title: "When Everything Falls Apart",
+    year: 2018,
+    musical: frozen,
+    featured: "Patti Murin, Jelani Alladin, Greg Hildreth",
+actor: patti,
+    image: "https://d4ov6iqsvotvt.cloudfront.net/uploads/show/poster_image/2768/medium_1584472361-Frozen_Global_KeyArt_800x1200.jpg",
+    music_video: "https://www.youtube.com/watch?v=8-GR4_stPhM"
+        },
+{
+    title: "Omigod You Guys",
+    year: 2007,
+    musical: lb,
+    featured: "Laura Bell Bundy, Annaleigh Ashford, Leslie Kritzer, DeQuina Moore, Delta Nus",
+actor: bundy,
+    image: "https://bloximages.newyork1.vip.townnews.com/hometownnewstc.com/content/tncms/assets/v3/editorial/1/8d/18d03684-e4cb-11eb-b0b8-ff0750498b02/60ef22c0abc54.image.jpg",
+    music_video: "https://www.youtube.com/watch?v=duU09GD-KUU"
+        },
+{
+    title: "Serious",
+    year: 2007,
+    musical: lb,
+    featured: "Laura Bell Bundy, Richard H. Blake",
+actor: bundy,
+    image: "https://bloximages.newyork1.vip.townnews.com/hometownnewstc.com/content/tncms/assets/v3/editorial/1/8d/18d03684-e4cb-11eb-b0b8-ff0750498b02/60ef22c0abc54.image.jpg",
+    music_video: "https://www.youtube.com/watch?v=KOj0SuiRRko"
+        },
+{
+    title: "What You Want",
+    year: 2007,
+    musical: lb,
+    featured: "Laura Bell Bundy, Annaleigh Ashford, Leslie Kritzer, DeQuina Moore, Kate Wetherhead",
+actor: bundy,
+    image: "https://bloximages.newyork1.vip.townnews.com/hometownnewstc.com/content/tncms/assets/v3/editorial/1/8d/18d03684-e4cb-11eb-b0b8-ff0750498b02/60ef22c0abc54.image.jpg",
+    music_video: "https://www.youtube.com/watch?v=oWpizOZJzXw"
+        },
+{
+    title: "The Harvard Variations",
+    year: 2007,
+    musical: lb,
+    featured: "Christian Borle, Natalie Joy Johnson, 'Legally Blonde' Ensemble, Manuel Herrera, Noah Weisberg",
+actor: bundy,
+    image: "https://bloximages.newyork1.vip.townnews.com/hometownnewstc.com/content/tncms/assets/v3/editorial/1/8d/18d03684-e4cb-11eb-b0b8-ff0750498b02/60ef22c0abc54.image.jpg",
+    music_video: "https://www.youtube.com/watch?v=keoiHG8dCkY"
+        },
+{
+    title: "Blood in the Water",
+    year: 2007,
+    musical: lb,
+    featured: "Michael Rupert, 'Legally Blonde' Ensemble",
+actor: bundy,
+    image: "https://bloximages.newyork1.vip.townnews.com/hometownnewstc.com/content/tncms/assets/v3/editorial/1/8d/18d03684-e4cb-11eb-b0b8-ff0750498b02/60ef22c0abc54.image.jpg",
+    music_video: "https://www.youtube.com/watch?v=97RegRZpRsw"
+        },
+{
+    title: "Positive",
+    year: 2007,
+    musical: lb,
+    featured: "Laura Bell Bundy, Annaleigh Ashford, Leslie Kritzer, DeQuina Moore, 'Legally Blonde' Greek Chorus",
+actor: bundy,
+    image: "https://bloximages.newyork1.vip.townnews.com/hometownnewstc.com/content/tncms/assets/v3/editorial/1/8d/18d03684-e4cb-11eb-b0b8-ff0750498b02/60ef22c0abc54.image.jpg",
+    music_video: "https://www.youtube.com/watch?v=n1Ds-i3I4b0"
+        },
+{
+    title: "Ireland",
+    year: 2007,
+    musical: lb,
+    featured: "Orfeh",
+actor: bundy,
+    image: "https://bloximages.newyork1.vip.townnews.com/hometownnewstc.com/content/tncms/assets/v3/editorial/1/8d/18d03684-e4cb-11eb-b0b8-ff0750498b02/60ef22c0abc54.image.jpg",
+    music_video: "https://www.youtube.com/watch?v=JwjNa60fyuA"
+        },
+{
+    title: "Ireland (Reprise)",
+    year: 2007,
+    musical: lb,
+    featured: "Orfeh",
+actor: bundy,
+    image: "https://bloximages.newyork1.vip.townnews.com/hometownnewstc.com/content/tncms/assets/v3/editorial/1/8d/18d03684-e4cb-11eb-b0b8-ff0750498b02/60ef22c0abc54.image.jpg",
+    music_video: "https://www.youtube.com/watch?v=_GWF-Ffwzr4"
+        },
+{
+    title: "Serious (Reprise)",
+    year: 2007,
+    musical: lb,
+    featured: "Laura Bell Bundy, Richard H. Blake",
+actor: bundy,
+    image: "https://bloximages.newyork1.vip.townnews.com/hometownnewstc.com/content/tncms/assets/v3/editorial/1/8d/18d03684-e4cb-11eb-b0b8-ff0750498b02/60ef22c0abc54.image.jpg",
+    music_video: "https://www.youtube.com/watch?v=qXcV8025vbk"
+        },
+{
+    title: "Chip on My Shoulder",
+    year: 2007,
+    musical: lb,
+    featured: "Laura Bell Bundy, Christian Borle, 'Legally Blonde' Greek Chorus, 'Legally Blonde' Ensemble",
+actor: bundy,
+    image: "https://bloximages.newyork1.vip.townnews.com/hometownnewstc.com/content/tncms/assets/v3/editorial/1/8d/18d03684-e4cb-11eb-b0b8-ff0750498b02/60ef22c0abc54.image.jpg",
+    music_video: "https://www.youtube.com/watch?v=kVkfVV8EyBo"
+        },
+{
+    title: "So Much Better",
+    year: 2007,
+    musical: lb,
+    featured: "Laura Bell Bundy, 'Legally Blonde' Ensemble",
+actor: bundy,
+    image: "https://bloximages.newyork1.vip.townnews.com/hometownnewstc.com/content/tncms/assets/v3/editorial/1/8d/18d03684-e4cb-11eb-b0b8-ff0750498b02/60ef22c0abc54.image.jpg",
+    music_video: "https://www.youtube.com/watch?v=hmichxgD-Xc"
+        },
+{
+    title: "Whipped into Shape",
+    year: 2007,
+    musical: lb,
+    featured: "Michael Rupert, Nikki Snelson, 'Legally Blonde' Ensemble",
+actor: bundy,
+    image: "https://bloximages.newyork1.vip.townnews.com/hometownnewstc.com/content/tncms/assets/v3/editorial/1/8d/18d03684-e4cb-11eb-b0b8-ff0750498b02/60ef22c0abc54.image.jpg",
+    music_video: "https://www.youtube.com/watch?v=0DxjKpSYu5o"
+        },
+{
+    title: "Take It Like a Man",
+    year: 2007,
+    musical: lb,
+    featured: "Laura Bell Bundy, Christian Borle",
+actor: bundy,
+    image: "https://bloximages.newyork1.vip.townnews.com/hometownnewstc.com/content/tncms/assets/v3/editorial/1/8d/18d03684-e4cb-11eb-b0b8-ff0750498b02/60ef22c0abc54.image.jpg",
+    music_video: "https://www.youtube.com/watch?v=au9F-W09Lbw"
+        },
+{
+    title: "Bend and Snap",
+    year: 2007,
+    musical: lb,
+    featured: "Laura Bell Bundy, Annaleigh Ashford, Orfeh, Leslie Kritzer, DeQuina Moore, 'Legally Blonde' Ensemble",
+actor: bundy,
+    image: "https://bloximages.newyork1.vip.townnews.com/hometownnewstc.com/content/tncms/assets/v3/editorial/1/8d/18d03684-e4cb-11eb-b0b8-ff0750498b02/60ef22c0abc54.image.jpg",
+    music_video: "https://www.youtube.com/watch?v=TtAjmDYoa2g"
+        },
+{
+    title: "There! Right There!",
+    year: 2007,
+    musical: lb,
+    featured: "Laura Bell Bundy, Matthew Risch, Katherine Shindle, Amber Efé, 'Legally Blonde' Ensemble, Manuel Herrera",
+actor: bundy,
+    image: "https://bloximages.newyork1.vip.townnews.com/hometownnewstc.com/content/tncms/assets/v3/editorial/1/8d/18d03684-e4cb-11eb-b0b8-ff0750498b02/60ef22c0abc54.image.jpg",
+    music_video: "https://www.youtube.com/watch?v=j-01cO73qRU"
+        },
+{
+    title: "Legally Blonde (Remix)",
+    year: 2007,
+    musical: lb,
+    featured: "Laura Bell Bundy, Katherine Shindle, Natalie Joy Johnson, 'Legally Blonde' Ensemble",
+actor: bundy,
+    image: "https://bloximages.newyork1.vip.townnews.com/hometownnewstc.com/content/tncms/assets/v3/editorial/1/8d/18d03684-e4cb-11eb-b0b8-ff0750498b02/60ef22c0abc54.image.jpg",
+    music_video: "https://www.youtube.com/watch?v=jrEk-NiQ_8w"
+        },
+{
+    title: "Find My Way / Finale",
+    year: 2007,
+    musical: lb,
+    featured: "Laura Bell Bundy, Orfeh, 'Legally Blonde' Ensemble",
+actor: bundy,
+    image: "https://bloximages.newyork1.vip.townnews.com/hometownnewstc.com/content/tncms/assets/v3/editorial/1/8d/18d03684-e4cb-11eb-b0b8-ff0750498b02/60ef22c0abc54.image.jpg",
+    music_video: "https://www.youtube.com/watch?v=_zUJmKKUv3Y"
+        },
+{
+    title: "Beautiful",
+    year: 2014,
+    musical: heathers,
+    featured: "Barrett Wilbert Weed, Katie Ladner, Alice Lee, Jessica Keenan Wynn, Elle McLemore",
+actor: bww,
+    image: "http://www.playbillstore.com/images/Heathers_The_Musical_Off-Broadway_Poster.jpg",
+    music_video: "https://www.youtube.com/watch?v=hFrmswtFSz0"
+        },
+{
+    title: "Candy Store",
+    year: 2014,
+    musical: heathers,
+    featured: "Jessica Keenan Wynn, Alice Lee, Elle McLemore",
+actor:bww ,
+    image: "http://www.playbillstore.com/images/Heathers_The_Musical_Off-Broadway_Poster.jpg",
+    music_video: "https://www.youtube.com/watch?v=_57ZW9kq1X8"
+        },
+{
+    title: "Fight for Me",
+    year: 2014,
+    musical: heathers,
+    featured: "Barrett Wilbert Weed",
+actor: bww,
+    image: "http://www.playbillstore.com/images/Heathers_The_Musical_Off-Broadway_Poster.jpg",
+    music_video: "https://www.youtube.com/watch?v=XCf-xT7hUsE"
+        },
+{
+    title: "Freeze Your Brain",
+    year: 2014,
+    musical: heathers,
+    featured: "Ryan McCartan, Barrett Wilbert Weed",
+actor: bww,
+    image: "http://www.playbillstore.com/images/Heathers_The_Musical_Off-Broadway_Poster.jpg",
+    music_video: "https://www.youtube.com/watch?v=jqirJaFFHNw"
+        },
+{
+    title: "Big Fun",
+    year: 2014,
+    musical: heathers,
+    featured: "Jon Eidson, Evan Todd, Barrett Wilbert Weed, Jessica Keenan Wynn,  Alice Lee",
+actor: bww,
+    image: "http://www.playbillstore.com/images/Heathers_The_Musical_Off-Broadway_Poster.jpg",
+    music_video: "https://www.youtube.com/watch?v=QJXbNfgC3Nk"
+        },
+{
+    title: "Dead Girl Walking",
+    year: 2014,
+    musical: heathers,
+    featured: "Barrett Wilbert Weed, Ryan McCartan",
+actor: bww,
+    image: "http://www.playbillstore.com/images/Heathers_The_Musical_Off-Broadway_Poster.jpg",
+    music_video: "https://www.youtube.com/watch?v=mcU1VCgcUh8"
+        },
+{
+    title: "The Me Inside of Me",
+    year: 2014,
+    musical: heathers,
+    featured: "Jessica Keenan Wynn, Daniel Cooney, Dan Domenech, AJ Meijer & Michelle Duffy",
+actor: bww,
+    image: "http://www.playbillstore.com/images/Heathers_The_Musical_Off-Broadway_Poster.jpg",
+    music_video: "https://www.youtube.com/watch?v=0pu11F72ynY"
+        },
+{
+    title: "Blue",
+    year: 2014,
+    musical: heathers,
+    featured: "Evan Todd, Jon Eidson, Barrett Wilbert Weed, Alice Lee, Elle McLemore",
+actor: bww,
+    image: "http://www.playbillstore.com/images/Heathers_The_Musical_Off-Broadway_Poster.jpg",
+    music_video: "https://www.youtube.com/watch?v=bx_QfkusXUQ"
+        },
+{
+    title: "Our Love is God",
+    year: 2014,
+    musical: heathers,
+    featured: "Ryan McCartan, Barrett Wilbert Weed, Jon Eidson, Evan Todd",
+actor: mccartan,
+    image: "http://www.playbillstore.com/images/Heathers_The_Musical_Off-Broadway_Poster.jpg",
+    music_video: "https://www.youtube.com/watch?v=6BtdOihBpuw"
+        },
+{
+    title: "My Dead Gay Son",
+    year: 2014,
+    musical: heathers,
+    featured: "Anthony Crivello, Daniel Cooney",
+actor: bww,
+    image: "http://www.playbillstore.com/images/Heathers_The_Musical_Off-Broadway_Poster.jpg",
+    music_video: "https://www.youtube.com/watch?v=5iZfkwyqXHU"
+        },
+{
+    title: "Seventeen",
+    year: 2014,
+    musical: heathers,
+    featured: "Barrett Wilbert Weed, Ryan McCartan",
+actor: mccartan,
+    image: "http://www.playbillstore.com/images/Heathers_The_Musical_Off-Broadway_Poster.jpg",
+    music_video: "https://www.youtube.com/watch?v=Er6cBpR63XA"
+        },
+{
+    title: "Shine a Light",
+    year: 2014,
+    musical: heathers,
+    featured: "Michelle Duffy, AJ Meijer, Rachel Flynn, Dustin Sullivan, Charissa Hogeland",
+actor: bww,
+    image: "http://www.playbillstore.com/images/Heathers_The_Musical_Off-Broadway_Poster.jpg",
+    music_video: "https://www.youtube.com/watch?v=iKYU6B7I-Rs"
+        },
+{
+    title: "Lifeboat",
+    year: 2014,
+    musical: heathers,
+    featured: "Elle McLemore",
+actor: bww,
+    image: "http://www.playbillstore.com/images/Heathers_The_Musical_Off-Broadway_Poster.jpg",
+    music_video: "https://www.youtube.com/watch?v=LEV0Ygy2950"
+        },
+{
+    title: "Shine a Light (Reprise)",
+    year: 2014,
+    musical: heathers,
+    featured: "Alice Lee, Elle McLemore",
+actor: bww,
+    image: "http://www.playbillstore.com/images/Heathers_The_Musical_Off-Broadway_Poster.jpg",
+    music_video: "https://www.youtube.com/watch?v=_h_Zi4F1I8I"
+        },
+{
+    title: "Kindergarten Boyfriend",
+    year: 2014,
+    musical: heathers,
+    featured: "Katie Ladner",
+actor: bww,
+    image: "http://www.playbillstore.com/images/Heathers_The_Musical_Off-Broadway_Poster.jpg",
+    music_video: "https://www.youtube.com/watch?v=fCG7Lwapypc"
+        },
+{
+    title: "Yo Girl",
+    year: 2014,
+    musical: heathers,
+    featured: "Jessica Keenan Wynn, Evan Todd, Jon Eidson, Barrett Wilbert Weed, Michelle Duffy",
+actor: bww,
+    image: "http://www.playbillstore.com/images/Heathers_The_Musical_Off-Broadway_Poster.jpg",
+    music_video: "https://www.youtube.com/watch?v=7UG8eS6LtM8"
+        },
+{
+    title: "Meant to Be Yours",
+    year: 2014,
+    musical: heathers,
+    featured: "Ryan McCartan, Barrett Wilbert Weed & Michelle Duffy",
+actor: mccartan,
+    image: "http://www.playbillstore.com/images/Heathers_The_Musical_Off-Broadway_Poster.jpg",
+    music_video: "https://www.youtube.com/watch?v=BbiGahwoFJk"
+        },
+{
+    title: "Dead Girl Walking (Reprise)",
+    year: 2014,
+    musical: heathers,
+    featured: "Barrett Wilbert Weed, Michelle Duffy, Daniel Cooney, Ryan McCartan, Elle McLemore",
+actor: mccartan,
+    image: "http://www.playbillstore.com/images/Heathers_The_Musical_Off-Broadway_Poster.jpg",
+    music_video: "https://www.youtube.com/watch?v=WJ86q-leDSU"
+        },
+{
+    title: "I Am Damaged",
+    year: 2014,
+    musical: heathers,
+    featured: "Ryan McCartan, Barrett Wilbert Weed",
+actor: mccartan,
+    image: "http://www.playbillstore.com/images/Heathers_The_Musical_Off-Broadway_Poster.jpg",
+    music_video: "https://www.youtube.com/watch?v=VmEH0BBKWuk"
+        },
+{
+    title: "Seventeen (Reprise)",
+    year: 2014,
+    musical: heathers,
+    featured: "Barrett Wilbert Weed, Alice Lee, Katie Ladner, Elle McLemore",
+actor: bww,
+    image: "http://www.playbillstore.com/images/Heathers_The_Musical_Off-Broadway_Poster.jpg",
+    music_video: "https://www.youtube.com/watch?v=PbW2skRTqy0"
+        },
+{
+    title: "A Cautionary Tale",
+    year: 2018,
+    musical: mg,
+    featured: "Barrett Wilbert Weed, Grey Henson",
+actor: bww,
+    image: "https://upload.wikimedia.org/wikipedia/en/3/3b/Mean_Girls-Musical-Poster.jpg",
+    music_video: "https://www.youtube.com/watch?v=WelAUOQQUmU"
+        },
+{
+    title: "It Roars",
+    year: 2018,
+    musical: mg,
+    featured: "Erika Henningsen, Original Broadway Cast of Mean Girls",
+actor: erika,
+    image: "https://upload.wikimedia.org/wikipedia/en/3/3b/Mean_Girls-Musical-Poster.jpg",
+    music_video: "https://www.youtube.com/watch?v=jgIXCdLaRCs"
+        },
+{
+    title: "Where Do You Belong?",
+    year: 2018,
+    musical: mg,
+    featured: "Barrett Wilbert Weed, Erika Henningsen, Grey Henson, Original Broadway Cast of Mean Girls",
+actor: bww,
+    image: "https://upload.wikimedia.org/wikipedia/en/3/3b/Mean_Girls-Musical-Poster.jpg",
+    music_video: "https://www.youtube.com/watch?v=x9YWi5kBIik"
+        },
+{
+    title: "Meet The Plastics",
+    year: 2018,
+    musical: mg,
+    featured: "Ashley Park, Barrett Wilbert Weed, Taylor Louderman, Erika Henningsen, Kate Rockwell, Grey Henson",
+actor: erika,
+    image: "https://upload.wikimedia.org/wikipedia/en/3/3b/Mean_Girls-Musical-Poster.jpg",
+    music_video: "https://www.youtube.com/watch?v=8sfw21u-n4E"
+        },
+{
+    title: "Stupid With Love",
+    year: 2018,
+    musical: mg,
+    featured: "Erika Henningsen, Original Broadway Cast of Mean Girls",
+actor: erika,
+    image: "https://upload.wikimedia.org/wikipedia/en/3/3b/Mean_Girls-Musical-Poster.jpg",
+    music_video: "https://www.youtube.com/watch?v=WyNTqzjeU8I"
+        },
+{
+    title: "Apex Predator",
+    year: 2018,
+    musical: mg,
+    featured: "Barrett Wilbert Weed, Erika Henningsen",
+actor: erika,
+    image: "https://upload.wikimedia.org/wikipedia/en/3/3b/Mean_Girls-Musical-Poster.jpg",
+    music_video: "https://www.youtube.com/watch?v=Amv8T27SqCw"
+        },
+{
+    title: "What's Wrong With Me?",
+    year: 2018,
+    musical: mg,
+    featured: "Ashley Park",
+actor: erika,
+    image: "https://upload.wikimedia.org/wikipedia/en/3/3b/Mean_Girls-Musical-Poster.jpg",
+    music_video: "https://www.youtube.com/watch?v=EJ49BwxV9ZA"
+        },
+{
+    title: "Stupid With Love (Reprise)",
+    year: 2018,
+    musical: mg,
+    featured: "Erika Henningsen, Kyle Selig",
+actor: erika,
+    image: "https://upload.wikimedia.org/wikipedia/en/3/3b/Mean_Girls-Musical-Poster.jpg",
+    music_video: "https://www.youtube.com/watch?v=XpiigrtzNXI"
+        },
+{
+    title: "Sexy",
+    year: 2018,
+    musical: mg,
+    featured: "Kate Rockwell, Original Broadway Cast of Mean Girls",
+actor: erika,
+    image: "https://upload.wikimedia.org/wikipedia/en/3/3b/Mean_Girls-Musical-Poster.jpg",
+    music_video: "https://www.youtube.com/watch?v=-KycXHeUxho"
+        },
+{
+    title: "Someone Gets Hurt",
+    year: 2018,
+    musical: mg,
+    featured: "Kyle Selig, Taylor Louderman, Original Broadway Cast of Mean Girls",
+actor: louderman,
+    image: "https://upload.wikimedia.org/wikipedia/en/3/3b/Mean_Girls-Musical-Poster.jpg",
+    music_video: "https://www.youtube.com/watch?v=7hBy11aK-qw"
+        },
+{
+    title: "Revenge Party",
+    year: 2018,
+    musical: mg,
+    featured: "Barrett Wilbert Weed, Erika Henningsen, Grey Henson, Original Broadway Cast of Mean Girls",
+actor: bww,
+    image: "https://upload.wikimedia.org/wikipedia/en/3/3b/Mean_Girls-Musical-Poster.jpg",
+    music_video: "https://www.youtube.com/watch?v=Yj9nQbcMBgk"
+        },
+{
+    title: "Fearless",
+    year: 2018,
+    musical: mg,
+    featured: "Ashley Park, Erika Henningsen, Kate Rockwell, Original Broadway Cast of Mean Girls",
+actor: erika,
+    image: "https://upload.wikimedia.org/wikipedia/en/3/3b/Mean_Girls-Musical-Poster.jpg",
+    music_video: "https://www.youtube.com/watch?v=N4gYlMyu7GM"
+        },
+{
+    title: "Stop",
+    year: 2018,
+    musical: mg,
+    featured: "Kate Rockwell, Grey Henson, Original Broadway Cast of Mean Girls",
+actor: erika,
+    image: "https://upload.wikimedia.org/wikipedia/en/3/3b/Mean_Girls-Musical-Poster.jpg",
+    music_video: "https://www.youtube.com/watch?v=Y2vgfVm5Ol4"
+        },
+{
+    title: "What's Wrong With Me? (Reprise)",
+    year: 2018,
+    musical: mg,
+    featured: "Ashley Park, Kerry Butler",
+actor: erika,
+    image: "https://upload.wikimedia.org/wikipedia/en/3/3b/Mean_Girls-Musical-Poster.jpg",
+    music_video: "https://www.youtube.com/watch?v=a_Qh7t5piBU"
+        },
+{
+    title: "Whose House Is This?",
+    year: 2018,
+    musical: mg,
+    featured: "Ashley Park, Erika Henningsen, Kate Rockwell, Cheech Manohar, Original Broadway Cast of Mean Girls",
+actor: erika,
+    image: "https://upload.wikimedia.org/wikipedia/en/3/3b/Mean_Girls-Musical-Poster.jpg",
+    music_video: "https://www.youtube.com/watch?v=9J4l1DjRyMw"
+        },
+{
+    title: "More Is Better",
+    year: 2018,
+    musical: mg,
+    featured: "Kyle Selig, Erika Henningsen",
+actor: erika,
+    image: "https://upload.wikimedia.org/wikipedia/en/3/3b/Mean_Girls-Musical-Poster.jpg",
+    music_video: "https://www.youtube.com/watch?v=3BEj3HyJQGU"
+        },
+{
+    title: "Someone Gets Hurt (Reprise)",
+    year: 2018,
+    musical: mg,
+    featured: "Barrett Wilbert Weed, Grey Henson",
+actor: bww,
+    image: "https://upload.wikimedia.org/wikipedia/en/3/3b/Mean_Girls-Musical-Poster.jpg",
+    music_video: "https://www.youtube.com/watch?v=Ht-4BCp5Lv4"
+        },
+{
+    title: "World Burn",
+    year: 2018,
+    musical: mg,
+    featured: "Taylor Louderman, Original Broadway Cast of Mean Girls",
+actor: louderman,
+    image: "https://upload.wikimedia.org/wikipedia/en/3/3b/Mean_Girls-Musical-Poster.jpg",
+    music_video: "https://www.youtube.com/watch?v=BWVRg6IOGWY"
+        },
+{
+    title: "I'd Rather Be Me",
+    year: 2018,
+    musical: mg,
+    featured: "Barrett Wilbert Weed, Original Broadway Cast of Mean Girls",
+actor: bww,
+    image: "https://upload.wikimedia.org/wikipedia/en/3/3b/Mean_Girls-Musical-Poster.jpg",
+    music_video: "https://www.youtube.com/watch?v=u075TmA_6TU"
+        },
+{
+    title: "Do This Thing",
+    year: 2018,
+    musical: mg,
+    featured: "Erika Henningsen, Kerry Butler, Cheech Manohar, Original Broadway Cast of Mean Girls",
+actor: erika,
+    image: "https://upload.wikimedia.org/wikipedia/en/3/3b/Mean_Girls-Musical-Poster.jpg",
+    music_video: "https://www.youtube.com/watch?v=7aISN4eWvnw"
+        },
+{
+    title: "I See Stars",
+    year: 2018,
+    musical: mg,
+    featured: "Erika Henningsen, Original Broadway Cast of Mean Girls",
+actor: erika,
+    image: "https://upload.wikimedia.org/wikipedia/en/3/3b/Mean_Girls-Musical-Poster.jpg",
+    music_video: "https://www.youtube.com/watch?v=q01VcTy-XGs"
+        },
+{
+    title: "Overture",
+    year: 2012,
+    musical: news,
+    featured: "Alan Menken",
+actor: jj,
+    image: "https://upload.wikimedia.org/wikipedia/en/f/f7/Newsies_%28musical%29_poster.jpg",
+    music_video: "https://www.youtube.com/watch?v=QU3kNqWUj3I"
+        },
+{
+    title: "Santa Fe (Prologue)",
+    year: 2012,
+    musical: news,
+    featured: "Jeremy Jordan, Andrew Keenan-Bolger",
+actor: jj,
+    image: "https://upload.wikimedia.org/wikipedia/en/f/f7/Newsies_%28musical%29_poster.jpg",
+    music_video: "https://www.youtube.com/watch?v=MWXezLjTaN0"
+        },
+{
+    title: "Carrying The Banner",
+    year: 2012,
+    musical: news,
+    featured: "Jeremy Jordan, Original Broadway Cast",
+actor: jj,
+    image: "https://upload.wikimedia.org/wikipedia/en/f/f7/Newsies_%28musical%29_poster.jpg",
+    music_video: "https://www.youtube.com/watch?v=5-xFSp3vKhU"
+        },
+{
+    title: "The Bottom Line",
+    year: 2012,
+    musical: news,
+    featured: "John Dossett, Nick Sullivan, Laurie Veldheer, Mark Aldrich",
+actor: doss,
+    image: "https://upload.wikimedia.org/wikipedia/en/f/f7/Newsies_%28musical%29_poster.jpg",
+    music_video: "https://www.youtube.com/watch?v=fovL1AORdec"
+        },
+{
+    title: "That's Rich",
+    year: 2012,
+    musical: news,
+    featured: "Capathia Jenkins",
+actor: jj,
+    image: "https://upload.wikimedia.org/wikipedia/en/f/f7/Newsies_%28musical%29_poster.jpg",
+    music_video: "https://www.youtube.com/watch?v=cwt-7noTzZ4"
+        },
+{
+    title: "I Never Planned On You / Don't Come A-Knocking",
+    year: 2012,
+    musical: news,
+    featured: "Jeremy Jordan, Julie Foldesi, Laurie Veldheer",
+actor: jj,
+    image: "https://upload.wikimedia.org/wikipedia/en/f/f7/Newsies_%28musical%29_poster.jpg",
+    music_video: "https://www.youtube.com/watch?v=v1dHvOpK8mg"
+        },
+{
+    title: "The World Will Know",
+    year: 2012,
+    musical: news,
+    featured: "Jeremy Jordan, Original Broadway Cast",
+actor: jj,
+    image: "https://upload.wikimedia.org/wikipedia/en/f/f7/Newsies_%28musical%29_poster.jpg",
+    music_video: "https://www.youtube.com/watch?v=pQAgRVkI3hI"
+        },
+{
+    title: "Watch What Happens",
+    year: 2012,
+    musical: news,
+    featured: "Kara Lindsay",
+actor: kara,
+    image: "https://upload.wikimedia.org/wikipedia/en/f/f7/Newsies_%28musical%29_poster.jpg",
+    music_video: "https://www.youtube.com/watch?v=ub8hHA96FVY"
+        },
+{
+    title: "Seize The Day",
+    year: 2012,
+    musical: news,
+    featured: "Jeremy Jordan, Original Broadway Cast, Ben Fankhauser",
+actor: jj,
+    image: "https://upload.wikimedia.org/wikipedia/en/f/f7/Newsies_%28musical%29_poster.jpg",
+    music_video: "https://www.youtube.com/watch?v=g9Yy7aVteR4"
+        },
+{
+    title: "Santa Fe",
+    year: 2012,
+    musical: news,
+    featured: "Jeremy Jordan",
+actor: jj,
+    image: "https://upload.wikimedia.org/wikipedia/en/f/f7/Newsies_%28musical%29_poster.jpg",
+    music_video: "https://www.youtube.com/watch?v=DbesLnmb3m8"
+        },
+{
+    title: "King Of New York",
+    year: 2012,
+    musical: news,
+    featured: "Kara Lindsay, Original Broadway Cast, Ben Fankhauser, Lewis Grosso",
+actor: kara,
+    image: "https://upload.wikimedia.org/wikipedia/en/f/f7/Newsies_%28musical%29_poster.jpg",
+    music_video: "https://www.youtube.com/watch?v=V18l_o0u89g"
+        },
+{
+    title: "Watch What Happens (Reprise)",
+    year: 2012,
+    musical: news,
+    featured: "Jeremy Jordan, Kara Lindsay, Ben Fankhauser, Lewis Grosso",
+actor: jj,
+    image: "https://upload.wikimedia.org/wikipedia/en/f/f7/Newsies_%28musical%29_poster.jpg",
+    music_video: "https://www.youtube.com/watch?v=aOboM5Gncmk"
+        },
+{
+    title: "The Bottom Line (Reprise)",
+    year: 2012,
+    musical: news,
+    featured: "John Dossett, John E. Brady, Mark Aldrich",
+actor: doss,
+    image: "https://upload.wikimedia.org/wikipedia/en/f/f7/Newsies_%28musical%29_poster.jpg",
+    music_video: "https://www.youtube.com/watch?v=5A9SU7VZd_k"
+        },
+{
+    title: "Brooklyn’s Here",
+    year: 2012,
+    musical: news,
+    featured: "Original Broadway Cast, Tommy Bracco",
+actor: jj,
+    image: "https://upload.wikimedia.org/wikipedia/en/f/f7/Newsies_%28musical%29_poster.jpg",
+    music_video: "https://www.youtube.com/watch?v=RVvBupYvXjc"
+        },
+{
+    title: "Something To Believe In",
+    year: 2012,
+    musical: news,
+    featured: "Jeremy Jordan, Kara Lindsay",
+actor: jj,
+    image: "https://upload.wikimedia.org/wikipedia/en/f/f7/Newsies_%28musical%29_poster.jpg",
+    music_video: "https://www.youtube.com/watch?v=CCY-8FETQog"
+        },
+{
+    title: "Once And For All",
+    year: 2012,
+    musical: news,
+    featured: "Jeremy Jordan, Alan Menken, Kara Lindsay, Ryan Breslin, Original Broadway Cast, Ben Fankhauser, Jack Feldman",
+actor: jj,
+    image: "https://upload.wikimedia.org/wikipedia/en/f/f7/Newsies_%28musical%29_poster.jpg",
+    music_video: "https://www.youtube.com/watch?v=ckuGMPTCOyE"
+        },
+{
+    title: "Finale",
+    year: 2012,
+    musical: news,
+    featured: "Jeremy Jordan, Original Broadway Cast",
+actor: jj,
+    image: "https://upload.wikimedia.org/wikipedia/en/f/f7/Newsies_%28musical%29_poster.jpg",
+    music_video: "https://www.youtube.com/watch?v=96I3XJBEr04"
+        },
+{
+    title: "Overture",
+    year: 2008,
+    musical: mermaid,
+    featured: "Alan Menken",
+actor: sierra,
+    image: "https://www.subplotstudio.com/resources/images/products/2574/product.437.jpg",
+    music_video: "https://www.youtube.com/watch?v=GJFin6sAf48"
+        },
+{
+    title: "Fathoms Below",
+    year: 2008,
+    musical: mermaid,
+    featured: "Sean Palmer, Jonathan Freeman, Ensemble",
+actor: sierra,
+    image: "https://www.subplotstudio.com/resources/images/products/2574/product.437.jpg",
+    music_video: "https://www.youtube.com/watch?v=_y6uAJeUca0"
+        },
+{
+    title: "Daughters of Triton",
+    year: 2008,
+    musical: mermaid,
+    featured: "Kay Trinidad, Chelsea Morgan Stock, Cathryn Basile, Zakiya Young Mizen, Michelle Lookadoo, Cicly Daniels, Tituss Burgess",
+actor: sierra,
+    image: "https://www.subplotstudio.com/resources/images/products/2574/product.437.jpg",
+    music_video: "https://www.youtube.com/watch?v=EX_XFOzMVT4"
+        },
+{
+    title: "The World Above",
+    year: 2008,
+    musical: mermaid,
+    featured: "Sierra Boggess",
+actor: sierra,
+    image: "https://www.subplotstudio.com/resources/images/products/2574/product.437.jpg",
+    music_video: "https://www.youtube.com/watch?v=MGetuZuJRNw"
+        },
+{
+    title: "Human Stuff",
+    year: 2008,
+    musical: mermaid,
+    featured: "Eddie Korbich, Tituss Burgess, Ensemble",
+actor: sierra,
+    image: "https://www.subplotstudio.com/resources/images/products/2574/product.437.jpg",
+    music_video: "https://www.youtube.com/watch?v=hf4A1ea8Guw"
+        },
+{
+    title: "I Want the Good Times Back",
+    year: 2008,
+    musical: mermaid,
+    featured: "Sherie René Scott, Tyler Maynard, Derrick Baskin",
+actor: sierra,
+    image: "https://www.subplotstudio.com/resources/images/products/2574/product.437.jpg",
+    music_video: "https://www.youtube.com/watch?v=xfjqeD5lnJc"
+        },
+{
+    title: "Part of Your World",
+    year: 2008,
+    musical: mermaid,
+    featured: "Sierra Boggess",
+actor: sierra,
+    image: "https://www.subplotstudio.com/resources/images/products/2574/product.437.jpg",
+    music_video: "https://www.youtube.com/watch?v=M_aVtIc7Dn8"
+        },
+{
+    title: "Storm at Sea",
+    year: 2008,
+    musical: mermaid,
+    featured: "Alan Menken",
+actor: sierra,
+    image: "https://www.subplotstudio.com/resources/images/products/2574/product.437.jpg",
+    music_video: "https://www.youtube.com/watch?v=aV2SNVrA_v0"
+        },
+{
+    title: "Part of Your World (Reprise)",
+    year: 2008,
+    musical: mermaid,
+    featured: "Sierra Boggess, Eddie Korbich",
+actor: sierra,
+    image: "https://www.subplotstudio.com/resources/images/products/2574/product.437.jpg",
+    music_video: "https://www.youtube.com/watch?v=WR0gfkvQdug"
+        },
+{
+    title: "She’s in Love",
+    year: 2008,
+    musical: mermaid,
+    featured: "Brian D'Addario, Kay Trinidad, Cicly Daniels, Michelle Lookadoo, Zakiya Young Mizen, Chelsea Morgan Stock",
+actor: sierra,
+    image: "https://www.subplotstudio.com/resources/images/products/2574/product.437.jpg",
+    music_video: "https://www.youtube.com/watch?v=f8oW7LVW_sQ"
+        },
+{
+    title: "Her Voice",
+    year: 2008,
+    musical: mermaid,
+    featured: "Sean Palmer",
+actor: sierra,
+    image: "https://www.subplotstudio.com/resources/images/products/2574/product.437.jpg",
+    music_video: "https://www.youtube.com/watch?v=41ksXCWJHwQ"
+        },
+{
+    title: "The World Above (Reprise)",
+    year: 2008,
+    musical: mermaid,
+    featured: "Norm Lewis, Sierra Boggess",
+actor: sierra,
+    image: "https://www.subplotstudio.com/resources/images/products/2574/product.437.jpg",
+    music_video: "https://www.youtube.com/watch?v=FSRQJz6JSWI"
+        },
+{
+    title: "Under the Sea",
+    year: 2008,
+    musical: mermaid,
+    featured: "Tituss Burgess, Ensemble",
+actor: sierra,
+    image: "https://www.subplotstudio.com/resources/images/products/2574/product.437.jpg",
+    music_video: "https://www.youtube.com/watch?v=kzcJevg11Ag"
+        },
+{
+    title: "Under the Sea (Reprise)",
+    year: 2008,
+    musical: mermaid,
+    featured: "Tituss Burgess, Ensemble",
+actor: sierra,
+    image: "https://www.subplotstudio.com/resources/images/products/2574/product.437.jpg",
+    music_video: "https://www.youtube.com/watch?v=CqjNPvJobAY"
+        },
+{
+    title: "Sweet Child",
+    year: 2008,
+    musical: mermaid,
+    featured: "Tyler Maynard, Derrick Baskin, Sierra Boggess",
+actor: sierra,
+    image: "https://www.subplotstudio.com/resources/images/products/2574/product.437.jpg",
+    music_video: "https://www.youtube.com/watch?v=KZoe0-l7sBs"
+        },
+{
+    title: "Poor Unfortunate Souls",
+    year: 2008,
+    musical: mermaid,
+    featured: "Sherie René Scott, Sierra Boggess",
+actor: sierra,
+    image: "https://www.subplotstudio.com/resources/images/products/2574/product.437.jpg",
+    music_video: "https://www.youtube.com/watch?v=ddCPr7luI1s"
+        },
+{
+    title: "Positoovity",
+    year: 2008,
+    musical: mermaid,
+    featured: "Eddie Korbich, Ensemble",
+actor: sierra,
+    image: "https://www.subplotstudio.com/resources/images/products/2574/product.437.jpg",
+    music_video: "https://www.youtube.com/watch?v=1VQkVYPv_7k"
+        },
+{
+    title: "Beyond My Wildest Dreams",
+    year: 2008,
+    musical: mermaid,
+    featured: "Sierra Boggess, Heidi Blickenstaff, Ensemble",
+actor: sierra,
+    image: "https://www.subplotstudio.com/resources/images/products/2574/product.437.jpg",
+    music_video: "https://www.youtube.com/watch?v=hyiBzgqU5Gc"
+        },
+{
+    title: "Les Poissons",
+    year: 2008,
+    musical: mermaid,
+    featured: "John Treacy Egan",
+actor: sierra,
+    image: "https://www.subplotstudio.com/resources/images/products/2574/product.437.jpg",
+    music_video: "https://www.youtube.com/watch?v=9DnD1vndkps"
+        },
+{
+    title: "Les Poissons (Reprise)",
+    year: 2008,
+    musical: mermaid,
+    featured: "John Treacy Egan, Ensemble",
+actor: sierra,
+    image: "https://www.subplotstudio.com/resources/images/products/2574/product.437.jpg",
+    music_video: "https://www.youtube.com/watch?v=vAMajWIFo0o"
+        },
+{
+    title: "One Step Closer",
+    year: 2008,
+    musical: mermaid,
+    featured: "Sean Palmer",
+actor: sierra,
+    image: "https://www.subplotstudio.com/resources/images/products/2574/product.437.jpg",
+    music_video: "https://www.youtube.com/watch?v=ksF5Df5QOIs"
+        },
+{
+    title: "I Want the Good Times Back (Reprise)",
+    year: 2008,
+    musical: mermaid,
+    featured: "Sherie René Scott, Tyler Maynard, Derrick Baskin",
+actor: sierra,
+    image: "https://www.subplotstudio.com/resources/images/products/2574/product.437.jpg",
+    music_video: "https://www.youtube.com/watch?v=U0sbLYlOKPU"
+        },
+{
+    title: "Kiss the Girl",
+    year: 2008,
+    musical: mermaid,
+    featured: "Tituss Burgess, Eddie Korbich, Sean Palmer, Ensemble",
+actor: sierra,
+    image: "https://www.subplotstudio.com/resources/images/products/2574/product.437.jpg",
+    music_video: "https://www.youtube.com/watch?v=j8i0_Q9iC0Y"
+        },
+{
+    title: "Sweet Child (Reprise)",
+    year: 2008,
+    musical: mermaid,
+    featured: "Tyler Maynard, Derrick Baskin",
+actor: sierra,
+    image: "https://www.subplotstudio.com/resources/images/products/2574/product.437.jpg",
+    music_video: "https://www.youtube.com/watch?v=abEpiWS39CA"
+        },
+{
+    title: "If Only (Quartet)",
+    year: 2008,
+    musical: mermaid,
+    featured: "Sierra Boggess, Sean Palmer, Tituss Burgess, Norm Lewis",
+actor: sierra,
+    image: "https://www.subplotstudio.com/resources/images/products/2574/product.437.jpg",
+    music_video: "https://www.youtube.com/watch?v=SwXg_rNomYI"
+        },
+{
+    title: "The Contest",
+    year: 2008,
+    musical: mermaid,
+    featured: "Jonathan Freeman, Ensemble",
+actor: sierra,
+    image: "https://www.subplotstudio.com/resources/images/products/2574/product.437.jpg",
+    music_video: "https://www.youtube.com/watch?v=XeOekN29dXw"
+        },
+{
+    title: "Poor Unfortunate Souls (Reprise)",
+    year: 2008,
+    musical: mermaid,
+    featured: "Norm Lewis, Sherie René Scott",
+actor: sierra,
+    image: "https://www.subplotstudio.com/resources/images/products/2574/product.437.jpg",
+    music_video: "https://www.youtube.com/watch?v=oiU5Tez97ns"
+        },
+{
+    title: "If Only (Reprise)",
+    year: 2008,
+    musical: mermaid,
+    featured: "Sierra Boggess, Norm Lewis",
+actor: sierra,
+    image: "https://www.subplotstudio.com/resources/images/products/2574/product.437.jpg",
+    music_video: "https://www.youtube.com/watch?v=y7z555cCDKQ"
+        },
+{
+    title: "Finale Ultimo",
+    year: 2008,
+    musical: mermaid,
+    featured: "Sean Palmer, Sierra Boggess, Company",
+actor: sierra,
+    image: "https://www.subplotstudio.com/resources/images/products/2574/product.437.jpg",
+    music_video: "https://www.youtube.com/watch?v=LGom9L9xOH0"
+        },
+
+{
+    title: "When I Climb To The Top Mount Rock",
+    year: 2015,
+    musical: sor,
+    featured: "Sean Palmer, Sierra Boggess, School of Rock Original Broadway Cast",
+actor: brightman,
+    image: "https://m.media-amazon.com/images/I/71atz1rlv7L._SL1433_.jpg",
+    music_video: "https://www.youtube.com/watch?v=HClKUBTlUWo&list=PLoX7YCmg-yQDKZPR5b_szIgno1-xrhU6d"
+        },
+{
+    title: "Horace Green Alma Mater",
+    year: 2015,
+    musical: sor,
+    featured: "Sierra Boggess, School of Rock Original Broadway Cast",
+actor: sierra,
+    image: "https://m.media-amazon.com/images/I/71atz1rlv7L._SL1433_.jpg",
+    music_video: "https://www.youtube.com/watch?v=JcOnXGem6W0&list=PLoX7YCmg-yQDKZPR5b_szIgno1-xrhU6d&index=2"
+        },
+{
+    title: "Here At Horace Green",
+    year: 2015,
+    musical: sor,
+    featured: "Sierra Boggess, School of Rock Original Broadway Cast",
+actor: sierra,
+    image: "https://m.media-amazon.com/images/I/71atz1rlv7L._SL1433_.jpg",
+    music_video: "https://www.youtube.com/watch?v=OMkr9v3WdyI&list=PLoX7YCmg-yQDKZPR5b_szIgno1-xrhU6d&index=4"
+        },
+{
+    title: "Variation 7/ Children of Rock",
+    year: 2015,
+    musical: sor,
+    featured: "Sean Palmer, Sierra Boggess, School of Rock Original Broadway Cast",
+actor: sierra,
+    image: "https://m.media-amazon.com/images/I/71atz1rlv7L._SL1433_.jpg",
+    music_video: "https://www.youtube.com/watch?v=cMK1Q5ArllU&list=PLoX7YCmg-yQDKZPR5b_szIgno1-xrhU6d&index=4"
+        },
+{
+    title: "Give Up Your Dreams",
+    year: 2015,
+    musical: sor,
+    featured: "Sean Palmer, School of Rock Original Broadway Cast",
+actor: brightman,
+    image: "https://m.media-amazon.com/images/I/71atz1rlv7L._SL1433_.jpg",
+    music_video: "https://www.youtube.com/watch?v=nqRvX8RAx34&list=PLoX7YCmg-yQDKZPR5b_szIgno1-xrhU6d&index=5"
+        },
+{
+    title: "Queen of the Night",
+    year: 2015,
+    musical: sor,
+    featured: "Sean Palmer, Sierra Boggess, School of Rock Original Broadway Cast",
+actor: sierra,
+    image: "https://m.media-amazon.com/images/I/71atz1rlv7L._SL1433_.jpg",
+    music_video: "https://www.youtube.com/watch?v=AtsouHY6534&list=PLoX7YCmg-yQDKZPR5b_szIgno1-xrhU6d&index=6"
+        },
+{
+    title: "You’re in the Band",
+    year: 2015,
+    musical: sor,
+    featured: "Sean Palmer, School of Rock Original Broadway Cast",
+actor: brightman,
+    image: "https://m.media-amazon.com/images/I/71atz1rlv7L._SL1433_.jpg",
+    music_video: "https://www.youtube.com/watch?v=oxxUnczjkfc"
+        },
+{
+    title: "If Only You Would Listen",
+    year: 2015,
+    musical: sor,
+    featured: "Sean Palmer, School of Rock Original Broadway Cast",
+actor: brightman,
+    image: "https://m.media-amazon.com/images/I/71atz1rlv7L._SL1433_.jpg",
+    music_video: "https://www.youtube.com/watch?v=Tpg0hEeCZcs&list=PLoX7YCmg-yQDKZPR5b_szIgno1-xrhU6d&index=8"
+        },
+{
+    title: "In the End of Time",
+    year: 2015,
+    musical: sor,
+    featured: "Sean Palmer",
+actor: brightman,
+    image: "https://m.media-amazon.com/images/I/71atz1rlv7L._SL1433_.jpg",
+    music_video: "https://www.youtube.com/watch?v=1fIFgTynsoY&list=PLoX7YCmg-yQDKZPR5b_szIgno1-xrhU6d&index=9"
+        },
+{
+    title: "Faculty Quadrille",
+    year: 2015,
+    musical: sor,
+    featured: "Sean Palmer, Sierra Boggess, School of Rock Original Broadway Cast",
+actor: sierra,
+    image: "https://m.media-amazon.com/images/I/71atz1rlv7L._SL1433_.jpg",
+    music_video: "https://www.youtube.com/watch?v=1Znuk4mehkU&list=PLoX7YCmg-yQDKZPR5b_szIgno1-xrhU6d&index=10"
+        },
+{
+    title: "Stick It To The Man",
+    year: 2015,
+    musical: sor,
+    featured: "Sean Palmer, School of Rock Original Broadway Cast",
+actor: brightman,
+    image: "https://m.media-amazon.com/images/I/71atz1rlv7L._SL1433_.jpg",
+    music_video: "https://www.youtube.com/watch?v=u5JAQGUyIPE&list=PLoX7YCmg-yQDKZPR5b_szIgno1-xrhU6d&index=11"
+        },
+{
+    title: "Time to Play",
+    year: 2015,
+    musical: sor,
+    featured: "School of Rock Original Broadway Cast",
+actor: sierra,
+    image: "https://m.media-amazon.com/images/I/71atz1rlv7L._SL1433_.jpg",
+    music_video: "https://www.youtube.com/watch?v=M3S9B44dsE4&list=PLoX7YCmg-yQDKZPR5b_szIgno1-xrhU6d&index=12"
+        },
+{
+    title: "Time to Play",
+    year: 2015,
+    musical: sor,
+    featured: "Sierra Boggess",
+actor: sierra,
+    image: "https://m.media-amazon.com/images/I/71atz1rlv7L._SL1433_.jpg",
+    music_video: "https://www.youtube.com/watch?v=tpbKPo8AmIY&list=PLoX7YCmg-yQDKZPR5b_szIgno1-xrhU6d&index=13"
+        },
+{
+    title: "Time to Play",
+    year: 2015,
+    musical: sor,
+    featured: "Sean Palmer, Sierra Boggess, School of Rock Original Broadway Cast",
+actor: brightman,
+    image: "https://m.media-amazon.com/images/I/71atz1rlv7L._SL1433_.jpg",
+    music_video: "https://www.youtube.com/watch?v=vS3N8Ln_s2E&list=PLoX7YCmg-yQDKZPR5b_szIgno1-xrhU6d&index=14"
+        },
+{
+    title: "I’m Too Hot For You",
+    year: 2015,
+    musical: sor,
+    featured: "Sean Palmer, School of Rock Original Broadway Cast",
+actor: brightman,
+    image: "https://m.media-amazon.com/images/I/71atz1rlv7L._SL1433_.jpg",
+    music_video: "https://www.youtube.com/watch?v=fI9ZqPmRGPA&list=PLoX7YCmg-yQDKZPR5b_szIgno1-xrhU6d&index=18"
+        },
+{
+    title: "Teacher’s Pet",
+    year: 2015,
+    musical: sor,
+    featured: "Sean Palmer, School of Rock Original Broadway Cast",
+actor: brightman,
+    image: "https://m.media-amazon.com/images/I/71atz1rlv7L._SL1433_.jpg",
+    music_video: "https://www.youtube.com/watch?v=OI0_3Z1Hkoo&list=PLoX7YCmg-yQDKZPR5b_szIgno1-xrhU6d&index=17"
+        },
+{
+    title: "Finale",
+    year: 2015,
+    musical: sor,
+    featured: "Sean Palmer, School of Rock Original Broadway Cast",
+actor: brightman,
+    image: "https://m.media-amazon.com/images/I/71atz1rlv7L._SL1433_.jpg",
+    music_video: "https://www.youtube.com/watch?v=G6R8Yi-ppI0&list=PLoX7YCmg-yQDKZPR5b_szIgno1-xrhU6d&index=17"
+        },
+{
+    title: "What's Inside",
+    year: 2016,
+    musical: wait,
+    featured: "Jessie Mueller, Waitress Original Broadway Cast Ensemble",
+actor: jessie,
+    image: "https://ih1.redbubble.net/image.594726314.5304/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg",
+    music_video: "https://www.youtube.com/watch?v=vSL4l-ReG3M"
+        },
+{
+    title: "Opening Up",
+    year: 2016,
+    musical: wait,
+    featured: "Keala Settle, Kimiko Glenn, Jessie Mueller, Cataldo, Waitress Original Broadway Cast Ensemble",
+actor: jessie,
+    image: "https://ih1.redbubble.net/image.594726314.5304/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg",
+    music_video: "https://www.youtube.com/watch?v=YQD1e6V7_ug"
+        },
+{
+    title: "The Negative",
+    year: 2016,
+    musical: wait,
+    featured: "Keala Settle, Kimiko Glenn, Jessie Mueller",
+actor: jessie,
+    image: "https://ih1.redbubble.net/image.594726314.5304/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg",
+    music_video: "https://www.youtube.com/watch?v=Rrq3i1ELNis"
+        },
+{
+    title: "What Baking Can Do",
+    year: 2016,
+    musical: wait,
+    featured: "Jessie Mueller, Waitress Original Broadway Cast Ensemble",
+actor: jessie,
+    image: "https://ih1.redbubble.net/image.594726314.5304/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg",
+    music_video: "https://www.youtube.com/watch?v=lRaSSfSpR5E"
+        },
+{
+    title: "Club Knocked Up",
+    year: 2016,
+    musical: wait,
+    featured: "Aisha Jackson, Molly Hager, Stephanie Torns, Charity Angél Dawson",
+actor: jessie,
+    image: "https://ih1.redbubble.net/image.594726314.5304/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg",
+    music_video: "https://www.youtube.com/watch?v=lLOzpW6ZJYo"
+        },
+{
+    title: "Pomatter Pie",
+    year: 2016,
+    musical: wait,
+    featured: "The Waitress Band",
+actor: jessie,
+    image: "https://ih1.redbubble.net/image.594726314.5304/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg",
+    music_video: "https://www.youtube.com/watch?v=cRjeDmzGf50"
+        },
+{
+    title: "When He Sees Me",
+    year: 2016,
+    musical: wait,
+    featured: "Keala Settle, Kimiko Glenn, Jessie Mueller, Waitress Original Broadway Cast Ensemble",
+actor: jessie,
+    image: "https://ih1.redbubble.net/image.594726314.5304/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg",
+    music_video: "https://www.youtube.com/watch?v=JeQZY9_451w"
+        },
+{
+    title: "It Only Takes a Taste",
+    year: 2016,
+    musical: wait,
+    featured: "Jessie Mueller, Drew Gehling",
+actor: jessie,
+    image: "https://ih1.redbubble.net/image.594726314.5304/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg",
+    music_video: "https://www.youtube.com/watch?v=-XJAbr7_l48"
+        },
+{
+    title: "You Will Still Be Mine",
+    year: 2016,
+    musical: wait,
+    featured: "Nick Cordero, Jessie Mueller",
+actor: jessie,
+    image: "https://ih1.redbubble.net/image.594726314.5304/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg",
+    music_video: "https://www.youtube.com/watch?v=7JLSifmKIYg"
+        },
+{
+    title: "A Soft Place to Land",
+    year: 2016,
+    musical: wait,
+    featured: "Keala Settle, Kimiko Glenn, Jessie Mueller",
+actor: jessie,
+    image: "https://ih1.redbubble.net/image.594726314.5304/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg",
+    music_video: "https://www.youtube.com/watch?v=bBClDyy2uSA"
+        },
+{
+    title: "Never Ever Getting Rid of Me",
+    year: 2016,
+    musical: wait,
+    featured: "Kimiko Glenn, Christopher Fitzgerald, Waitress Original Broadway Cast Ensemble",
+actor: glenn,
+    image: "https://ih1.redbubble.net/image.594726314.5304/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg",
+    music_video: "https://www.youtube.com/watch?v=oQvqDYrCi_k"
+        },
+{
+    title: "Bad Idea",
+    year: 2016,
+    musical: wait,
+    featured: "Jessie Mueller, Drew Gehling, Waitress Original Broadway Cast Ensemble",
+actor: jessie,
+    image: "https://ih1.redbubble.net/image.594726314.5304/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg",
+    music_video: "https://www.youtube.com/watch?v=aitXTXBqZcc"
+        },
+{
+    title: "I Didn't Plan It",
+    year: 2016,
+    musical: wait,
+    featured: "Keala Settle",
+actor: keala,
+    image: "https://ih1.redbubble.net/image.594726314.5304/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg",
+    music_video: "https://www.youtube.com/watch?v=uLsdNGR_n3w"
+        },
+{
+    title: "Bad Idea (Reprise)",
+    year: 2016,
+    musical: wait,
+    featured: "Keala Settle, Kimiko Glenn, Jessie Mueller",
+actor: jessie,
+    image: "https://ih1.redbubble.net/image.594726314.5304/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg",
+    music_video: "https://www.youtube.com/watch?v=oqBXO3edYNI"
+        },
+{
+    title: "You Matter to Me",
+    year: 2016,
+    musical: wait,
+    featured: "Jessie Mueller, Drew Gehling",
+actor: jessie,
+    image: "https://ih1.redbubble.net/image.594726314.5304/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg",
+    music_video: "https://www.youtube.com/watch?v=AREDtpRZTSA"
+        },
+{
+    title: "I Love You Like a Table",
+    year: 2016,
+    musical: wait,
+    featured: "Kimiko Glenn, Christopher Fitzgerald, Waitress Original Broadway Cast Ensemble",
+actor: glenn,
+    image: "https://ih1.redbubble.net/image.594726314.5304/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg",
+    music_video: "https://www.youtube.com/watch?v=RqJXXxQFUOA"
+        },
+{
+    title: "Take It from an Old Man",
+    year: 2016,
+    musical: wait,
+    featured: "Dakin Matthews, Waitress Original Broadway Cast Ensemble",
+actor: jessie,
+    image: "https://ih1.redbubble.net/image.594726314.5304/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg",
+    music_video: "vid"
+        },
+{
+    title: "Dear Baby",
+    year: 2016,
+    musical: wait,
+    featured: "Jessie Mueller",
+actor: jessie,
+    image: "https://ih1.redbubble.net/image.594726314.5304/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg",
+    music_video: "https://www.youtube.com/watch?v=W44snFoSgs4"
+        },
+{
+    title: "She Used to Be Mine",
+    year: 2016,
+    musical: wait,
+    featured: "Jessie Mueller",
+actor: jessie,
+    image: "https://ih1.redbubble.net/image.594726314.5304/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg",
+    music_video: "https://www.youtube.com/watch?v=A2-aUNmYNLM"
+        },
+{
+    title: "Contraction Ballet",
+    year: 2016,
+    musical: wait,
+    featured: "Jessie Mueller, Waitress Original Broadway Cast Ensemble",
+actor: jessie,
+    image: "https://ih1.redbubble.net/image.594726314.5304/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg",
+    music_video: "https://www.youtube.com/watch?v=ruhqBX5fT2w"
+        },
+{
+    title: "Everything Changes",
+    year: 2016,
+    musical: wait,
+    featured: "Keala Settle, Kimiko Glenn, Jessie Mueller, Waitress Original Broadway Cast Ensemble",
+actor: jessie,
+    image: "https://ih1.redbubble.net/image.594726314.5304/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg",
+    music_video: "https://www.youtube.com/watch?v=kcMad0KHGBg"
+        },
+{
+    title: "Opening Up (Finale)",
+    year: 2016,
+    musical: wait,
+    featured: "Waitress Original Broadway Company",
+actor: jessie,
+    image: "https://ih1.redbubble.net/image.594726314.5304/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg",
+    music_video: "https://www.youtube.com/watch?v=j38DaAZw53g"
+        },
+{
+    title: "Mama Who Bore Me",
+    year: 2006,
+    musical: sa,
+    featured: "Lea Michele",
+actor: lea,
+    image: "https://thriftytheatrethinker.files.wordpress.com/2015/06/br.jpg?w=720",
+    music_video: "https://www.youtube.com/watch?v=N6MGzkAtIGk"
+        },
+{
+    title: "Mama Who Bore Me (Reprise)",
+    year: 2006,
+    musical: sa,
+    featured: "Lea Michele, Lolo, Lilli Cooper, Phoebe Strole, Remy Zaken",
+actor: lea,
+    image: "https://thriftytheatrethinker.files.wordpress.com/2015/06/br.jpg?w=720",
+    music_video: "https://www.youtube.com/watch?v=STttCkQTJqM"
+        },
+{
+    title: "All That's Known",
+    year: 2006,
+    musical: sa,
+    featured: "Jonathan Groff",
+actor: groff,
+    image: "https://thriftytheatrethinker.files.wordpress.com/2015/06/br.jpg?w=720",
+    music_video: "https://www.youtube.com/watch?v=E-yt__vIWe8"
+        },
+{
+    title: "The Bitch Of Living",
+    year: 2006,
+    musical: sa,
+    featured: "Jonathan Groff, Skylar Astin, John Gallagher Jr., Jonathan B. Wright, Brian Johnson, Gideon Glick",
+actor: groff,
+    image: "https://thriftytheatrethinker.files.wordpress.com/2015/06/br.jpg?w=720",
+    music_video: "https://www.youtube.com/watch?v=2qCTc_sVO64"
+        },
+{
+    title: "My Junk",
+    year: 2006,
+    musical: sa,
+    featured: "Lea Michele, Jonathan Groff, Skylar Astin, John Gallagher Jr. Lolo, Lilli Cooper, Phoebe Strole, Jonathan B. Wright, Brian Johnson, Gideon Glick, Remy Zaken",
+actor: lea,
+    image: "https://thriftytheatrethinker.files.wordpress.com/2015/06/br.jpg?w=720",
+    music_video: "https://www.youtube.com/watch?v=wNHYCs58ALI"
+        },
+{
+    title: "Touch Me",
+    year: 2006,
+    musical: sa,
+    featured: "Lea Michele, Jonathan Groff, Skylar Astin, John Gallagher Jr. Lolo, Lilli Cooper, Phoebe Strole, Jonathan B. Wright, Brian Johnson, Gideon Glick, Remy Zaken",
+actor: lea,
+    image: "https://thriftytheatrethinker.files.wordpress.com/2015/06/br.jpg?w=720",
+    music_video: "https://www.youtube.com/watch?v=WGcX2ejeNYg"
+        },
+{
+    title: "The Word Of Your Body",
+    year: 2006,
+    musical: sa,
+    featured: "Lea Michele, Jonathan Groff",
+actor: lea,
+    image: "https://thriftytheatrethinker.files.wordpress.com/2015/06/br.jpg?w=720",
+    music_video: "https://www.youtube.com/watch?v=tbLc6QjVmns"
+        },
+{
+    title: "The Dark I Know Well",
+    year: 2006,
+    musical: sa,
+    featured: "Jonathan Groff, Skylar Astin, John Gallagher Jr., Lolo, Lilli Cooper, Jonathan B. Wright, Brian Johnson, Gideon Glick",
+actor: groff,
+    image: "https://thriftytheatrethinker.files.wordpress.com/2015/06/br.jpg?w=720",
+    music_video: "https://www.youtube.com/watch?v=SQDEsxvL86E"
+        },
+{
+    title: "And Then There Were None",
+    year: 2006,
+    musical: sa,
+    featured: "Jonathan Groff, Skylar Astin, John Gallagher Jr., Jonathan B. Wright, Brian Johnson, Gideon Glick",
+actor: groff,
+    image: "https://thriftytheatrethinker.files.wordpress.com/2015/06/br.jpg?w=720",
+    music_video: "https://www.youtube.com/watch?v=WtaDporv4To"
+        },
+{
+    title: "The Mirror-Blue Night",
+    year: 2006,
+    musical: sa,
+    featured: "Jonathan Groff, Skylar Astin, John Gallagher Jr., Jonathan B. Wright, Brian Johnson, Gideon Glick",
+actor: groff,
+    image: "https://thriftytheatrethinker.files.wordpress.com/2015/06/br.jpg?w=720",
+    music_video: "https://www.youtube.com/watch?v=xNi4igBP2_A"
+        },
+{
+    title: "I Believe",
+    year: 2006,
+    musical: sa,
+    featured: "Lea Michele, Jonathan Groff, Skylar Astin, John Gallagher Jr. Lolo, Lilli Cooper, Phoebe Strole, Jonathan B. Wright, Brian Johnson, Gideon Glick, Remy Zaken",
+actor: lea,
+    image: "https://thriftytheatrethinker.files.wordpress.com/2015/06/br.jpg?w=720",
+    music_video: "https://www.youtube.com/watch?v=qQqrB0Ralm8"
+        },
+{
+    title: "Don't Do Sadness/Blue Wind",
+    year: 2006,
+    musical: sa,
+    featured: "John Gallagher Jr., Lolo",
+actor: jgj,
+    image: "https://thriftytheatrethinker.files.wordpress.com/2015/06/br.jpg?w=720",
+    music_video: "https://www.youtube.com/watch?v=mJtjgFF9l-4"
+        },
+{
+    title: "The Guilty Ones",
+    year: 2006,
+    musical: sa,
+    featured: "Lea Michele, Jonathan Groff, Skylar Astin, John Gallagher Jr. Lolo, Lilli Cooper, Phoebe Strole, Jonathan B. Wright, Brian Johnson, Gideon Glick, Remy Zaken",
+actor: lea,
+    image: "https://thriftytheatrethinker.files.wordpress.com/2015/06/br.jpg?w=720",
+    music_video: "https://www.youtube.com/watch?v=QDwEVdz0l9E"
+        },
+{
+    title: "Left Behind",
+    year: 2006,
+    musical: sa,
+    featured: "Lea Michele, Jonathan Groff, Skylar Astin, John Gallagher Jr. Lolo, Lilli Cooper, Phoebe Strole, Jonathan B. Wright, Brian Johnson, Gideon Glick, Remy Zaken",
+actor: lea,
+    image: "https://thriftytheatrethinker.files.wordpress.com/2015/06/br.jpg?w=720",
+    music_video: "https://www.youtube.com/watch?v=DBX6Rvd831c"
+        },
+{
+    title: "Totally Fucked",
+    year: 2006,
+    musical: sa,
+    featured: "Lea Michele, Jonathan Groff, Skylar Astin, John Gallagher Jr. Lolo, Lilli Cooper, Phoebe Strole, Jonathan B. Wright, Brian Johnson, Gideon Glick, Remy Zaken",
+actor: lea,
+    image: "https://thriftytheatrethinker.files.wordpress.com/2015/06/br.jpg?w=720",
+    music_video: "https://www.youtube.com/watch?v=ms8EZbGDt1Q"
+        },
+{
+    title: "The Word of Your Body (Reprise)",
+    year: 2006,
+    musical: sa,
+    featured: "Lea Michele, Jonathan Groff, Skylar Astin, John Gallagher Jr. Lolo, Lilli Cooper, Phoebe Strole, Jonathan B. Wright, Brian Johnson, Gideon Glick, Remy Zaken",
+actor: lea,
+    image: "https://thriftytheatrethinker.files.wordpress.com/2015/06/br.jpg?w=720",
+    music_video: "https://www.youtube.com/watch?v=j-RzOdF9xKM"
+        },
+{
+    title: "Whispering",
+    year: 2006,
+    musical: sa,
+    featured: "Lea Michele",
+actor: lea,
+    image: "https://thriftytheatrethinker.files.wordpress.com/2015/06/br.jpg?w=720",
+    music_video: "https://www.youtube.com/watch?v=JtuaVpFJsfw"
+        },
+{
+    title: "Those You've Known",
+    year: 2006,
+    musical: sa,
+    featured: "Lea Michele, Jonathan Groff, John Gallagher Jr.",
+actor: lea,
+    image: "https://thriftytheatrethinker.files.wordpress.com/2015/06/br.jpg?w=720",
+    music_video: "https://www.youtube.com/watch?v=Wlq_9JyBvC8"
+        },
+{
+    title: "The Song Of Purple Summer",
+    year: 2006,
+    musical: sa,
+    featured: "Lea Michele, Jonathan Groff, Skylar Astin, John Gallagher Jr. Lolo, Lilli Cooper, Phoebe Strole, Jonathan B. Wright, Brian Johnson, Gideon Glick, Remy Zaken",
+actor: lea,
+    image: "https://thriftytheatrethinker.files.wordpress.com/2015/06/br.jpg?w=720",
+    music_video: "https://www.youtube.com/watch?v=Hl4ZsWVUCro"
+        },
+{
+    title: "Prologue",
+    year: 2014,
+    musical: ifthen,
+    featured: "If/Then: A New Musical Orchestra",
+actor: idina,
+    image: "https://www.nycinsiderguide.com/wp-content/uploads/2014/04/if-then-idina-menzel-broadway.jpg",
+    music_video: "https://www.youtube.com/watch?v=6C_gU4EMpmw"
+        },
+{
+    title: "What If?",
+    year: 2014,
+    musical: ifthen,
+    featured: "Idina Menzel",
+actor: idina,
+    image: "https://www.nycinsiderguide.com/wp-content/uploads/2014/04/if-then-idina-menzel-broadway.jpg",
+    music_video: "https://www.youtube.com/watch?v=YAQ8Fk1DUso"
+        },
+{
+    title: "It's a Sign",
+    year: 2014,
+    musical: ifthen,
+    featured: "LaChanze",
+actor: lachanze,
+    image: "https://www.nycinsiderguide.com/wp-content/uploads/2014/04/if-then-idina-menzel-broadway.jpg",
+    music_video: "https://www.youtube.com/watch?v=c2ku__RECuA"
+        },
+{
+    title: "A Map of New York",
+    year: 2014,
+    musical: ifthen,
+    featured: "Idina Menzel, Jerry Dixon",
+actor: idina,
+    image: "https://www.nycinsiderguide.com/wp-content/uploads/2014/04/if-then-idina-menzel-broadway.jpg",
+    music_video: "https://www.youtube.com/watch?v=-C8KGMJtKc0"
+        },
+{
+    title: "You Never Know",
+    year: 2014,
+    musical: ifthen,
+    featured: "James Snyder",
+actor: idina,
+    image: "https://www.nycinsiderguide.com/wp-content/uploads/2014/04/if-then-idina-menzel-broadway.jpg",
+    music_video: "https://www.youtube.com/watch?v=yXZ_T7IcQVg"
+        },
+{
+    title: "Ain't No Man Manhattan",
+    year: 2014,
+    musical: ifthen,
+    featured: "Idina Menzel, Anthony Rapp, LaChanze, Jenn Colella, James Snyder",
+actor: idina,
+    image: "https://www.nycinsiderguide.com/wp-content/uploads/2014/04/if-then-idina-menzel-broadway.jpg",
+    music_video: "https://www.youtube.com/watch?v=5HVrJJ5Y2ZA"
+        },
+{
+    title: "What the F**k?",
+    year: 2014,
+    musical: ifthen,
+    featured: "Idina Menzel",
+actor: idina,
+    image: "https://www.nycinsiderguide.com/wp-content/uploads/2014/04/if-then-idina-menzel-broadway.jpg",
+    music_video: "https://www.youtube.com/watch?v=1ps5g4-srQk"
+        },
+{
+    title: "Here I Go",
+    year: 2014,
+    musical: ifthen,
+    featured: "Idina Menzel, James Snyder",
+actor: idina,
+    image: "https://www.nycinsiderguide.com/wp-content/uploads/2014/04/if-then-idina-menzel-broadway.jpg",
+    music_video: "https://www.youtube.com/watch?v=tFwBjfcMGNM"
+        },
+{
+    title: "You Don't Need to Love Me",
+    year: 2014,
+    musical: ifthen,
+    featured: "Anthony Rapp",
+actor: rapp,
+    image: "https://www.nycinsiderguide.com/wp-content/uploads/2014/04/if-then-idina-menzel-broadway.jpg",
+    music_video: "https://www.youtube.com/watch?v=6YeRxizTgss"
+        },
+{
+    title: "No More Wasted Time",
+    year: 2014,
+    musical: ifthen,
+    featured: "Idina Menzel, LaChanze, Jenn Colella, Tamika Lawrence",
+actor: idina,
+    image: "https://www.nycinsiderguide.com/wp-content/uploads/2014/04/if-then-idina-menzel-broadway.jpg",
+    music_video: "https://www.youtube.com/watch?v=9-6pwOZ4yYI"
+        },
+{
+    title: "Surprise",
+    year: 2014,
+    musical: ifthen,
+    featured: "Idina Menzel, Anthony Rapp, LaChanze, Jenn Colella, Jerry Dixon, Jason Tam, Tamika Lawrence",
+actor: idina,
+    image: "https://www.nycinsiderguide.com/wp-content/uploads/2014/04/if-then-idina-menzel-broadway.jpg",
+    music_video: "https://www.youtube.com/watch?v=qQmfHbbHv7Q"
+        },
+{
+    title: "This Day / Walking by a Wedding",
+    year: 2014,
+    musical: ifthen,
+    featured: "Idina Menzel, Anthony Rapp, LaChanze, Jenn Colella, James Snyder, Jason Tam",
+actor: idina,
+    image: "https://www.nycinsiderguide.com/wp-content/uploads/2014/04/if-then-idina-menzel-broadway.jpg",
+    music_video: "https://www.youtube.com/watch?v=pOksORN-fjo"
+        },
+{
+    title: "Hey, Kid",
+    year: 2014,
+    musical: ifthen,
+    featured: "James Snyder",
+actor: idina,
+    image: "https://www.nycinsiderguide.com/wp-content/uploads/2014/04/if-then-idina-menzel-broadway.jpg",
+    music_video: "https://www.youtube.com/watch?v=1fQTtxPdVqs"
+        },
+{
+    title: "Some Other Me",
+    year: 2014,
+    musical: ifthen,
+    featured: "Idina Menzel, Anthony Rapp",
+actor: idina,
+    image: "https://www.nycinsiderguide.com/wp-content/uploads/2014/04/if-then-idina-menzel-broadway.jpg",
+    music_video: "https://www.youtube.com/watch?v=9gGsRRSrrZ4"
+        },
+{
+    title: "Best Worst Mistake",
+    year: 2014,
+    musical: ifthen,
+    featured: "Anthony Rapp, Jason Tam",
+actor: rapp,
+    image: "https://www.nycinsiderguide.com/wp-content/uploads/2014/04/if-then-idina-menzel-broadway.jpg",
+    music_video: "https://www.youtube.com/watch?v=r53hsqbz9jE"
+        },
+{
+    title: "I Hate You",
+    year: 2014,
+    musical: ifthen,
+    featured: "Idina Menzel, James Snyder",
+actor: idina,
+    image: "https://www.nycinsiderguide.com/wp-content/uploads/2014/04/if-then-idina-menzel-broadway.jpg",
+    music_video: "https://www.youtube.com/watch?v=Yx6d2jNTfns"
+        },
+{
+    title: "A Map of New York (Reprise)",
+    year: 2014,
+    musical: ifthen,
+    featured: "Jerry Dixon",
+actor: idina,
+    image: "https://www.nycinsiderguide.com/wp-content/uploads/2014/04/if-then-idina-menzel-broadway.jpg",
+    music_video: "https://www.youtube.com/watch?v=0PfVoHOFjdY"
+        },
+{
+    title: "You Learn to Live Without",
+    year: 2014,
+    musical: ifthen,
+    featured: "Idina Menzel",
+actor: idina,
+    image: "https://www.nycinsiderguide.com/wp-content/uploads/2014/04/if-then-idina-menzel-broadway.jpg",
+    music_video: "https://www.youtube.com/watch?v=HV57XClQy7I"
+        },
+{
+    title: "The Moment Explodes",
+    year: 2014,
+    musical: ifthen,
+    featured: "Idina Menzel, Joe Aaron Reid",
+actor: idina,
+    image: "https://www.nycinsiderguide.com/wp-content/uploads/2014/04/if-then-idina-menzel-broadway.jpg",
+    music_video: "https://www.youtube.com/watch?v=FJY7a1GhfhQ"
+        },
+{
+    title: "Love While You Can",
+    year: 2014,
+    musical: ifthen,
+    featured: "Idina Menzel, LaChanze, Jenn Colella",
+actor: idina,
+    image: "https://www.nycinsiderguide.com/wp-content/uploads/2014/04/if-then-idina-menzel-broadway.jpg",
+    music_video: "https://www.youtube.com/watch?v=dBjt9FLD0vQ"
+        },
+{
+    title: "What Would You Do?",
+    year: 2014,
+    musical: ifthen,
+    featured: "Jason Tam",
+actor: idina,
+    image: "https://www.nycinsiderguide.com/wp-content/uploads/2014/04/if-then-idina-menzel-broadway.jpg",
+    music_video: "https://www.youtube.com/watch?v=VlU_zH8kL2E"
+        },
+{
+    title: "Always Starting Over",
+    year: 2014,
+    musical: ifthen,
+    featured: "Idina Menzel",
+actor: idina,
+    image: "https://www.nycinsiderguide.com/wp-content/uploads/2014/04/if-then-idina-menzel-broadway.jpg",
+    music_video: "https://www.youtube.com/watch?v=PoeBOzvNN1k"
+        },
+{
+    title: "What If (Reprise)",
+    year: 2014,
+    musical: ifthen,
+    featured: "Idina Menzel",
+actor: idina,
+    image: "https://www.nycinsiderguide.com/wp-content/uploads/2014/04/if-then-idina-menzel-broadway.jpg",
+    music_video: "https://www.youtube.com/watch?v=zfKip5nYu5U"
+        },
+
 ]
 
 

@@ -1,5 +1,6 @@
 import ActorThumbnail from './ActorThumbnail';
 
+
 const AllActors = ( { actors, currentUser, search, handleSearch } ) => {
 
   

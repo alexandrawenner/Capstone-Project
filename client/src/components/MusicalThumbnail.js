@@ -20,7 +20,7 @@ const MusicalThumbnail = ( { musical } ) => {
 
       <div className="thumbnail_info">
 
-        <div className="column_one">
+        <div className="musical-name">
           <NavLink exact to={`/musicals/${id}`}>
             <h3>{name}</h3>
           </NavLink>
