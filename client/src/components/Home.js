@@ -1,14 +1,15 @@
 //import Row from "./Row";
+import HeroSection from "./HeroSection";
+import HomeCard from "./HomeCard"
 
-const Home = ( { allMusicals } ) => {
+const Home = ( { currentUser } ) => {
 
   
     return (
-  
-      <div >
-         {allMusicals}
-         <h1>"Hi"</h1>
-      </div>
+      <>
+        <HeroSection />
+        <HomeCard currentUser={currentUser}/>
+      </>
     );
   };
   
