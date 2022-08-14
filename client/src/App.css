@@ -7,4 +7,34 @@ body {
   background-color: darkcyan;
 }
 
+.song_body {
+  background-color: blue;
+  height: 100vh;
+  width: 100%;
+  overflow-y: scroll;
+  margin-left: 100px;
+  padding-left: 250px;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* .sidebar{
+  float: left;
+  position: absolute;
+  background-color: antiquewhite;
+  height: 100vh;
+  width: 100px;
+} */
+
+/* .sidebar {
+  position: fixed;
+  left: 0;
+  width: 250px;
+  height: 100%;
+  background-color: bisque;
+  text-decoration: none;
+} */
+
 

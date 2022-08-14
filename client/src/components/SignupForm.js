@@ -50,25 +50,27 @@ console.log(setCurrentUser)
       <div className="signup">
           <h1>Signup</h1>
           <h2>Create an account</h2>
+          <div className="signup-main">
             <form className='signup-form' onSubmit={onSubmit}>
               <span>
               <i class="fa-solid fa-masks-theater"></i>
                 <input type='text' required onChange={handleChange} placeholder='Username' name='username' value={username}/>
-              </span>
+              </span><br/>
               <span>
                 <i class="fa-solid fa-envelope"></i>
                 <input type='email' required onChange={handleChange} placeholder='Email' name='email' value={email}/>
-              </span>
+              </span><br/>
               <span>
                 <i class="fa-solid fa-key"></i>
                 <input type='password' required onChange={handleChange} placeholder='Password' name='password' value={password}/>
-              </span>
+              </span><br/>
               <span>
                 <i class="fa-solid fa-lock"></i>
                 <input type='password' required onChange={handleChange} placeholder='Confirm Password' name='confirmPassword' value={confirmPassword}/>
               </span>
-        <button type='submit'>Create Account</button>
-        </form>
+            <button type='submit'>Create Account</button>
+          </form> 
+        </div> 
       </div>
     </div>
   )

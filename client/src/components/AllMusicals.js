@@ -1,5 +1,5 @@
 import MusicalThumbnail from './MusicalThumbnail';
-//import './AllMusicals.css'
+import './AllMusicals.css'
 
 const AllMusicals = ( { currentUser, handleSearch, search, musicals } ) => {
 

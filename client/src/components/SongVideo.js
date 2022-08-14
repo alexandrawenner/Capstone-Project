@@ -55,12 +55,11 @@ const SongVideo = ({ songVideo, opts, onHandleDelete, currentUser }) => {
     displayDelete = null
 
   return (
-    <div>
       <div className='vid-post-info'>
         <h2>{displayDelete}{title}</h2>
         <p><b>Shared By:</b> {user.username}</p>
         <p><b>User's Thoughts:</b> {comments}</p>  
-      </div>
+     
 
     
    

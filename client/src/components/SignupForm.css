@@ -31,7 +31,11 @@
     margin-bottom: 25px;
 }
 
-.signup-form i {
+.signup-main span {
+    position: relative;
+}
+
+.signup-main i {
     position: absolute;
     left: 15px;
     color: #333;

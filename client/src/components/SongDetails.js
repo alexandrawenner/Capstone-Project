@@ -58,11 +58,11 @@ const songVideoArray = songVideos.map(songVideo => <SongVideo key={songVideo} so
         <div className='add-cover'>
           { currentUser ? 
             <div>
-              <h1>Add a Live Performance or Cover!</h1> 
+              <h1>Share Your Favorite Performance or Cover!</h1> 
               <SongVideoForm id={id} currentUser={currentUser} addSongVideos={addSongVideos}/> 
             </div>
             :
-            <h1>Sign Up to Add a Live Performance or Cover!</h1> } 
+            <h1>Sign Up to Share A Video!</h1> } 
         </div>
       
       

@@ -37,7 +37,7 @@ const Sidebar = ( { currentUser, setCurrentUser } ) => {
           </NavLink>
         }
 
-        <NavLink to='/'>
+        <NavLink to='/' className="navbar-logo">
           <p><span>Home</span></p>
         </NavLink>
 
@@ -56,12 +56,12 @@ const Sidebar = ( { currentUser, setCurrentUser } ) => {
               </div>
               
               <NavLink to='/mymusicals'>
-                <p><span>My Artists</span></p>
+                <p><span>Favorite Musicals</span></p>
               </NavLink>
 
-              <NavLink to='/bucketlist'>
+              {/* <NavLink to='/bucketlist'>
                 <p><span>My Songs</span></p>
-              </NavLink>
+              </NavLink> */}
               
             </div> : ""
             } 
