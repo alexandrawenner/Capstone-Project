@@ -22,7 +22,7 @@ const Sidebar = ( { currentUser, setCurrentUser } ) => {
         { currentUser ? <span className="my_collection">{"WELCOME, " + currentUser.username.toUpperCase()}</span> : ""}
 
         { currentUser ?
-          <NavLink to='/logout' onClick={ handleLogout }>
+          <NavLink to='/' onClick={ handleLogout }>
           <p><span>Logout</span></p>
           </NavLink>
           :

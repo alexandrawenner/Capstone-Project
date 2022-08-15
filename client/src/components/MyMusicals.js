@@ -5,6 +5,7 @@ const MyMusicals = ({ currentUser }) => {
 
     const [userMusicals, setUserMusicals] = useState([])
 
+    //fetches all of the User's musicals that were added to their favorites    
     useEffect(() => {
         fetch(`/users/${currentUser.id}`)
         .then(res => res.json())

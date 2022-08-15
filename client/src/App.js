@@ -61,6 +61,8 @@ function App() {
     setSearch(e.target.value)
   }
 
+  const updateUser = (user) => setCurrentUser(user)
+
   return (
     <div className="navigation">
       <Sidebar
