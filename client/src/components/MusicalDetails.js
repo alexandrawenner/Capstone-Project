@@ -10,7 +10,7 @@ const MusicalDetails = ( { currentUser } ) => {
     const { id } = useParams();
     const [isLoaded, setIsLoaded] = useState(false)
     const [musical, setMusical] = useState([])
-    const [currentSongIndex, setCurrentSongIndex] = useState(0)
+    const [currentSongIndex, setCurrentSongIndex] = useState(1)
     const [nextSongIndex, setNextSongIndex] = useState(currentSongIndex + 1)
 
   //play next song
@@ -55,11 +55,12 @@ const MusicalDetails = ( { currentUser } ) => {
         </section>
 
         <Player 
-        song={musical.songs[currentSongIndex]} 
-        nextSong={musical.songs[nextSongIndex]}
-        // currentSongIndex={currentSongIndex}
-        // setCurrentSongIndex={setCurrentSongIndex}
-        // nextSongIndex={nextSongIndex}
+        // song={musical.songs[currentSongIndex]} 
+        // nextSong={musical.songs[nextSongIndex]}
+        currentSongIndex={currentSongIndex}
+        setCurrentSongIndex={setCurrentSongIndex}
+        nextSongIndex={nextSongIndex}
+        song={musical.songs}
         />
 
         <ol className="musical_list_item">
