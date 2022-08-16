@@ -51,3 +51,5 @@ end
 gem "active_model_serializers", "~> 0.10.12"
 
 gem 'pry'
+
+gem "image_processing", ">= 1.2"

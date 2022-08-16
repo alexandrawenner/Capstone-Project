@@ -1,0 +1,58 @@
+.audio-player {
+    display: block;
+    background-color: lightcyan;
+    padding: 50px;
+    border-radius: 16px;
+    box-shadow: inset -6px -6px 12px black, inset 6px 6px 12px grey;
+}
+
+.audio-player h4 {
+    color: black;
+    font-size: 14;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: center;
+}
+
+.audio-player p {
+    color: black;
+    font-size: 14;
+    font-weight: 400;
+    text-align: center;
+}
+
+.details-title {
+    color: black;
+    font-size: 14;
+    text-align: center;
+}
+
+.details-artist {
+    color: black;
+    font-size: 14;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: center;
+}
+
+.details-img img {
+    display: block;
+    margin: 0px auto;
+    width: 100%;
+    max-width: 250px;
+    border-radius: 50%;
+    box-shadow: inset 6px 6px 12px black, inset -6px -6px 12px grey;
+}
+
+.play-btn {
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+
+.skip-btn {
+    font-size: 18px;
+    cursor: pointer;
+}

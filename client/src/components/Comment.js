@@ -6,7 +6,7 @@ const Comment = ({ songVideoComment, handleDeleteComment, onUpdateComment, curre
 
     const { id, body, user } = songVideoComment
     const [show, setShow] = useState(false)
-    const [edit, setEdit] = useState(body)
+    const [edit, setEdit] = useState("")
 
     function handleShow() {
         setShow(!show)
@@ -27,7 +27,7 @@ const Comment = ({ songVideoComment, handleDeleteComment, onUpdateComment, curre
         })
         .then(res => res.json())
         .then(updatedComment => onUpdateComment(updatedComment))
-        setEdit(body)
+        setEdit("")
         setShow(!show)
     }
 

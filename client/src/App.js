@@ -61,7 +61,6 @@ function App() {
     setSearch(e.target.value)
   }
 
-  const updateUser = (user) => setCurrentUser(user)
 
   return (
     <div className="navigation">
@@ -74,10 +73,10 @@ function App() {
             <Home />
           </Route>
           <Route exact path="/login">
-            <LoginForm setCurrentUser={setCurrentUser}/>
+            <LoginForm setCurrentUser={setCurrentUser} />
           </Route>
           <Route exact path="/signup">
-            <SignupForm setCurrentUser={setCurrentUser}/>
+            <SignupForm setCurrentUser={setCurrentUser} />
           </Route>
           <Route exact path="/musicals">
             <AllMusicals currentUser={currentUser} handleSearch={handleSearch} search={search} musicals={musicals}/>

@@ -28,8 +28,8 @@ const [videoUrl, setVideoUrl] = useState("")
 
     //YouTube video player option
     const opts = {
-        height: '350',
-        width: '50%',
+        height: '0',
+        width: '0',
         playerVars: {
             autoplay: 1,
         },
