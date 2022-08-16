@@ -6,7 +6,7 @@ const AllMusicals = ( { currentUser, handleSearch, search, musicals } ) => {
   
     return (
   
-      <div >
+      <div className='all-musicals-page'>
         <form action="" className="searchbar">
           <input type="search" required name="search" value={search} onChange={handleSearch}/>
             <i class="fa fa-search"></i>
