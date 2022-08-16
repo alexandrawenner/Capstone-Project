@@ -3,9 +3,11 @@
   
 }
 
-/* body {
-  background-color: darkcyan;
-} */
+body {
+  background-image: url(https://imgsbright.brightstarmusical.com/what-was-the-very-first-broadway-musical-.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .song_body {
   background-color: blue;

@@ -66,6 +66,17 @@
     cursor: pointer;
 }
 
+.musical-thumbnail-display {
+    /* overflow: scroll; */
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    max-width: 1120px;
+    /* float: none;
+    clear: both;
+    padding: 4rem; */
+}
+
 .column_one{
     float: left;
     width: 85%;

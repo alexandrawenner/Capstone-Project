@@ -34,6 +34,7 @@ const MusicalThumbnail = ( { musical, currentUser } ) => {
 
   return (
     <div className="thumbnail_container">
+      <li className="musical-thumbnail-display">
 
       <NavLink exact to={`/musicals/${id}`}>
         <img 
@@ -63,9 +64,10 @@ const MusicalThumbnail = ( { musical, currentUser } ) => {
           null 
           
           }
-
+          
         </div>
       </div>
+    </li>
   </div>
   );
 };
