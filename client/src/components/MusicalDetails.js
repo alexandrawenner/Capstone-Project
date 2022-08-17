@@ -36,11 +36,13 @@ const MusicalDetails = ( { currentUser } ) => {
 
   if (!isLoaded) return <h2>Loading...</h2>
   
-  const {name, opening_date, director, playwrites, composers, status, link} = musical
+  const {name, opening_date, director, playwrights, composers, status, link} = musical
 
-  function handleAnchorClick(e) {
-    console.log(e.target.value)
-  }
+  // function handleAnchorClick(e) {
+  //   console.log(e.target.value)
+  // }
+
+  console.log(link)
   
     return (
   
@@ -48,9 +50,8 @@ const MusicalDetails = ( { currentUser } ) => {
       
           
             <a
-            onClick={handleAnchorClick}
-            href="https://www.broadway.com/"
-            // {link}
+            // href="https://www.broadway.com/"
+            href={link}
             target="blank"
             >
               <button>BUY TICKETS</button>
@@ -60,10 +61,10 @@ const MusicalDetails = ( { currentUser } ) => {
         
         <div className="musical-info">
           <h1>{name}</h1>
-            <section className="musical_details">
+            <section className="musical-details">
             <p><b>Opening Date:</b> {opening_date}</p>
             <p><b>Director</b> {director}</p>
-            <p><b>Playwrights:</b> {playwrites}</p>
+            <p><b>Playwrights:</b> {playwrights}</p>
             <p><b>Composers:</b> {composers}</p>
             <p><b>Active Status:</b> {status}</p> 
             </section>
@@ -78,7 +79,7 @@ const MusicalDetails = ( { currentUser } ) => {
         />
 
         <ol className="musical_list_item">
-          {musical.songs.map(song =>
+          {musical.songs?.map(song =>
             <li><SongRow song={song} currentUser={currentUser}/></li>
           )}
         </ol>

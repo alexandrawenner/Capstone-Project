@@ -18,6 +18,6 @@ class SongsController < ApplicationController
     # private
 
     # def song_params
-    #     params.permit(:title, :image, :music_video)
+    #     params.require(:song)params.permit(:title, :image, :music_video, :file)
     # end
 end

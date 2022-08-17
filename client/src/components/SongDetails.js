@@ -46,6 +46,20 @@ function onHandleDelete(id) {
 //Library of all SongVideos added to each song
 const songVideoArray = songVideos.map(songVideo => <SongVideo key={songVideo} songVideo={songVideo} videoId={videoId} opts={opts} onHandleDelete={onHandleDelete} currentUser={currentUser}/>)
 
+//audio submit form
+const handleSubmit = (e) => {
+  e.preventDefault()
+  const formData = new FormData()
+  formData.append('song[file]',
+                   e.target.file.files[0])
+  fetch('/songs/${id}', {
+     method: "PATCH",
+     body: formData
+  })
+  .then(r => r.json())
+  .then(file => console.log(file))
+  .catch((error) => console.error(error))
+}
 
   return (
     <div className="song_body">
@@ -68,7 +82,13 @@ const songVideoArray = songVideos.map(songVideo => <SongVideo key={songVideo} so
       
       <div>
           {songVideoArray}
-      </div>     
+      </div>   
+      <div>
+          <form onSubmit={handleSubmit}>
+              <input type="file" id="file" name="file"/>
+              <button type='submit'>Submit</button>
+          </form>
+      </div>  
     </div>
   );
 };

@@ -12,7 +12,7 @@ const AllMusicals = ( { currentUser, handleSearch, search, musicals } ) => {
             <i class="fa fa-search"></i>
         </form>
         
-        <h1>Musicals</h1>
+        <h1 className='musicals-headline'>Musicals</h1>
           <div className="musicals_container">
           {musicals.map(musical =>
               <MusicalThumbnail musical={musical} currentUser={currentUser} />

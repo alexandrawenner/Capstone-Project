@@ -5,15 +5,15 @@ import './Player.css'
 
 const Player = ({ song, nextSongIndex, currentSongIndex, setCurrentSongIndex }) => {
     //const audioEl = useRef(null)
-    const [isPlaying, setIsPlaying] = useState(false)
+    // const [isPlaying, setIsPlaying] = useState(false)
 
-    useEffect(() => {
-        if (isPlaying) {
-            song.music_video.current.play()}
-        // } else {
-        //     song.music_video.current.pause()
-        // }
-    }, []);
+    // useEffect(() => {
+    //     if (isPlaying) {
+    //         song.music_video.current.play()}
+    //     // } else {
+    //     //     song.music_video.current.pause()
+    //     // }
+    // }, []);
 
     // const skipSong = (forwards = true) => {
     //     if (forwards) {
@@ -43,11 +43,11 @@ const Player = ({ song, nextSongIndex, currentSongIndex, setCurrentSongIndex }) 
 
     return(
         <div className="audio-player">
-           <audio>{song[1].music_video} ref="{song.music_video}</audio>
+           {/* <audio>{song[1].music_video} ref="{song.music_video}</audio>
            <h4>Playing now</h4>
             <PlayerDetails song={song} currentSongIndex={currentSongIndex}/>
             <PlayerControls song={song} isPlaying={isPlaying} setIsPlaying={setIsPlaying}/>
-            <p><strong>Next up:</strong>{song[nextSongIndex].title}</p>
+            <p><strong>Next up:</strong>{song[nextSongIndex].title}</p> */}
         </div>
     )
 }

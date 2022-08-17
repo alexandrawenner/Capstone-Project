@@ -10,3 +10,15 @@
   .all-musicals-page h1 {
     margin: 30px 32px;
   } */
+
+  .musicals-container {
+    display: inline-block;
+  }
+
+  .musicals-headline {
+    float: none;
+    text-align: left;
+    padding-left: 250px;
+    color: white;
+   
+  }
