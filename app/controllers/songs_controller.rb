@@ -10,14 +10,15 @@ class SongsController < ApplicationController
         render json: song
     end
 
-    # def create
-    #     song = Song.create!(song_params)
-    #     render json: song, status: :created
-    # end
+    def create
+        #binding.pry
+        song = Song.create!(song_params)
+        render json: song, status: :created
+    end
 
-    # private
+    private
 
-    # def song_params
-    #     params.require(:song)params.permit(:title, :image, :music_video, :file)
-    # end
+    def song_params
+        params.permit(:title, :audio_file)
+    end
 end

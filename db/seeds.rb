@@ -3700,7 +3700,7 @@ actor: ramin,
     featured: "Ramin Karimloo, Derek Klena, John Bolton, Anastasia Original Broadway Cast",
 actor: klena,
     image: "https://imaging.broadway.com/images/square-11/w800/83575-7.jpg",
-    music_video: "..client/src/music/Anastasia_track_2.mp3"
+    music_video: "https://www.youtube.com/watch?v=Qh7sIrvdnwc&ab_channel=JohnBolton-Topic"
         },
 {
     title: "In My Dreams",

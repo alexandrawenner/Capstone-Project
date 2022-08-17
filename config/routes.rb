@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
   
+  resources :video_files
+  resources :audio_files
   resources :song_video_comments
   resources :user_musicals
   resources :song_videos

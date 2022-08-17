@@ -11,6 +11,7 @@ const MusicalDetails = ( { currentUser } ) => {
     const { id } = useParams();
     const [isLoaded, setIsLoaded] = useState(false)
     const [musical, setMusical] = useState([])
+    //const [title, setTitle] = useState("")
     const [currentSongIndex, setCurrentSongIndex] = useState(1)
     const [nextSongIndex, setNextSongIndex] = useState(currentSongIndex + 1)
    
@@ -42,7 +43,11 @@ const MusicalDetails = ( { currentUser } ) => {
   //   console.log(e.target.value)
   // }
 
-  console.log(link)
+  // function handleChange(e){
+  //   setTitle(e.target.value)
+  // }
+
+
   
     return (
   
@@ -83,6 +88,15 @@ const MusicalDetails = ( { currentUser } ) => {
             <li><SongRow song={song} currentUser={currentUser}/></li>
           )}
         </ol>
+
+        <div>
+          <h1>Video Uploads</h1>
+          {/* <form>
+          <input type="text" name="title" value={title} onChange={handleChange}/> 
+              <input type="file" id="file" name="file"/>
+              <button type='submit'>Submit</button>
+          </form> */}
+        </div>
       </div>
     );
   };
