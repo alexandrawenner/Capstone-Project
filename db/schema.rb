@@ -35,6 +35,7 @@ ActiveRecord::Schema.define(version: 2022_08_12_193130) do
     t.string "synopsis"
     t.string "status"
     t.string "location"
+    t.string "link"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

@@ -10,6 +10,7 @@ class CreateMusicals < ActiveRecord::Migration[6.1]
       t.string :synopsis
       t.string :status
       t.string :location
+      t.string :link
 
       t.timestamps
     end

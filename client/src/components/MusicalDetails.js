@@ -13,6 +13,7 @@ const MusicalDetails = ( { currentUser } ) => {
     const [musical, setMusical] = useState([])
     const [currentSongIndex, setCurrentSongIndex] = useState(1)
     const [nextSongIndex, setNextSongIndex] = useState(currentSongIndex + 1)
+   
 
   //play next song
     // useEffect(() => {
@@ -35,7 +36,7 @@ const MusicalDetails = ( { currentUser } ) => {
 
   if (!isLoaded) return <h2>Loading...</h2>
   
-  const {name, opening_date, director, playwrites, composers, status} = musical
+  const {name, opening_date, director, playwrites, composers, status, link} = musical
 
   function handleAnchorClick(e) {
     console.log(e.target.value)
@@ -49,10 +50,10 @@ const MusicalDetails = ( { currentUser } ) => {
             <a
             onClick={handleAnchorClick}
             href="https://www.broadway.com/"
+            // {link}
             target="blank"
             >
-              <button>BUY TICKETS
-              </button>
+              <button>BUY TICKETS</button>
             </a>
           
         
