@@ -1,0 +1,48 @@
+.horizontal-navbar {
+    display: flex;
+    align-items: center;
+    justify-content:right;
+    padding-top: 40px;
+    padding-left: 10%;
+}
+
+.navbar-opts {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+    
+}
+
+.welcome {
+    color: white;
+    text-align: left;
+}
+
+p {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+p:hover{
+    color: yellow;
+   transition: .3s;
+}
+
+.login-btn {
+    border: none;
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-right: 25px;
+}
+
+
+.signup-btn {
+    border: none;
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-right: 25px;
+}
+

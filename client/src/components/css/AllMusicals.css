@@ -11,9 +11,15 @@
     margin: 30px 32px;
   } */
 
-  .musicals-container {
-    display: inline-block;
+  .musicals-gallery {
+    display: grid;
+    grid-template-columns: repeat(5), auto;
   }
+    figure {
+      margin: 3px;
+      overflow: hidden;
+      position: relative;
+    }
 
   .musicals-headline {
     float: none;

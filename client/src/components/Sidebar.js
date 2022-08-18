@@ -3,24 +3,21 @@ import { NavLink } from 'react-router-dom'
 import "./Sidebar.css";
 
 const Sidebar = ( { currentUser, setCurrentUser } ) => {
-  const [sidebar, setSidebar] = useState(false)
 
-  const showSidebar = () => setSidebar(!sidebar)
-
-  const handleLogout = () => {
-    fetch('/logout', {
-      method: 'DELETE'
-    })
-    .then((res) => {
-      if (res.ok) {
-        setCurrentUser(false);
-      }
-    });
-  };
+  // const handleLogout = () => {
+  //   fetch('/logout', {
+  //     method: 'DELETE'
+  //   })
+  //   .then((res) => {
+  //     if (res.ok) {
+  //       setCurrentUser(false);
+  //     }
+  //   });
+  // };
 
   return (
     <div className='sidebar'>
-      <nav className='nav-menu'>
+      {/* <nav className='nav-menu'>
         <ul className='nav-menu-items'>
           <li className='nav-text'>
             { currentUser ? <h3 className="my_collection">{"WELCOME, " + currentUser.username.toUpperCase()}</h3> : ""}
@@ -62,16 +59,12 @@ const Sidebar = ( { currentUser, setCurrentUser } ) => {
                 <NavLink to='/mymusicals'>
                   <p><span>Favorite Musicals</span></p>
                 </NavLink>
-
-                {/* <NavLink to='/bucketlist'>
-                  <p><span>My Songs</span></p>
-                </NavLink> */}
                 
               </div> : ""
               }
           </li>
         </ul>
-      </nav>
+      </nav> */}
     </div>
   );
 };

@@ -11,6 +11,7 @@ import MusicalDetails from './components/MusicalDetails';
 import ActorDetails from './components/ActorDetails'
 import MyMusicals from './components/MyMusicals';
 import SongDetails from './components/SongDetails';
+import Navbar from './components/Navbar';
 
 
 
@@ -53,8 +54,8 @@ function App() {
     .then(actors => setActors(actors))
   }, []);
 
-  // const allMusicals = musicals.filter(musical => musical.name.toLowerCase().includes(search.toLowerCase()))
-  // const allActors = actors.filter(actor => actor.name.toLowerCase().includes(search.toLowerCase()))
+  const allMusicals = musicals.filter(musical => musical.name.toLowerCase().includes(search.toLowerCase()))
+  const allActors = actors.filter(actor => actor.name.toLowerCase().includes(search.toLowerCase()))
 
   //search musicals and actors
   function handleSearch(e){
@@ -64,6 +65,7 @@ function App() {
 
   return (
     <div className="navigation">
+      <Navbar currentUser={currentUser} setCurrentUser={setCurrentUser}/>
       <Sidebar
       currentUser={currentUser}
       setCurrentUser={setCurrentUser}
@@ -79,10 +81,10 @@ function App() {
             <SignupForm setCurrentUser={setCurrentUser} />
           </Route>
           <Route exact path="/musicals">
-            <AllMusicals currentUser={currentUser} handleSearch={handleSearch} search={search} musicals={musicals}/>
+            <AllMusicals currentUser={currentUser} handleSearch={handleSearch} search={search} allMusicals={allMusicals}/>
           </Route>
           <Route exact path="/actors">
-            <AllActors currentUser={currentUser} handleSearch={handleSearch} search={search} actors={actors}/>
+            <AllActors currentUser={currentUser} handleSearch={handleSearch} search={search} allActors={allActors}/>
           </Route>
           <Route exact path="/musicals/:id">
             <MusicalDetails currentUser={currentUser}/>

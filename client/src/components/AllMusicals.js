@@ -1,7 +1,7 @@
 import MusicalThumbnail from './MusicalThumbnail';
-import './AllMusicals.css'
+import './css/AllMusicals.css'
 
-const AllMusicals = ( { currentUser, handleSearch, search, musicals } ) => {
+const AllMusicals = ( { currentUser, handleSearch, search, allMusicals } ) => {
 
   
     return (
@@ -13,11 +13,15 @@ const AllMusicals = ( { currentUser, handleSearch, search, musicals } ) => {
         </form>
         
         <h1 className='musicals-headline'>Musicals</h1>
-          <div className="musicals_container">
-          {musicals.map(musical =>
+        
+          <div className="musicals-gallery">
+            <figure>
+          {allMusicals.map(musical =>
               <MusicalThumbnail musical={musical} currentUser={currentUser} />
               )}
+           </figure>
           </div>
+       
       </div>
     );
   };

@@ -1,4 +1,4 @@
-.sidebar {
+/* .sidebar {
     background-color: black;
     height: 0px;
     display:block;
@@ -31,8 +31,8 @@
 
 */
 
-.nav-text {
-    display: flex;
+/*.nav-text { */
+    /* display: flex;
     justify-content: start;
     align-items: center;
     padding: 8px 0px 8px 16px;
@@ -80,4 +80,4 @@
     display: flex;
     justify-content: start;
     align-items: center;
-}
+} */ 
