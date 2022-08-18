@@ -15,6 +15,8 @@ const SongDetails = ( { currentUser } ) => {
   const [title, setTitle] = useState("")
   const [audioFile, setAudioFile] = useState(null)
 
+  
+//Audio File Function
   function handleAudioSubmit(e){
     e.preventDefault()
 
@@ -31,6 +33,8 @@ const SongDetails = ( { currentUser } ) => {
     .catch((error) => console.error(error))
   }
 
+
+  //Youtube Video Dimensions
   const opts = {
       height: '400',
       width: '50%'
@@ -55,7 +59,6 @@ function addSongVideos(newVideo) {
   setSongVideos([...songVideos, newVideo])
 }
 
-console.log(song.audio_file)
 
 //Delete a songVideo
 function onHandleDelete(id) {

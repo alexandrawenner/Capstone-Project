@@ -11,10 +11,29 @@ const MusicalDetails = ( { currentUser } ) => {
     const { id } = useParams();
     const [isLoaded, setIsLoaded] = useState(false)
     const [musical, setMusical] = useState([])
-    //const [title, setTitle] = useState("")
+    const [title, setTitle] = useState("")
+    const [videoFile, setVideoFile] = useState(null)
     const [currentSongIndex, setCurrentSongIndex] = useState(1)
     const [nextSongIndex, setNextSongIndex] = useState(currentSongIndex + 1)
    
+
+  //Video File Function
+  function handleVideoSubmit(e){
+    e.preventDefault()
+
+    const formData = new FormData()
+
+    formData.append('video_file', videoFile)
+
+    fetch(`/musicals/${id}`, {
+      method: 'POST',
+      body: formData
+    })
+    .then(r => r.json())
+    .then(video_file => console.log(video_file))
+    .catch((error) => console.log(error))
+  }
+
 
   //play next song
     // useEffect(() => {
@@ -106,11 +125,16 @@ const MusicalDetails = ( { currentUser } ) => {
 
         <div>
           <h1>Video Uploads</h1>
-          {/* <form>
-          <input type="text" name="title" value={title} onChange={handleChange}/> 
-              <input type="file" id="file" name="file"/>
+          <form>
+          <input type="text" name="title" value={title} onChange={(e) => setTitle(e.target.value)}/> 
+          <h2>Upload Video File</h2>
+              <input type="file" accept="video/*" onChange={(e) => setVideoFile(e.target.files[0])}/>
               <button type='submit'>Submit</button>
-          </form> */}
+          </form>
+
+          <video controls>
+            <source src={musical.video_file} type="video/mp4"/>
+          </video>
         </div>
       </div>
     );

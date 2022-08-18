@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_08_17_152434) do
+ActiveRecord::Schema.define(version: 2022_08_18_152639) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -51,6 +51,18 @@ ActiveRecord::Schema.define(version: 2022_08_17_152434) do
     t.string "other_work"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "musical_videos", force: :cascade do |t|
+    t.bigint "user_id", null: false
+    t.bigint "musical_id", null: false
+    t.string "title"
+    t.string "video_url"
+    t.text "comments"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["musical_id"], name: "index_musical_videos_on_musical_id"
+    t.index ["user_id"], name: "index_musical_videos_on_user_id"
   end
 
   create_table "musicals", force: :cascade do |t|
@@ -123,6 +135,8 @@ ActiveRecord::Schema.define(version: 2022_08_17_152434) do
 
   add_foreign_key "active_storage_attachments", "active_storage_blobs", column: "blob_id"
   add_foreign_key "active_storage_variant_records", "active_storage_blobs", column: "blob_id"
+  add_foreign_key "musical_videos", "musicals"
+  add_foreign_key "musical_videos", "users"
   add_foreign_key "song_video_comments", "song_videos"
   add_foreign_key "song_video_comments", "users"
   add_foreign_key "song_videos", "songs"

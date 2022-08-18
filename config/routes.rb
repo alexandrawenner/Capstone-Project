@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   
+  resources :musical_videos
   resources :video_files
   resources :audio_files
   resources :song_video_comments
@@ -15,6 +16,8 @@ Rails.application.routes.draw do
   #get '/actors/id', to "actors#show"
 
   post '/login', to: "sessions#create"
+
+  post '/musicals/:id', to: "musicals#add_uploaded_video"
 
   post '/songs/:id', to: "songs#add_audio"
 
