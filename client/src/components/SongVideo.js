@@ -60,11 +60,19 @@ const SongVideo = ({ songVideo, opts, onHandleDelete, currentUser }) => {
         <p><b>Shared By:</b> {user.username}</p>
         <p><b>User's Thoughts:</b> {comments}</p>  
      
+        {songVideo.video_file 
 
-    
-   
-     
-      <YouTube videoId={videoId} opts={opts} className="song_video"/>
+        ? 
+        
+        <video controls>
+          <source src={songVideo.video_file} type="video/mp4"/>
+        </video>
+
+        :
+
+        <YouTube videoId={videoId} opts={opts} className="song_video"/>
+
+        } 
       
       <h2 className='add-comment'>Comments:</h2>
       {songVideoComments.map(songVideoComment => <Comment key={songVideoComment} songVideoComment={songVideoComment} handleDeleteComment={handleDeleteComment} onUpdateComment={onUpdateComment} currentUser={currentUser} />)}

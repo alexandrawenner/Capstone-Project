@@ -1,6 +1,12 @@
 class SongVideoSerializer < ActiveModel::Serializer
-  attributes :id, :title, :video_url, :comments, :user
+  include Rails.application.routes.url_helpers
+  attributes :id, :title, :video_url, :comments, :user, :video_files
+
   has_one :user
   has_one :song
   has_many :song_video_comments
+
+  def video_file
+    rails_blob_path(object.video_file, only_path:true) if object.video_file.attached?
+  end
 end
