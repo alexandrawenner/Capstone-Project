@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom"
 function HomeCardItem({ currentUser }) {
     return(
         <>
-        <li className="cards__item">
+        {/* <li className="cards__item">
             <NavLink to="/musicals" className="cards__item__link">
                 <figure className="cards__item__pic-wrap" data-category="Musicals">
                     <img src='https://www.claremont-project.org/wp-content/uploads/2021/09/broadway-artmarketjapan.jpg' alt="Musicals Image" 
@@ -40,7 +40,7 @@ function HomeCardItem({ currentUser }) {
             
             }
             
-        </li>
+        </li> */}
         </>
     )
 }

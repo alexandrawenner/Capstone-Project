@@ -96,3 +96,8 @@
 .fa-plus {
     color: white;
 }
+
+.search-container {
+    display: flex;
+    align-items: center;
+}

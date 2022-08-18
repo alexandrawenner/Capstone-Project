@@ -66,10 +66,6 @@ function App() {
   return (
     <div className="navigation">
       <Navbar currentUser={currentUser} setCurrentUser={setCurrentUser}/>
-      <Sidebar
-      currentUser={currentUser}
-      setCurrentUser={setCurrentUser}
-      />
       <Switch>
           <Route exact path="/">
             <Home />

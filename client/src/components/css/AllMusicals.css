@@ -21,10 +21,26 @@
       position: relative;
     }
 
-  .musicals-headline {
+  .headline {
     float: none;
     text-align: left;
     padding-left: 250px;
     color: white;
    
   }
+
+.search-container {
+  padding-left: 20px;
+}
+
+.searchbar {
+  display: flex;
+  align-items: center;
+}
+
+.fa-search {
+  color: white;
+  cursor: pointer;
+  font-size: 25px;
+  padding-left: 10px;
+}

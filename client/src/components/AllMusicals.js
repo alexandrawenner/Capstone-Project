@@ -7,12 +7,13 @@ const AllMusicals = ( { currentUser, handleSearch, search, allMusicals } ) => {
     return (
   
       <div className='all-musicals-page'>
-        <form action="" className="searchbar">
-          <input type="search" required name="search" value={search} onChange={handleSearch}/>
-            <i class="fa fa-search"></i>
-        </form>
-        
-        <h1 className='musicals-headline'>Musicals</h1>
+        <div className='search-container'>
+          <form action="" className="searchbar">
+            <input type="search" required name="search" value={search} onChange={handleSearch}/>
+              <i class="fa fa-search"></i>
+          </form>
+        </div>
+        <h1 className='headline'>Musicals</h1>
         
           <div className="musicals-gallery">
             <figure>
