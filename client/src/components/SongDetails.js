@@ -19,7 +19,7 @@ const SongDetails = ( { currentUser } ) => {
     e.preventDefault()
 
     const formData = new FormData()
-    formData.append('title', title)
+    // formData.append('title', title)
     formData.append('audio_file', audioFile)
 
     fetch(`/songs/${id}`, {
@@ -54,6 +54,8 @@ const videoId = song.music_video.slice(32, 43)
 function addSongVideos(newVideo) {
   setSongVideos([...songVideos, newVideo])
 }
+
+console.log(song.audio_file)
 
 //Delete a songVideo
 function onHandleDelete(id) {
@@ -123,6 +125,13 @@ const songVideoArray = songVideos.map(songVideo => <SongVideo key={songVideo} so
 
         </form>
       </div> 
+
+      {/* <audio controls>
+        <source src={song.audio_file} type="audio/ogg"/>
+        <source src={song.audio_file} type="audio/mpeg"/>
+        Your browser does not support the audio tag.
+      </audio> */}
+
     </div>
   );
 };

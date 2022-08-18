@@ -16,9 +16,19 @@ class SongsController < ApplicationController
         render json: song, status: :created
     end
 
+    def add_audio
+        song = Song.find(params[:id])
+        song.update!(audio_params)
+        render json: song, status: :ok
+    end
+
     private
 
     def song_params
         params.permit(:title, :audio_file)
+    end
+
+    def audio_params
+        params.permit(:audio_file, :id)
     end
 end

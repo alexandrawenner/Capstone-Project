@@ -7,7 +7,7 @@ import './SongRow.css'
 
 const SongRow = ( { song } ) => {
 
-const [videoUrl, setVideoUrl] = useState("")
+const [audioPlayer, setAudioPlayer] = useState(false)
 
 
 //Audio Player route, but need to find a way to link audio files...
@@ -27,23 +27,21 @@ const [videoUrl, setVideoUrl] = useState("")
     // console.log(song.music_video)
 
     //YouTube video player option
-    const opts = {
-        height: '0',
-        width: '0',
-        playerVars: {
-            autoplay: 1,
-        },
-    };
+    // const opts = {
+    //     height: '0',
+    //     width: '0',
+    //     playerVars: {
+    //         autoplay: 1,
+    //     },
+    // };
 
-    function handleClick(song){
-        const videoId = song.music_video.slice(32, 43)
+    function handleClick(){
+        // const videoId = song.music_video.slice(32, 43)
         
-        if (videoUrl) {
-            setVideoUrl('')
-        } else {
-            setVideoUrl(videoId)
-            }
+        setAudioPlayer(!audioPlayer)
     }
+
+
 
     return (
         <div className="songRow">
@@ -56,11 +54,19 @@ const [videoUrl, setVideoUrl] = useState("")
             {/* <audio src={song.music_video} ref={audioElement} /> 
             <AudioPlayer song={song} isPlaying={isPlaying} setIsPlaying={setIsPlaying} audioElement={audioElement}/> */}
 
+            <i class="fa-solid fa-play" onClick={() => handleClick(song)}></i>
+           {audioPlayer ? 
+            <audio controls>
+                <source src={song.audio_file} type="audio/mpeg"/>
+            </audio>
+            :
+            null}
 
             {/* YouTube Video Player option */}
-            <i class="fa-solid fa-play" onClick={() => handleClick(song)}></i>
+            {/* <i class="fa-solid fa-play" ></i> */}
 
-            {videoUrl && <YouTube videoId={videoUrl} opts={opts} className="music_video"/>}
+
+            {/* {audioPlayer && <YouTube videoId={audioPlayer} opts={opts} className="music_video"/>} */}
   
 
           </div>

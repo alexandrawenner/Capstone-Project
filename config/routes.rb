@@ -16,7 +16,10 @@ Rails.application.routes.draw do
 
   post '/login', to: "sessions#create"
 
+  post '/songs/:id', to: "songs#add_audio"
+
   delete '/logout', to: "sessions#destroy"
   get '/authorized_user', to: 'users#show'
   get "*path", to: "fallback#index", constraints: ->(req) { !req.xhr? && req.format.html? }
+  
 end
