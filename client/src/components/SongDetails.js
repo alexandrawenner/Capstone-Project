@@ -22,7 +22,7 @@ const SongDetails = ( { currentUser } ) => {
     formData.append('title', title)
     formData.append('audio_file', audioFile)
 
-    fetch('/songs', {
+    fetch(`/songs/${id}`, {
       method: 'POST',
       body: formData
     })

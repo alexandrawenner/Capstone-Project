@@ -53,25 +53,40 @@ const MusicalDetails = ( { currentUser } ) => {
   
       <div className="musical_body">
       
-          
+          <div className="outside-url">
+            { status.includes("Closed") 
+            
+            ? 
+            
             <a
-            // href="https://www.broadway.com/"
             href={link}
             target="blank"
             >
-              <button>BUY TICKETS</button>
+            <button>LEARN MORE</button>
             </a>
+
+            :
+
+             <a
+            href={link}
+            target="blank"
+            >
+            <button>BUY TICKETS</button>
+            </a>
+
+            }
+           
           
-        
+        </div>
         
         <div className="musical-info">
           <h1>{name}</h1>
             <section className="musical-details">
-            <p><b>Opening Date:</b> {opening_date}</p>
-            <p><b>Director</b> {director}</p>
-            <p><b>Playwrights:</b> {playwrights}</p>
-            <p><b>Composers:</b> {composers}</p>
-            <p><b>Active Status:</b> {status}</p> 
+            <h4><b>Opening Date:</b> {opening_date}</h4>
+            <h4><b>Director:</b> {director}</h4>
+            <h4><b>Playwrights:</b> {playwrights}</h4>
+            <h4><b>Composers:</b> {composers}</h4>
+            <h4><b>Active Status:</b> {status}</h4> 
             </section>
         </div>
         <Player 

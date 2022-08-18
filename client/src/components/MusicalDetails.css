@@ -9,3 +9,7 @@
     text-align: right;
     padding-right: 20px;
 }
+
+.musical-details h4 b{
+    color: rgb(117, 207, 255);
+}
