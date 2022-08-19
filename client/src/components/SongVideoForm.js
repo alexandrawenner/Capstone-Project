@@ -27,8 +27,12 @@ function SongVideoForm( { id, currentUser, addSongVideos } ) {
         body: formData
       })
       .then(r => r.json())
+      .then(song_video => addSongVideos(song_video))
       .then(video_file => console.log(video_file))
       .catch((error) => console.log(error))
+      setTitle("")
+      setComments("")
+      setVideoUrl("")
     }
     
 
@@ -47,7 +51,7 @@ function SongVideoForm( { id, currentUser, addSongVideos } ) {
           </div>
 
           <h2>Upload Video File</h2>
-              <input type="file" accept="video/*" name="video_file"/>
+              <input type="file" accept="video/*" name="video_file" />
 
           <button className='sub-btn' type="submit">Submit</button>
         </form>
