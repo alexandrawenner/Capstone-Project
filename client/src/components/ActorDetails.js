@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom"
+import { useParams } from "react-router-dom";
+import './css/ActorDetails.css';
+import ActorSongList from "./ActorSongList"
 
 const ActorDetails = ( { currentUser } ) => {
 
@@ -23,13 +25,20 @@ const ActorDetails = ( { currentUser } ) => {
     return (
   
       <div className="actor_body">
-        <ol className="actor_info">
-          {/* {actor.songs} */}
+        <div className="actor-info">
           <h1>{name}</h1>
+          <section className="actor-details">
           <p><b>Birthday:</b> {birthday}</p>
           <p><b>Biography:</b> {bio}</p>
           <p><b>Other Work:</b> {other_work}</p>
-        </ol>
+          </section>
+
+          <ol>
+            {actor.songs.map(song => {
+              <li><ActorSongList song={song}/></li>
+            })}
+          </ol>
+        </div>
        
       </div>
     );

@@ -46,9 +46,9 @@ const [audioPlayer, setAudioPlayer] = useState(false)
     return (
         <div className="songRow">
           <div className="songRow__info">
-
+           { /*Goes to each individual song's page */}
             <NavLink exact to={`/songs/${song.id}`}>
-                <h1 >{song.title}</h1>
+                <h1>{song.title}</h1>
             </NavLink>
 
             {/* <audio src={song.music_video} ref={audioElement} /> 
