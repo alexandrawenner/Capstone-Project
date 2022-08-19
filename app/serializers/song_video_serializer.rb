@@ -7,6 +7,6 @@ class SongVideoSerializer < ActiveModel::Serializer
   has_many :song_video_comments
 
   def video_file
-    rails_blob_path(object.video_file, only_path:true) if object.video_file.attached?
+    rails_blob_path(object.video_files, only_path:true) if object.video_files.attached?
   end
 end

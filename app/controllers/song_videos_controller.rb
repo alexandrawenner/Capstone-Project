@@ -36,7 +36,16 @@ class SongVideosController < ApplicationController
             @song_video = SongVideo.find(params[:id])
         end
     
+        # def video_params
+        #     params.permit(:title, :video_file, :id, :comments, :user_id)
+        # end
+
         def video_params
             params.permit(:title, :video_files, :id, :comments, :user_id)
         end
+
+        # def video_params
+        #     params.require(:song_video).permit(:title, :id, :comments, :user_id, video_file:[])
+        # end
+
     end
