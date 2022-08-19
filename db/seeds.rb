@@ -159,7 +159,7 @@ beetlejuice = Musical.create(name: "Beetlejuice", image: "https://imaging.broadw
 
 six = Musical.create(name: "SIX", image: "https://imaging.broadway.com/images/poster-178275/w230/222222/119932-13.jpeg", opening_date: "October 3, 2021", director: "Jamie Armitage", playwrights: "Lucy Moss, Toby Marlow", composers: "Lucy Moss, Toby Marlow", synopsis: "From Tudor Queens to Pop Princesses, the Six wives of Henry VIII take the mic to remix five hundred years of historical heartbreak into an exuberant celebration of 21st century girl power!", status: "On Broadway", location: "Brooks Atkinson Theatre", link: "https://checkout.broadway.com/six/12885/calendar/")
 
-cfa = Musical.create(name: "Come From Away", image: "https://imaging.broadway.com/images/poster-178275/w300/120658-5.jpg", director: "Christopher Ashley", playwrights: "Irene Sankoff, David Hein", composers: "Irene Sankoff", synopsis: "Come from Away is a Canadian musical, with book, music and lyrics by Irene Sankoff and David Hein. It is based on the events in the Newfoundland town of Gander during the week following the September 11 attacks, when 38 planes, carrying approximately 7,000 passengers, were ordered to land unexpectedly at Gander International Airport.", status: "On Broadway", location: "Schoenfeld Theatre", link: "https://checkout.broadway.com/come-away/12524/calendar/")
+cfa = Musical.create(name: "Come From Away", image: "https://imaging.broadway.com/images/poster-178275/w300/120658-5.jpg", opening_date: "March 12, 2017", director: "Christopher Ashley", playwrights: "Irene Sankoff, David Hein", composers: "Irene Sankoff", synopsis: "Come from Away is a Canadian musical, with book, music and lyrics by Irene Sankoff and David Hein. It is based on the events in the Newfoundland town of Gander during the week following the September 11 attacks, when 38 planes, carrying approximately 7,000 passengers, were ordered to land unexpectedly at Gander International Airport.", status: "On Broadway", location: "Schoenfeld Theatre", link: "https://checkout.broadway.com/come-away/12524/calendar/")
 
 hadestown = Musical.create(name: "Hadestown", image: "http://www.playbillstore.com/shared/images/product/Hadestown-Program.png", opening_date: "May 23, 2016", director: "Rachel Chavkin", playwrights: "Anaïs Mitchell", composers: "Anaïs Mitchell", synopsis: "Hadestown is a musical with music, lyrics, and book by Anaïs Mitchell. It tells a version of the ancient Greek myth of Orpheus and Eurydice. Eurydice, a young girl looking for something to eat, goes to work in a hellish industrial underworld to escape climate-change induced poverty before her poor singer-songwriter lover Orpheus comes to rescue her and together show others the way to escape.", status: "On Broadway", location: "Walter Kerr Theatre", link: "https://checkout.broadway.com/hadestown/12773/calendar/")
 
@@ -1800,7 +1800,7 @@ actor: rannells,
     featured: "James Monroe Iglehart, The Original Broadway Cast of Aladdin",
 actor:  jmi,
     image: "https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Aladdin-Bposter.png/220px-Aladdin-Bposter.png",
-    music_video: "https://www.youtube.com/watch?v=RANub1QD-4g&list=PLagO64Dllw814aF_zjuscOFrZeCP7ICty&ab_channel=AlanMenken-Topic"
+    music_video: ""
         },
 {
  title: "Arabian Nights",
@@ -1809,7 +1809,7 @@ actor:  jmi,
     featured: "James Monroe Iglehart, The Original Broadway Cast of Aladdin",
 actor:  jmi,
     image: "https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Aladdin-Bposter.png/220px-Aladdin-Bposter.png",
-    music_video: "https://www.youtube.com/watch?v=42AM9B4SsNs&list=PLagO64Dllw814aF_zjuscOFrZeCP7ICty&index=2&ab_channel=JamesMonroeIglehart-Topic"
+    music_video: ""
         },
 {
 title: "One Jump",

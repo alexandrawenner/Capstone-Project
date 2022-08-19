@@ -52,7 +52,8 @@ const SongDetails = ( { currentUser } ) => {
 
 if (!isLoaded) return <h2>Loading...</h2>
 
-const videoId = song.music_video.slice(32, 43)
+//original main youtube video in songVideos pg
+// const videoId = song.music_video.slice(32, 43)
 
 //Adds A new SongVideo to each song per user's choice
 function addSongVideos(newVideo) {
@@ -67,7 +68,7 @@ function onHandleDelete(id) {
 }
 
 //Library of all SongVideos added to each song
-const songVideoArray = songVideos.map(songVideo => <SongVideo key={songVideo} songVideo={songVideo} videoId={videoId} opts={opts} onHandleDelete={onHandleDelete} currentUser={currentUser}/>)
+const songVideoArray = songVideos.map(songVideo => <SongVideo key={songVideo} songVideo={songVideo} opts={opts} onHandleDelete={onHandleDelete} currentUser={currentUser}/>)
 
 //audio submit form
 // const handleSubmit = (e) => {
@@ -92,7 +93,9 @@ const songVideoArray = songVideos.map(songVideo => <SongVideo key={songVideo} so
       <div className="song_about">
         {/* <p>{song.featured}</p> */}
       </div>
-      <YouTube videoId={videoId} opts={opts} className="song_video"/>
+      {/* <YouTube videoId={videoId} opts={opts} className="song_video"/> */}
+
+      <h1>{song.title}</h1>
 
         <div className='add-cover'>
           { currentUser ? 
