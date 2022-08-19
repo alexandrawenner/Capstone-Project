@@ -18,6 +18,7 @@ const SongVideo = ({ songVideo, opts, onHandleDelete, currentUser }) => {
       })
   }, [id])
 
+
   function handleDelete() {
     fetch(`/song_videos/${id}`, {
       method: 'DELETE'
@@ -60,7 +61,7 @@ const SongVideo = ({ songVideo, opts, onHandleDelete, currentUser }) => {
         <p><b>Shared By:</b> {user.username}</p>
         <p><b>User's Thoughts:</b> {comments}</p>  
      
-        {/* {songVideo.video_url
+        {songVideo.video_url
 
         ? 
          
@@ -68,18 +69,18 @@ const SongVideo = ({ songVideo, opts, onHandleDelete, currentUser }) => {
 
         :
 
-       <video controls>
-          <source src={songVideo.video_file} type="video/mp4"/>
-        </video>
+      <video controls>
+        <source src={songVideo.video_file_url} type="video/mp4"/>
+        <source src={songVideo.video_file_url} type="video/ogg"></source>
+      </video>
 
-        }  */}
+        } 
 
-
-        <YouTube videoId={videoId} opts={opts} className="song_video"/>
+        {/* <YouTube videoId={videoId} opts={opts} className="song_video"/>
 
         <video controls>
-          <source src={songVideo.video_file} type="video/mp4"/>
-        </video>
+          <source src={songVideo.video_file_url} type="video/mp4"/>
+        </video> */}
       
       <h2 className='add-comment'>Comments:</h2>
       {songVideoComments.map(songVideoComment => <Comment key={songVideoComment} songVideoComment={songVideoComment} handleDeleteComment={handleDeleteComment} onUpdateComment={onUpdateComment} currentUser={currentUser} />)}

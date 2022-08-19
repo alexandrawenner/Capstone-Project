@@ -7,5 +7,5 @@ class SongVideo < ApplicationRecord
   belongs_to :song
   has_many :song_video_comments, dependent: :destroy
 
-  has_many_attached :video_files
+  has_one_attached :video_file
 end

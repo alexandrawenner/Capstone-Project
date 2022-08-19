@@ -11,41 +11,35 @@ class SongVideosController < ApplicationController
         end
     
         def create
-            song_video = SongVideo.create!(song_video_params)
-            render json: song_video, status: :created
-        end
-    
-        def add_uploaded_video
-            uploaded_video = SongVideo.find(params[:id])
-            uploaded_video.create!(video_params)
-            render json: uploaded_video, status: :ok
+            # binding.pry
+            if params[:video_file] === "undefined"
+                song_video = SongVideo.create!(song_video_params_without_video_file)
+                render json: song_video, status: :created
+            else 
+                song_video = SongVideo.create!(song_video_params)
+                render json: song_video, status: :created
+            end
         end
     
         def destroy
             @song_video.destroy
             head :no_content
         end
+
+        
         
         private
     
         def song_video_params
-            params.permit(:user_id, :song_id, :title, :video_url, :comments)
+            params.permit(:user_id, :song_id, :title, :comments, :video_file, :video_url)
+        end
+
+        def song_video_params_without_video_file
+            params.permit(:user_id, :song_id, :title, :comments, :video_url)
         end
     
         def find_song_video
             @song_video = SongVideo.find(params[:id])
         end
-    
-        # def video_params
-        #     params.permit(:title, :video_file, :id, :comments, :user_id)
-        # end
-
-        def video_params
-            params.permit(:title, :video_files, :id, :comments, :user_id)
-        end
-
-        # def video_params
-        #     params.require(:song_video).permit(:title, :id, :comments, :user_id, video_file:[])
-        # end
 
     end
