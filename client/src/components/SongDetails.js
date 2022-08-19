@@ -12,7 +12,6 @@ const SongDetails = ( { currentUser } ) => {
   const [song, setSong] = useState([])
   const [songVideos, setSongVideos] = useState([])
   const { id } = useParams();
-  const [title, setTitle] = useState("")
   const [audioFile, setAudioFile] = useState(null)
 
   
@@ -21,7 +20,6 @@ const SongDetails = ( { currentUser } ) => {
     e.preventDefault()
 
     const formData = new FormData()
-    // formData.append('title', title)
     formData.append('audio_file', audioFile)
 
     fetch(`/songs/${id}`, {
@@ -70,22 +68,6 @@ function onHandleDelete(id) {
 //Library of all SongVideos added to each song
 const songVideoArray = songVideos.map(songVideo => <SongVideo key={songVideo} songVideo={songVideo} opts={opts} onHandleDelete={onHandleDelete} currentUser={currentUser}/>)
 
-//audio submit form
-// const handleSubmit = (e) => {
-//   e.preventDefault()
-//   const formData = new FormData()
-//   formData.append('audio_file[song_id]', id)
-//   formData.append('audio_file[title]', title)
-//   formData.append('audio_file[file]',
-//                    e.target.file.files[0])
-//   fetch('/audio_files', {
-//      method: "POST",
-//      body: formData
-//   })
-//   .then(r => r.json())
-//   .then(audio_file =>console.log(audio_file))
-//   .catch((error) => console.error(error))
-// }
 
   return (
     <div className="song_body">
@@ -111,32 +93,16 @@ const songVideoArray = songVideos.map(songVideo => <SongVideo key={songVideo} so
       <div>
           {songVideoArray}
       </div>   
-      {/* <div>
-        <h2>Audio File Upload form</h2>
-          <form onSubmit={handleSubmit}>
-              <input type="text" name="title" value={title} onChange={handleChange}/> 
-              <input type="file" accept="audio/*" id="file" name="file"/>
-              <button type='submit'>Submit</button>
-          </form>
-      </div>  */}
 
       <div>
         <h2>Test Form</h2>
         <form onSubmit={handleAudioSubmit}>
-          <h2>Title</h2>
-          <input type="text" value={title} onChange={(e) => setTitle(e.target.value)}/>
           <h2>Upload mp3</h2>
           <input type="file" accept="audio/*" onChange={(e) => setAudioFile(e.target.files[0])}/>
           <button type="submit">Submit</button>
 
         </form>
       </div> 
-
-      {/* <audio controls>
-        <source src={song.audio_file} type="audio/ogg"/>
-        <source src={song.audio_file} type="audio/mpeg"/>
-        Your browser does not support the audio tag.
-      </audio> */}
 
     </div>
   );
