@@ -33,6 +33,7 @@ function SongVideoForm( { id, currentUser, addSongVideos } ) {
       setTitle("")
       setComments("")
       setVideoUrl("")
+      setVideoFile("")
     }
     
 
@@ -51,7 +52,7 @@ function SongVideoForm( { id, currentUser, addSongVideos } ) {
           </div>
 
           <h2>Upload Video File</h2>
-              <input type="file" accept="video/*" name="video_file" />
+              <input type="file" accept="video/*" name="video_file" value={videoFile} />
 
           <button className='sub-btn' type="submit">Submit</button>
         </form>
