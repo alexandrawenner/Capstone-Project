@@ -6,4 +6,8 @@
 
 .add-cover h1{
     color: yellow;
+    display: block;
+    text-align: center;
+    padding-right: 400px;
+    
 }

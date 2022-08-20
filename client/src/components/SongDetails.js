@@ -30,13 +30,6 @@ const SongDetails = ( { currentUser } ) => {
     .catch((error) => console.error(error))
   }
 
-
-  //Youtube Video Dimensions
-  const opts = {
-      height: '400',
-      width: '50%'
-  };
-
   useEffect(() => {
     fetch(`/songs/${id}`)
     .then((r) => r.json())
@@ -65,7 +58,7 @@ function onHandleDelete(id) {
 }
 
 //Library of all SongVideos added to each song
-const songVideoArray = songVideos.map(songVideo => <SongVideo key={songVideo} songVideo={songVideo} opts={opts} onHandleDelete={onHandleDelete} currentUser={currentUser}/>)
+const songVideoArray = songVideos.map(songVideo => <SongVideo key={songVideo} songVideo={songVideo} onHandleDelete={onHandleDelete} currentUser={currentUser}/>)
 
 
   return (

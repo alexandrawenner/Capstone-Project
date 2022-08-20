@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import './Comment.css'
+import './css/Comment.css'
 
 
 const Comment = ({ songVideoComment, handleDeleteComment, onUpdateComment, currentUser }) => {

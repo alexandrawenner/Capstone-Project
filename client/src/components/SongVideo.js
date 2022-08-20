@@ -4,9 +4,15 @@ import Comment from './Comment';
 import { useState, useEffect } from "react";
 import './css/SongVideo.css'
 
-const SongVideo = ({ songVideo, opts, onHandleDelete, currentUser }) => {
+const SongVideo = ({ songVideo, onHandleDelete, currentUser }) => {
     const [songVideoComments, setSongVideoComments] = useState([])
     const { id, title, video_url, comments, user } = songVideo
+
+    //Youtube Video Dimensions
+  const opts = {
+    height: '400',
+    width: '50%'
+};
 
   const videoId = video_url.slice(32, 43)
 
@@ -57,26 +63,27 @@ const SongVideo = ({ songVideo, opts, onHandleDelete, currentUser }) => {
 
   return (
       <div className='vid-post-info'>
-        <h2>{displayDelete}{title}</h2>
-        <p><b>Shared By:</b> {user.username}</p>
-        <p><b>User's Thoughts:</b> {comments}</p>  
+        <h2 className='post-title'>{displayDelete}{title}</h2>
+        <p className='post-user'><b>Shared By:</b> {user.username}</p>
+        {comments ? <p className='post-comments'><b>Descripton:</b> {comments}</p> : null }
+        
      
         {songVideo.video_url
 
         ? 
          
-         <YouTube videoId={videoId} opts={opts} className="song_video"/>
+         <YouTube videoId={videoId} opts={opts} className="url-post-vid"/>
 
         :
 
-      <video controls>
+      <video controls className='local-post-vid'>
         <source src={songVideo.video_file_url} type="video/mp4"/>
         <source src={songVideo.video_file_url} type="video/ogg"></source>
       </video>
 
         } 
       
-      <h2 className='add-comment'>Comments:</h2>
+      <h2 className='add-comment-header'>Comments:</h2>
       {songVideoComments.map(songVideoComment => <Comment key={songVideoComment} songVideoComment={songVideoComment} handleDeleteComment={handleDeleteComment} onUpdateComment={onUpdateComment} currentUser={currentUser} />)}
 
       <CommentForm onAddComment={onAddComment} songVideoId={id} currentUser={currentUser} />

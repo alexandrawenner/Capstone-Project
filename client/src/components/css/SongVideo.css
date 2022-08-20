@@ -1,8 +1,16 @@
 /*Video Form CSS*/
 
+@media only screen and (max-width: 640ox) {
+    
+}
+
 .video-form {
-    display: block;
+    max-width:700px;
+    margin: auto;
+    padding-right: 400px;
     align-items: center;
+   
+    
 }
 
 .vid-title {
@@ -40,4 +48,46 @@
     color: yellow;
     transition: .3s;
     cursor: pointer;
+}
+
+/*Actual videos*/
+
+.post-title {
+    color: white;
+    display: block;
+    text-align: center;
+    padding-right: 400px;
+}
+
+.post-user {
+    color: white;
+    display: block;
+    text-align: center;
+    padding-right: 400px;
+}
+
+.post-comments {
+    color: white;
+    display: block;
+    text-align: center;
+    padding-right: 400px;
+}
+
+.url-post-vid {
+    display: block;
+    align-items: center;
+    margin-left: 300px;
+}
+
+.local-post-vid {
+    margin-left: 270px;
+    height: 400;
+    width: 50%;
+}
+
+.add-comment-header {
+    color: white;
+    display: block;
+    text-align: center;
+    padding-right: 400px;
 }

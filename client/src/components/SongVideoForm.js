@@ -38,8 +38,8 @@ function SongVideoForm( { id, currentUser, addSongVideos } ) {
     
 
     return(
-        <div className='video-=form-container'>
-        <form className="video-form" onSubmit={handleSubmit}>
+      <div className='video-form-container'>
+        <form className="video-form" onSubmit={handleSubmit} >
           <div> 
             <input className='vid-title' type="text" id="title" placeholder="Title..." name="title" value={title} onChange={(e) => setTitle(e.target.value)} style={{height:15, width:420}}/>
             <br/>

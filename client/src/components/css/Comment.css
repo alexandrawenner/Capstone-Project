@@ -4,20 +4,18 @@
    
 }
 
-.btn {
-    font-family: "Roboto", sans-serif; 
-    font-size: 18px;
-    font-weight: bold;
-    color: black;
-    background: white;
-    cursor: pointer;
-    border-radius: 8px;
-}
-
-.btn:hover {
+.sub-btn {
     color: white;
     background-color: black;
-    border-radius: 8px;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 300px;
+}
+
+.sub-btn:hover {
+    color: yellow;
+    transition: .3s;
+    cursor: pointer;
 }
 
 
