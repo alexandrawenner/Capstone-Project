@@ -11,7 +11,7 @@ const SongVideo = ({ songVideo, onHandleDelete, currentUser }) => {
     //Youtube Video Dimensions
   const opts = {
     height: '400',
-    width: '50%'
+    width: '65%'
 };
 
   const videoId = video_url.slice(32, 43)
@@ -67,21 +67,22 @@ const SongVideo = ({ songVideo, onHandleDelete, currentUser }) => {
         <p className='post-user'><b>Shared By:</b> {user.username}</p>
         {comments ? <p className='post-comments'><b>Descripton:</b> {comments}</p> : null }
         
-     
-        {songVideo.video_url
+      <div className='vid-post-display'>
+          {songVideo.video_url
 
-        ? 
-         
-         <YouTube videoId={videoId} opts={opts} className="url-post-vid"/>
+          ? 
+          
+          <YouTube videoId={videoId} opts={opts} className="url-post-vid"/>
 
-        :
+          :
 
-      <video controls className='local-post-vid'>
-        <source src={songVideo.video_file_url} type="video/mp4"/>
-        <source src={songVideo.video_file_url} type="video/ogg"></source>
-      </video>
+        <video controls className='local-post-vid'>
+          <source src={songVideo.video_file_url} type="video/mp4"/>
+          <source src={songVideo.video_file_url} type="video/ogg"></source>
+        </video>
 
-        } 
+          } 
+      </div>
       
       <h2 className='add-comment-header'>Comments:</h2>
       {songVideoComments.map(songVideoComment => <Comment key={songVideoComment} songVideoComment={songVideoComment} handleDeleteComment={handleDeleteComment} onUpdateComment={onUpdateComment} currentUser={currentUser} />)}

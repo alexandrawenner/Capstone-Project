@@ -1,18 +1,19 @@
 .commentForm {
     display: block;
     text-align: center;
-   
+   margin: auto;
 }
 
-.sub-btn {
+.comment-sub-btn {
     color: white;
     background-color: black;
     border: none;
     padding: 10px 20px;
-    margin-left: 300px;
+    margin-top: 10px;
+    margin-right: 390px;
 }
 
-.sub-btn:hover {
+.comment-sub-btn:hover {
     color: yellow;
     transition: .3s;
     cursor: pointer;
@@ -20,6 +21,12 @@
 
 
 /*Comment.js tags*/
+
+.indiv-comments-container {
+    margin: auto;
+    display: block;
+    align-items: center;
+}
 
 .add-comment {
     display: block;
@@ -54,12 +61,13 @@
 .textarea{
     width: 31.5%;
     border-radius: 10px;
-    margin: 15px auto;
+    margin-top: 15px;
+    margin-right: 380px;
     padding: 12px;
     text-align: justify;
     line-height: 30px;
-    font-family: "Roboto", sans-serif; 
     font-size: 18px;
+    
 }
 
 .individualComments {
@@ -68,6 +76,19 @@
     width: 30%;
     padding: 10px;
     line-height: 25px;
-    border-radius: 20px;
-    margin: 30px auto;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-right: 380px;
+}
+
+
+.comment-display {
+    /* height: 100%;
+    width: 100%;
+    overflow-y: scroll; */
+    margin: auto;
+}
+
+.comment-username {
+    color: black;
 }

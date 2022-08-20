@@ -1,39 +1,42 @@
 /*Video Form CSS*/
 
-@media only screen and (max-width: 640ox) {
+@media only screen and (max-width: 640px) {
     
 }
 
-.video-form {
-    max-width:700px;
+.video-post-info {
     margin: auto;
-    padding-right: 400px;
+    max-width: 350px;
+}
+
+.video-form {
+    max-width:350px;
+    margin: auto;
+    padding-right: 450px;
     align-items: center;
    
     
 }
 
 .vid-title {
-    margin-left: 100px;
     padding: 10px;
 }
 
 .vid-url {
-    padding: 8px;
-    align-items: center;
-    margin-left: 150px;
     margin-top: 15px;
-}
-
-.textarea {
-    margin-left: 120px;
+    padding: 8px;
+    display: block;
 }
 
 .file-btn {
     color: yellow;
     border: none;
     padding: 10px 20px;
-    margin-left: 15px;
+    display: block;
+}
+
+.video-sub-opts {
+    display: inline-block;
 }
 
 .sub-btn {
@@ -41,7 +44,8 @@
     background-color: black;
     border: none;
     padding: 10px 20px;
-    margin-left: 300px;
+    margin-top: 10px;
+    margin-left: 170px;
 }
 
 .sub-btn:hover {
@@ -51,6 +55,11 @@
 }
 
 /*Actual videos*/
+
+.vid-post-display{
+    margin: auto;
+    max-width: 1200px;
+}
 
 .post-title {
     color: white;
@@ -74,18 +83,15 @@
 }
 
 .url-post-vid {
-    display: block;
     align-items: center;
-    margin-left: 300px;
 }
 
 .local-post-vid {
-    margin-left: 270px;
     height: 400;
-    width: 50%;
+    width: 65%;
 }
 
-.add-comment-header {
+.add-comment-header{
     color: white;
     display: block;
     text-align: center;

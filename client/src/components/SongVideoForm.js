@@ -42,12 +42,14 @@ function SongVideoForm( { id, currentUser, addSongVideos } ) {
         <form className="video-form" onSubmit={handleSubmit} >
           <div> 
             <input className='vid-title' type="text" id="title" placeholder="Title..." name="title" value={title} onChange={(e) => setTitle(e.target.value)} style={{height:15, width:420}}/>
+          </div>
             <br/>
+          <div className="video-sub-opts">
             <input className='vid-url' type="text" id="video_url" placeholder="Video URL..." name="video_url" value={videoUrl} onChange={(e) => setVideoUrl(e.target.value)}/>
 
-          <input className='file-btn' type="file" accept="video/*" name="video_file" value={videoFile} />
-          
+            <input className='file-btn' type="file" accept="video/*" name="video_file" value={videoFile} />
           </div>
+          
 
           <div> 
             <textarea className='textarea' id="comments" name="comments" placeholder="Description (optional)..." value={comments} onChange={(e) => setComments(e.target.value)} style={{height:80, width:400}}></textarea>

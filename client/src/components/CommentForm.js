@@ -38,7 +38,7 @@ const CommentForm = ({ onAddComment, songVideoId, currentUser }) => {
               <textarea className='textarea' id="body" name="body" placeholder="Add a comment..." value={body} onChange={handleChange} style={{height:100}}></textarea>
             </div>
 
-            <button className='sub-btn' type="submit">Submit</button>
+            <button className='comment-sub-btn' type="submit">Submit</button>
           </form>
           : null }
 
