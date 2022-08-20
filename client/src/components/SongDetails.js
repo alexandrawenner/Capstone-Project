@@ -4,6 +4,7 @@ import YouTube from 'react-youtube'
 import SongVideo from "./SongVideo";
 import "./css/SongDetails.css"
 import SongVideoForm from "./SongVideoForm";
+import VideoDisplay from "./VideoDisplay";
 
 const SongDetails = ( { currentUser } ) => {
 
@@ -58,7 +59,8 @@ function onHandleDelete(id) {
 }
 
 //Library of all SongVideos added to each song
-const songVideoArray = songVideos.map(songVideo => <SongVideo key={songVideo} songVideo={songVideo} onHandleDelete={onHandleDelete} currentUser={currentUser}/>)
+const songVideoArray = songVideos.map(songVideo => 
+<SongVideo key={songVideo} songVideo={songVideo} onHandleDelete={onHandleDelete} currentUser={currentUser}/>)
 
 
   return (
@@ -79,7 +81,7 @@ const songVideoArray = songVideos.map(songVideo => <SongVideo key={songVideo} so
         </div>
       
       <div>
-          {songVideoArray}
+       {songVideoArray}
       </div>   
 
       <div>

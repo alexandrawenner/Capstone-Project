@@ -3,6 +3,7 @@ import CommentForm from './CommentForm';
 import Comment from './Comment';
 import { useState, useEffect } from "react";
 import './css/SongVideo.css'
+//inheriting from SongDetails
 
 const SongVideo = ({ songVideo, onHandleDelete, currentUser }) => {
     const [songVideoComments, setSongVideoComments] = useState([])
