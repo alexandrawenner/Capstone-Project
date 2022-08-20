@@ -11,3 +11,10 @@
     color: rgb(117, 207, 255);
     
 }
+
+.playbill-image {
+    max-height: 180px;
+    object-fit: contain;
+    border-radius: 5px;
+    padding-left: 15px;
+}

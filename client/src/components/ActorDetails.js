@@ -27,11 +27,11 @@ const ActorDetails = ( { currentUser } ) => {
     return (
   
       <div className="actor_body">
-         <img 
+         <img
                 key={id} 
                 src={actor.image} 
                 alt={name}
-                className="thumbnail_image"/>
+                className="playbill-image"/>
         <div className="actor-info">
           <h1>{name}</h1>
           <section className="actor-details">

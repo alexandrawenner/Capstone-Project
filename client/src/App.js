@@ -10,6 +10,7 @@ import MusicalDetails from './components/MusicalDetails';
 import ActorDetails from './components/ActorDetails'
 import MyMusicals from './components/MyMusicals';
 import SongDetails from './components/SongDetails';
+import AllVideos from './components/AllVideos';
 import Navbar from './components/Navbar';
 
 
@@ -21,6 +22,7 @@ function App() {
   const [musicals, setMusicals] = useState([])
   const [actors, setActors] = useState([])
   const [search, setSearch] = useState("")
+  const [songVideos, setSongVideos] = useState([]) 
 
    // Check if current user is authorized and set to current user
    useEffect(() => {
@@ -53,8 +55,15 @@ function App() {
     .then(actors => setActors(actors))
   }, []);
 
+  useEffect(() => {
+    fetch('/song_videos')
+    .then(res => res.json())
+    .then(songVideo => setSongVideos(songVideo))
+  })
+
   const allMusicals = musicals.filter(musical => musical.name.toLowerCase().includes(search.toLowerCase()))
   const allActors = actors.filter(actor => actor.name.toLowerCase().includes(search.toLowerCase()))
+  const allVideos = songVideos.filter(songVideo => songVideo.title.toLowerCase().includes(search.toLowerCase()))
 
   //search musicals and actors
   function handleSearch(e){
@@ -80,6 +89,9 @@ function App() {
           </Route>
           <Route exact path="/actors">
             <AllActors currentUser={currentUser} handleSearch={handleSearch} search={search} allActors={allActors}/>
+          </Route>
+          <Route exact path="/song_videos">
+            <AllVideos currentUser={currentUser} handleSearch={handleSearch} search={search} allVideos={allVideos}/>
           </Route>
           <Route exact path="/musicals/:id">
             <MusicalDetails currentUser={currentUser}/>
