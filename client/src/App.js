@@ -3,7 +3,6 @@ import { Switch, Route } from "react-router-dom";
 import { useEffect, useState } from 'react';
 import LoginForm from './components/LoginForm';
 import SignupForm from './components/SignupForm';
-import Sidebar from './components/Sidebar';
 import Home from './components/Home';
 import AllMusicals from './components/AllMusicals';
 import AllActors from './components/AllActors';

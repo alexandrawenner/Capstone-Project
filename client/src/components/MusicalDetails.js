@@ -60,20 +60,18 @@ const MusicalDetails = ( { currentUser } ) => {
             >
             <button className="tix-btn">BUY TICKETS</button>
             </a>
-
             }
+             <AudioPlayer tracks={musical.songs}/>
         </div>
 
-        <div>
-        <AudioPlayer tracks={musical.songs}/>
+        <div className="song-list-container">
+          <ol className="song-list">
+            {musical.songs.map(song =>
+              <li><SongRow song={song} currentUser={currentUser}/></li>
+            )}
+          </ol>
         </div>
       
-        <ol className="musical_list_item">
-          {musical.songs.map(song =>
-            <li><SongRow song={song} currentUser={currentUser}/></li>
-          )}
-        </ol>
-
       </div>
     );
   };

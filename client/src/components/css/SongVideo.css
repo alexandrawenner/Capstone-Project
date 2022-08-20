@@ -1,0 +1,43 @@
+/*Video Form CSS*/
+
+.video-form {
+    display: block;
+    align-items: center;
+}
+
+.vid-title {
+    margin-left: 100px;
+    padding: 10px;
+}
+
+.vid-url {
+    padding: 8px;
+    align-items: center;
+    margin-left: 150px;
+    margin-top: 15px;
+}
+
+.textarea {
+    margin-left: 120px;
+}
+
+.file-btn {
+    color: yellow;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 15px;
+}
+
+.sub-btn {
+    color: white;
+    background-color: black;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 300px;
+}
+
+.sub-btn:hover {
+    color: yellow;
+    transition: .3s;
+    cursor: pointer;
+}

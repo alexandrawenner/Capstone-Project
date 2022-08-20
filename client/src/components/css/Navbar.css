@@ -29,15 +29,13 @@ p {
 
 p:hover{
     color: yellow;
-   transition: .3s;
-   
+   transition: .3s; 
 }
 
 .login-btn {
     border: none;
     background-color: black;
     padding: 10px 20px;
-    
     margin-right: 25px;
 }
 
@@ -46,7 +44,6 @@ p:hover{
     border: none;
     background-color: black;
     padding: 10px 20px;
-    border-radius: 20px;
     margin-right: 25px;
 }
 

@@ -4,7 +4,8 @@
     padding: 24px;
     box-shadow: 0 28px 28px rgba(0, 0, 0, 0.2);
     margin: auto;
-    color: var(--white);
+    color: white;
+    /* float: left; */
   }
   
   .artwork {

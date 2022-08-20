@@ -2,7 +2,7 @@ import YouTube from 'react-youtube'
 import CommentForm from './CommentForm';
 import Comment from './Comment';
 import { useState, useEffect } from "react";
-//import './SongVideo.css'
+import './css/SongVideo.css'
 
 const SongVideo = ({ songVideo, opts, onHandleDelete, currentUser }) => {
     const [songVideoComments, setSongVideoComments] = useState([])
@@ -75,12 +75,6 @@ const SongVideo = ({ songVideo, opts, onHandleDelete, currentUser }) => {
       </video>
 
         } 
-
-        {/* <YouTube videoId={videoId} opts={opts} className="song_video"/>
-
-        <video controls>
-          <source src={songVideo.video_file_url} type="video/mp4"/>
-        </video> */}
       
       <h2 className='add-comment'>Comments:</h2>
       {songVideoComments.map(songVideoComment => <Comment key={songVideoComment} songVideoComment={songVideoComment} handleDeleteComment={handleDeleteComment} onUpdateComment={onUpdateComment} currentUser={currentUser} />)}

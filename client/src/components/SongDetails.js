@@ -1,9 +1,8 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import YouTube from 'react-youtube'
-//import SongBanner from "./SongBanner";
 import SongVideo from "./SongVideo";
-//import "./SongDetails.css"
+import "./css/SongDetails.css"
 import SongVideoForm from "./SongVideoForm";
 
 const SongDetails = ( { currentUser } ) => {
@@ -70,14 +69,11 @@ const songVideoArray = songVideos.map(songVideo => <SongVideo key={songVideo} so
 
 
   return (
+  <div className="song-body-container">
+     <h1 className="songTitle">{song.title}</h1>
     <div className="song_body">
-      {/* <SongBanner song={song} /> */}
-      <div className="song_about">
-        {/* <p>{song.featured}</p> */}
-      </div>
       {/* <YouTube videoId={videoId} opts={opts} className="song_video"/> */}
-
-      <h1>{song.title}</h1>
+      
 
         <div className='add-cover'>
           { currentUser ? 
@@ -89,22 +85,20 @@ const songVideoArray = songVideos.map(songVideo => <SongVideo key={songVideo} so
             <h1>Sign Up to Share A Video!</h1> } 
         </div>
       
-      
       <div>
           {songVideoArray}
       </div>   
 
       <div>
-        <h2>Test Form</h2>
         <form onSubmit={handleAudioSubmit}>
           <h2>Upload mp3</h2>
           <input type="file" accept="audio/*" onChange={(e) => setAudioFile(e.target.files[0])}/>
           <button type="submit">Submit</button>
-
         </form>
       </div> 
 
     </div>
+  </div>
   );
 };
 

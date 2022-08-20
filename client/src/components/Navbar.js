@@ -33,6 +33,11 @@ const Navbar = ({ currentUser, setCurrentUser}) => {
                         <p><span>Actors</span></p>
                     </NavLink>
                 </li>
+                <li className="navbar-opts">
+                    <NavLink to='/song_videos' >
+                        <p><span>Videos</span></p>
+                    </NavLink>
+                </li>
             </ul>
                 <button className='login-btn'>
                     { currentUser ?

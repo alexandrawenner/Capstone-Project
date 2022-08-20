@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useHistory } from "react-router-dom";
-import './SignupForm.css'
+import './css/SignupForm.css'
 
 function SignupForm({ setCurrentUser }){
   const [formData, setFormData] = useState({

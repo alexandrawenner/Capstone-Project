@@ -1,5 +1,5 @@
 import { useState } from "react";
-//import './SongVideo.css'
+import './css/SongVideo.css'
 //inheriting from SongDetails
 
 function SongVideoForm( { id, currentUser, addSongVideos } ) {
@@ -38,25 +38,23 @@ function SongVideoForm( { id, currentUser, addSongVideos } ) {
     
 
     return(
-        <div className='songVideoForm'>
-        <form onSubmit={handleSubmit}>
-
+        <div className='video-=form-container'>
+        <form className="video-form" onSubmit={handleSubmit}>
           <div> 
-            <input className='input' type="text" id="title" placeholder="Title..." name="title" value={title} onChange={(e) => setTitle(e.target.value)}/>
+            <input className='vid-title' type="text" id="title" placeholder="Title..." name="title" value={title} onChange={(e) => setTitle(e.target.value)} style={{height:15, width:420}}/>
+            <br/>
+            <input className='vid-url' type="text" id="video_url" placeholder="Video URL..." name="video_url" value={videoUrl} onChange={(e) => setVideoUrl(e.target.value)}/>
 
-            <input className='input' type="text" id="video_url" placeholder="Video URL..." name="video_url" value={videoUrl} onChange={(e) => setVideoUrl(e.target.value)}/>
+          <input className='file-btn' type="file" accept="video/*" name="video_file" value={videoFile} />
+          
           </div>
 
           <div> 
-            <textarea className='textarea' id="comments" name="comments" placeholder="Comments..." value={comments} onChange={(e) => setComments(e.target.value)} style={{height:80, width:380}}></textarea>
+            <textarea className='textarea' id="comments" name="comments" placeholder="Description (optional)..." value={comments} onChange={(e) => setComments(e.target.value)} style={{height:80, width:400}}></textarea>
           </div>
-
-          <h2>Upload Video File</h2>
-              <input type="file" accept="video/*" name="video_file" value={videoFile} />
 
           <button className='sub-btn' type="submit">Submit</button>
-        </form>
-        
+        </form>  
       </div>
     )
 }

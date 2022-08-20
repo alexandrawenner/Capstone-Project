@@ -8,18 +8,23 @@
     margin: 0;
     margin-right: 15px;
     font-size: 15px;
+    color: white;
   }
   
   /* .songRow p{
     margin: 0;
     font-size: 13px;
   } */
+
+  ol {
+    color: white;
+  }
   
   .songRow {
     display: flex;
     align-items: center;
     z-index: 100;
-    color: rgb(7, 86, 120);
+    color: rgb(255, 255, 255);
     margin-bottom: 15px;
   }
   
@@ -32,6 +37,7 @@
   .songRow__info {
     margin-left: 10px;
     width: 100%;
+    color: white;
   }
   
   .songRow__info > h1 {
