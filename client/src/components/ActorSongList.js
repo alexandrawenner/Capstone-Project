@@ -1,12 +1,12 @@
-
+import { NavLink } from 'react-router-dom'
 
 const ActorSongList = ({ song }) => {
 
     console.log(song)
     return(
-        <div>
+        <NavLink exact to={`/songs/${song.id}`}>
             <h1>{song.title}</h1>
-        </div>
+        </NavLink>
     )
 }
 

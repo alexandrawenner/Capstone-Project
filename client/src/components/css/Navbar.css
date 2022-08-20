@@ -4,12 +4,14 @@
     justify-content:right;
     padding-top: 40px;
     padding-left: 10%;
+    text-decoration: none;
 }
 
 .navbar-opts {
     list-style-type: none;
     display: inline-block;
     padding: 10px 20px;
+    text-decoration: none;
     
 }
 
@@ -22,12 +24,13 @@ p {
     text-decoration: none;
     color: white;
     font-weight: bold;
+    text-decoration: none;
 }
 
 p:hover{
     color: yellow;
    transition: .3s;
-   text-decoration: none;
+   
 }
 
 .login-btn {

@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import { NavLink, useParams } from "react-router-dom";
 import MyMusicals from "./MyMusicals";
-import Player from "./Player";
 import SongRow from "./SongRow";
+import AudioPlayer from "./AudioPlayer";
 import './css/MusicalDetails.css'
 //inherits from MusicalThumbnail
 
@@ -11,19 +11,7 @@ const MusicalDetails = ( { currentUser } ) => {
     const { id } = useParams();
     const [isLoaded, setIsLoaded] = useState(false)
     const [musical, setMusical] = useState([])
-    const [title, setTitle] = useState("")
-    const [videoFile, setVideoFile] = useState(null)
-    // const [currentSongIndex, setCurrentSongIndex] = useState(1)
-    // const [nextSongIndex, setNextSongIndex] = useState(currentSongIndex + 1)
 
-  //play next song
-    // useEffect(() => {
-    //   if (currentSongIndex + 1 > musical.songs.length - 1) {
-    //     return 0;
-    //   } else {
-    //     return currentSongIndex + 1;
-    //   }
-    // }, [currentSongIndex])
 
   //gets all musicals
     useEffect(() => {
@@ -38,6 +26,7 @@ const MusicalDetails = ( { currentUser } ) => {
   if (!isLoaded) return <h2>Loading...</h2>
   
   const {name, opening_date, director, playwrights, composers, status, link} = musical
+
   
     return (
   
@@ -74,19 +63,11 @@ const MusicalDetails = ( { currentUser } ) => {
 
             }
         </div>
-      
-          
-       
-        
-        {/* <Player 
-        // song={musical.songs[currentSongIndex]} 
-        // nextSong={musical.songs[nextSongIndex]}
-        currentSongIndex={currentSongIndex}
-        setCurrentSongIndex={setCurrentSongIndex}
-        nextSongIndex={nextSongIndex}
-        song={musical.songs}
-        /> */}
 
+        <div>
+        <AudioPlayer tracks={musical.songs}/>
+        </div>
+      
         <ol className="musical_list_item">
           {musical.songs.map(song =>
             <li><SongRow song={song} currentUser={currentUser}/></li>

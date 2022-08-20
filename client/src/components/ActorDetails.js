@@ -21,10 +21,17 @@ const ActorDetails = ( { currentUser } ) => {
   if (!isLoaded) return <h2>Loading...</h2>
   
   const {name, birthday, bio, other_work} = actor
+
+  console.log(actor)
   
     return (
   
       <div className="actor_body">
+         <img 
+                key={id} 
+                src={actor.image} 
+                alt={name}
+                className="thumbnail_image"/>
         <div className="actor-info">
           <h1>{name}</h1>
           <section className="actor-details">
