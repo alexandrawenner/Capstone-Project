@@ -8,7 +8,6 @@ import AllMusicals from './components/AllMusicals';
 import AllActors from './components/AllActors';
 import MusicalDetails from './components/MusicalDetails';
 import ActorDetails from './components/ActorDetails'
-import MyMusicals from './components/MyMusicals';
 import SongDetails from './components/SongDetails';
 import AllVideos from './components/AllVideos';
 import Navbar from './components/Navbar';
@@ -101,9 +100,6 @@ function App() {
           </Route>
           <Route exact path="/songs/:id">
             <SongDetails currentUser={currentUser}/>
-          </Route>
-          <Route exact path="/mymusicals">
-            <MyMusicals currentUser={currentUser}/>
           </Route>
       </Switch>
 

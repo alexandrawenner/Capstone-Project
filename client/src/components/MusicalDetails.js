@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import { NavLink, useParams } from "react-router-dom";
-import MyMusicals from "./MyMusicals";
 import SongRow from "./SongRow";
 import AudioPlayer from "./AudioPlayer";
 import './css/MusicalDetails.css'

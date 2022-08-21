@@ -1383,7 +1383,7 @@ actor: hugh,
     musical: six,
     featured: "Adrianna Hicks, Andrea Macasaet, Abby Mueller, Brittney Mack, Samantha Pauly, Anna Uzele",
 actor: hicks,
-    image: "https://i.scdn.co/image/ab67616d0000b273d9cd8917de31257e2ac920a9"
+    image: "https://m.media-amazon.com/images/I/71ChQLRD8uL._SS500_.jpg"
         },
 {
     title: "Ex-Wives (Reprise)",
@@ -1391,7 +1391,7 @@ actor: hicks,
     musical: six,
     featured: "Adrianna Hicks, Andrea Macasaet, Abby Mueller, Brittney Mack, Samantha Pauly, Anna Uzele",
 actor: pauly,
-    image: "https://i.scdn.co/image/ab67616d0000b273d9cd8917de31257e2ac920a9"
+    image: "https://m.media-amazon.com/images/I/71ChQLRD8uL._SS500_.jpg"
         },
 {
     title: "No Way",
@@ -1399,7 +1399,7 @@ actor: pauly,
     musical: six,
     featured: "Adrianna Hicks, Andrea Macasaet, Abby Mueller, Brittney Mack, Samantha Pauly, Anna Uzele",
 actor: hicks,
-    image: "https://i.scdn.co/image/ab67616d0000b273d9cd8917de31257e2ac920a9"
+    image: "https://m.media-amazon.com/images/I/71ChQLRD8uL._SS500_.jpg"
         },
 {
     title: "Don’t Lose Your Head",
@@ -1407,7 +1407,7 @@ actor: hicks,
     musical: six,
     featured: "Adrianna Hicks, Andrea Macasaet, Abby Mueller, Brittney Mack, Samantha Pauly, Anna Uzele",
 actor: dre,
-    image: "https://i.scdn.co/image/ab67616d0000b273d9cd8917de31257e2ac920a9"
+    image: "https://m.media-amazon.com/images/I/71ChQLRD8uL._SS500_.jpg"
         },
 {
     title: "Heart of Stone",
@@ -1415,7 +1415,7 @@ actor: dre,
     musical: six,
     featured: "Adrianna Hicks, Andrea Macasaet, Abby Mueller, Brittney Mack, Samantha Pauly, Anna Uzele",
 actor: mueller,
-    image: "https://i.scdn.co/image/ab67616d0000b273d9cd8917de31257e2ac920a9"
+    image: "https://m.media-amazon.com/images/I/71ChQLRD8uL._SS500_.jpg"
         },
 {
     title: "Haus of Holbein",
@@ -1423,7 +1423,7 @@ actor: mueller,
     musical: six,
     featured: "Adrianna Hicks, Andrea Macasaet, Abby Mueller, Brittney Mack, Samantha Pauly, Anna Uzele",
 actor: mack,
-    image: "https://i.scdn.co/image/ab67616d0000b273d9cd8917de31257e2ac920a9"
+    image: "https://m.media-amazon.com/images/I/71ChQLRD8uL._SS500_.jpg"
         },
 {
     title: "Get Down",
@@ -1431,7 +1431,7 @@ actor: mack,
     musical: six,
     featured: "Adrianna Hicks, Andrea Macasaet, Abby Mueller, Brittney Mack, Samantha Pauly, Anna Uzele",
 actor: mack,
-    image: "https://i.scdn.co/image/ab67616d0000b273d9cd8917de31257e2ac920a9"
+    image: "https://m.media-amazon.com/images/I/71ChQLRD8uL._SS500_.jpg"
         },
 {
     title: "All You Wanna Do",
@@ -1439,7 +1439,7 @@ actor: mack,
     musical: six,
     featured: "Adrianna Hicks, Andrea Macasaet, Abby Mueller, Brittney Mack, Samantha Pauly, Anna Uzele",
 actor: pauly,
-    image: "https://i.scdn.co/image/ab67616d0000b273d9cd8917de31257e2ac920a9"
+    image: "https://m.media-amazon.com/images/I/71ChQLRD8uL._SS500_.jpg"
         },
 {
     title: "I Don’t Need Your Love",
@@ -1447,7 +1447,7 @@ actor: pauly,
     musical: six,
     featured: "Adrianna Hicks, Andrea Macasaet, Abby Mueller, Brittney Mack, Samantha Pauly, Anna Uzele",
 actor: uzele,
-    image: "https://i.scdn.co/image/ab67616d0000b273d9cd8917de31257e2ac920a9"
+    image: "https://m.media-amazon.com/images/I/71ChQLRD8uL._SS500_.jpg"
         },
 {
     title: "I Don’t Need Your Love (Reprise)",
@@ -1463,7 +1463,7 @@ actor: uzele,
     musical: six,
     featured: "Adrianna Hicks, Andrea Macasaet, Abby Mueller, Brittney Mack, Samantha Pauly, Anna Uzele",
 actor: mueller,
-    image: "https://i.scdn.co/image/ab67616d0000b273d9cd8917de31257e2ac920a9"
+    image: "https://m.media-amazon.com/images/I/71ChQLRD8uL._SS500_.jpg"
         },
 {
     title: "MegaSix",
@@ -1471,7 +1471,7 @@ actor: mueller,
     musical: six,
     featured: "Adrianna Hicks, Andrea Macasaet, Abby Mueller, Brittney Mack, Samantha Pauly, Anna Uzele",
 actor: dre,
-    image: "https://i.scdn.co/image/ab67616d0000b273d9cd8917de31257e2ac920a9"
+    image: "https://m.media-amazon.com/images/I/71ChQLRD8uL._SS500_.jpg"
         },
 {
     title: "Heart of Stone (Alternate)",
@@ -1479,7 +1479,7 @@ actor: dre,
     musical: six,
     featured: "Adrianna Hicks, Andrea Macasaet, Abby Mueller, Brittney Mack, Samantha Pauly, Anna Uzele",
 actor: mueller,
-    image: "https://i.scdn.co/image/ab67616d0000b273d9cd8917de31257e2ac920a9"
+    image: "https://m.media-amazon.com/images/I/71ChQLRD8uL._SS500_.jpg"
         },
 {
     title: "Hello",

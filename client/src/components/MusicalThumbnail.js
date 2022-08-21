@@ -4,33 +4,9 @@ import { NavLink } from "react-router-dom";
 import "./css/MusicalThumbnail.css"
 import SongRow from "./SongRow";
 
-const MusicalThumbnail = ( { musical, currentUser } ) => {
+const MusicalThumbnail = ( { musical} ) => {
 
   const { id, image, name } = musical
-
-  const [added, setAdded] = useState(false)
-
-  //If the current user is signed in, extract their id
-  const formData = {
-    user_id: currentUser ? currentUser.id : 1,
-    musical_id: musical.id
-  }
-
-  function handleAddMusical() {
-    fetch('/user_musicals', {
-      method:'POST',
-      headers: {
-        "Content-Type": "application/json",
-        Accept: "application/json",
-      },
-      body: JSON.stringify(formData)
-    })
-    setAdded(true)
-  }
-
-  let destructuredIds
-
-  // currentUser ? destructuredIds = currentUser.user_musicals.map(userMusical => userMusical.id) : destructuredIds = []
 
   return (
     <div className="thumbnail_container">
@@ -50,21 +26,6 @@ const MusicalThumbnail = ( { musical, currentUser } ) => {
           <NavLink exact to={`/musicals/${id}`}>
             <h3>{name}</h3>
           </NavLink>
-        </div>
-        <div className="favorite-musicals">
-          { 
-          currentUser ? 
-          
-          // destructuredIds.indexOf(id) !== -1 || 
-          
-          added ? <i class="fa-solid fa-hyphen" onClick={handleAddMusical}></i> : <i class="fa-solid fa-plus" onClick={handleAddMusical}></i>
-          
-          :
-
-          null 
-          
-          }
-          
         </div>
       </div>
     </li>

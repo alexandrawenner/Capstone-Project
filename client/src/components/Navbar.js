@@ -58,21 +58,6 @@ const Navbar = ({ currentUser, setCurrentUser}) => {
                         </NavLink> 
                     </button>
                     }
-
-            {/* { currentUser ? 
-              <div>
-                <div className="wishlist">
-                  <h3>MY COLLECTION</h3>
-                </div>
-                
-                <NavLink to='/mymusicals'>
-                  <p><span>Favorite Musicals</span></p>
-                </NavLink>
-                
-              </div> : ""
-              } */}
-               
-            
         </nav>
     )
 }

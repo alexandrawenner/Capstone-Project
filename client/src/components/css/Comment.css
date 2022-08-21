@@ -1,3 +1,7 @@
+@media only screen and (max-width: 640px) {
+    
+}
+
 .commentForm {
     display: block;
     text-align: center;
@@ -19,13 +23,26 @@
     cursor: pointer;
 }
 
+.textarea{
+    width: 31.5%;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-right: 430px;
+    padding: 12px;
+    /* text-align: justify; */
+    line-height: 30px;
+    font-size: 18px;
+    
+}
+
 
 /*Comment.js tags*/
 
 .indiv-comments-container {
     margin: auto;
+    max-width: 1200px;
     display: block;
-    align-items: center;
+    text-align: center;
 }
 
 .add-comment {
@@ -58,36 +75,22 @@
     letter-spacing: 1px;
 }
 
-.textarea{
-    width: 31.5%;
-    border-radius: 10px;
-    margin-top: 15px;
-    margin-right: 380px;
-    padding: 12px;
-    text-align: justify;
-    line-height: 30px;
-    font-size: 18px;
-    
-}
+
 
 .individualComments {
     background-color: rgb(158, 167, 170);
     color: black;
     width: 30%;
     padding: 10px;
-    line-height: 25px;
+    /* line-height: 25px; */
     border-radius: 5px;
     margin-top: 10px;
-    margin-right: 380px;
+    margin-left: 200px;
+    
 }
 
 
-.comment-display {
-    /* height: 100%;
-    width: 100%;
-    overflow-y: scroll; */
-    margin: auto;
-}
+
 
 .comment-username {
     color: black;
