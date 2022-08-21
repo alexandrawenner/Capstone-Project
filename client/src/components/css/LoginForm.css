@@ -1,9 +1,4 @@
-/* body {
-    background-image: url(https://media.istockphoto.com/vectors/vector-red-curtain-backgroundmodern-style-vector-id1056247682?k=20&m=1056247682&s=612x612&w=0&h=eEfa7C0kdxo9HtcsdtxP1bfhrsekWhfbW2a1dP1D_7M=);
-    background-repeat: no-repeat;
-    overflow: hidden;
-    background-size: cover;
-} */
+
 
 .login h1 {
     font-family: 'Raleway Dots', cursive;
@@ -45,7 +40,7 @@
 
 .main button {
     padding-left: 0%;
-    background-color: rgb(114, 8, 8);
+    background-color: rgb(0, 0, 0);
     letter-spacing: 1px;
     font-weight: bold;
     color: rgb(255, 255, 255);
@@ -55,10 +50,11 @@
     outline: none;
     font-size: 15px;
     margin-bottom: 40px;
+    cursor: pointer;
 }
 
-.main button:hover, input:hover {
-    box-shadow: 2px 2px 5px #555;
+.main button:hover{
+    color: yellow;
 }
 
 

@@ -38,24 +38,24 @@ const ActorDetails = ( { currentUser } ) => {
                 alt={name}
                 className="playbill-image"/>
         <div className="actor-info">
-          <h1>{name}</h1>
-          <section className="actor-details">
-          <p><b>Birthday:</b> {birthday}</p>
-          <p><b>Biography:</b> {bio}</p>
-          <p><b>Other Work:</b> {other_work}</p>
-          </section>
+            <div className="actor-name">
+              <h1>{name}</h1>
+            </div>
+          
+            <section className="actor-details">
+              <p><b>Birthday:</b> {birthday}</p>
+              <p><b>Biography:</b> {bio}</p>
+              <p><b>Other Work:</b> {other_work}</p>
+            </section>
 
-          <div>
-            {actorsSongArray}
-          </div>
-
-          {/* <ol>
-            {songs.map(song => {
-              <li><ActorSongList key={song} song={song}/></li>
-            })}
-          </ol> */}
+            <div className="feat-song">
+              <h1>Featured Songs</h1>
+            </div>
+            
+            <div className="actor-song">
+              {actorsSongArray}
+            </div>
         </div>
-       
       </div>
     );
   };

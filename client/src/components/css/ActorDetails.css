@@ -18,3 +18,26 @@
     border-radius: 5px;
     padding-left: 15px;
 }
+
+/*ActorSongList.js tags*/
+
+
+.actor-name h1{
+    color: rgb(255, 255, 255);
+}
+
+.feat-song h1{
+    color: rgb(255, 255, 255);
+}
+
+.actor-song h1{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(117, 207, 255);
+}
+
+.actor-song:hover {
+    color: yellow;
+    text-decoration: none;
+}
+

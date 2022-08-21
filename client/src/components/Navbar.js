@@ -19,22 +19,22 @@ const Navbar = ({ currentUser, setCurrentUser}) => {
             { currentUser ? <h3 className="welcome">{"WELCOME, " + currentUser.username.toUpperCase()}</h3> : ""}
             <ul className='nav-categories'>
                 <li className="navbar-opts">
-                    <NavLink to='/' >
+                    <NavLink to='/' style={{textDecoration:"none"}}>
                         <p><span>Home</span></p>
                     </NavLink>
                 </li>
                 <li className="navbar-opts">
-                    <NavLink to='/musicals' >
+                    <NavLink to='/musicals' style={{textDecoration:"none"}}>
                         <p><span>Musicals</span></p>
                     </NavLink>
                 </li>
                 <li className="navbar-opts">
-                    <NavLink to='/actors' >
+                    <NavLink to='/actors' style={{textDecoration:"none"}}>
                         <p><span>Actors</span></p>
                     </NavLink>
                 </li>
                 <li className="navbar-opts">
-                    <NavLink to='/song_videos' >
+                    <NavLink to='/song_videos' style={{textDecoration:"none"}}>
                         <p><span>Videos</span></p>
                     </NavLink>
                 </li>

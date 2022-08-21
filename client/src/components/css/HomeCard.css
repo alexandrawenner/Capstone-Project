@@ -96,6 +96,10 @@
   .cards__item__info {
     padding: 20px 30px 30px;
   }
+
+  .cards h1 {
+    color: #fff;
+  }
   
   .cards__item__text {
     color: white;

@@ -27,7 +27,7 @@ p {
     text-decoration: none;
 }
 
-p:hover{
+.navbar-opts p:hover{
     color: yellow;
    transition: .3s; 
 }

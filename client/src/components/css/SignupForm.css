@@ -46,7 +46,7 @@
 
 .signup-form button {
     padding-left: 0%;
-    background-color: rgb(114, 8, 8);
+    background-color: rgb(0, 0, 0);
     letter-spacing: 1px;
     font-weight: bold;
     color: rgb(255, 255, 255);
@@ -56,4 +56,14 @@
     outline: none;
     font-size: 15px;
     margin-bottom: 40px;
+    cursor: pointer;
+}
+
+.signup-form button:hover{
+    color: yellow;
+}
+
+.signup-form input:hover {
+    box-shadow: 2px 2px 5px #555;
+    background-color: rgb(255, 240, 131);
 }
