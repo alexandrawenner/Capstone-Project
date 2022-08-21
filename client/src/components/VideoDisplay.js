@@ -9,8 +9,8 @@ const VideoDisplay = ({ video, currentUser }) => {
     
       //Youtube Video Dimensions
   const opts = {
-    height: '400',
-    width: '65%'
+    height: '190',
+    width: '120%'
 };
 
   const videoId = video_url.slice(32, 43)
@@ -18,7 +18,6 @@ const VideoDisplay = ({ video, currentUser }) => {
     
     
     return(
-        <div className='all-vids-container'>
           <div className='all-vids-thumbnail'>
            <h1 className='all-vids-titles'>{title}</h1>
             <div className='all-vids-collection'>
@@ -31,14 +30,13 @@ const VideoDisplay = ({ video, currentUser }) => {
                 :
 
                 <video controls className='all-vids-local'>
-                <source src={video_file_url} type="video/mp4"/>
-                <source src={video_file_url} type="video/ogg"></source>
+                  <source src={video_file_url} type="video/mp4"/>
+                  <source src={video_file_url} type="video/ogg"></source>
                 </video>
 
                 } 
             </div>
           </div>
-        </div>
     )
 }
 

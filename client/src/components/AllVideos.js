@@ -10,7 +10,7 @@ const AllVideos = ({ allVideos, currentUser, search, handleSearch }) => {
           </form>
         </div>
       <h1 className='headline'>Videos</h1>
-        <div className="actors_container">
+        <div className="all-videos-container">
         {allVideos.map(video =>
             <VideoDisplay video={video} currentUser={currentUser} />
             )}

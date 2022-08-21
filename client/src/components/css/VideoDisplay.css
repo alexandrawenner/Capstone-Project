@@ -1,20 +1,40 @@
-.all-vids-container {
+
+/*AllVideos.js tags*/
+.all-videos-container {
     margin: auto;
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 80px auto 80px; 
+    column-gap: 100px;
+    row-gap: 100px;
+    align-items: center;
 }
 
+
+
+/*VideoDisplay.js tags*/
+
+/* .all-vids-thumbnail {
+    margin: auto;
+} */
+
 .all-vids-titles {
-    color: white
+    color: white;
+    font-size: 14px;
+    
 }
 
 .all-vids-url {
-    display: inline-block;
-    zoom: 1;
-    display: inline;
-    width: 10%;
-    height: auto;
-    margin: 0 10px 10px 0;
+    color: aliceblue;
 }
 
-.all-vids-collection {
-    grid: 2rem;
+.all-vids-local {
+    width: 130%;
+    height: auto;
+    /* display: grid; */
 }
+
+/* .all-vids-collection {
+    grid: 2rem;
+} */
