@@ -7,135 +7,131 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 puts "🌱 Seeding Actors..."
 
-idina = Actor.create(name: "Idina Menzel", image: "https://assets.playbill.com/head-shots/aa606a610d1350c3d40566315bd67b64-Idina-Menzel.1393366261.jpg", birthday: "May 30, 1971", bio: "Idina Kim Menzel is an American actress and singer, particularly known for her work in musicals on the Broadway stage. Having achieved mainstream success across stage, film and music, she has garnered the honorific title 'Queen of Broadway' for her achievements.", other_work: "Rent, If/Then, Hair, Aida, Funny Girl")
+idina = Actor.create(name: "Idina Menzel", image: "https://assets.playbill.com/head-shots/aa606a610d1350c3d40566315bd67b64-Idina-Menzel.1393366261.jpg", birthday: "May 30, 1971", bio: "Idina Kim Menzel is an American actress and singer, particularly known for her work in musicals on the Broadway stage. Having achieved mainstream success across stage, film and music, she has garnered the honorific title 'Queen of Broadway' for her achievements.", other_work: "Rent, First You Dream: A Tribute to Courage, Aida, Funny Girl, Wicked, Hair, If/Then")
 
-chen = Actor.create(name: "Kristin Chenoweth", image: "https://assets.playbill.com/head-shots/_carouselPortrait/0ab80a742a05ee7737a77d2a2c2482e0-kristin-chenoweth.jpg", birthday: "July 24, 1968", bio: "Kristin Dawn Chenoweth is an American actress and singer, with credits in musical theater, film, and television. In 1999, she won a Tony Award for Best Featured Actress in a Musical for her performance as Sally Brown in You're a Good Man, Charlie Brown on Broadway.", other_work: "Promises, Promises, Funny Girl, Epic Proportions, The Apple Tree ")
+chen = Actor.create(name: "Kristin Chenoweth", image: "https://assets.playbill.com/head-shots/_carouselPortrait/0ab80a742a05ee7737a77d2a2c2482e0-kristin-chenoweth.jpg", birthday: "July 24, 1968", bio: "Kristin Dawn Chenoweth is an American actress and singer, with credits in musical theater, film, and television. In 1999, she won a Tony Award for Best Featured Actress in a Musical for her performance as Sally Brown in You're a Good Man, Charlie Brown on Broadway.", other_work: "Steel Pier, You’re A Good Man, Charlie Brown, Epic Proportions, First You Dream: A Tribute to Courage,  Funny Girl, Wicked, The Apple Tree, Promises, Promises, On the 20th Century ")
 
-lin = Actor.create(name: "Lin-Manuel Miranda", image: "https://assets.playbill.com/head-shots/13253e28a5fcde48a83f8ae8e31d412a-lin-manuel-miranda.jpg", birthday: "January 16, 1980", bio: "Lin-Manuel Miranda is an American actor, rapper, songwriter, playwright and filmmaker. He is known for creating the Broadway musicals Hamilton, In the Heights, and the soundtrack of Disney's Encanto.", other_work: "In the Heights, Bring It On: The Musical")
+lin = Actor.create(name: "Lin-Manuel Miranda", image: "https://assets.playbill.com/head-shots/13253e28a5fcde48a83f8ae8e31d412a-lin-manuel-miranda.jpg", birthday: "January 16, 1980", bio: "Lin-Manuel Miranda is an American actor, rapper, songwriter, playwright and filmmaker. He is known for creating the Broadway musicals Hamilton, In the Heights, and the soundtrack of Disney's Encanto.", other_work: "West Side Story, In the Heights, Bring It On: The Musical, Hamilton, Freestyle Love Supreme")
 
-loj = Actor.create(name: "Leslie Odom Jr.", image: "https://assets.playbill.com/head-shots/Leslie-Odom-Jr.-Approved-Photo-2020-credit-Tony-Duran-Cropped-1.jpg", birthday: "August 6, 1981", bio: "Leslie Lloyd Odom Jr. is an American actor and singer. He made his acting debut on Broadway in 1998 and first gained recognition for his portrayal of Aaron Burr in the musical Hamilton, which earned him a 2016 Tony Award for Best Actor in a Leading Role in a Musical and a Grammy Award for Best Musical Theater Album in the same year.", other_work: "Leap of Faith, Dreamgirl, Rent")
+loj = Actor.create(name: "Leslie Odom Jr.", image: "https://assets.playbill.com/head-shots/Leslie-Odom-Jr.-Approved-Photo-2020-credit-Tony-Duran-Cropped-1.jpg", birthday: "August 6, 1981", bio: "Leslie Lloyd Odom Jr. is an American actor and singer. He made his acting debut on Broadway in 1998 and first gained recognition for his portrayal of Aaron Burr in the musical Hamilton, which earned him a 2016 Tony Award for Best Actor in a Leading Role in a Musical and a Grammy Award for Best Musical Theater Album in the same year.", other_work: "Rent, Dreamgirls, Leap of Faith, Hamilton ")
 
-reg = Actor.create(name: "Renée Elise Goldsberry", image: "https://assets.playbill.com/head-shots/3bcd29c8e252ed5184e9834061c81204-Renee-Elise-Goldsberry.1436533043.jpg", birthday: "January 2, 1971", bio: "Renée Elise Goldsberry is an American actress and singer known for originating the role of Angelica Schuyler in the Broadway musical Hamilton, for which she won the 2016 Tony Award for Best Featured Actress in a Musical.", other_work: "Good People, The Color Purple, The Lion King, Rent")
+reg = Actor.create(name: "Renée Elise Goldsberry", image: "https://assets.playbill.com/head-shots/3bcd29c8e252ed5184e9834061c81204-Renee-Elise-Goldsberry.1436533043.jpg", birthday: "January 2, 1971", bio: "Renée Elise Goldsberry is an American actress and singer known for originating the role of Angelica Schuyler in the Broadway musical Hamilton, for which she won the 2016 Tony Award for Best Featured Actress in a Musical.", other_work: "Hamilton, Good People, The Color Purple, The Lion King, Rent")
 
-soo = Actor.create(name: "Phillipa Soo.", image: "https://assets.playbill.com/head-shots/64ed11c4384e00c17fc6119a3cd5c837-phillipa-soo.jpg", birthday: "May 31, 1990", bio: "Phillipa Anne Soo is an American actress. Soo is best known for originating the role of Eliza Hamilton in the Broadway musical Hamilton, a performance which earned her a nomination for a 2016 Tony Award for Best Actress in a Leading Role in a Musical and a Grammy Award for Best Musical Theater Album in the same year.", other_work: "Amélie, The Perisaian Woman, Into the Woods")
+soo = Actor.create(name: "Phillipa Soo.", image: "https://assets.playbill.com/head-shots/64ed11c4384e00c17fc6119a3cd5c837-phillipa-soo.jpg", birthday: "May 31, 1990", bio: "Phillipa Anne Soo is an American actress. Soo is best known for originating the role of Eliza Hamilton in the Broadway musical Hamilton, a performance which earned her a nomination for a 2016 Tony Award for Best Actress in a Leading Role in a Musical and a Grammy Award for Best Musical Theater Album in the same year.", other_work: "Amélie, Hamilton, The Perisaian Woman, Into the Woods")
 
-groff = Actor.create(name: "Jonathan Groff", image: "https://assets.playbill.com/head-shots/122d0831f31b158610c10db9fd752bb1-jonathan-groff.jpg", birthday: "March 26, 1985", bio: "Jonathan Drew Groff is an American actor and singer. Known for his performances on screen, stage and television, Groff is the recipient of such accolades as a Grammy Award and has been nominated for two Tony Awards, two Drama League Awards, a Drama Desk Award and a Primetime Emmy Award.", other_work: "Spring Awakening, In My Life")
+groff = Actor.create(name: "Jonathan Groff", image: "https://assets.playbill.com/head-shots/122d0831f31b158610c10db9fd752bb1-jonathan-groff.jpg", birthday: "March 26, 1985", bio: "Jonathan Drew Groff is an American actor and singer. Known for his performances on screen, stage and television, Groff is the recipient of such accolades as a Grammy Award and has been nominated for two Tony Awards, two Drama League Awards, a Drama Desk Award and a Primetime Emmy Award.", other_work: "Hamilton, Spring Awakening, In My Life")
 
-diggs = Actor.create(name: "Daveed Diggs", image: "https://assets.playbill.com/head-shots/8889087e2d735fb548dd817553cf7c5a-daveed-diggs.jpg", birthday: "January 24, 1982", bio: "Daveed Daniele Diggs[1] (born January 24, 1982) is an American actor, rapper, and singer-songwriter. He is the vocalist of the experimental hip hop group Clipping, and in 2015, he originated the dual roles of Marquis de Lafayette and Thomas Jefferson in the musical Hamilton, for which he won a 2016 Tony Award for Best Actor in a Featured Role in a Musical. Along with the main cast of Hamilton, he was awarded a Grammy Award for Best Musical Theater Album in the same year.", other_work: "N/A")
+diggs = Actor.create(name: "Daveed Diggs", image: "https://assets.playbill.com/head-shots/8889087e2d735fb548dd817553cf7c5a-daveed-diggs.jpg", birthday: "January 24, 1982", bio: "Daveed Daniele Diggs[1] (born January 24, 1982) is an American actor, rapper, and singer-songwriter. He is the vocalist of the experimental hip hop group Clipping, and in 2015, he originated the dual roles of Marquis de Lafayette and Thomas Jefferson in the musical Hamilton, for which he won a 2016 Tony Award for Best Actor in a Featured Role in a Musical. Along with the main cast of Hamilton, he was awarded a Grammy Award for Best Musical Theater Album in the same year.", other_work: "Freestyle Love Supreme, Hamilton")
 
-platt = Actor.create(name: "Ben Platt", image: "https://assets.playbill.com/head-shots/f6e14b42ee3e08722680f8f42277ce75-ben-platt.jpg", birthday: "September 24, 1993", bio: "Benjamin Schiff Platt is an American actor, singer, and songwriter. He began his acting career in musical theater as a child and appeared in productions of The Sound of Music and The Book of Mormon, rising to prominence for originating the title role in Broadway coming-of-age musical Dear Evan Hansen.", other_work: "The Book of Mormon")
+platt = Actor.create(name: "Ben Platt", image: "https://assets.playbill.com/head-shots/f6e14b42ee3e08722680f8f42277ce75-ben-platt.jpg", birthday: "September 24, 1993", bio: "Benjamin Schiff Platt is an American actor, singer, and songwriter. He began his acting career in musical theater as a child and appeared in productions of The Sound of Music and The Book of Mormon, rising to prominence for originating the title role in Broadway coming-of-age musical Dear Evan Hansen.", other_work: "Dear Evan Hansen, The Book of Mormon")
 
-dreyfuss= Actor.create(name: "Lauren Dreyfuss", image: "https://assets.playbill.com/head-shots/dc39625cf4addec2250df102db75f9d0-laura-dreyfuss.jpg", birthday: "August 22, 1988", bio: "Laura Catherine Dreyfuss is an American actress and singer, known for her roles as Zoe Murphy in the Broadway musical Dear Evan Hansen, Madison McCarthy on the FOX musical series Glee and McAfee Westbrook on the Netflix series The Politician.", other_work: "Hair, Once")
+dreyfuss= Actor.create(name: "Lauren Dreyfuss", image: "https://assets.playbill.com/head-shots/dc39625cf4addec2250df102db75f9d0-laura-dreyfuss.jpg", birthday: "August 22, 1988", bio: "Laura Catherine Dreyfuss is an American actress and singer, known for her roles as Zoe Murphy in the Broadway musical Dear Evan Hansen, Madison McCarthy on the FOX musical series Glee and McAfee Westbrook on the Netflix series The Politician.", other_work: "Dear Evan Hansen, Hair, Once")
 
-tveit = Actor.create(name: "Aaron Tveit", image: "https://assets.playbill.com/head-shots/8d3c9f95095e234515f37e0381c58fcb-aaron-tveit.jpg", birthday: "October 21, 1983", bio: "Aaron Kyle Tveit is an American actor and singer. Tveit originated the lead role of Christian in the stage adaptation of Moulin Rouge! on Broadway, a performance for which he won the 2020 Tony Award for Best Actor in a Musical and received a 2020 Grammy Award nomination.", other_work: "Hairspray, Wicked, Next to Normal, Catch Me If You Can")
+tveit = Actor.create(name: "Aaron Tveit", image: "https://assets.playbill.com/head-shots/8d3c9f95095e234515f37e0381c58fcb-aaron-tveit.jpg", birthday: "October 21, 1983", bio: "Aaron Kyle Tveit is an American actor and singer. Tveit originated the lead role of Christian in the stage adaptation of Moulin Rouge! on Broadway, a performance for which he won the 2020 Tony Award for Best Actor in a Musical and received a 2020 Grammy Award nomination.", other_work: "Moulin Rouge!, Hairspray, Wicked, Next to Normal, Catch Me If You Can")
 
-olivo = Actor.create(name: "Karen Olivo", image: "https://assets.playbill.com/head-shots/731673bf85ccb65e12f19677d1a6c9f2-karen-olivo.jpg", birthday: "August 7, 1976", bio: "Karen Olivo is an American stage and television actor, theater educator, and singer. In 2008, Olivo originated the role of Vanessa in In the Heights on Broadway. The following year, they won the 2009 Tony Award for Best Featured Actress in a Musical for their performance as Anita in a revival of West Side Story.", other_work: "Rent, Brooklyn, In the Heights, West Side Story")
+olivo = Actor.create(name: "Karen Olivo", image: "https://assets.playbill.com/head-shots/731673bf85ccb65e12f19677d1a6c9f2-karen-olivo.jpg", birthday: "August 7, 1976", bio: "Karen Olivo is an American stage and television actor, theater educator, and singer. In 2008, Olivo originated the role of Vanessa in In the Heights on Broadway. The following year, they won the 2009 Tony Award for Best Featured Actress in a Musical for their performance as Anita in a revival of West Side Story.", other_work: "Moulin Rouge!, Rent, Brooklyn, In the Heights, West Side Story")
 
-sierra = Actor.create(name: "Sierra Boggess", image: "https://assets.playbill.com/head-shots/8797d4e3bbbebc9620d8d2902221ebcc-Sierra-Boggess.1447091827.jpg", birthday: "May 20, 1982", bio: "Sierra Marjory Boggess is an American theater actress and singer. She is best known for originating the role of Ariel in The Little Mermaid on Broadway, and for her multiple appearances as Christine Daaé in The Phantom of the Opera. She began by playing the role in the Las Vegas production of Phantom in 2006.", other_work: "The Little Mermaid, It Shoulda Been You, School of Rock")
+sierra = Actor.create(name: "Sierra Boggess", image: "https://assets.playbill.com/head-shots/8797d4e3bbbebc9620d8d2902221ebcc-Sierra-Boggess.1447091827.jpg", birthday: "May 20, 1982", bio: "Sierra Marjory Boggess is an American theater actress and singer. She is best known for originating the role of Ariel in The Little Mermaid on Broadway, and for her multiple appearances as Christine Daaé in The Phantom of the Opera. She began by playing the role in the Las Vegas production of Phantom in 2006.", other_work: "Phantom of the Opera, The Little Mermaid, It Shoulda Been You, School of Rock")
 
-ramin = Actor.create(name: "Ramin Karimloo", image: "https://assets.playbill.com/head-shots/Funny-Girl-R.-Karimloo-Cropped.jpg", birthday: "September 19, 1978", bio: "Ramin Karimloo is a Canadian actor, singer and composer recognized for his work in London's West End and Broadway theater.", other_work: "Les Misérables, Anastasia, Funny Girl")
+ramin = Actor.create(name: "Ramin Karimloo", image: "https://assets.playbill.com/head-shots/Funny-Girl-R.-Karimloo-Cropped.jpg", birthday: "September 19, 1978", bio: "Ramin Karimloo is a Canadian actor, singer and composer recognized for his work in London's West End and Broadway theater.", other_work: "Phantom of the Opera, Les Misérables, Anastasia, Funny Girl")
 
-sutton = Actor.create(name: "Sutton Foster", image: "https://assets.playbill.com/head-shots/79e535f70f6d717a1d9f318b195fac8c-sutton-foster-cropped-1.jpg", birthday: "March 18, 1975", bio: "Sutton Lenore Foster is an American actress, singer and dancer. She is known for her work on the Broadway stage, for which she has won the Tony Award for Best Actress in a Musical twice.", other_work: "Shrek: The Musical, Anything Goes, Funny Girl, Grease, Les Misérables, Little Women, Violet, Young Frankenstein, The Drowsy Chaperone, Thoroughly Modern Millie")
+sutton = Actor.create(name: "Sutton Foster", image: "https://assets.playbill.com/head-shots/79e535f70f6d717a1d9f318b195fac8c-sutton-foster-cropped-1.jpg", birthday: "March 18, 1975", bio: "Sutton Lenore Foster is an American actress, singer and dancer. She is known for her work on the Broadway stage, for which she has won the Tony Award for Best Actress in a Musical twice.", other_work: "The Music Man, Shrek: The Musical, Anything Goes, Funny Girl, Grease, Les Misérables, Little Women, Violet, Young Frankenstein, The Drowsy Chaperone, Thoroughly Modern Millie, Annie")
 
-hugh = Actor.create(name: "Hugh Jackman", image: "https://assets.playbill.com/head-shots/9f2665b1f475a76f016a61b0c234f325-hugh-jackman-cropped-1.jpg", birthday: "October 12, 1968", bio: "Jackman has received various awards including two Tony Awards, a Grammy Award, a Emmy Award and a Golden Globe Award. He also has received an Academy Award nomination. Jackman was appointed a Companion of the Order of Australia in the 2019 Queen's Birthday Honors for services to performing arts and to the global community.", other_work: "The Boy From Oz, A Steady Rain, The River")
+hugh = Actor.create(name: "Hugh Jackman", image: "https://assets.playbill.com/head-shots/9f2665b1f475a76f016a61b0c234f325-hugh-jackman-cropped-1.jpg", birthday: "October 12, 1968", bio: "Jackman has received various awards including two Tony Awards, a Grammy Award, a Emmy Award and a Golden Globe Award. He also has received an Academy Award nomination. Jackman was appointed a Companion of the Order of Australia in the 2019 Queen's Birthday Honors for services to performing arts and to the global community.", other_work: "The Music Man, The Boy From Oz, A Steady Rain, The River")
 
-hicks = Actor.create(name: "Adrianna Hicks", image: "https://assets.playbill.com/head-shots/SIX-A.-Hicks-9-9-21-Cropped.jpg", birthday: "March 15, 1989", bio: "Adrianna Hicks is an American actress, singer, and dancer. She played Catherine of Aragon in the Broadway Production of Six the Musical. She also played the same role in the North American Tour, beginning on 14 May 2019. She left the show on 7 August 2022 and her role was taken over by Bre Jackson.", other_work: "The Color Purple, Aladdin, Some Like It Hot")
+hicks = Actor.create(name: "Adrianna Hicks", image: "https://assets.playbill.com/head-shots/SIX-A.-Hicks-9-9-21-Cropped.jpg", birthday: "March 15, 1989", bio: "Adrianna Hicks is an American actress, singer, and dancer. She played Catherine of Aragon in the Broadway Production of Six the Musical. She also played the same role in the North American Tour, beginning on 14 May 2019. She left the show on 7 August 2022 and her role was taken over by Bre Jackson.", other_work: "Six, The Color Purple, Aladdin, Some Like It Hot")
 
-dre = Actor.create(name: "Andrea Macasaet", image: "https://assets.playbill.com/head-shots/8e9e6dd679f75522a9a6e967d55489e1-andrea-macasaet.jpg", birthday: "March 13, 1994", bio: "Andrea Cesyl Macasaet is a Canadian actress and singer best known for her portrayal of Anne Boleyn in Six: The Musical.", other_work: "N/A")
+dre = Actor.create(name: "Andrea Macasaet", image: "https://assets.playbill.com/head-shots/8e9e6dd679f75522a9a6e967d55489e1-andrea-macasaet.jpg", birthday: "March 13, 1994", bio: "Andrea Cesyl Macasaet is a Canadian actress and singer best known for her portrayal of Anne Boleyn in Six: The Musical.", other_work: "Six")
 
-mueller = Actor.create(name: "Abby Mueller", image: "https://assets.playbill.com/head-shots/abby-mueller.jpg", birthday: "February 1, 1981", bio: "Abby Mueller is an American actress, singer, dancer, and voiceover artist. She played Jane Seymour in the Broadway Production of Six the Musical. She left the show on 7 August 2022 and her role was taken over by Keri Fuller.", other_work: "Kinky Boots, Beautiful: The Carole King Musical")
+mueller = Actor.create(name: "Abby Mueller", image: "https://assets.playbill.com/head-shots/abby-mueller.jpg", birthday: "February 1, 1981", bio: "Abby Mueller is an American actress, singer, dancer, and voiceover artist. She played Jane Seymour in the Broadway Production of Six the Musical. She left the show on 7 August 2022 and her role was taken over by Keri Fuller.", other_work: "Six, Kinky Boots, Beautiful: The Carole King Musical")
 
-mack = Actor.create(name: "Brittney Mack", image: "https://assets.playbill.com/head-shots/6c8b991a41aae0ef7c0798042224fa03-brittney-mack.jpg", birthday: "August 20, 1989", bio: "Brittney is beyond excited to be making her Broadway debut in Six, such a heartfelt and timely show. She hails from Chicago! Favorite credits include tour: Memphis (Networks). Regional: Beehive, Ain’t Misbehavin’, Avenue Q, All Shook Up, Shrek, Rent. International: Royal Caribbean Cruise Lines.", other_work: "N/A")
+mack = Actor.create(name: "Brittney Mack", image: "https://assets.playbill.com/head-shots/6c8b991a41aae0ef7c0798042224fa03-brittney-mack.jpg", birthday: "August 20, 1989", bio: "Brittney is beyond excited to be making her Broadway debut in Six, such a heartfelt and timely show. She hails from Chicago! Favorite credits include tour: Memphis (Networks). Regional: Beehive, Ain’t Misbehavin’, Avenue Q, All Shook Up, Shrek, Rent. International: Royal Caribbean Cruise Lines.", other_work: "Six")
 
-pauly = Actor.create(name: "Samantha Pauly", image: "https://assets.playbill.com/head-shots/c8fccebdb1b9dd8879c39c5015701bf9-samantha-pauly.jpg", birthday: "November 20, 1989", bio: "Pauly has starred in many regional productions in Chicago including Betsy in Honeymoon in Vegas, Eva Peron in Evita, Jovie in Elf the Musical, and Amber von Tussle in Hairspray, to name a few.", other_work: "N/A")
+pauly = Actor.create(name: "Samantha Pauly", image: "https://assets.playbill.com/head-shots/c8fccebdb1b9dd8879c39c5015701bf9-samantha-pauly.jpg", birthday: "November 20, 1989", bio: "Pauly has starred in many regional productions in Chicago including Betsy in Honeymoon in Vegas, Eva Peron in Evita, Jovie in Elf the Musical, and Amber von Tussle in Hairspray, to name a few.", other_work: "Six")
 
-uzele = Actor.create(name: "Anna Uzele", image: "https://assets.playbill.com/head-shots/41b78f553b4ac4c26c5ffeeb1d026d74-anna-uzele.jpg", birthday: "November 7, 1995", bio: "Anna Leah Uzele is an American actress, singer, dancer, and director. She played Catherine Parr in the Broadway Production of Six the Musical, beginning on 13 February 2020. She also played the same role in the North American Tour from 14 May to 22 December 2019.", other_work: "Once on This Island")
+uzele = Actor.create(name: "Anna Uzele", image: "https://assets.playbill.com/head-shots/41b78f553b4ac4c26c5ffeeb1d026d74-anna-uzele.jpg", birthday: "November 7, 1995", bio: "Anna Leah Uzele is an American actress, singer, dancer, and director. She played Catherine Parr in the Broadway Production of Six the Musical, beginning on 13 February 2020. She also played the same role in the North American Tour from 14 May to 22 December 2019.", other_work: "Six, Once on This Island")
 
-rannells = Actor.create(name: "Andrew Rannells", image: "https://assets.playbill.com/head-shots/4bebefdf7b6534450c52def5de9c1cf9-andrew-rannells.jpg", birthday: "August 23, 1978", bio: "Rannells is best known for originating the role of Elder Price in the 2011 Broadway musical The Book of Mormon for which he was nominated for the Tony Award for Best Performance by a Leading Actor in a Musical and won the 2012 Grammy Award for Best Musical Theater Album. He received his second Tony nomination in 2017 for his performance as Whizzer in the 2016 Broadway revival of Falsettos. Other Broadway credits include Hairspray (2005), Jersey Boys (2009), Hedwig and the Angry Inch (2010), Hamilton (2015), and The Boys in the Band (2018).", other_work: "Hairspray, Jersey Boys, Hedwig and the Angry Inch, Falsettos, The Boys in the Band")
+rannells = Actor.create(name: "Andrew Rannells", image: "https://assets.playbill.com/head-shots/4bebefdf7b6534450c52def5de9c1cf9-andrew-rannells.jpg", birthday: "August 23, 1978", bio: "Rannells is best known for originating the role of Elder Price in the 2011 Broadway musical The Book of Mormon for which he was nominated for the Tony Award for Best Performance by a Leading Actor in a Musical and won the 2012 Grammy Award for Best Musical Theater Album. He received his second Tony nomination in 2017 for his performance as Whizzer in the 2016 Broadway revival of Falsettos. Other Broadway credits include Hairspray (2005), Jersey Boys (2009), Hedwig and the Angry Inch (2010), Hamilton (2015), and The Boys in the Band (2018).", other_work: "Book of Mormon, Hairspray, Jersey Boys, Hedwig and the Angry Inch, Falsettos, The Boys in the Band")
 
-gad = Actor.create(name: "Josh Gad", image: "https://assets.playbill.com/head-shots/6df3c68918da9ea8d493330ce2b74ecf-Josh-Gad.1308768923.jpg", birthday: "February 23, 1981", bio: "Joshua Ilan Gad is an American actor. He is known for voicing Olaf in the Frozen franchise, playing Elder Arnold Cunningham in the Broadway musical The Book of Mormon, and playing Le Fou in the live-action adaptation of Disney's Beauty and the Beast.", other_work: "The 25th Annual Putnam Annual Spelling Bee")
+gad = Actor.create(name: "Josh Gad", image: "https://assets.playbill.com/head-shots/6df3c68918da9ea8d493330ce2b74ecf-Josh-Gad.1308768923.jpg", birthday: "February 23, 1981", bio: "Joshua Ilan Gad is an American actor. He is known for voicing Olaf in the Frozen franchise, playing Elder Arnold Cunningham in the Broadway musical The Book of Mormon, and playing Le Fou in the live-action adaptation of Disney's Beauty and the Beast.", other_work: "Book of Mormon, The 25th Annual Putnam Annual Spelling Bee")
 
 reed = Actor.create(name: "Courtney Reed", image: "https://assets.playbill.com/head-shots/7f6637d5e98e9d716591adf356816caa-Courtney-Reed.jpg", birthday: "August 10, 1984", bio: "Last seen on stage playing Jasmine in Aladdin on Broadway and Andrea in Once on this Island at Paper Mill Playhouse, directed by Thomas Kail. Broadway: In the Heights (Carla), Mamma Mia!. Television: 'Law & Order: SVU,' 'White Collar,' 'NYC 22,' and 'CSI: NY.' Proud graduate of the Theatre Conservatory of CCPA at Roosevelt University. She owes everything to Mom, Dad, Tiff and Cam! Special shout-outs to Ba, LeeLee, Kory, B, I, E, and Ben, Tim and Sam at SMS!", other_work: "In the Heights, Mamma Mia!, Cambodian Rock Band")
 
-jmi = Actor.create(name: "James Monroe Iglehart", image: "https://assets.playbill.com/head-shots/779fce5939bc8a022f6791c11d4b963d-hamilton-j.%20Iglehart%209-14-21%20Cropped.jpg", birthday: "September 4, 1974", bio: "James Monroe Iglehart is an American stage actor and singer. Iglehart is perhaps best known for his Tony Award-winning performance as the Genie in the original Broadway production of Aladdin.", other_work: "The 25th Annual Putnam Annual Spelling Bee, Memphis, Freestyle Love Supreme, Hamilton, Chicago")
+jmi = Actor.create(name: "James Monroe Iglehart", image: "https://assets.playbill.com/head-shots/779fce5939bc8a022f6791c11d4b963d-hamilton-j.%20Iglehart%209-14-21%20Cropped.jpg", birthday: "September 4, 1974", bio: "James Monroe Iglehart is an American stage actor and singer. Iglehart is perhaps best known for his Tony Award-winning performance as the Genie in the original Broadway production of Aladdin.", other_work: "Aladdin, The 25th Annual Putnam Annual Spelling Bee, Memphis, Freestyle Love Supreme, Hamilton, Chicago")
 
-jacobs = Actor.create(name: "Adam Jacobs", image: "https://assets.playbill.com/head-shots/1c194f2fde6650d158c3967d06fb3dd6-Adam-Jacobs.1392760832.jpg", birthday: "May 17, 1984", bio: "Adam Jacobs is an American actor and singer. He is best known for originating the title role of Aladdin in Disney's Aladdin on Broadway. He also starred as Marius in the Les Miserables 2006 Broadway Revival, and Simba in Disney's The Lion King on Broadway.", other_work: "The Lion King, Les Misérables")
+jacobs = Actor.create(name: "Adam Jacobs", image: "https://assets.playbill.com/head-shots/1c194f2fde6650d158c3967d06fb3dd6-Adam-Jacobs.1392760832.jpg", birthday: "May 17, 1984", bio: "Adam Jacobs is an American actor and singer. He is best known for originating the title role of Aladdin in Disney's Aladdin on Broadway. He also starred as Marius in the Les Miserables 2006 Broadway Revival, and Simba in Disney's The Lion King on Broadway.", other_work: "Aladdin, The Lion King, Les Misérables")
 
-crystal = Actor.create(name: "Billy Crystal", image: "https://assets.playbill.com/head-shots/Mr.-Saturday-Night-B.-Crystal-Cropped-1.jpg", birthday: "March 14, 1948", bio: "William Edward Crystal is an American actor, comedian, and filmmaker. He gained prominence in the 1970s and 1980s for television roles as Jodie Dallas on the ABC sitcom Soap and as a cast member and frequent host of Saturday Night Live.", other_work: "Have A Nice Day, 700 Sundays")
+crystal = Actor.create(name: "Billy Crystal", image: "https://assets.playbill.com/head-shots/Mr.-Saturday-Night-B.-Crystal-Cropped-1.jpg", birthday: "March 14, 1948", bio: "William Edward Crystal is an American actor, comedian, and filmmaker. He gained prominence in the 1970s and 1980s for television roles as Jodie Dallas on the ABC sitcom Soap and as a cast member and frequent host of Saturday Night Live.", other_work: "Mr. Saturday Night, Have A Nice Day, 700 Sundays")
 
-bean = Actor.create(name: "Shoshana Bean", image: "https://assets.playbill.com/head-shots/Mr.-Saturday-Night-S.-Bean-Cropped-1.jpg", birthday: "September 1, 1977", bio: "Shoshana E. Bean is an American singer, songwriter, YouTuber, and stage actress. She has released three records and has appeared on many theater cast recordings and film soundtracks.", other_work: "Dreamgirls, Hairspray, Hair, Wicked, Waitress, The Yellow Brick Road Not Taken")
+bean = Actor.create(name: "Shoshana Bean", image: "https://assets.playbill.com/head-shots/Mr.-Saturday-Night-S.-Bean-Cropped-1.jpg", birthday: "September 1, 1977", bio: "Shoshana E. Bean is an American singer, songwriter, YouTuber, and stage actress. She has released three records and has appeared on many theater cast recordings and film soundtracks.", other_work: "Mr. Saturday Night, Dreamgirls, Hairspray, Hair, Wicked, Waitress, The Yellow Brick Road Not Taken")
 
-brightman = Actor.create(name: "Alex Brightman", image: "https://assets.playbill.com/head-shots/BEETLEJUICE-A.-Brightman-Cropped-1.jpg", birthday: "February 5, 1987", bio: "Alexander Michael Brightman is an American actor, singer, and writer. He is best known for his work in musical theatre, specifically as Dewey Finn in the musical adaptation of School of Rock and the title character in Beetlejuice the Musical.", other_work: "School of Rock, Matilda, Big Fish, Wicked, Glory Days")
+brightman = Actor.create(name: "Alex Brightman", image: "https://assets.playbill.com/head-shots/BEETLEJUICE-A.-Brightman-Cropped-1.jpg", birthday: "February 5, 1987", bio: "Alexander Michael Brightman is an American actor, singer, and writer. He is best known for his work in musical theatre, specifically as Dewey Finn in the musical adaptation of School of Rock and the title character in Beetlejuice the Musical.", other_work: "Beetlejuice, School of Rock, Matilda, Big Fish, Wicked, Glory Days")
 
-colella = Actor.create(name: "Jenn Colella", image: "https://assets.playbill.com/head-shots/Come-From-Away-J.-Colella-6-20-22-Cropped-1.jpg", birthday: "September 22, 1974", bio: "Jenn Colella is an American actress and singer. She began her career as a comedian and then branched out into musical theater. In her New York debut in Urban Cowboy, she earned a 2003 Outer Critics Circle Award nomination. More recently, she landed a Tony Award nomination, and won the Drama Desk Award, Outer Critics Circle Award, and three regional theater awards for her portrayal of Annette/Beverley Bass in Come from Away. She received a Grammy Award in January 2018 for her role for the Dear Evan Hansen original cast album.", other_work: "Urban Cowboy, High Fidelity, Chaplin, If/Then")
+colella = Actor.create(name: "Jenn Colella", image: "https://assets.playbill.com/head-shots/Come-From-Away-J.-Colella-6-20-22-Cropped-1.jpg", birthday: "September 22, 1974", bio: "Jenn Colella is an American actress and singer. She began her career as a comedian and then branched out into musical theater. In her New York debut in Urban Cowboy, she earned a 2003 Outer Critics Circle Award nomination. More recently, she landed a Tony Award nomination, and won the Drama Desk Award, Outer Critics Circle Award, and three regional theater awards for her portrayal of Annette/Beverley Bass in Come from Away. She received a Grammy Award in January 2018 for her role for the Dear Evan Hansen original cast album.", other_work: "Beetlejuice, Urban Cowboy, High Fidelity, Chaplin, If/Then")
 
-ads = Actor.create(name: "André De Shields", image: "https://assets.playbill.com/head-shots/2a743a4235fe4bf7a97cdd516c0a0da2-andre-de-shields.%20Photo%20by%20Lia%20Chang%20Cropped.jpg", birthday: "1996", bio: "Nkeki Obi-Melekwe is one more youngster sensation from Musical theater who is acquiring positive approval for her job in Tina Turner. She is an entertainer for the most part known for Tina-The Tina Turner Musical on the West End. Aside from this, she has shown up in heaps of motion pictures. Alice by Heart, Half Time, Bull, SMILF, and others are only a couple of Melekwe’s motion pictures.", other_work: "Warp, The Wiz, Ain’t Misbehavin’, Stardust, Play On!, The Full Monty, Death of a Salesman")
+ads = Actor.create(name: "André De Shields", image: "https://assets.playbill.com/head-shots/2a743a4235fe4bf7a97cdd516c0a0da2-andre-de-shields.%20Photo%20by%20Lia%20Chang%20Cropped.jpg", birthday: "1996", bio: "André Robin De Shields is an American actor, singer, dancer, director, and choreographer. De Shields originated the role of Hermes on Broadway in the musical Hadestown, winning the 2019 Tony Award.", other_work: "Hadestown, Warp, The Wiz, Ain’t Misbehavin’, Stardust, Play On!, The Full Monty, Death of a Salesman")
 
-nkeki = Actor.create(name: "Nkeki Obi-Melekwe", image: "https://assets.playbill.com/head-shots/57e2311bb6a12c81ad0e8bae72df6b8b-nkeki-obi-melekwe.jpg", birthday: "January 12, 1946", bio: "André Robin De Shields is an American actor, singer, dancer, director, and choreographer. De Shields originated the role of Hermes on Broadway in the musical Hadestown, winning the 2019 Tony Award.", other_work: "N/A")
+nkeki = Actor.create(name: "Nkeki Obi-Melekwe", image: "https://assets.playbill.com/head-shots/57e2311bb6a12c81ad0e8bae72df6b8b-nkeki-obi-melekwe.jpg", birthday: "January 12, 1946", bio: "Nkeki Obi-Melekwe is one more youngster sensation from Musical theater who is acquiring positive approval for her job in Tina Turner. She is an entertainer for the most part known for Tina-The Tina Turner Musical on the West End. Aside from this, she has shown up in heaps of motion pictures. Alice by Heart, Half Time, Bull, SMILF, and others are only a couple of Melekwe’s motion pictures.", other_work: "Hadestown")
 
-spivey = Actor.create(name: "Jaquel Spivey", image: "https://assets.playbill.com/head-shots/Jaquel-Spivey-Headshot-Cropped-1.jpg", birthday: "N/A", bio: "Jaquel Spivey made his professional debut in A Strange Loop. He graduated from Point Park University with a degree in Musical Theatre.", other_work: "N/A")
+spivey = Actor.create(name: "Jaquel Spivey", image: "https://assets.playbill.com/head-shots/Jaquel-Spivey-Headshot-Cropped-1.jpg", birthday: "N/A", bio: "Jaquel Spivey made his professional debut in A Strange Loop. He graduated from Point Park University with a degree in Musical Theatre.", other_work: "A Strange Loop")
 
-lml = Actor.create(name: "L Morgan Lee", image: "https://assets.playbill.com/head-shots/L-Morgan-Lee-Headshot-Cropped-1.jpg", birthday: "N/A", bio: "L Morgan Lee is an American actress. She received a Tony Award for Best Featured Actress in a Musical nomination for her performance in A Strange Loop, becoming the first out transgender person to receive a Tony Award nomination.", other_work: "N/A")
+lml = Actor.create(name: "L Morgan Lee", image: "https://assets.playbill.com/head-shots/L-Morgan-Lee-Headshot-Cropped-1.jpg", birthday: "N/A", bio: "L Morgan Lee is an American actress. She received a Tony Award for Best Featured Actress in a Musical nomination for her performance in A Strange Loop, becoming the first out transgender person to receive a Tony Award nomination.", other_work: "A Strange Loop")
 
-frost = Actor.create(name: "Myles Frost", image: "https://assets.playbill.com/head-shots/01fec49fd187ecaad4066dbffd520c59-mj-t.%20Olds-Sample%20Cropped%20(1).jpg", birthday: "July 21, 1999", bio: "Myles Frost is an American actor, dancer, and singer. He won the 2022 Tony Award for Best Actor in a Musical for his portrayal of Michael Jackson in the Broadway theatre production of MJ the Musical.", other_work: "N/A")
+frost = Actor.create(name: "Myles Frost", image: "https://assets.playbill.com/head-shots/01fec49fd187ecaad4066dbffd520c59-mj-t.%20Olds-Sample%20Cropped%20(1).jpg", birthday: "July 21, 1999", bio: "Myles Frost is an American actor, dancer, and singer. He won the 2022 Tony Award for Best Actor in a Musical for his portrayal of Michael Jackson in the Broadway theatre production of MJ the Musical.", other_work: "MJ")
 
-tos  = Actor.create(name: "Tavon Olds-Sample", image: "https://assets.playbill.com/head-shots/MJ-T.-Olds-Sample-5-30-22-Cropped.jpg", birthday: "N/A", bio: "Tavon Olds-Sample made his Broadway debut in MJ: The Musical when the show opened in 2022.", other_work: "N/A")
+tos  = Actor.create(name: "Tavon Olds-Sample", image: "https://assets.playbill.com/head-shots/MJ-T.-Olds-Sample-5-30-22-Cropped.jpg", birthday: "N/A", bio: "Tavon Olds-Sample made his Broadway debut in MJ: The Musical when the show opened in 2022.", other_work: "MJ")
 
-levine  = Actor.create(name: "Apollo Levine", image: "https://assets.playbill.com/head-shots/6cbd9972574c9261b8df6f50987fedfc-mj-a.%20Levine%20Cropped%20(1).jpg", birthday: "N/A", bio: "Apollo Levine hails from Abbeville, LA by way of South Bend, IN. He made his Broadway debut in MJ", other_work: "N/A")
+levine  = Actor.create(name: "Apollo Levine", image: "https://assets.playbill.com/head-shots/6cbd9972574c9261b8df6f50987fedfc-mj-a.%20Levine%20Cropped%20(1).jpg", birthday: "N/A", bio: "Apollo Levine hails from Abbeville, LA by way of South Bend, IN. He made his Broadway debut in MJ", other_work: "MJ")
 
-cda  = Actor.create(name: "Charlotte d’Amboise", image: "https://assets.playbill.com/head-shots/Chicago-C.-dAmboise-1-10-22-Cropped-2.jpg", birthday: "May 11, 1964", bio: "Charlotte d'Amboise is an American actress and dancer. She has played starring roles in musical theatre, and has been nominated for two Tony Awards and won the Los Angeles Ovation Awards for Best Leading Actress in a Musical for Chicago. She has also appeared in films.", other_work: "Pippin, A Chorus Line, Sweet Charity, Contact, Company, Damn Yankees, Jerome Robbins’ Broadway, Carrie, Song and Dance, Cats")
+cda  = Actor.create(name: "Charlotte d’Amboise", image: "https://assets.playbill.com/head-shots/Chicago-C.-dAmboise-1-10-22-Cropped-2.jpg", birthday: "May 11, 1964", bio: "Charlotte d'Amboise is an American actress and dancer. She has played starring roles in musical theatre, and has been nominated for two Tony Awards and won the Los Angeles Ovation Awards for Best Leading Actress in a Musical for Chicago. She has also appeared in films.", other_work: "Chicago, Pippin, A Chorus Line, Sweet Charity, Contact, Company, Damn Yankees, Jerome Robbins’ Broadway, Carrie, Song and Dance, Cats")
 
 gord  = Actor.create(name: "Lana Gordon", image: "https://assets.playbill.com/head-shots/Chicago-L.-Gordon-4-11-22-Cropped-1.jpg", birthday: "N/A", bio: "Lana Gordon most recently played Velma Kelly in Chicago on Broadway and tour. She was born in New London, Connecticut and studied dance at New York City's Alvin Ailey School on a scholarship where she excelled as a dancer.", other_work: "Hadestown, Jesus Christ Superstar, The Lion King")
 
 bergen  = Actor.create(name: "Erich Bergen", image: "https://assets.playbill.com/head-shots/15bfca112cb73b5a28b9cd97184ac9ad-erich-bergen.jpg", birthday: "December 31, 1985", bio: "Erich Bergen is an American actor, singer and presenter, best known for his roles as Bob Gaudio in the biographical musical drama film Jersey Boys and as Blake Moran in the CBS television series Madam Secretary.", other_work: "Waitress, An American Daughter")
 
-remy  = Actor.create(name: "Jelani Remy", image: "https://assets.playbill.com/head-shots/e2261e5b1519052c7a812e3349c84f6e-aint-too-proud-j.%20Remy%2010-16-21%20Cropped%20(1).jpg", birthday: "N/A", bio: "Jelani Remy is a Montclair State Alumni and New Jersey Native. He made his Broadway debut playing the role of Simba in Disney’s The Lion King", other_work: "Ain’t Too Proud - The Life and Times of the Temptations")
+altomare  = Actor.create(name: "Christy Altomare", image: "https://assets.playbill.com/head-shots/4524860242655f32333873fc237173b0-christy-altomare.jpg", birthday: "June 23, 1986", bio: "Christine (Christy) Altomare is an American actress and singer-songwriter. Altomare played Wendla in the first national tour of the rock musical Spring Awakening, played Sue Snell in the off-Broadway revival of Carrie, and made her Broadway debut as Sophie in Mamma Mia!.", other_work: "Anastasia, Mamma Mia!")
 
-khwezi  = Actor.create(name: "Pearl Khwezi", image: "https://assets.playbill.com/head-shots/e9e483592776e23f1460d4e7228ea5c8-pearl-khwezi.jpg", birthday: "N/A", bio: "Pearl Khwezi is from Durban South Africa and has been performing in The Lion King since 2018.", other_work: "N/A")
+klena  = Actor.create(name: "Derek Klena", image: "https://assets.playbill.com/head-shots/MOULIN-ROUGE-D.-Klena-Cropped-1.jpg", birthday: "October 3, 1991", bio: "Derek Anthony Klena is an American actor and singer. He is best known for his work on Broadway, including originating the roles of Nick Healy in Jagged Little Pill, Dmitry in Anastasia, and Michael in The Bridges of Madison County.", other_work: "Anastasia, Wicked, The Bridges of Madison County, Moulin Rouge!, Jagged Little Pill")
 
-altomare  = Actor.create(name: "Christy Altomare", image: "https://assets.playbill.com/head-shots/4524860242655f32333873fc237173b0-christy-altomare.jpg", birthday: "June 23, 1986", bio: "Christine (Christy) Altomare is an American actress and singer-songwriter. Altomare played Wendla in the first national tour of the rock musical Spring Awakening, played Sue Snell in the off-Broadway revival of Carrie, and made her Broadway debut as Sophie in Mamma Mia!.", other_work: "Mamma Mia!")
+jbolt  = Actor.create(name: "John Bolton", image: "https://assets.playbill.com/head-shots/d1b1f68c029bef929abc898136cda738-john-bolton.jpg", birthday: "December 29, 1965", bio: "John Bolton is an American actor and Broadway regular. Bolton is best known for originating the role (The Old Man) in the Broadway show A Christmas Story: The Musical. He portrayed Vlad Popov in the 2017 Broadway production of Anastasia.", other_work: "How To Succeed In Business Without Really Trying, Damn Yankees, Titanic, Dreamgirls, Funnygirl, Spamalot, A Christmas Story The Musical, Dames At Sea, Anastasia")
 
-klena  = Actor.create(name: "Derek Klena", image: "https://assets.playbill.com/head-shots/MOULIN-ROUGE-D.-Klena-Cropped-1.jpg", birthday: "October 3, 1991", bio: "Derek Anthony Klena is an American actor and singer. He is best known for his work on Broadway, including originating the roles of Nick Healy in Jagged Little Pill, Dmitry in Anastasia, and Michael in The Bridges of Madison County.", other_work: "Wicked, The Bridges of Madison County, Moulin Rouge, Jagged Little Pill")
+levy  = Actor.create(name: "Caissie Levy", image: "https://assets.playbill.com/head-shots/7681d71d41f6a4f217ba95be7da3b67c-caroline-or-change-c.%20Levy%20Cropped%20(1).jpg", birthday: "April 15, 1981", bio: "Caissie Levy is a Canadian-American actress and singer, mainly known for her work in musical theatre on Broadway and in the West End. Her early Broadway credits included Penny Pingleton in Hairspray and Sheila in Hair, a role she also played in the West End.", other_work: "Wicked, Hairspray, Hair, Ghost: The Musical, Les Misérables, Caroline, or Change, Leopoldstadt, Frozen")
 
-jbolt  = Actor.create(name: "John Bolton", image: "https://assets.playbill.com/head-shots/d1b1f68c029bef929abc898136cda738-john-bolton.jpg", birthday: "December 29, 1965", bio: "John Bolton is an American actor and Broadway regular. Bolton is best known for originating the role (The Old Man) in the Broadway show A Christmas Story: The Musical. He portrayed Vlad Popov in the 2017 Broadway production of Anastasia.", other_work: "How To Succeed In Business Without Really Trying, Damn Yankees, Titanic, Dreamgirls, Funnygirl, Spamalot, A Christmas Story The Musical, Dames At Sea")
+patti  = Actor.create(name: "Patti Murin", image: "https://assets.playbill.com/head-shots/e3b3cde99e5707ff0257a4aa0d3262e2-patti-murin.jpg", birthday: "September 28, 1980", bio: "Patti Murin is an American actress, singer and dancer. On Broadway, she originated the title role in Lysistrata Jones and Princess Anna in Frozen. She also had a recurring role as Dr. Nina Shore in the NBC medical drama Chicago Med from 2016 to 2019.", other_work: "Xanadu, Lysistrata Jones, Frozen")
 
-levy  = Actor.create(name: "Caissie Levy", image: "https://assets.playbill.com/head-shots/7681d71d41f6a4f217ba95be7da3b67c-caroline-or-change-c.%20Levy%20Cropped%20(1).jpg", birthday: "April 15, 1981", bio: "Caissie Levy is a Canadian-American actress and singer, mainly known for her work in musical theatre on Broadway and in the West End. Her early Broadway credits included Penny Pingleton in Hairspray and Sheila in Hair, a role she also played in the West End.", other_work: "Wicked, Hairspray, Hair, Ghost: The Musical, Les Misérables, Caroline, or Change, Leopoldstadt")
+riddle  = Actor.create(name: "John Riddle", image: "https://assets.playbill.com/head-shots/f5d833342c4ec511a7534af54970d39c-riddle-john-hs-aug-2019-cropped-1.jpg", birthday: "June 30, 1989", bio: "John Riddle was last seen on Broadway in Frozen. Previously, he was in Kander and Ebb's The Visit starring Chita Rivera. His other stage credits include Tony in West Side Story (Casa Manana), Prince Eric in The Little Mermaid (St. Louis MUNY), Joe Hardy in Damn Yankees (PCLO), Evita (first national tour), Little Dancer (Kennedy Center) and My Paris (Long Wharf). Other: The Secret Garden in concert at Lincoln Center, Cincinnati Pops. Last year, John debuted his solo show, Keep It Simple, at Feinstein's/54 Below.", other_work: "The Visit, Phantom of the Opera, Frozen")
 
-patti  = Actor.create(name: "Patti Murin", image: "https://assets.playbill.com/head-shots/e3b3cde99e5707ff0257a4aa0d3262e2-patti-murin.jpg", birthday: "September 28, 1980", bio: "Patti Murin is an American actress, singer and dancer. On Broadway, she originated the title role in Lysistrata Jones and Princess Anna in Frozen. She also had a recurring role as Dr. Nina Shore in the NBC medical drama Chicago Med from 2016 to 2019.", other_work: "Xanadu, Lysistrata Jones")
+jelani  = Actor.create(name: "John Riddle", image: "https://assets.playbill.com/head-shots/jelani-alladin.jpg", birthday: "August 6, 1992", bio: "Jelani Alladin is an American actor, singer, and dancer. In his Broadway debut, he originated the role of Kristoff in the Frozen musical in 2018.", other_work: "Frozen")
 
-riddle  = Actor.create(name: "John Riddle", image: "https://assets.playbill.com/head-shots/f5d833342c4ec511a7534af54970d39c-riddle-john-hs-aug-2019-cropped-1.jpg", birthday: "June 30, 1989", bio: "John Riddle was last seen on Broadway in Frozen. Previously, he was in Kander and Ebb's The Visit starring Chita Rivera. His other stage credits include Tony in West Side Story (Casa Manana), Prince Eric in The Little Mermaid (St. Louis MUNY), Joe Hardy in Damn Yankees (PCLO), Evita (first national tour), Little Dancer (Kennedy Center) and My Paris (Long Wharf). Other: The Secret Garden in concert at Lincoln Center, Cincinnati Pops. Last year, John debuted his solo show, Keep It Simple, at Feinstein's/54 Below.", other_work: "The Visit, Phantom of the Opera")
+bundy  = Actor.create(name: "Laura Bell Bundy", image: "https://assets.playbill.com/head-shots/d5ab60164dcfe1ef09fa43f044bb4992-Laura-Bell-Bundy.jpg", birthday: "April 10, 1981", bio: "Laura Ashley Bell Bundy is an American actress and singer. She is best known for originating the Broadway roles of Amber Von Tussle in the musical version of Hairspray and Elle Woods in the musical version of Legally Blonde..", other_work: "Hairspray, Wicked, Legally Blonde")
 
-jelani  = Actor.create(name: "John Riddle", image: "https://assets.playbill.com/head-shots/jelani-alladin.jpg", birthday: "August 6, 1992", bio: "Jelani Alladin is an American actor, singer, and dancer. In his Broadway debut, he originated the role of Kristoff in the Frozen musical in 2018.", other_work: "N/A")
+mccartan  = Actor.create(name: "Ryan McCartan", image: "https://assets.playbill.com/head-shots/9ec58b7070e0f4b2ae0ff825c572fe7b-ryan-mccartan.jpg", birthday: "June 14, 1993", bio: "Ryan Jerome McCartan is an American actor and singer. As an actor, he is known for playing Jason Dean in the original off-Broadway production of Heathers: The Musical and for playing Brad Majors in the 2016 Fox musical television film The Rocky Horror Picture Show: Let's Do the Time Warp Again.", other_work: "Frozen, Wicked, Heathers ")
 
-bundy  = Actor.create(name: "Laura Bell Bundy", image: "https://assets.playbill.com/head-shots/d5ab60164dcfe1ef09fa43f044bb4992-Laura-Bell-Bundy.jpg", birthday: "April 10, 1981", bio: "Laura Ashley Bell Bundy is an American actress and singer. She is best known for originating the Broadway roles of Amber Von Tussle in the musical version of Hairspray and Elle Woods in the musical version of Legally Blonde..", other_work: "Hairspray, Wicked, ")
+bww  = Actor.create(name: "Barrett Wilbert Weed", image: "https://assets.playbill.com/head-shots/7cf55da42da99ac4a1cfdc3e74ac5ddf-barrett-wilbert-weed.jpg", birthday: "November 6, 1988", bio: "Barrett Wilbert Weed is an American actress and singer. She is best known for originating the roles of Veronica Sawyer in the Off-Broadway production of Heathers: The Musical.", other_work: "Lysistrata Jones, Mean Girls, Heathers")
 
-mccartan  = Actor.create(name: "Ryan McCartan", image: "https://assets.playbill.com/head-shots/9ec58b7070e0f4b2ae0ff825c572fe7b-ryan-mccartan.jpg", birthday: "June 14, 1993", bio: "Ryan Jerome McCartan is an American actor and singer. As an actor, he is known for playing Jason Dean in the original off-Broadway production of Heathers: The Musical and for playing Brad Majors in the 2016 Fox musical television film The Rocky Horror Picture Show: Let's Do the Time Warp Again.", other_work: "Frozen, Wicked, ")
+erika  = Actor.create(name: "Erika Henningsen", image: "https://assets.playbill.com/head-shots/2cf9f277ef93d2f328f77a3c90c9fadb-erika-henningsen.jpg", birthday: "August 13, 1992", bio: "Erika Leigh Henningsen is an American actress and singer. She is best known for her work on Broadway and for originating the role of Cady Heron in the 2018 Tony-nominated musical Mean Girls.", other_work: "Les Misérables, Mean Girls")
 
-bww  = Actor.create(name: "Barrett Wilbert Weed", image: "https://assets.playbill.com/head-shots/7cf55da42da99ac4a1cfdc3e74ac5ddf-barrett-wilbert-weed.jpg", birthday: "November 6, 1988", bio: "Barrett Wilbert Weed is an American actress and singer. She is best known for originating the roles of Veronica Sawyer in the Off-Broadway production of Heathers: The Musical.", other_work: "Lysistrata Jones, Mean Girls")
+jj  = Actor.create(name: "Jeremy Jordan", image: "https://assets.playbill.com/head-shots/994acb232f615d088fced35d1d407bb3-jeremy-jordan.jpg", birthday: "November 20, 1984", bio: "Jeremy Michael Jordan is an American actor and singer. He has performed on Broadway, in television and film, in concert, as well as in other theatrical productions. He made his Broadway debut in 2009 as part of Rock of Ages.", other_work: "Waitress, American Son, Bonnie & Clyde, West Side Story, Rock of Ages, Newsies")
 
-erika  = Actor.create(name: "Erika Henningsen", image: "https://assets.playbill.com/head-shots/2cf9f277ef93d2f328f77a3c90c9fadb-erika-henningsen.jpg", birthday: "August 13, 1992", bio: "Erika Leigh Henningsen is an American actress and singer. She is best known for her work on Broadway and for originating the role of Cady Heron in the 2018 Tony-nominated musical Mean Girls.", other_work: "Les Misérables")
-
-jj  = Actor.create(name: "Jeremy Jordan", image: "https://assets.playbill.com/head-shots/994acb232f615d088fced35d1d407bb3-jeremy-jordan.jpg", birthday: "November 20, 1984", bio: "Jeremy Michael Jordan is an American actor and singer. He has performed on Broadway, in television and film, in concert, as well as in other theatrical productions. He made his Broadway debut in 2009 as part of Rock of Ages.", other_work: "Waitress, American Son, Bonnie & Clyde, West Side Story, Rock of Ages")
-
-kara  = Actor.create(name: "Kara Lindsay", image: "https://assets.playbill.com/head-shots/306db21d7abc04de68d1716401dd82f4-kara-lindsay.jpg", birthday: "February 16, 1985", bio: "Kara Lynn Massey, known professionally as Kara Lindsay, is an American stage actress and singer, best known for her roles as Katherine Plumber in Newsies and Glinda in Wicked.", other_work: "Beautiful: The Carole King Musical, Wicked")
+kara  = Actor.create(name: "Kara Lindsay", image: "https://assets.playbill.com/head-shots/306db21d7abc04de68d1716401dd82f4-kara-lindsay.jpg", birthday: "February 16, 1985", bio: "Kara Lynn Massey, known professionally as Kara Lindsay, is an American stage actress and singer, best known for her roles as Katherine Plumber in Newsies and Glinda in Wicked.", other_work: "Beautiful: The Carole King Musical, Wicked, Newsies")
 
 doss  = Actor.create(name: "John Dossett", image: "https://assets.playbill.com/head-shots/Paradise-Square-J.-Dossett-Cropped.jpg", birthday: "April 15, 1958", bio: "John Dossett is an American actor and singer who attended Mount Pleasant High School in Wilmington, Delaware, from 1972 through 1976.", other_work: "Paradise Square, War Paint, Chicago, Pippen, The Constant Wife, Children and Art, Democracy, Gypsy, Dinner at Eight, An Almost Holy Picture, Mamma Mia!, The Adventures of Tom Sawyer, Ragtime, Prelude to a Kiss, Mastergate, Fifth of July, King of Schnorrers")
 
 louderman = Actor.create(name: "Taylor Louderman", image: "https://assets.playbill.com/head-shots/Paradise-Square-J.-Dossett-Cropped.jpg", birthday: "December 21, 1990", bio: "Taylor Elizabeth Louderman is an American actress, singer, and dancer. She is best known for originating the role of Regina George in the Broadway musical Mean Girls, for which she was nominated for the Tony Award for Best Actress in a Musical in 2018.", other_work: "Kinky Boots, Bring It On: The Musical")
 
-jessie = Actor.create(name: "Jessie Mueller", image: "https://assets.playbill.com/head-shots/72a27139a13d4a2f813d6f2a00f0d0c7-jessie-mueller.jpg", birthday: "February 20, 1983", bio: "Jessica Ruth Mueller is an American actress and singer. She started her acting career in Chicago and won two Joseph Jefferson Awards in 2008 and 2011 for her roles as Carrie Pipperidge in Carousel and Amalia Balash in She Loves Me.", other_work: "The Minutes, Carousel, Beautiful: The Carole King Musical, The Mystery of Edwin Drood, Nice Work If You Can Get It, On A Clear Day You Can See Forever")
+jessie = Actor.create(name: "Jessie Mueller", image: "https://assets.playbill.com/head-shots/72a27139a13d4a2f813d6f2a00f0d0c7-jessie-mueller.jpg", birthday: "February 20, 1983", bio: "Jessica Ruth Mueller is an American actress and singer. She started her acting career in Chicago and won two Joseph Jefferson Awards in 2008 and 2011 for her roles as Carrie Pipperidge in Carousel and Amalia Balash in She Loves Me.", other_work: "The Minutes, Carousel, Beautiful: The Carole King Musical, The Mystery of Edwin Drood, Nice Work If You Can Get It, On A Clear Day You Can See Forever, Waitress")
 
-glenn = Actor.create(name: "Kimiko Glenn", image: "https://i.pinimg.com/236x/03/52/63/03526313743425d3dbbbb735402c613f--kimiko-glenn.jpg", birthday: "June 27, 1989", bio: "Kimiko Elizabeth Glenn is an American actress and Broadway performer known for portraying Brook Soso in the Netflix series Orange Is the New Black, for which she received three ensemble Screen Actors Guild Awards.", other_work: "N/A")
+glenn = Actor.create(name: "Kimiko Glenn", image: "https://i.pinimg.com/236x/03/52/63/03526313743425d3dbbbb735402c613f--kimiko-glenn.jpg", birthday: "June 27, 1989", bio: "Kimiko Elizabeth Glenn is an American actress and Broadway performer known for portraying Brook Soso in the Netflix series Orange Is the New Black, for which she received three ensemble Screen Actors Guild Awards.", other_work: "Waitress")
 
-lea = Actor.create(name: "Lea Michele", image: "https://assets.playbill.com/head-shots/6cda0c72c89ff2cc86e8bd52c7843b43-Lea-Michele.1283451729.jpg", birthday: "August 29, 1986", bio: "Lea Michele Sarfati is an American actress, singer, songwriter, and author. She began her career as a child actress on Broadway, appearing in productions of Les Misérables, Ragtime, Fiddler on the Roof, and Spring Awakening.", other_work: "Fiddler on the Roof, Ragtime, Les Misérables")
+lea = Actor.create(name: "Lea Michele", image: "https://assets.playbill.com/head-shots/6cda0c72c89ff2cc86e8bd52c7843b43-Lea-Michele.1283451729.jpg", birthday: "August 29, 1986", bio: "Lea Michele Sarfati is an American actress, singer, songwriter, and author. She began her career as a child actress on Broadway, appearing in productions of Les Misérables, Ragtime, Fiddler on the Roof, and Spring Awakening.", other_work: "Fiddler on the Roof, Ragtime, Les Misérables, Spring Awakening")
 
-jgj = Actor.create(name: "John Gallagher Jr.", image: "https://assets.playbill.com/head-shots/b69e1d7037873a0e8a19b55dd4652d41-john-gallagher-jr.jpg", birthday: "June 17, 1984", bio: "John Howard Gallagher Jr. is an American actor and musician best known for originating the role of Moritz Stiefel in the 2006 rock musical Spring Awakening, which earned him a Tony Award for Best Featured Actor in a Musical.", other_work: "Long Day’s Journey Into Night, Jerusalem, American Idiot, Rabbit Hole")
+jgj = Actor.create(name: "John Gallagher Jr.", image: "https://assets.playbill.com/head-shots/b69e1d7037873a0e8a19b55dd4652d41-john-gallagher-jr.jpg", birthday: "June 17, 1984", bio: "John Howard Gallagher Jr. is an American actor and musician best known for originating the role of Moritz Stiefel in the 2006 rock musical Spring Awakening, which earned him a Tony Award for Best Featured Actor in a Musical.", other_work: "Long Day’s Journey Into Night, Jerusalem, American Idiot, Rabbit Hole, Spring Awakening")
 
-rapp = Actor.create(name: "Anthony Rapp", image: "https://assets.playbill.com/head-shots/db045ebad8edf5aafafa6174f4bb6015-Anthony-Rapp.1393366160.jpg", birthday: "October 26, 1971", bio: "Anthony Deane Rapp is an American actor and singer who originated the role of Mark Cohen in the Broadway production of Rent.", other_work: "Rent, You’re A Good Man, Charlie Brown, Six Degrees of Separation, Precious Sons, The Little Prince and The Aviator")
+rapp = Actor.create(name: "Anthony Rapp", image: "https://assets.playbill.com/head-shots/db045ebad8edf5aafafa6174f4bb6015-Anthony-Rapp.1393366160.jpg", birthday: "October 26, 1971", bio: "Anthony Deane Rapp is an American actor and singer who originated the role of Mark Cohen in the Broadway production of Rent.", other_work: "Rent, You’re A Good Man, Charlie Brown, Six Degrees of Separation, Precious Sons, The Little Prince and The Aviator, Rent")
 
-lachanze = Actor.create(name: "LaChanze", image: "https://assets.playbill.com/head-shots/020358a38ae744ef041d930d89fc27f3-trouble-in-mind-lachanze-cropped-1.jpg", birthday: "December 16, 1961", bio: "Rhonda LaChanze Sapp, known professionally as LaChanze, is an American actress, singer, and dancer. She won the Tony Award for Best Actress in a Leading Role in a Musical in 2006 for her role as Celie Harris Johnson in The Color Purple.", other_work: "Kimberly Akimbo, Topdog/Underdog, Trouble in Mind, A Christmas Carol, Summer: The Donna Summer Musical, The Color Purple, Funny Girl, Once On This Island, Ragtime, Company, Dreamgirls, Uptown...It’s Hot!")
+lachanze = Actor.create(name: "LaChanze", image: "https://assets.playbill.com/head-shots/020358a38ae744ef041d930d89fc27f3-trouble-in-mind-lachanze-cropped-1.jpg", birthday: "December 16, 1961", bio: "Rhonda LaChanze Sapp, known professionally as LaChanze, is an American actress, singer, and dancer. She won the Tony Award for Best Actress in a Leading Role in a Musical in 2006 for her role as Celie Harris Johnson in The Color Purple.", other_work: "Kimberly Akimbo, Topdog/Underdog, Trouble in Mind, A Christmas Carol, Summer: The Donna Summer Musical, The Color Purple, Funny Girl, Once On This Island, Ragtime, Company, Dreamgirls, Uptown...It’s Hot!, If/Then")
 
-keala = Actor.create(name: "Keala Settle", image: "https://www.dresscircle.co.uk/uploads/headshots/talent/headshot/1364/keala-settle-69.jpg", birthday: "November 5, 1975", bio: "Keala Joan Settle is an American actress and singer. Settle originated the role of Norma Valverde in Hands on a Hardbody, which ran on Broadway in 2013, and was nominated for the Outer Critics Circle Award, Drama Desk Award, and Tony Award for Best Featured Actress in a Musical.", other_work: "Priscilla Queen of the Desert, Hands on a Hardbody, Les Misérables")
+keala = Actor.create(name: "Keala Settle", image: "https://www.dresscircle.co.uk/uploads/headshots/talent/headshot/1364/keala-settle-69.jpg", birthday: "November 5, 1975", bio: "Keala Joan Settle is an American actress and singer. Settle originated the role of Norma Valverde in Hands on a Hardbody, which ran on Broadway in 2013, and was nominated for the Outer Critics Circle Award, Drama Desk Award, and Tony Award for Best Featured Actress in a Musical.", other_work: "Priscilla Queen of the Desert, Hands on a Hardbody, Les Misérables, Waitress")
 
 
 
@@ -165,10 +161,7 @@ hadestown = Musical.create(name: "Hadestown", image: "http://www.playbillstore.c
 
 tina = Musical.create(name: "Tina Turner: The Musical", image: "http://www.playbillstore.com/Shared/Images/Product/Tina-The-Tina-Turner-Musical-Poster/Tina-Window-Card.png", opening_date: "April 17, 2018", director: "Phyllida Lloyd", playwrights: "Katori Hall, Kees Prins, Frank Ketelaar", composers: "Various Artists", synopsis: "Tina: The Tina Turner Musical is a jukebox musical featuring the music of Tina Turner and depicting her life from her humble beginnings in Nutbush, Tennessee, to her transformation into a rock 'n roll star. Directed by Phyllida Lloyd with a book by Katori Hall, Frank Ketelaar, and Kees Prins, the musical had its world premiere on 17 April 2018 at the Aldwych Theatre in London. The Broadway production opened on 7 November 2019.", status: "On Broadway", location: "Lunt-Fontanne Theatre", link: "https://tinaonbroadway.com/tickets/")
 
-lion_king = Musical.create(name: "The Lion King", image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/58/The_Lion_King_Musical.svg/1200px-The_Lion_King_Musical.svg.png", opening_date: "July 8, 1997", director: "Julie Taylor", playwrights: "Roger Allers, Irene Mecchi", composers: "Elton John, Julie Taylor, Hans Zimmer, LeboM", synopsis: "The Lion King is a musical play based on the 1994 Walt Disney Animation Studios' animated feature film of the same name with music by Elton John, lyrics by Tim Rice, and book by Roger Allers and Irene Mecchi, along with additional music and lyrics by Lebo M, Mark Mancina, Jay Rifkin, Julie Taymor, and Hans Zimmer.", link: "https://checkout.broadway.com/the-lion-king/12322/calendar/")
-
 music_man = Musical.create(name: "The Music Man", image: "https://imaging.broadway.com/images/poster-178275/w230/222222/120598-3.png", opening_date: "May 20, 2021", director: "Morton DaCosta", playwrights: "Meridith Wilson, Franklin Lacey", composers: "Meridith Wilson", synopsis: "The Music Man is a musical with book, music, and lyrics by Meredith Willson, based on a story by Willson and Franklin Lacey. The plot concerns con man Harold Hill, who poses as a boys' band organizer and leader and sells band instruments and uniforms to naïve Midwestern townsfolk, promising to train the members of the new band.", status: "On Broadway", location: "Winter Garden Theatre", link: "https://checkout.broadway.com/music-man/12884/calendar/")
-
 
 phantom = Musical.create(name: "The Phantom of the Opera", image: "https://imaging.broadway.com/images/poster-178275/w230/222222/121277-1.jpg", opening_date: "January 26, 1988", director: "Nick Morris", playwrights: "Andrew Lloyd Webber", composers: "Andrew Lloyd Webber", synopsis: "The Phantom of the Opera is a musical with music by Andrew Lloyd Webber, lyrics by Charles Hart, and a libretto by Lloyd Webber and Richard Stilgoe. Based on the 1910 French novel of the same name by Gaston Leroux, it tells the story of a beautiful soprano, Christine Daaé, who becomes the obsession of a mysterious, masked musical genius living in the subterranean labyrinth beneath the Paris Opéra House.", status: "On Broadway", location: "Majestic Theatre", link: "https://www.broadway.com/shows/the-phantom-of-the-opera/")
 
@@ -182,23 +175,21 @@ anastasia = Musical.create(name: "Anastasia", image: "https://static.onecms.io/w
 
 frozen = Musical.create(name: "Frozen", image: "https://d4ov6iqsvotvt.cloudfront.net/uploads/show/poster_image/2768/medium_1584472361-Frozen_Global_KeyArt_800x1200.jpg", opening_date: "August 17, 2017", director: "Michael Grandage", playwrights: "Jennifer Lee", composers: "Kristen Anderson-Lopez; ‎Robert Lopez‎", synopsis: "Frozen is a musical with music and lyrics by Kristen Anderson-Lopez and Robert Lopez, and book by Jennifer Lee, based on the 2013 film of the same name. The story centers on the relationship between two sisters who are princesses, Elsa and Anna. Elsa has magical powers to freeze objects and people, which she does not know how to control.", status: "On Tour", location: "Multiple", link: "https://frozenthemusical.com/tickets/")
 
-lb = Musical.create(name: "Legally Blonde", image: "https://bloximages.newyork1.vip.townnews.com/hometownnewstc.com/content/tncms/assets/v3/editorial/1/8d/18d03684-e4cb-11eb-b0b8-ff0750498b02/60ef22c0abc54.image.jpg", opening_date: "April 29, 2007", director: "Jerry Mitchell, Beth McCarthy-Miller", playwrights: "Heather Hach", composers: "Nell Benjamin, Laurence O'Keefe‎", synopsis: "Legally Blonde is a 2007 musical and is based on the novel Legally Blonde by Amanda Brown and the 2001 film of the same name. It tells the story of Elle Woods, a sorority girl who enrolls at Harvard Law School to win back her ex-boyfriend Warner.", status: "On Tour", location: "Multiple", link: "https://blondeontour.com/index.php/tour-dates/")
+lb = Musical.create(name: "Legally Blonde", image: "https://m.media-amazon.com/images/I/519b6tR40KL._AC_.jpg", opening_date: "April 29, 2007", director: "Jerry Mitchell, Beth McCarthy-Miller", playwrights: "Heather Hach", composers: "Nell Benjamin, Laurence O'Keefe‎", synopsis: "Legally Blonde is a 2007 musical and is based on the novel Legally Blonde by Amanda Brown and the 2001 film of the same name. It tells the story of Elle Woods, a sorority girl who enrolls at Harvard Law School to win back her ex-boyfriend Warner.", status: "On Tour", location: "Multiple", link: "https://blondeontour.com/index.php/tour-dates/")
 
 ifthen = Musical.create(name: "If/Then", image: "https://broadwaymusicalhome.com/images/poster/ifthen.jpg", opening_date: "March 30, 2014", director: "Michael Greif", playwrights: "Brian Yorkey", composers: "Tom Kitt‎", synopsis: "If/Then is a musical that tells the story of a 38-year-old woman named Elizabeth who moves back to New York City for a fresh start.", status: "Closed", location: "N/A", link: "https://www.broadway.com/shows/ifthen/#:~:text=If%2FThen%20is%20a%20contemporary,splits%20into%20two%20parallel%20paths.")
 
-news = Musical.create(name: "Newsies", image: "https://upload.wikimedia.org/wikipedia/en/f/f7/Newsies_%28musical%29_poster.jpg", opening_date: "March 29, 2013", director: "Jeff Calhoun, Brett Sullivan", playwrights: "Harvey Fierstein", composers: "Alan Menken", synopsis: "Newsies The Musical is a musical based on the 1992 musical film Newsies, which was inspired by the real-life Newsboys Strike of 1899 in New York City.", status: "On Tour", location: "Multiple", link: "https://seatgeek.com/newsies-tickets")
-
-les = Musical.create(name: "Les Misérables", image: "http://www.playbillstore.com/images/Les%20Miserables%20Broadway%20Poster%20(2014%20Revival).png", opening_date: "October 8, 1985", director: "Trevor Nunn, John Caird", playwrights: "Victor Hugo", composers: "Claude-Michel Schönberg, John Cameron", synopsis: "Les Misérables is a sung-through musical and an adaptation of Victor Hugo's 1862 novel of the same name. Set in early 19th-century France, Les Misérables is the story of Jean Valjean, a French peasant, and his desire for redemption, released in 1815 after serving nineteen years in jail for stealing a loaf of bread for his sister's starving child. Valjean decides to break his parole and start his life anew after a bishop inspires him with a tremendous act of mercy, but a police inspector named Javert refuses to let him escape justice and pursues him for most of the play.", status: "On Tour", location: "Multiple", link: "https://www.lesmis.com/us-tour/tour-dates")
+news = Musical.create(name: "Newsies", image: "https://s3.amazonaws.com/prdv2-dt-client/uploads/bFZA0AjzmDsxTgLJeYPZAlZxo35H8QkL.jpg", opening_date: "March 29, 2013", director: "Jeff Calhoun, Brett Sullivan", playwrights: "Harvey Fierstein", composers: "Alan Menken", synopsis: "Newsies The Musical is a musical based on the 1992 musical film Newsies, which was inspired by the real-life Newsboys Strike of 1899 in New York City.", status: "On Tour", location: "Multiple", link: "https://seatgeek.com/newsies-tickets")
 
 sa = Musical.create(name: "Spring Awakening", image: "https://thriftytheatrethinker.files.wordpress.com/2015/06/br.jpg?w=720", opening_date: "December 10, 2006", director: "Michael Mayer", playwrights: "Steven Sater", composers: "Duncan Sheik", synopsis: "Spring Awakening is a coming-of-age rock musical based on the 1891 German play Spring Awakening by Frank Wedekind. Set in late 19th-century Germany, the musical tells the story of teenagers discovering the inner and outer tumult of adolescent sexuality.", status: "Closed", location: "N/A", link: "https://playbill.com/production/spring-awakening-eugene-oneill-theatre-vault-0000004687")
 
-mg = Musical.create(name: "Mean Girls", image: "https://upload.wikimedia.org/wikipedia/en/3/3b/Mean_Girls-Musical-Poster.jpg", opening_date: "April 8, 2018", director: "Casey Nicholaw", playwrights: "Tina Fey", composers: "Rolfe Kent", synopsis: "Mean Girls is a coming-of-age stage musical based on the 2004 film of the same name.", status: "On Tour", location: "Multiple", link: "https://meangirlsonbroadway.com/tour/")
+mg = Musical.create(name: "Mean Girls", image: "https://i.pinimg.com/originals/52/86/52/5286520c02b89d8bb78b48d2acc22343.jpg", opening_date: "April 8, 2018", director: "Casey Nicholaw", playwrights: "Tina Fey", composers: "Rolfe Kent", synopsis: "Mean Girls is a coming-of-age stage musical based on the 2004 film of the same name.", status: "On Tour", location: "Multiple", link: "https://meangirlsonbroadway.com/tour/")
 
-heathers = Musical.create(name: "Heathers: The Musical", image: "http://www.playbillstore.com/images/Heathers_The_Musical_Off-Broadway_Poster.jpg", opening_date: "March 31, 2014", director: "Andy Fickman", playwrights: "Laurence O'Keefe, Kevin Murphy", composers: "Laurence O'Keefe, Kevin Murphy", synopsis: "Heathers: The Musical is a musical based on the 1989 film of the same name. Although the show is a high-energy black comedy, it opens conversations about dark issues, including bullying, teen suicide, sexual assault, and school violence.", status: "Closed", location: "N/A", link: "https://www.heathersthemusical.com/")
+heathers = Musical.create(name: "Heathers: The Musical", image: "https://assets.mycast.io/posters/heathers-the-musical-fan-casting-poster-96275-large.jpg?1618867218", opening_date: "March 31, 2014", director: "Andy Fickman", playwrights: "Laurence O'Keefe, Kevin Murphy", composers: "Laurence O'Keefe, Kevin Murphy", synopsis: "Heathers: The Musical is a musical based on the 1989 film of the same name. Although the show is a high-energy black comedy, it opens conversations about dark issues, including bullying, teen suicide, sexual assault, and school violence.", status: "Closed", location: "N/A", link: "https://www.heathersthemusical.com/")
 
 sor = Musical.create(name: "School of Rock", image: "https://boston.broadway.com/wp-content/uploads/2018/08/001_Show_Keyart_SOR-671x1065.jpg", opening_date: "December 6, 2015", director: "Andrew Lloyd Webber, Julian Fellows, Laurence Connor", playwrights: "Julian Fellowes", composers: "Andrew Lloyd Webber", synopsis: "School of Rock is a rock musical that is based on the 2003 film of the same name. The musical follows Dewey Finn, an out-of-work rock singer and guitarist who pretends to be a substitute teacher at a prestigious prep school. After identifying the musical talent in his students, Dewey forms a band of fifth-graders, in an attempt to win the upcoming Battle of the Bands contest.", status: "Closed", location: "N/A", link: "https://ustour.schoolofrockthemusical.com/")
 
-wait = Musical.create(name: "Waitress", image: "https://ih1.redbubble.net/image.594726314.5304/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg", opening_date: "August 19, 2015", director: "Diane Paulus", playwrights: "Jessie Nelson", composers: "Sara Bareilles", synopsis: "Waitress is a musical that is based on the 2007 film of the same name. It tells the story of Jenna Hunterson, a baker and waitress in an abusive relationship with her husband, Earl. After Jenna unexpectedly becomes pregnant, she begins an affair with her doctor, Dr. Jim Pomatter. Looking for ways out of her troubles, she sees a pie baking contest and its grand prize as her chance.", status: "On Tour", location: "Multiple", link: "https://waitressthemusical.com/")
+wait = Musical.create(name: "Waitress", image: "https://upload.wikimedia.org/wikipedia/en/c/c7/Waitress_musical_Broadway_poster.jpg", opening_date: "August 19, 2015", director: "Diane Paulus", playwrights: "Jessie Nelson", composers: "Sara Bareilles", synopsis: "Waitress is a musical that is based on the 2007 film of the same name. It tells the story of Jenna Hunterson, a baker and waitress in an abusive relationship with her husband, Earl. After Jenna unexpectedly becomes pregnant, she begins an affair with her doctor, Dr. Jim Pomatter. Looking for ways out of her troubles, she sees a pie baking contest and its grand prize as her chance.", status: "On Tour", location: "Multiple", link: "https://waitressthemusical.com/")
 
 mermaid = Musical.create(name: "The Little Mermaid", image: "https://d31029zd06w0t6.cloudfront.net/wp-content/uploads/sites/22/2016/02/web1_LM_BLUE_4C.jpg", opening_date: "January 10, 2008", director: "Francesca Zambello", playwrights: "Doug Wright", composers: "Alan Menken", synopsis: "The Little Mermaid is a stage musical produced by Disney Theatrical, based on the animated 1989 Disney film of the same name and the classic story by Hans Christian Andersen about a mermaid who dreams of the world above the sea and gives up her voice to find true love.", status: "Closed", location: "N/A", link: "https://www.broadway.com/shows/the-little-mermaid/")
 
@@ -214,8 +205,7 @@ array = [
     musical: wicked,
     featured: "Idina Menzel, Kristin Chenoweth, Sean McCourt, Cristy Candler, Jan Neuberger, Original Broadway Cast of Wicked",
 actor: chen,
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/8/87/WickedCastRecording.jpg/220px-WickedCastRecording.jpg",
-    music_video: "https://www.youtube.com/watch?v=EYni-w_xmbg&ab_channel=SiKen"
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/8/87/WickedCastRecording.jpg/220px-WickedCastRecording.jpg"
         },
 {
     title: "Dear Old Shiz",
@@ -223,8 +213,7 @@ actor: chen,
     musical: wicked,
     featured: "Kristin Chenoweth, Original Broadway Cast of Wicked",
 actor: chen,
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/8/87/WickedCastRecording.jpg/220px-WickedCastRecording.jpg",
-    music_video: "https://www.youtube.com/watch?v=PGM6uUG_7vs&ab_channel=VariousArtists-Topic"
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/8/87/WickedCastRecording.jpg/220px-WickedCastRecording.jpg"
         },
 {
     title: "The Wizard and I",
@@ -232,8 +221,7 @@ actor: chen,
     musical: wicked,
     featured: "Idina Menzel, Carole Shelley",
 actor: idina,
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/8/87/WickedCastRecording.jpg/220px-WickedCastRecording.jpg",
-    music_video: "https://www.youtube.com/watch?v=Ds0eBEJtPhU&ab_channel=CaroleShelley-Topic"
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/8/87/WickedCastRecording.jpg/220px-WickedCastRecording.jpg"
         },
 {
     title: "What Is This Feeling?",
@@ -241,8 +229,7 @@ actor: idina,
     musical: wicked,
     featured: "Idina Menzel, Kristin Chenoweth, Original Broadway Cast of Wicked",
 actor: chen,
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/8/87/WickedCastRecording.jpg/220px-WickedCastRecording.jpg",
-    music_video: "https://www.youtube.com/watch?v=dk3H2yvsH-U&ab_channel=KristinChenoweth-Topic"
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/8/87/WickedCastRecording.jpg/220px-WickedCastRecording.jpg"
         },
 {
     title: "Something Bad",
@@ -250,8 +237,7 @@ actor: chen,
     musical: wicked,
     featured: "Idina Menzel, William Youmans",
 actor: idina,
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/8/87/WickedCastRecording.jpg/220px-WickedCastRecording.jpg",
-    music_video: "https://www.youtube.com/watch?v=KDzHL3jJsmY&ab_channel=WilliamYoumans-Topic"
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/8/87/WickedCastRecording.jpg/220px-WickedCastRecording.jpg"
         },
 {
     title: "Dancing Through Life",
@@ -259,8 +245,7 @@ actor: idina,
     musical: wicked,
     featured: "Norbert Leo Butz, Kristin Chenoweth, Christopher Fitzgerald, Michelle Federer, Idina Menzel, Original Broadway Cast of Wicked",
 actor: chen,
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/8/87/WickedCastRecording.jpg/220px-WickedCastRecording.jpg",
-    music_video: "https://www.youtube.com/watch?v=gHyzr72pIJw&ab_channel=NorbertLeoButz-Topic"
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/8/87/WickedCastRecording.jpg/220px-WickedCastRecording.jpg"
         },
 {
     title: "Popular",
@@ -268,8 +253,7 @@ actor: chen,
     musical: wicked,
     featured: "Kristin Chenoweth",
 actor: chen,
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/8/87/WickedCastRecording.jpg/220px-WickedCastRecording.jpg",
-    music_video: "https://www.youtube.com/watch?v=QTKv9JSy25Y&ab_channel=KristinChenoweth-Topic"
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/8/87/WickedCastRecording.jpg/220px-WickedCastRecording.jpg"
         },
 {
     title: "I’m Not That Girl",
@@ -277,8 +261,7 @@ actor: chen,
     musical: wicked,
     featured: "Idina Menzel",
 actor: idina,
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/8/87/WickedCastRecording.jpg/220px-WickedCastRecording.jpg",
-    music_video: "https://www.youtube.com/watch?v=KvoEqPHsDIw&ab_channel=IdinaMenzel-Topic"
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/8/87/WickedCastRecording.jpg/220px-WickedCastRecording.jpg"
         },
 {
     title: "One Short Day",
@@ -286,8 +269,7 @@ actor: idina,
     musical: wicked,
     featured: "Idina Menzel, Kristin Chenoweth, Original Broadway Cast of Wicked",
 actor: chen,
-    image: "https://upload.wikimedia.org/wikipedia/en/9/91/DearEvanposter.png",
-    music_video: "https://www.youtube.com/watch?v=z1-XgnauTE0&ab_channel=KristinChenoweth-Topic"
+    image: "https://m.media-amazon.com/images/I/819TerrbN9L.jpg"
         },
 {
     title: "A Sentimental Man",
@@ -295,8 +277,7 @@ actor: chen,
     musical: wicked,
     featured: "Joel Grey",
 actor: idina,
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/8/87/WickedCastRecording.jpg/220px-WickedCastRecording.jpg",
-    music_video: "https://www.youtube.com/watch?v=YzHoxOhNeyk&ab_channel=VariousArtists-Topic"
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/8/87/WickedCastRecording.jpg/220px-WickedCastRecording.jpg"
         },
 {
     title: "Defying Gravity",
@@ -304,8 +285,7 @@ actor: idina,
     musical: wicked,
     featured: "Idina Menzel, Kristin Chenoweth, Original Broadway Cast of Wicked",
 actor: idina,
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/8/87/WickedCastRecording.jpg/220px-WickedCastRecording.jpg",
-    music_video: "https://www.youtube.com/watch?v=fEq3xM-i0Ng&ab_channel=KristinChenoweth-Topic"
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/8/87/WickedCastRecording.jpg/220px-WickedCastRecording.jpg"
         },
 {
     title: "No One Mourns the Wicked (Reprise)/ Thank Goodness",
@@ -313,8 +293,7 @@ actor: idina,
     musical: wicked,
     featured: "Kristin Chenoweth, Carole Shelley, Original Broadway Cast of Wicked",
 actor: chen,
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/8/87/WickedCastRecording.jpg/220px-WickedCastRecording.jpg",
-    music_video: "https://www.youtube.com/watch?v=G3s-mjo7mx8&ab_channel=KristinChenoweth-Topic"
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/8/87/WickedCastRecording.jpg/220px-WickedCastRecording.jpg"
         },
 {
     title: "Wonderful",
@@ -322,8 +301,7 @@ actor: chen,
     musical: wicked,
     featured: "Idina Menzel, Joel Grey",
 actor: idina,
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/8/87/WickedCastRecording.jpg/220px-WickedCastRecording.jpg",
-    music_video: "https://www.youtube.com/watch?v=VEJzx1dHQsw&ab_channel=VariousArtists-Topic"
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/8/87/WickedCastRecording.jpg/220px-WickedCastRecording.jpg"
         },
 {
     title: "I’m Not That Girl (Reprise)",
@@ -331,8 +309,7 @@ actor: idina,
     musical: wicked,
     featured: "Kristin Chenoweth",
 actor: chen,
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/8/87/WickedCastRecording.jpg/220px-WickedCastRecording.jpg",
-    music_video: "https://www.youtube.com/watch?v=o3zziy2Lxx0&ab_channel=KristinChenoweth-Topic"
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/8/87/WickedCastRecording.jpg/220px-WickedCastRecording.jpg"
         },
 {
     title: "As Long As You’re Mine",
@@ -340,8 +317,7 @@ actor: chen,
     musical: wicked,
     featured: "Idina Menzel, Norbert Leo Butz",
 actor: idina,
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/8/87/WickedCastRecording.jpg/220px-WickedCastRecording.jpg",
-    music_video: "https://www.youtube.com/watch?v=uVQ_YhAZQSw&ab_channel=IdinaMenzel-Topic"
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/8/87/WickedCastRecording.jpg/220px-WickedCastRecording.jpg"
         },
 {
     title: "No Good Deed",
@@ -349,8 +325,7 @@ actor: idina,
     musical: wicked,
     featured: "Idina Menzel",
 actor: idina,
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/8/87/WickedCastRecording.jpg/220px-WickedCastRecording.jpg",
-    music_video: "https://www.youtube.com/watch?v=tht1OfDpnA0&ab_channel=IdinaMenzel-Topic"
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/8/87/WickedCastRecording.jpg/220px-WickedCastRecording.jpg"
         },
 {
     title: "March of the Witch Hunters",
@@ -358,8 +333,7 @@ actor: idina,
     musical: wicked,
     featured: "Christopher Fitzgerald, Original Broadway Cast of Wicked",
 actor: chen,
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/8/87/WickedCastRecording.jpg/220px-WickedCastRecording.jpg",
-    music_video: "https://www.youtube.com/watch?v=JerI5KKSvp8&ab_channel=ChristopherFitzgerald-Topic"
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/8/87/WickedCastRecording.jpg/220px-WickedCastRecording.jpg"
         },
 {
     title: "For Good",
@@ -367,8 +341,7 @@ actor: chen,
     musical: wicked,
     featured: "Idina Menzel, Kristin Chenoweth",
 actor: chen,
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/8/87/WickedCastRecording.jpg/220px-WickedCastRecording.jpg",
-    music_video: "https://www.youtube.com/watch?v=Y8YMfgu92hQ&ab_channel=IdinaMenzel-Topic"
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/8/87/WickedCastRecording.jpg/220px-WickedCastRecording.jpg"
         },
 {
     title: "Finale: For Good (Reprise)",
@@ -376,8 +349,7 @@ actor: chen,
     musical: wicked,
     featured: "Idina Menzel, Kristin Chenoweth, Original Broadway Cast of Wicked",
 actor: chen,
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/8/87/WickedCastRecording.jpg/220px-WickedCastRecording.jpg",
-    music_video: "https://www.youtube.com/watch?v=dg9cvbLS88E&ab_channel=KristinChenoweth-Topic"
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/8/87/WickedCastRecording.jpg/220px-WickedCastRecording.jpg"
         },
 {
     title: "Alexander Hamilton",
@@ -385,17 +357,15 @@ actor: chen,
     musical: ham,
     featured: "Leslie Odom Jr., Anthony Ramos, Daveed Diggs, Okieriete Onaodowan, Lin-Manuel Miranda, Phillipa Soo, Christopher Jackson, Original Broadway Cast of Hamilton",
 actor: lin,
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg",
-    music_video: "https://www.youtube.com/watch?v=dCW38mWg8ww&ab_channel=BroadcastZero"
-        },
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg"
+ },
 {
     title: "Aaron Burr, Sir",
     year: 2015,
     musical: ham,
     featured: "Leslie Odom Jr., Anthony Ramos, Daveed Diggs, Okieriete Onaodowan",
 actor: loj,
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg",
-    music_video: "https://www.youtube.com/watch?v=mUVVNKixd0o&ab_channel=BroadcastZero"
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg"
         },
 {
     title: "My Shot",
@@ -404,7 +374,6 @@ actor: loj,
     featured: "Leslie Odom Jr., Anthony Ramos, Daveed Diggs, Okieriete Onaodowan, Original Broadway Cast of Hamilton",
 actor: lin,
     image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg",
-    music_video: "https://www.youtube.com/watch?v=63I4MG6XQao&ab_channel=BroadcastZero"
         },
 {
     title: "The Story of Tonight",
@@ -412,8 +381,7 @@ actor: lin,
     musical: ham,
     featured: "Anthony Ramos, Daveed Diggs, Okieriete Onaodowan, Original Broadway Cast of Hamilton",
 actor: lin,
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg",
-    music_video: "https://www.youtube.com/watch?v=-LoX3sLMx6k&ab_channel=BroadcastZero"
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg"
         },
 {
     title: "The Schuyler Sisters",
@@ -421,8 +389,7 @@ actor: lin,
     musical: ham,
     featured: "Renée Elise Goldsberry, Phillipa Soo, Jasmine Cephas-Jones, Leslie Odem Jr., Original Broadway Cast of Hamilton",
 actor: reg,
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg",
-    music_video: "https://www.youtube.com/watch?v=UeqKF_NF1Qs&ab_channel=Ren%C3%A9eEliseGoldsberry-Topic"
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg"
         },
 {
     title: "Farmer Refuted",
@@ -430,8 +397,7 @@ actor: reg,
     musical: ham,
     featured: "Thayne Jasperson, Lin Manuel Miranda, Original Broadway Cast of Hamilton",
 actor: lin,
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg",
-    music_video: "https://www.youtube.com/watch?v=R3YFFxoXQBo&ab_channel=BroadcastZero"
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg"
         },
 {
     title: "You’ll Be Back",
@@ -439,9 +405,8 @@ actor: lin,
     musical: ham,
     featured: "Johnathan Groff, Original Broadway Cast of Hamilton",
 actor: groff,
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg",
-    music_video: "https://www.youtube.com/watch?v=QrEoPDv67fE&ab_channel=BroadcastZero"
-        },
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg"
+},
 {
     title: "Right Hand Man",
     year: 2015,
@@ -457,8 +422,7 @@ actor: lin,
     musical: ham,
     featured: "Leslie Odom Jr., Lin-Manuel Miranda, Original Broadway Cast of Hamilton",
 actor: loj,
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg",
-    music_video: "https://www.youtube.com/watch?v=sYMcy3UxCYo&ab_channel=BroadcastZero"
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg"
         },
 {
     title: "Helpless",
@@ -466,8 +430,7 @@ actor: loj,
     musical: ham,
     featured: "Phillipa Soo, Original Broadway Cast of Hamilton",
 actor: soo,
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg",
-    music_video: "https://www.youtube.com/watch?v=3HMPN6zLlXg&ab_channel=BroadcastZero"
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg"
         },
 {
     title: "Satisfied",
@@ -475,8 +438,7 @@ actor: soo,
     musical: ham,
     featured: "Renée Elise Goldsberry, Original Broadway Cast of Hamilton",
 actor: reg,
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg",
-    music_video: "https://www.youtube.com/watch?v=InupuylYdcY&ab_channel=OriginalBroadwayCastofHamilton-Topic"
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg"
         },
 {
     title: "The Story of Tonight (Reprise)",
@@ -484,8 +446,7 @@ actor: reg,
     musical: ham,
     featured: "Leslie Odom Jr., Anthony Ramos, Daveed Diggs, Okieriete Onaodowan, Lin-Manuel Miranda, Original Broadway Cast of Hamilton",
 actor: lin,
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg",
-    music_video: "https://www.youtube.com/watch?v=GRNHx2oaxjw&ab_channel=BroadcastZero"
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg"
         },
 
 {
@@ -494,8 +455,7 @@ actor: lin,
     musical: ham,
     featured: "Leslie Odom Jr., Original Broadway Cast of Hamilton",
 actor: loj,
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg",
-    music_video: "https://www.youtube.com/watch?v=ulsLI029rH0&ab_channel=LeslieOdomJr.-Topic"
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg"
         },
 {
     title: "Stay Alive",
@@ -503,8 +463,7 @@ actor: loj,
     musical: ham,
     featured: "Original Broadway Cast of Hamilton",
 actor: soo,
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg",
-    music_video: "https://www.youtube.com/watch?v=lspURF1cI9c&ab_channel=BroadcastZero"
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg"
         },
 {
     title: "Ten Duel Commandments",
@@ -512,8 +471,7 @@ actor: soo,
     musical: ham,
     featured: "Leslie Odom Jr., Anthony Ramos, Jon Rua, Lin-Manuel Miranda, Christopher Jackson, Original Broadway Cast of Hamilton",
 actor: lin,
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg",
-    music_video: "https://www.youtube.com/watch?v=UQTm8YOb2VU&ab_channel=BroadcastZero"
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg"
         },
 {
     title: "Meet Me Inside",
@@ -521,8 +479,7 @@ actor: lin,
     musical: ham,
     featured: "Leslie Odom Jr., Anthony Ramos, Jon Rua, Lin-Manuel Miranda, Christopher Jackson, Original Broadway Cast of Hamilton",
 actor: lin,
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg",
-    music_video: "https://www.youtube.com/watch?v=aKJsXhUlYhc&ab_channel=BroadcastZero"
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg"
         },
 {
     title: "That Would be Enough",
@@ -530,8 +487,7 @@ actor: lin,
     musical: ham,
     featured: "Phillipa Soo, Lin-Manuel Miranda",
 actor: soo,
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg",
-    music_video: "https://www.youtube.com/watch?v=SNlvR9J3ESs&ab_channel=BroadcastZero"
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg"
         },
 {
     title: "Guns and Ships",
@@ -539,8 +495,7 @@ actor: soo,
     musical: ham,
     featured: "Leslie Odom Jr., Daveed Diggs, Christopher Jackson, Original Broadway Cast of Hamilton",
 actor: diggs,
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg",
-    music_video: "https://www.youtube.com/watch?v=WOb8-C6jw0M&ab_channel=LeslieOdomJr.-Topic"
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg"
         },
 {
     title: "History Has Its Eyes On You",
@@ -548,8 +503,7 @@ actor: diggs,
     musical: ham,
     featured: "Lin-Manuel Miranda, Christopher Jackson, Original Broadway Cast of Hamilton",
 actor: lin,
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg",
-    music_video: "https://www.youtube.com/watch?v=JYnd_97Ban4&ab_channel=BroadcastZero"
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg"
         },
 {
     title: "Yorktown (The World Turned Upside Down)",
@@ -557,8 +511,7 @@ actor: lin,
     musical: ham,
     featured: "Original Broadway Cast of Hamilton",
 actor: lin,
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg",
-    music_video: "https://www.youtube.com/watch?v=ohr843F7a3o&ab_channel=BroadcastZero"
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg"
         },
 {
     title: "What Comes Next?",
@@ -566,8 +519,7 @@ actor: lin,
     musical: ham,
     featured: "Johnathan Groff",
 actor: groff,
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg",
-    music_video: "https://www.youtube.com/watch?v=XGS1Ue-PiUY&ab_channel=BroadcastZero"
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg"
         },
 {
     title: "Dear Theodosia",
@@ -575,8 +527,7 @@ actor: groff,
     musical: ham,
     featured: "Leslie Odom Jr., Lin-Manuel Miranda",
 actor: loj,
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg",
-    music_video: "https://www.youtube.com/watch?v=VIF9kFvDf3Y&ab_channel=BroadcastZero"
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg"
         },
 {
     title: "Non-Stop",
@@ -584,8 +535,7 @@ actor: loj,
     musical: ham,
     featured: "Leslie Odom Jr., Lin-Manuel Miranda, Renée Elise Goldsberry, Phillipa Soo, Christopher Jackson, Original Broadway Cast of Hamilton",
 actor: loj,
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg",
-    music_video: "https://www.youtube.com/watch?v=_YHVPNOHySk&ab_channel=BroadcastZero"
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg"
         },
 {
     title: "What’d I Miss",
@@ -593,8 +543,7 @@ actor: loj,
     musical: ham,
     featured: "Leslie Odom Jr., Daveed Diggs, Okieriete Onaodowan, Original Broadway Cast of Hamilton",
 actor: diggs,
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg",
-    music_video: "https://www.youtube.com/watch?v=vrnovNWC1f4&ab_channel=BroadcastZero"
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg"
         },
 {
     title: "Cabinet Battle #1",
@@ -602,8 +551,7 @@ actor: diggs,
     musical: ham,
     featured: "Christopher Jackson, Daveed Diggs, Okieriete Onaodowan",
 actor: diggs,
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg",
-    music_video: "https://www.youtube.com/watch?v=l7tGdyZLWVs&ab_channel=BroadcastZero"
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg"
         },
 {
     title: "Take a Break",
@@ -611,8 +559,7 @@ actor: diggs,
     musical: ham,
     featured: "Lin-Manuel Miranda, Renée Elise Goldsberry, Phillipa Soo, Anthony Ramos",
 actor: soo,
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg",
-    music_video: "https://www.youtube.com/watch?v=D2UWNF8pKwk&ab_channel=BroadcastZero"
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg"
         },
 {
     title: "Say No To This",
@@ -620,8 +567,7 @@ actor: soo,
     musical: ham,
     featured: "Lin-Manuel Miranda, Jasmine Cephas-Jones, Leslie Odem Jr., Sydney James Harcourt, Original Broadway Cast of Hamilton",
 actor: lin,
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg",
-    music_video: "https://www.youtube.com/watch?v=bzoo7z7aZNM&ab_channel=BroadcastZero"
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg"
         },
 {
     title: "The Room Where It Happens",
@@ -629,8 +575,7 @@ actor: lin,
     musical: ham,
     featured: "Lin-Manuel Miranda, Leslie Odom Jr., Daveed Diggs, Okieriete Onaodowan, Original Broadway Cast of Hamilton",
 actor: loj,
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg",
-    music_video: "https://www.youtube.com/watch?v=-z8q5kNbEoU&ab_channel=BroadcastZero"
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg"
         },
 {
     title: "Schuyler Defeated",
@@ -638,8 +583,7 @@ actor: loj,
     musical: ham,
     featured: "Anthony Ramos, Phillipa Soo, Leslie Odom Jr.",
 actor: lin,
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg",
-    music_video: "https://www.youtube.com/watch?v=iA1Dw-oREmY&ab_channel=BroadcastZero"
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg"
         },
 {
     title: "Cabinet Battle #2",
@@ -647,8 +591,7 @@ actor: lin,
     musical: ham,
     featured: "Lin-Manuel Miranda, Leslie Odom Jr., Daveed Diggs, Okieriete Onaodowan, Christopher Jackson",
 actor: diggs,
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg",
-    music_video: "https://www.youtube.com/watch?v=aTFlR1mSsJg&ab_channel=BroadcastZero"
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg"
         },
 {
     title: "Washington On Your Side",
@@ -656,8 +599,7 @@ actor: diggs,
     musical: ham,
     featured: "Leslie Odom Jr., Daveed Diggs, Okieriete Onaodowan, Original Broadway Cast of Hamilton",
 actor: diggs,
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg",
-    music_video: "https://www.youtube.com/watch?v=9014vq1lqXM&ab_channel=LeslieOdomJr.-Topic"
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg"
         },
 {
     title: "One Last Time",
@@ -665,8 +607,7 @@ actor: diggs,
     musical: ham,
     featured: "Lin-Manuel Miranda, Christopher Jackson, Original Broadway Cast of Hamilton",
 actor: lin,
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg",
-    music_video: "https://www.youtube.com/watch?v=PomCE3AQQEo&ab_channel=BroadcastZero"
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg"
         },
 {
     title: "I Know Him",
@@ -674,8 +615,7 @@ actor: lin,
     musical: ham,
     featured: "Johnathan Groff",
 actor: groff,
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg",
-    music_video: "https://www.youtube.com/watch?v=Q1zZIRZvNA0&ab_channel=BroadcastZero"
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg"
         },
 {
     title: "The Adams Administration",
@@ -683,8 +623,7 @@ actor: groff,
     musical: ham,
     featured: "Original Broadway Cast of Hamilton",
 actor: diggs,
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg",
-    music_video: "https://www.youtube.com/watch?v=Q1zZIRZvNA0&ab_channel=BroadcastZero"
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg"
         },
 {
     title: "We Know",
@@ -692,8 +631,7 @@ actor: diggs,
     musical: ham,
     featured: "Lin-Manuel Miranda, Leslie Odom Jr., Daveed Diggs, Okieriete Onaodowan",
 actor: diggs,
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg",
-    music_video: "https://www.youtube.com/watch?v=w9nROIXe0TA&ab_channel=BroadcastZero"
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg"
         },
 {
     title: "Hurricane",
@@ -701,8 +639,7 @@ actor: diggs,
     musical: ham,
     featured: "Lin-Manuel Miranda, Original Broadway Cast of Hamilton",
     actor: lin,
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg",
-    music_video: "https://www.youtube.com/watch?v=6YFq265x49M&ab_channel=BroadcastZero"
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg"
         },
 {
     title: "The Reynolds Pamphlet",
@@ -710,8 +647,7 @@ actor: diggs,
     musical: ham,
     featured: "Original Broadway Cast of Hamilton",
 actor: diggs,
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg",
-    music_video: "https://www.youtube.com/watch?v=uYQPP49MSEk&ab_channel=BroadcastZero"
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg"
         },
 {
     title: "Burn",
@@ -719,8 +655,7 @@ actor: diggs,
     musical: ham,
     featured: "Phillipa Soo",
 actor: soo,
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg",
-    music_video: "https://www.youtube.com/watch?v=fnmNzQlflO0&ab_channel=BroadcastZero"
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg"
         },
 {
     title: "Blow Us All Away",
@@ -728,8 +663,7 @@ actor: soo,
     musical: ham,
     featured: "	Anthony Ramos, Ariana DeBose, Sasha Hutchings, Ephraim Sykes, Lin-Manuel Miranda, Original Broadway Cast of Hamilton",
 actor: lin,
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg",
-    music_video: "https://www.youtube.com/watch?v=SRMevd6qXz8&ab_channel=BroadcastZero"
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg"
         },
 {
     title: "Stay Alive (Reprise)",
@@ -737,8 +671,7 @@ actor: lin,
     musical: ham,
     featured: "Lin-Manuel Miranda, Anthony Ramos, Phillipa Soo, Original Broadway Cast of Hamilton",
 actor: soo,
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg",
-    music_video: "https://www.youtube.com/watch?v=thFXSNSO9xQ&ab_channel=Lin-ManuelMiranda-Topic"
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg"
         },
 {
     title: "It’s Quiet Uptown",
@@ -746,8 +679,7 @@ actor: soo,
     musical: ham,
     featured: "Lin-Manuel Miranda, Renée Elise Goldsberry, Phillipa Soo, Original Broadway Cast of Hamilton",
 actor: reg,
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg",
-    music_video: "https://www.youtube.com/watch?v=bMAoOGnw9qQ&ab_channel=Lin-ManuelMiranda-Topic"
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg"
         },
 {
     title: "The Election of 1800",
@@ -755,8 +687,7 @@ actor: reg,
     musical: ham,
     featured: "Lin-Manuel Miranda, Leslie Odom Jr., Daveed Diggs, Okieriete Onaodowan, Original Broadway Cast of Hamilton",
 actor: diggs,
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg",
-    music_video: "https://www.youtube.com/watch?v=7LdNrZX_2n8&ab_channel=BroadcastZero"
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg"
         },
 {
     title: "Your Obedient Servant",
@@ -764,8 +695,7 @@ actor: diggs,
     musical: ham,
     featured: "Lin-Manuel Miranda, Leslie Odom Jr., Original Broadway Cast of Hamilton",
 actor: loj,
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg",
-    music_video: "https://www.youtube.com/watch?v=pYROVMwuAZM&ab_channel=BroadcastZero"
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg"
         },
 {
     title: "Best of Wives and best of Women",
@@ -773,8 +703,7 @@ actor: loj,
     musical: ham,
     featured: "Lin-Manuel Miranda, Phillipa Soo",
 actor: lin,
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg",
-    music_video: "https://www.youtube.com/watch?v=rFanENivGWA&ab_channel=BroadcastZero"
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg"
         },
 {
     title: "The World Was Wide Enough",
@@ -782,8 +711,7 @@ actor: lin,
     musical: ham,
     featured: "Lin-Manuel Miranda, Leslie Odem Jr., Original Broadway Cast of Hamilton ",
 actor: loj,
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg",
-    music_video: "https://www.youtube.com/watch?v=BQ1ZwqaXJaQ&ab_channel=Lin-ManuelMiranda-Topic"
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg"
         },
 {
     title: "Who Lives, Who Dies, Who Tells Your Story",
@@ -791,8 +719,7 @@ actor: loj,
     musical: ham,
     featured: "Original Broadway Cast of Hamilton",
 actor: soo,
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg",
-    music_video: "https://www.youtube.com/watch?v=jWFHPGnHuY0&ab_channel=BroadcastZero"
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Hamilton_cast_recording_cover.jpeg/220px-Hamilton_cast_recording_cover.jpeg"
         },
 {
     title: "Overture",
@@ -800,8 +727,7 @@ actor: soo,
     musical: chicago,
     featured: "Orchestra",
 actor: cda,
-    image: "https://upload.wikimedia.org/wikipedia/en/9/9b/Chicago_original_poster_art.jpg",
-    music_video: "https://www.youtube.com/watch?v=GG0g6DTkioY"
+    image: "https://i.scdn.co/image/ab67616d00001e02430aee4c8a41697810138cd5"
         },
 {
     title: "All That Jazz",
@@ -809,8 +735,7 @@ actor: cda,
     musical: chicago,
     featured: "Bebe Neuwirth",
 actor: gord,
-    image: "https://upload.wikimedia.org/wikipedia/en/9/9b/Chicago_original_poster_art.jpg",
-    music_video: "https://www.youtube.com/watch?v=wClDO5gU-is"
+    image: "https://i.scdn.co/image/ab67616d00001e02430aee4c8a41697810138cd5"
         },
 {
     title: "Funny Honey",
@@ -818,8 +743,7 @@ actor: gord,
     musical: chicago,
     featured: "Ann Reinking",
 actor: cda,
-    image: "https://upload.wikimedia.org/wikipedia/en/9/9b/Chicago_original_poster_art.jpg",
-    music_video: "https://www.youtube.com/watch?v=ipuWYCSAoG0"
+    image: "https://i.scdn.co/image/ab67616d00001e02430aee4c8a41697810138cd5"
         },
 {
     title: "Cell Block Tango",
@@ -827,8 +751,7 @@ actor: cda,
     musical: chicago,
     featured: "Bebe Neuwirth",
 actor: gord,
-    image: "https://upload.wikimedia.org/wikipedia/en/9/9b/Chicago_original_poster_art.jpg",
-    music_video: "https://www.youtube.com/watch?v=ly3ccyTI-Js"
+    image: "https://i.scdn.co/image/ab67616d00001e02430aee4c8a41697810138cd5"
         },
 {
     title: "When You're Good to Mama",
@@ -836,8 +759,7 @@ actor: gord,
     musical: chicago,
     featured: "Marica Lewis",
 actor: cda,
-    image: "https://upload.wikimedia.org/wikipedia/en/9/9b/Chicago_original_poster_art.jpg",
-    music_video: "https://www.youtube.com/watch?v=jOHeo4qIhe4"
+    image: "https://i.scdn.co/image/ab67616d00001e02430aee4c8a41697810138cd5"
         },
 {
     title: "All I Care About",
@@ -845,8 +767,7 @@ actor: cda,
     musical: chicago,
     featured: "James Naughton",
 actor: bergen,
-    image: "https://upload.wikimedia.org/wikipedia/en/9/9b/Chicago_original_poster_art.jpg",
-    music_video: "https://www.youtube.com/watch?v=V27J-RSAack"
+    image: "https://i.scdn.co/image/ab67616d00001e02430aee4c8a41697810138cd5"
         },
 {
     title: "A Little Bit of Good",
@@ -854,8 +775,7 @@ actor: bergen,
     musical: chicago,
     featured: "David Sabella-Mills",
 actor: cda,
-    image: "https://upload.wikimedia.org/wikipedia/en/9/9b/Chicago_original_poster_art.jpg",
-    music_video: "https://www.youtube.com/watch?v=jEr036TKFaY"
+    image: "https://i.scdn.co/image/ab67616d00001e02430aee4c8a41697810138cd5"
         },
 {
     title: "We Both Reached for the Gun",
@@ -863,8 +783,7 @@ actor: cda,
     musical: chicago,
     featured: "James Naughton, Ann Reinking, David Sabella-Mills",
 actor: cda,
-    image: "https://upload.wikimedia.org/wikipedia/en/9/9b/Chicago_original_poster_art.jpg",
-    music_video: "https://www.youtube.com/watch?v=KHo2SXcYvsc"
+    image: "https://i.scdn.co/image/ab67616d00001e02430aee4c8a41697810138cd5"
         },
 {
     title: "Roxie",
@@ -872,8 +791,7 @@ actor: cda,
     musical: chicago,
     featured: "Ann Reinking",
 actor: cda,
-    image: "https://upload.wikimedia.org/wikipedia/en/9/9b/Chicago_original_poster_art.jpg",
-    music_video: "https://www.youtube.com/watch?v=kkbrCGHybHY"
+    image: "https://i.scdn.co/image/ab67616d00001e02430aee4c8a41697810138cd5"
         },
 {
     title: "I Can’t Do It Alone",
@@ -881,8 +799,7 @@ actor: cda,
     musical: chicago,
     featured: "Bebe Neuwirth",
 actor: gord,
-    image: "https://upload.wikimedia.org/wikipedia/en/9/9b/Chicago_original_poster_art.jpg",
-    music_video: "https://www.youtube.com/watch?v=efdsqizD4fA"
+    image: "https://i.scdn.co/image/ab67616d00001e02430aee4c8a41697810138cd5"
         },
 {
     title: "I Can’t Do It Alone (Reprise)",
@@ -890,8 +807,7 @@ actor: gord,
     musical: chicago,
     featured: "Bebe Neuwirth",
 actor: gord,
-    image: "https://upload.wikimedia.org/wikipedia/en/9/9b/Chicago_original_poster_art.jpg",
-    music_video: "https://www.youtube.com/watch?v=j1luoqek1qo"
+    image: "https://i.scdn.co/image/ab67616d00001e02430aee4c8a41697810138cd5"
         },
 {
     title: "My Own Best Friend",
@@ -899,8 +815,7 @@ actor: gord,
     musical: chicago,
     featured: "Ann Reinking, Bebe Neuwirth",
 actor: cda,
-    image: "https://upload.wikimedia.org/wikipedia/en/9/9b/Chicago_original_poster_art.jpg",
-    music_video: "https://www.youtube.com/watch?v=HIUwfociUSg"
+    image: "https://i.scdn.co/image/ab67616d00001e02430aee4c8a41697810138cd5"
         },
 {
     title: "Entr’acte",
@@ -908,8 +823,7 @@ actor: cda,
     musical: chicago,
     featured: "Orchestra",
 actor: cda,
-    image: "https://upload.wikimedia.org/wikipedia/en/9/9b/Chicago_original_poster_art.jpg",
-    music_video: "https://www.youtube.com/watch?v=5kYD9iWv3fI"
+    image: "https://i.scdn.co/image/ab67616d00001e02430aee4c8a41697810138cd5"
         },
 {
     title: "I Know a Girl",
@@ -917,8 +831,7 @@ actor: cda,
     musical: chicago,
     featured: "Bebe Neuwirth",
 actor: gord,
-    image: "https://upload.wikimedia.org/wikipedia/en/9/9b/Chicago_original_poster_art.jpg",
-    music_video: "https://www.youtube.com/watch?v=-z0Qp-85fsk"
+    image: "https://i.scdn.co/image/ab67616d00001e02430aee4c8a41697810138cd5"
         },
 {
     title: "Me and My Baby",
@@ -926,8 +839,7 @@ actor: gord,
     musical: chicago,
     featured: "Ann Reinking",
 actor: cda,
-    image: "https://upload.wikimedia.org/wikipedia/en/9/9b/Chicago_original_poster_art.jpg",
-    music_video: "https://www.youtube.com/watch?v=pUbaPjUg6_s"
+    image: "https://i.scdn.co/image/ab67616d00001e02430aee4c8a41697810138cd5"
         },
 {
     title: "My Cellophane",
@@ -935,8 +847,7 @@ actor: cda,
     musical: chicago,
     featured: "Joel Grey",
 actor: cda,
-    image: "https://upload.wikimedia.org/wikipedia/en/9/9b/Chicago_original_poster_art.jpg",
-    music_video: "https://www.youtube.com/watch?v=pUbaPjUg6_s"
+    image: "https://i.scdn.co/image/ab67616d00001e02430aee4c8a41697810138cd5"
         },
 {
     title: "When Velma Takes the Stand",
@@ -944,8 +855,7 @@ actor: cda,
     musical: chicago,
     featured: "Bebe Neuwirth",
 actor: gord,
-    image: "https://upload.wikimedia.org/wikipedia/en/9/9b/Chicago_original_poster_art.jpg",
-    music_video: "https://www.youtube.com/watch?v=cYNj1Ydra1Y"
+    image: "https://i.scdn.co/image/ab67616d00001e02430aee4c8a41697810138cd5"
         },
 {
     title: "Razzle Dazzle",
@@ -953,8 +863,7 @@ actor: gord,
     musical: chicago,
     featured: "James Naughton and Company",
 actor: bergen,
-    image: "https://upload.wikimedia.org/wikipedia/en/9/9b/Chicago_original_poster_art.jpg",
-    music_video: "https://www.youtube.com/watch?v=_qLrcTzUkGo"
+    image: "https://i.scdn.co/image/ab67616d00001e02430aee4c8a41697810138cd5"
         },
 {
     title: "Class",
@@ -962,8 +871,7 @@ actor: bergen,
     musical: chicago,
     featured: "Bebe Neuwirth, Marica Lewis",
 actor: gord,
-    image: "https://upload.wikimedia.org/wikipedia/en/9/9b/Chicago_original_poster_art.jpg",
-    music_video: "https://www.youtube.com/watch?v=tq-F0TZ2oMM"
+    image: "https://i.scdn.co/image/ab67616d00001e02430aee4c8a41697810138cd5"
         },
 {
     title: "Nowadays",
@@ -971,8 +879,7 @@ actor: gord,
     musical: chicago,
     featured: "Bebe Neuwirth, Ann Reinking",
 actor: cda,
-    image: "https://upload.wikimedia.org/wikipedia/en/9/9b/Chicago_original_poster_art.jpg",
-    music_video: "https://www.youtube.com/watch?v=Nd5hw4Ytyq0"
+    image: "https://i.scdn.co/image/ab67616d00001e02430aee4c8a41697810138cd5"
         },
 {
     title: "Hot Honey Rag",
@@ -980,8 +887,7 @@ actor: cda,
     musical: chicago,
     featured: "Bebe Neuwirth, Ann Reinking",
 actor: cda,
-    image: "https://upload.wikimedia.org/wikipedia/en/9/9b/Chicago_original_poster_art.jpg",
-    music_video: "https://www.youtube.com/watch?v=eU3tvOnKCE0"
+    image: "https://i.scdn.co/image/ab67616d00001e02430aee4c8a41697810138cd5"
         },
 {
     title: "Finale",
@@ -989,8 +895,7 @@ actor: cda,
     musical: chicago,
     featured: "Company",
 actor: cda,
-    image: "https://upload.wikimedia.org/wikipedia/en/9/9b/Chicago_original_poster_art.jpg",
-    music_video: "https://www.youtube.com/watch?v=vc7doAVkXuk"
+    image: "https://i.scdn.co/image/ab67616d00001e02430aee4c8a41697810138cd5"
         },
 {
     title: "Welcome to Moulin Rouge!",
@@ -998,8 +903,7 @@ actor: cda,
     musical: mr,
     featured: "Aaron Tveit, Danny Burnstein, Danny Burstein, Holly James, Jacqueline B. Arnold, Jeigh Madjus, Karen Olivo, Original Broadway Cast of Moulin Rouge! The Musical, Original Broadway Company of Moulin Rouge! The Musical",
 actor: tveit,
-    image: "https://t2.genius.com/unsafe/300x300/https%3A%2F%2Fimages.genius.com%2F3a5d58e7fe15d5982b771b4852bedee9.1000x1000x1.jpg",
-    music_video: "https://www.youtube.com/watch?v=J7aPCbsyVBk&ab_channel=OriginalBroadwayCastofMoulinRouge%21TheMusical-Topic"
+    image: "https://t2.genius.com/unsafe/300x300/https%3A%2F%2Fimages.genius.com%2F3a5d58e7fe15d5982b771b4852bedee9.1000x1000x1.jpg"
         },
 {
     title: "Truth Beauty Freedom Love",
@@ -1007,8 +911,7 @@ actor: tveit,
     musical: mr,
     featured: "Aaron Tveit, Original Broadway Cast of Moulin Rouge! The Musical, Original Broadway Company of Moulin Rouge! The Musical",
 actor: tveit,
-    image: "https://t2.genius.com/unsafe/300x300/https%3A%2F%2Fimages.genius.com%2F3a5d58e7fe15d5982b771b4852bedee9.1000x1000x1.jpg",
-    music_video: "https://www.youtube.com/watch?v=FjBlA9YdXa4&ab_channel=MoulinRouge%21TheMusical"
+    image: "https://t2.genius.com/unsafe/300x300/https%3A%2F%2Fimages.genius.com%2F3a5d58e7fe15d5982b771b4852bedee9.1000x1000x1.jpg"
         },
 {
     title: "The Sparkling Diamond",
@@ -1016,8 +919,7 @@ actor: tveit,
     musical: mr,
     featured: "Karen Olivo, Original Broadway Cast of Moulin Rouge! The Musical, Original Broadway Company of Moulin Rouge! The Musical",
 actor: olivo,
-    image: "https://t2.genius.com/unsafe/300x300/https%3A%2F%2Fimages.genius.com%2F3a5d58e7fe15d5982b771b4852bedee9.1000x1000x1.jpg",
-    music_video: "https://www.youtube.com/watch?v=vjvX7c-YhUg&ab_channel=OriginalBroadwayCastofMoulinRouge%21TheMusical-Topic"
+    image: "https://t2.genius.com/unsafe/300x300/https%3A%2F%2Fimages.genius.com%2F3a5d58e7fe15d5982b771b4852bedee9.1000x1000x1.jpg"
         },
 {
     title: "Shut Up and Raise Your Glass",
@@ -1025,8 +927,7 @@ actor: olivo,
     musical: mr,
     featured: "Aaron Tveit, Original Broadway Cast of Moulin Rouge! The Musical, Original Broadway Company of Moulin Rouge! The Musical",
 actor: tveit,
-    image: "https://t2.genius.com/unsafe/300x300/https%3A%2F%2Fimages.genius.com%2F3a5d58e7fe15d5982b771b4852bedee9.1000x1000x1.jpg",
-    music_video: "https://www.youtube.com/watch?v=16EU42ki1jg&ab_channel=MoulinRouge%21TheMusical"
+    image: "https://t2.genius.com/unsafe/300x300/https%3A%2F%2Fimages.genius.com%2F3a5d58e7fe15d5982b771b4852bedee9.1000x1000x1.jpg"
         },
 {
     title: "Firework",
@@ -1034,8 +935,7 @@ actor: tveit,
     musical: mr,
     featured: "Karen Olivo, Original Broadway Cast of Moulin Rouge! The Musical, Original Broadway Company of Moulin Rouge! The Musical",
 actor: olivo,
-    image: "https://t2.genius.com/unsafe/300x300/https%3A%2F%2Fimages.genius.com%2F3a5d58e7fe15d5982b771b4852bedee9.1000x1000x1.jpg",
-    music_video: "https://www.youtube.com/watch?v=nn0eUpL9WGM&ab_channel=MoulinRouge%21TheMusical"
+    image: "https://t2.genius.com/unsafe/300x300/https%3A%2F%2Fimages.genius.com%2F3a5d58e7fe15d5982b771b4852bedee9.1000x1000x1.jpg"
         },
 {
     title: "Your Song",
@@ -1043,8 +943,7 @@ actor: olivo,
     musical: mr,
     featured: "Aaron Tveit, Karen Olivo, Original Broadway Cast of Moulin Rouge! The Musical, Original Broadway Company of Moulin Rouge! The Musical",
 actor: tveit,
-    image: "https://t2.genius.com/unsafe/300x300/https%3A%2F%2Fimages.genius.com%2F3a5d58e7fe15d5982b771b4852bedee9.1000x1000x1.jpg",
-    music_video: "https://www.youtube.com/watch?v=iBGvzd_p62Y&ab_channel=AaronTveit-Topic"
+    image: "https://t2.genius.com/unsafe/300x300/https%3A%2F%2Fimages.genius.com%2F3a5d58e7fe15d5982b771b4852bedee9.1000x1000x1.jpg"
         },
 {
     title: "So Exciting!",
@@ -1052,8 +951,7 @@ actor: tveit,
     musical: mr,
     featured: "Aaron Tveit, Karen Olivo, Original Broadway Cast of Moulin Rouge! The Musical, Original Broadway Company of Moulin Rouge! The Musical",
 actor: tveit,
-    image: "https://t2.genius.com/unsafe/300x300/https%3A%2F%2Fimages.genius.com%2F3a5d58e7fe15d5982b771b4852bedee9.1000x1000x1.jpg",
-    music_video: "https://www.youtube.com/watch?v=CbrOvVHZWPQ&ab_channel=VariousArtists-Topic"
+    image: "https://t2.genius.com/unsafe/300x300/https%3A%2F%2Fimages.genius.com%2F3a5d58e7fe15d5982b771b4852bedee9.1000x1000x1.jpg"
         },
 {
     title: "Sympathy for the Duke",
@@ -1061,8 +959,7 @@ actor: tveit,
     musical: mr,
     featured: "Karen Olivo, Original Broadway Cast of Moulin Rouge! The Musical, Original Broadway Company of Moulin Rouge! The Musical",
 actor: olivo,
-    image: "https://t2.genius.com/unsafe/300x300/https%3A%2F%2Fimages.genius.com%2F3a5d58e7fe15d5982b771b4852bedee9.1000x1000x1.jpg",
-    music_video: "https://www.youtube.com/watch?v=AljIkDoI4JU&ab_channel=MoulinRouge%21TheMusical"
+    image: "https://t2.genius.com/unsafe/300x300/https%3A%2F%2Fimages.genius.com%2F3a5d58e7fe15d5982b771b4852bedee9.1000x1000x1.jpg"
         },
 {
     title: "Nature Boy",
@@ -1070,8 +967,7 @@ actor: olivo,
     musical: mr,
     featured: "Aaron Tveit, Original Broadway Cast of Moulin Rouge! The Musical, Original Broadway Company of Moulin Rouge! The Musical",
 actor: tveit,
-    image: "https://t2.genius.com/unsafe/300x300/https%3A%2F%2Fimages.genius.com%2F3a5d58e7fe15d5982b771b4852bedee9.1000x1000x1.jpg",
-    music_video: "https://www.youtube.com/watch?v=dpBOXvjBjJc&ab_channel=MoulinRouge%21TheMusical"
+    image: "https://t2.genius.com/unsafe/300x300/https%3A%2F%2Fimages.genius.com%2F3a5d58e7fe15d5982b771b4852bedee9.1000x1000x1.jpg"
         },
 {
     title: "Elephant Love Medley",
@@ -1079,8 +975,7 @@ actor: tveit,
     musical: mr,
     featured: "Aaron Tveit, Original Broadway Cast of Moulin Rouge! The Musical, Original Broadway Company of Moulin Rouge! The Musical",
 actor: tveit,
-    image: "https://t2.genius.com/unsafe/300x300/https%3A%2F%2Fimages.genius.com%2F3a5d58e7fe15d5982b771b4852bedee9.1000x1000x1.jpg",
-    music_video: "https://www.youtube.com/watch?v=BtToxyfneVI&ab_channel=OriginalBroadwayCastofMoulinRouge%21TheMusical-Topic"
+    image: "https://t2.genius.com/unsafe/300x300/https%3A%2F%2Fimages.genius.com%2F3a5d58e7fe15d5982b771b4852bedee9.1000x1000x1.jpg"
         },
 {
     title: "Backstage Romance",
@@ -1088,8 +983,7 @@ actor: tveit,
     musical: mr,
     featured: "Original Broadway Cast of Moulin Rouge! The Musical, Original Broadway Company of Moulin Rouge! The Musical",
 actor: olivo,
-    image: "https://t2.genius.com/unsafe/300x300/https%3A%2F%2Fimages.genius.com%2F3a5d58e7fe15d5982b771b4852bedee9.1000x1000x1.jpg",
-    music_video: "https://www.youtube.com/watch?v=02b6Z6OT_x8&ab_channel=MoulinRouge%21TheMusical"
+    image: "https://t2.genius.com/unsafe/300x300/https%3A%2F%2Fimages.genius.com%2F3a5d58e7fe15d5982b771b4852bedee9.1000x1000x1.jpg"
         },
 {
     title: "Come What May",
@@ -1097,8 +991,7 @@ actor: olivo,
     musical: mr,
     featured: "Aaron Tveit, Karen Olivo, Original Broadway Cast of Moulin Rouge! The Musical, Original Broadway Company of Moulin Rouge! The Musical",
 actor: tveit,
-    image: "https://t2.genius.com/unsafe/300x300/https%3A%2F%2Fimages.genius.com%2F3a5d58e7fe15d5982b771b4852bedee9.1000x1000x1.jpg",
-    music_video: "https://www.youtube.com/watch?v=MsWQy-5WXDc&ab_channel=MoulinRouge%21TheMusical"
+    image: "https://t2.genius.com/unsafe/300x300/https%3A%2F%2Fimages.genius.com%2F3a5d58e7fe15d5982b771b4852bedee9.1000x1000x1.jpg"
         },
 {
     title: "Only Girl In A Material World",
@@ -1106,8 +999,7 @@ actor: tveit,
     musical: mr,
     featured: "Karen Olivo, Original Broadway Cast of Moulin Rouge! The Musical, Original Broadway Company of Moulin Rouge! The Musical",
 actor: olivo,
-    image: "https://t2.genius.com/unsafe/300x300/https%3A%2F%2Fimages.genius.com%2F3a5d58e7fe15d5982b771b4852bedee9.1000x1000x1.jpg",
-    music_video: "https://www.youtube.com/watch?v=1X1xfVgl2Ho&ab_channel=MoulinRouge%21TheMusical"
+    image: "https://t2.genius.com/unsafe/300x300/https%3A%2F%2Fimages.genius.com%2F3a5d58e7fe15d5982b771b4852bedee9.1000x1000x1.jpg"
         },
 {
     title: "Chandelier",
@@ -1115,8 +1007,7 @@ actor: olivo,
     musical: mr,
     featured: "Aaron Tveit, Dave Burnstein, Original Broadway Cast of Moulin Rouge! The Musical, Original Broadway Company of Moulin Rouge! The Musical",
 actor: tveit,
-    image: "https://t2.genius.com/unsafe/300x300/https%3A%2F%2Fimages.genius.com%2F3a5d58e7fe15d5982b771b4852bedee9.1000x1000x1.jpg",
-    music_video: "https://www.youtube.com/watch?v=8A9tVZFZjtc&ab_channel=MoulinRouge%21TheMusical"
+    image: "https://t2.genius.com/unsafe/300x300/https%3A%2F%2Fimages.genius.com%2F3a5d58e7fe15d5982b771b4852bedee9.1000x1000x1.jpg"
         },
 {
     title: "El Tango de Roxanne",
@@ -1124,8 +1015,7 @@ actor: tveit,
     musical: mr,
     featured: "Aaron Tveit, Original Broadway Cast of Moulin Rouge! The Musical, Original Broadway Company of Moulin Rouge! The Musical",
 actor: tveit,
-    image: "https://t2.genius.com/unsafe/300x300/https%3A%2F%2Fimages.genius.com%2F3a5d58e7fe15d5982b771b4852bedee9.1000x1000x1.jpg",
-    music_video: "https://www.youtube.com/watch?v=pbKxFwq00i0&ab_channel=OriginalBroadwayCastofMoulinRouge%21TheMusical-Topic"
+    image: "https://t2.genius.com/unsafe/300x300/https%3A%2F%2Fimages.genius.com%2F3a5d58e7fe15d5982b771b4852bedee9.1000x1000x1.jpg"
         },
 {
     title: "Crazy Rolling",
@@ -1133,8 +1023,7 @@ actor: tveit,
     musical: mr,
     featured: "Aaron Tveit, Karen Olivo, Original Broadway Cast of Moulin Rouge! The Musical, Original Broadway Company of Moulin Rouge! The Musical",
 actor: tveit,
-    image: "https://t2.genius.com/unsafe/300x300/https%3A%2F%2Fimages.genius.com%2F3a5d58e7fe15d5982b771b4852bedee9.1000x1000x1.jpg",
-    music_video: "https://www.youtube.com/watch?v=BwgQU8dDlAk&ab_channel=OriginalBroadwayCastofMoulinRouge%21TheMusical-Topic"
+    image: "https://t2.genius.com/unsafe/300x300/https%3A%2F%2Fimages.genius.com%2F3a5d58e7fe15d5982b771b4852bedee9.1000x1000x1.jpg"
         },
 {
     title: "Your Song Reprise",
@@ -1142,8 +1031,7 @@ actor: tveit,
     musical: mr,
     featured: "Aaron Tveit, Karen Olivo, Original Broadway Cast of Moulin Rouge! The Musical, Original Broadway Company of Moulin Rouge! The Musical",
 actor: olivo,
-    image: "https://t2.genius.com/unsafe/300x300/https%3A%2F%2Fimages.genius.com%2F3a5d58e7fe15d5982b771b4852bedee9.1000x1000x1.jpg",
-    music_video: "https://www.youtube.com/watch?v=Bfk9iDa0_IE&ab_channel=OriginalBroadwayCastofMoulinRouge%21TheMusical-Topic"
+    image: "https://t2.genius.com/unsafe/300x300/https%3A%2F%2Fimages.genius.com%2F3a5d58e7fe15d5982b771b4852bedee9.1000x1000x1.jpg"
         },
 {
     title: "Finale (Come What May)",
@@ -1151,8 +1039,7 @@ actor: olivo,
     musical: mr,
     featured: "Aaron Tveit, Holly James, Jacqueline B Arnold, Original Broadway Cast of Moulin Rouge! The Musical, Original Broadway Company of Moulin Rouge! The Musical",
 actor: tveit,
-    image: "https://t2.genius.com/unsafe/300x300/https%3A%2F%2Fimages.genius.com%2F3a5d58e7fe15d5982b771b4852bedee9.1000x1000x1.jpg",
-    music_video: "https://www.youtube.com/watch?v=Jfo-gox-n_0&ab_channel=OriginalBroadwayCastofMoulinRouge%21TheMusical-Topic"
+    image: "https://t2.genius.com/unsafe/300x300/https%3A%2F%2Fimages.genius.com%2F3a5d58e7fe15d5982b771b4852bedee9.1000x1000x1.jpg"
         },
 {
     title: "More More More! (Encore)",
@@ -1160,8 +1047,7 @@ actor: tveit,
     musical: mr,
     featured: "Aaron Tveit, Holly James, Jacqueline B Arnold, Original Broadway Cast of Moulin Rouge! The Musical, Original Broadway Company of Moulin Rouge! The Musical",
 actor: tveit,
-    image: "https://t2.genius.com/unsafe/300x300/https%3A%2F%2Fimages.genius.com%2F3a5d58e7fe15d5982b771b4852bedee9.1000x1000x1.jpg",
-    music_video: "https://www.youtube.com/watch?v=BOiR-kLG8uk&ab_channel=MoulinRouge%21TheMusical"
+    image: "https://t2.genius.com/unsafe/300x300/https%3A%2F%2Fimages.genius.com%2F3a5d58e7fe15d5982b771b4852bedee9.1000x1000x1.jpg"
         },
 {
     title: "Overture",
@@ -1169,8 +1055,7 @@ actor: tveit,
     musical: phantom,
     featured: "Sierra Boggess",
 actor: sierra,
-    image: "https://m.media-amazon.com/images/I/51k3Cq6ljwL.jpg",
-    music_video: "https://www.youtube.com/watch?v=u_1ioAH-45Y&list=OLAK5uy_mDUwCpON_QEGjn476QGcWTREQrvApPOlQ&index=2&ab_channel=AndrewLloydWebber-Topic"
+    image: "https://m.media-amazon.com/images/I/51k3Cq6ljwL.jpg"
         },
 {
     title: "Think of Me",
@@ -1178,8 +1063,7 @@ actor: sierra,
     musical: phantom,
     featured: "Sierra Boggess",
 actor: sierra,
-    image: "https://m.media-amazon.com/images/I/51k3Cq6ljwL.jpg",
-    music_video: "https://www.youtube.com/watch?v=T9Hkq-M5_KY&list=OLAK5uy_mDUwCpON_QEGjn476QGcWTREQrvApPOlQ&index=3&ab_channel=AndrewLloydWebber-Topic"
+    image: "https://m.media-amazon.com/images/I/51k3Cq6ljwL.jpg"
         },
 {
     title: "Angel of Music",
@@ -1187,8 +1071,7 @@ actor: sierra,
     musical: phantom,
     featured: "Sierra Boggess",
 actor: sierra,
-    image: "https://m.media-amazon.com/images/I/51k3Cq6ljwL.jpg",
-    music_video: "https://www.youtube.com/watch?v=00OQ5xoBWZM&list=OLAK5uy_mDUwCpON_QEGjn476QGcWTREQrvApPOlQ&index=4&ab_channel=AndrewLloydWebber-Topic"
+    image: "https://m.media-amazon.com/images/I/51k3Cq6ljwL.jpg"
         },
 {
     title: "Little Lotte/The Mirror…(Angel Of Music)",
@@ -1196,8 +1079,7 @@ actor: sierra,
     musical: phantom,
     featured: "Sierra Boggess, Hadley Fraser, Ramin Kaimloo",
 actor: sierra,
-    image: "https://m.media-amazon.com/images/I/51k3Cq6ljwL.jpg",
-    music_video: "https://www.youtube.com/watch?v=FmSZW_pkgvM&list=OLAK5uy_mDUwCpON_QEGjn476QGcWTREQrvApPOlQ&index=5&ab_channel=AndrewLloydWebber-Topic"
+    image: "https://m.media-amazon.com/images/I/51k3Cq6ljwL.jpg"
         },
 {
     title: "The Phantom of the Opera",
@@ -1205,8 +1087,7 @@ actor: sierra,
     musical: phantom,
     featured: "Sierra Boggess, Ramin Karimloo",
 actor: sierra,
-    image: "https://m.media-amazon.com/images/I/51k3Cq6ljwL.jpg",
-    music_video: "https://www.youtube.com/watch?v=VfJ7xa4TyFY&list=OLAK5uy_mDUwCpON_QEGjn476QGcWTREQrvApPOlQ&index=6&ab_channel=AndrewLloydWebber-Topic"
+    image: "https://m.media-amazon.com/images/I/51k3Cq6ljwL.jpg"
         },
 {
     title: "The Music of the Night",
@@ -1214,8 +1095,7 @@ actor: sierra,
     musical: phantom,
     featured: "Ramin Karimloo",
 actor: ramin,
-    image: "https://m.media-amazon.com/images/I/51k3Cq6ljwL.jpg",
-    music_video: "https://www.youtube.com/watch?v=kUUmJDT9xjw&list=OLAK5uy_mDUwCpON_QEGjn476QGcWTREQrvApPOlQ&index=8&ab_channel=AndrewLloydWebber-Topic"
+    image: "https://m.media-amazon.com/images/I/51k3Cq6ljwL.jpg"
         },
 {
     title: "I Remember…/Stranger Than You Dreamt It",
@@ -1223,8 +1103,7 @@ actor: ramin,
     musical: phantom,
     featured: "Sierra Boggess, Ramin Karimloo",
 actor: sierra,
-    image: "https://m.media-amazon.com/images/I/51k3Cq6ljwL.jpg",
-    music_video: "https://www.youtube.com/watch?v=pPsHqA6zusQ&ab_channel=AndrewLloydWebber-Topic"
+    image: "https://m.media-amazon.com/images/I/51k3Cq6ljwL.jpg"
         },
 {
     title: "Magical Lasso",
@@ -1232,8 +1111,7 @@ actor: sierra,
     musical: phantom,
     featured: "Ramin Karimloo",
 actor: ramin,
-    image: "https://m.media-amazon.com/images/I/51k3Cq6ljwL.jpg",
-    music_video: "https://www.youtube.com/watch?v=pPsHqA6zusQ&ab_channel=AndrewLloydWebber-Topic"
+    image: "https://m.media-amazon.com/images/I/51k3Cq6ljwL.jpg"
         },
 {
     title: "Magical Lasso",
@@ -1241,8 +1119,7 @@ actor: ramin,
     musical: phantom,
     featured: "Ramin Karimloo",
 actor: ramin,
-    image: "https://m.media-amazon.com/images/I/51k3Cq6ljwL.jpg",
-    music_video: "https://www.youtube.com/watch?v=pPsHqA6zusQ&ab_channel=AndrewLloydWebber-Topic"
+    image: "https://m.media-amazon.com/images/I/51k3Cq6ljwL.jpg"
         },
 {
     title: "Notes…/Prima Donna",
@@ -1250,8 +1127,7 @@ actor: ramin,
     musical: phantom,
     featured: "Ramin Karimloo, Sierra Boggess",
 actor: sierra,
-    image: "https://m.media-amazon.com/images/I/51k3Cq6ljwL.jpg",
-    music_video: "https://www.youtube.com/watch?v=JrYOXmbTB1g&ab_channel=AndrewLloydWebber-Topic"
+    image: "https://m.media-amazon.com/images/I/51k3Cq6ljwL.jpg"
         },
 {
     title: "Poor Fool, He makes Me Laugh",
@@ -1259,8 +1135,7 @@ actor: sierra,
     musical: phantom,
     featured: "Ramin Karimloo, Sierra Boggess",
 actor: ramin,
-    image: "https://m.media-amazon.com/images/I/51k3Cq6ljwL.jpg",
-    music_video: "https://www.youtube.com/watch?v=FnGO9kpc72s&ab_channel=AndrewLloydWebber-Topic"
+    image: "https://m.media-amazon.com/images/I/51k3Cq6ljwL.jpg"
         },
 {
     title: "Why Have You Brought Me Here?/Raoul, I’ve Been There",
@@ -1268,8 +1143,7 @@ actor: ramin,
     musical: phantom,
     featured: "Hadley Fraser, Sierra Boggess",
 actor: sierra,
-    image: "https://m.media-amazon.com/images/I/51k3Cq6ljwL.jpg",
-    music_video: "https://www.youtube.com/watch?v=AtgREEyXJ80&list=OLAK5uy_mDUwCpON_QEGjn476QGcWTREQrvApPOlQ&index=12&ab_channel=AndrewLloydWebber-Topic"
+    image: "https://m.media-amazon.com/images/I/51k3Cq6ljwL.jpg"
         },
 {
     title: "All I Ask of You",
@@ -1277,8 +1151,7 @@ actor: sierra,
     musical: phantom,
     featured: "Hadley Fraser, Sierra Boggess",
 actor: sierra,
-    image: "https://m.media-amazon.com/images/I/51k3Cq6ljwL.jpg",
-    music_video: "https://www.youtube.com/watch?v=iOQN53Xsup8&list=OLAK5uy_mDUwCpON_QEGjn476QGcWTREQrvApPOlQ&index=13&ab_channel=AndrewLloydWebber-Topic"
+    image: "https://m.media-amazon.com/images/I/51k3Cq6ljwL.jpg"
         },
 {
     title: "All I Ask of You (Reprise)",
@@ -1286,8 +1159,7 @@ actor: sierra,
     musical: phantom,
     featured: "Hadley Fraser, Sierra Boggess, Ramin Karimloo",
 actor: sierra,
-    image: "https://m.media-amazon.com/images/I/51k3Cq6ljwL.jpg",
-    music_video: "https://www.youtube.com/watch?v=IZe52Nc7OgQ&list=OLAK5uy_mDUwCpON_QEGjn476QGcWTREQrvApPOlQ&index=14&ab_channel=AndrewLloydWebber-Topic"
+    image: "https://m.media-amazon.com/images/I/51k3Cq6ljwL.jpg"
         },
 {
     title: "All I Ask of You (Reprise)",
@@ -1295,8 +1167,7 @@ actor: sierra,
     musical: phantom,
     featured: "Hadley Fraser, Sierra Boggess, Ramin Karimloo",
 actor: sierra,
-    image: "https://m.media-amazon.com/images/I/51k3Cq6ljwL.jpg",
-    music_video: "https://www.youtube.com/watch?v=IZe52Nc7OgQ&list=OLAK5uy_mDUwCpON_QEGjn476QGcWTREQrvApPOlQ&index=14&ab_channel=AndrewLloydWebber-Topic"
+    image: "https://m.media-amazon.com/images/I/51k3Cq6ljwL.jpg"
         },
 {
     title: "Masquerade/Why So Silent?",
@@ -1304,8 +1175,7 @@ actor: sierra,
     musical: phantom,
     featured: "Hadley Fraser, Sierra Boggess, Ramin Karimloo",
 actor: sierra,
-    image: "https://m.media-amazon.com/images/I/51k3Cq6ljwL.jpg",
-    music_video: "https://www.youtube.com/watch?v=QnJzEpV_lbg&list=OLAK5uy_mDUwCpON_QEGjn476QGcWTREQrvApPOlQ&index=17&ab_channel=AndrewLloydWebber-Topic"
+    image: "https://m.media-amazon.com/images/I/51k3Cq6ljwL.jpg"
         },
 {
     title: "Notes…/Twisted Every Way",
@@ -1313,8 +1183,7 @@ actor: sierra,
     musical: phantom,
     featured: "Hadley Fraser, Sierra Boggess, Ramin Karimloo",
 actor: ramin,
-    image: "https://m.media-amazon.com/images/I/51k3Cq6ljwL.jpg",
-    music_video: "https://www.youtube.com/watch?v=VKqmQGWXbQw&list=OLAK5uy_mDUwCpON_QEGjn476QGcWTREQrvApPOlQ&index=18&ab_channel=AndrewLloydWebber-Topic"
+    image: "https://m.media-amazon.com/images/I/51k3Cq6ljwL.jpg"
         },
 {
     title: "Wishing You Were Somehow Here Again",
@@ -1322,8 +1191,7 @@ actor: ramin,
     musical: phantom,
     featured: "Sierra Boggess",
 actor: sierra,
-    image: "https://m.media-amazon.com/images/I/51k3Cq6ljwL.jpg",
-    music_video: "https://www.youtube.com/watch?v=w__4Pis5F2E&list=OLAK5uy_mDUwCpON_QEGjn476QGcWTREQrvApPOlQ&index=18&ab_channel=AndrewLloydWebber-Topic"
+    image: "https://m.media-amazon.com/images/I/51k3Cq6ljwL.jpg"
         },
 {
     title: "Wandering Child…/Bravo Bravo",
@@ -1331,8 +1199,7 @@ actor: sierra,
     musical: phantom,
     featured: "Sierra Boggess, Hadley Fraser, Ramin Karimloo",
 actor: ramin,
-    image: "https://m.media-amazon.com/images/I/51k3Cq6ljwL.jpg",
-    music_video: "https://www.youtube.com/watch?v=b6spAaZRo5Q&list=OLAK5uy_mDUwCpON_QEGjn476QGcWTREQrvApPOlQ&index=19&ab_channel=AndrewLloydWebber-Topic"
+    image: "https://m.media-amazon.com/images/I/51k3Cq6ljwL.jpg"
         },
 {
     title: "The Point of No Return",
@@ -1340,8 +1207,7 @@ actor: ramin,
     musical: phantom,
     featured: "Sierra Boggess, Hadley Fraser, Ramin Karimloo",
 actor: ramin,
-    image: "https://m.media-amazon.com/images/I/51k3Cq6ljwL.jpg",
-    music_video: "https://www.youtube.com/watch?v=_15WJ9ydmgk&list=OLAK5uy_mDUwCpON_QEGjn476QGcWTREQrvApPOlQ&index=20&ab_channel=AndrewLloydWebber-Topic"
+    image: "https://m.media-amazon.com/images/I/51k3Cq6ljwL.jpg"
         },
 {
     title: "Down Once More../Track Down This Murderer",
@@ -1349,8 +1215,7 @@ actor: ramin,
     musical: phantom,
     featured: "Sierra Boggess, Hadley Fraser, Ramin Karimloo",
 actor: ramin,
-    image: "https://m.media-amazon.com/images/I/51k3Cq6ljwL.jpg",
-    music_video: "https://www.youtube.com/watch?v=1YfKuutJ--4&list=OLAK5uy_mDUwCpON_QEGjn476QGcWTREQrvApPOlQ&index=21&ab_channel=AndrewLloydWebber-Topic"
+    image: "https://m.media-amazon.com/images/I/51k3Cq6ljwL.jpg"
         },
 {
     title: "Grand Finale",
@@ -1358,8 +1223,7 @@ actor: ramin,
     musical: phantom,
     featured: "Sierra Boggess, Hadley Fraser, Ramin Karimloo",
 actor: ramin,
-    image: "https://m.media-amazon.com/images/I/51k3Cq6ljwL.jpg",
-    music_video: "https://www.youtube.com/watch?v=TxjBMIjAVKg&list=OLAK5uy_mDUwCpON_QEGjn476QGcWTREQrvApPOlQ&index=22&ab_channel=AndrewLloydWebber-Topic"
+    image: "https://m.media-amazon.com/images/I/51k3Cq6ljwL.jpg"
         },
 {
     title: "Overture/Rock Island",
@@ -1367,8 +1231,7 @@ actor: ramin,
     musical: music_man,
     featured: "Robert Preston, Shirley Jones",
 actor: hugh,
-    image: "https://m.media-amazon.com/images/I/714hhM4W1bL._SL1200_.jpg",
-    music_video: "https://www.youtube.com/watch?v=0yJ8IGGuRFE&list=PLJ60eOPu5DcG-jmIIayaVJU0pceJ0N1OK&ab_channel=VernReed-Topic"
+    image: "https://m.media-amazon.com/images/I/714hhM4W1bL._SL1200_.jpg"
         },
 {
     title: "Iowa Stubborn",
@@ -1376,8 +1239,7 @@ actor: hugh,
     musical: music_man,
     featured: "Robert Preston, Shirley Jones",
 actor: hugh,
-    image: "https://m.media-amazon.com/images/I/714hhM4W1bL._SL1200_.jpg",
-    music_video: "https://www.youtube.com/watch?v=aqxtf28noNw&list=PLJ60eOPu5DcG-jmIIayaVJU0pceJ0N1OK&index=3&ab_channel=VariousArtists-Topic"
+    image: "https://m.media-amazon.com/images/I/714hhM4W1bL._SL1200_.jpg"
         },
 {
     title: "Trouble",
@@ -1385,8 +1247,7 @@ actor: hugh,
     musical: music_man,
     featured: "Robert Preston, Shirley Jones",
 actor: hugh,
-    image: "https://m.media-amazon.com/images/I/714hhM4W1bL._SL1200_.jpg",
-    music_video: "https://www.youtube.com/watch?v=2uJyLSsxhGE&list=PLJ60eOPu5DcG-jmIIayaVJU0pceJ0N1OK&index=3&ab_channel=RobertPreston-Topic"
+    image: "https://m.media-amazon.com/images/I/714hhM4W1bL._SL1200_.jpg"
         },
 {
     title: "Piano Lesson",
@@ -1394,8 +1255,7 @@ actor: hugh,
     musical: music_man,
     featured: "Robert Preston, Shirley Jones",
 actor: sutton,
-    image: "https://m.media-amazon.com/images/I/714hhM4W1bL._SL1200_.jpg",
-    music_video: "https://www.youtube.com/watch?v=OK8v1_Mp3k8&list=PLJ60eOPu5DcG-jmIIayaVJU0pceJ0N1OK&index=4&ab_channel=BarbaraCook-Topic"
+    image: "https://m.media-amazon.com/images/I/714hhM4W1bL._SL1200_.jpg"
         },
 {
     title: "Goodnight My Someone",
@@ -1403,8 +1263,7 @@ actor: sutton,
     musical: music_man,
     featured: "Robert Preston, Shirley Jones",
 actor: sutton,
-    image: "https://m.media-amazon.com/images/I/714hhM4W1bL._SL1200_.jpg",
-    music_video: "https://www.youtube.com/watch?v=Yp5IGR2JQqA&list=PLJ60eOPu5DcG-jmIIayaVJU0pceJ0N1OK&index=5&ab_channel=BarbaraCook-Topic"
+    image: "https://m.media-amazon.com/images/I/714hhM4W1bL._SL1200_.jpg"
         },
 {
     title: "Goodnight My Someone",
@@ -1412,8 +1271,7 @@ actor: sutton,
     musical: music_man,
     featured: "Robert Preston, Shirley Jones",
 actor: sutton,
-    image: "https://m.media-amazon.com/images/I/714hhM4W1bL._SL1200_.jpg",
-    music_video: "https://www.youtube.com/watch?v=Yp5IGR2JQqA&list=PLJ60eOPu5DcG-jmIIayaVJU0pceJ0N1OK&index=5&ab_channel=BarbaraCook-Topic"
+    image: "https://m.media-amazon.com/images/I/714hhM4W1bL._SL1200_.jpg"
         },
 {
     title: "Seventy Six Trombones",
@@ -1421,8 +1279,7 @@ actor: sutton,
     musical: music_man,
     featured: "Robert Preston, Shirley Jones",
 actor: hugh,
-    image: "https://m.media-amazon.com/images/I/714hhM4W1bL._SL1200_.jpg",
-    music_video: "https://www.youtube.com/watch?v=rYxNbEos2O4&list=PLJ60eOPu5DcG-jmIIayaVJU0pceJ0N1OK&index=6&ab_channel=RobertPreston-Topic"
+    image: "https://m.media-amazon.com/images/I/714hhM4W1bL._SL1200_.jpg"
         },
 {
     title: "Sincere",
@@ -1430,8 +1287,7 @@ actor: hugh,
     musical: music_man,
     featured: "Robert Preston, Shirley Jones",
 actor: hugh,
-    image: "https://m.media-amazon.com/images/I/714hhM4W1bL._SL1200_.jpg",
-    music_video: "https://www.youtube.com/watch?v=TX4crFTnwYw&list=PLJ60eOPu5DcG-jmIIayaVJU0pceJ0N1OK&index=7&ab_channel=TheBuffaloBills-Topic"
+    image: "https://m.media-amazon.com/images/I/714hhM4W1bL._SL1200_.jpg"
         },
 {
     title: "Sadder-But-Wiser Girl For Me",
@@ -1439,8 +1295,7 @@ actor: hugh,
     musical: music_man,
     featured: "Robert Preston, Shirley Jones",
 actor: hugh,
-    image: "https://m.media-amazon.com/images/I/714hhM4W1bL._SL1200_.jpg",
-    music_video: "https://www.youtube.com/watch?v=Ogq_A6LmVZg&list=PLJ60eOPu5DcG-jmIIayaVJU0pceJ0N1OK&index=8&ab_channel=RobertPreston-Topic"
+    image: "https://m.media-amazon.com/images/I/714hhM4W1bL._SL1200_.jpg"
         },
 {
     title: "Pick-A-Little, Talk-A-Little/Good Night Ladies",
@@ -1448,8 +1303,7 @@ actor: hugh,
     musical: music_man,
     featured: "Robert Preston, Shirley Jones",
 actor: sutton,
-    image: "https://m.media-amazon.com/images/I/714hhM4W1bL._SL1200_.jpg",
-    music_video: "https://www.youtube.com/watch?v=Ogq_A6LmVZg&list=PLJ60eOPu5DcG-jmIIayaVJU0pceJ0N1OK&index=8&ab_channel=RobertPreston-Topic"
+    image: "https://m.media-amazon.com/images/I/714hhM4W1bL._SL1200_.jpg"
         },
 {
     title: "Marian The Librarian",
@@ -1457,8 +1311,7 @@ actor: sutton,
     musical: music_man,
     featured: "Robert Preston, Shirley Jones",
 actor: hugh,
-    image: "https://m.media-amazon.com/images/I/714hhM4W1bL._SL1200_.jpg",
-    music_video: "https://www.youtube.com/watch?v=XBlA3CnLD1Y&list=PLJ60eOPu5DcG-jmIIayaVJU0pceJ0N1OK&index=11&ab_channel=RobertPreston-Topic"
+    image: "https://m.media-amazon.com/images/I/714hhM4W1bL._SL1200_.jpg"
         },
 {
     title: "The White Knight",
@@ -1466,8 +1319,7 @@ actor: hugh,
     musical: music_man,
     featured: "Robert Preston, Shirley Jones",
 actor: sutton,
-    image: "https://m.media-amazon.com/images/I/714hhM4W1bL._SL1200_.jpg",
-    music_video: "https://www.youtube.com/watch?v=mA73dTr9CSs&list=PLJ60eOPu5DcG-jmIIayaVJU0pceJ0N1OK&index=11&ab_channel=BarbaraCook-Topic"
+    image: "https://m.media-amazon.com/images/I/714hhM4W1bL._SL1200_.jpg"
         },
 {
     title: "Wells Fargo Wagon",
@@ -1475,8 +1327,7 @@ actor: sutton,
     musical: music_man,
     featured: "Robert Preston, Shirley Jones",
 actor: sutton,
-    image: "https://m.media-amazon.com/images/I/714hhM4W1bL._SL1200_.jpg",
-    music_video: "https://www.youtube.com/watch?v=jQs2dbRXs3w&list=PLJ60eOPu5DcG-jmIIayaVJU0pceJ0N1OK&index=12&ab_channel=EddieHodges-Topic"
+    image: "https://m.media-amazon.com/images/I/714hhM4W1bL._SL1200_.jpg"
         },
 {
     title: "It’s You",
@@ -1484,8 +1335,7 @@ actor: sutton,
     musical: music_man,
     featured: "Robert Preston, Shirley Jones",
 actor: hugh,
-    image: "https://m.media-amazon.com/images/I/714hhM4W1bL._SL1200_.jpg",
-    music_video: "https://www.youtube.com/watch?v=7sznJlIgUJI&list=PLJ60eOPu5DcG-jmIIayaVJU0pceJ0N1OK&index=13&ab_channel=TheBuffaloBills-Topic"
+    image: "https://m.media-amazon.com/images/I/714hhM4W1bL._SL1200_.jpg"
         },
 {
     title: "Shipoopi",
@@ -1493,8 +1343,7 @@ actor: hugh,
     musical: music_man,
     featured: "Robert Preston, Shirley Jones",
 actor: hugh,
-    image: "https://m.media-amazon.com/images/I/714hhM4W1bL._SL1200_.jpg",
-    music_video: "https://www.youtube.com/watch?v=DpZ660VTdcM&list=PLJ60eOPu5DcG-jmIIayaVJU0pceJ0N1OK&index=14&ab_channel=IggieWolfington-Topic"
+    image: "https://m.media-amazon.com/images/I/714hhM4W1bL._SL1200_.jpg"
         },
 {
     title: "Lida Rose/Will I Ever Tell You",
@@ -1502,8 +1351,7 @@ actor: hugh,
     musical: music_man,
     featured: "Robert Preston, Shirley Jones",
 actor: sutton,
-    image: "https://m.media-amazon.com/images/I/714hhM4W1bL._SL1200_.jpg",
-    music_video: "https://www.youtube.com/watch?v=MctNlr56rsI&list=PLJ60eOPu5DcG-jmIIayaVJU0pceJ0N1OK&index=15&ab_channel=TheBuffaloBills-Topic"
+    image: "https://m.media-amazon.com/images/I/714hhM4W1bL._SL1200_.jpg"
         },
 {
     title: "Gary, Indiana",
@@ -1511,8 +1359,7 @@ actor: sutton,
     musical: music_man,
     featured: "Robert Preston, Shirley Jones",
 actor: hugh,
-    image: "https://m.media-amazon.com/images/I/714hhM4W1bL._SL1200_.jpg",
-    music_video: "https://www.youtube.com/watch?v=cqrhqagUzBg&list=PLJ60eOPu5DcG-jmIIayaVJU0pceJ0N1OK&index=16&ab_channel=EddieHodges-Topic"
+    image: "https://m.media-amazon.com/images/I/714hhM4W1bL._SL1200_.jpg"
         },
 {
     title: "Till There Was You",
@@ -1520,8 +1367,7 @@ actor: hugh,
     musical: music_man,
     featured: "Robert Preston, Shirley Jones",
 actor: sutton,
-    image: "https://m.media-amazon.com/images/I/714hhM4W1bL._SL1200_.jpg",
-    music_video: "https://www.youtube.com/watch?v=q4cC4mLp0w8&list=PLJ60eOPu5DcG-jmIIayaVJU0pceJ0N1OK&index=17&ab_channel=BarbaraCook-Topic"
+    image: "https://m.media-amazon.com/images/I/714hhM4W1bL._SL1200_.jpg"
         },
 {
     title: "Finale",
@@ -1529,8 +1375,7 @@ actor: sutton,
     musical: music_man,
     featured: "Robert Preston, Shirley Jones",
 actor: hugh,
-    image: "https://m.media-amazon.com/images/I/714hhM4W1bL._SL1200_.jpg",
-    music_video: "https://www.youtube.com/watch?v=W2Wroa1VHvI&list=PLJ60eOPu5DcG-jmIIayaVJU0pceJ0N1OK&index=18&ab_channel=RobertPreston-Topic"
+    image: "https://m.media-amazon.com/images/I/714hhM4W1bL._SL1200_.jpg"
         },
 {
     title: "Ex-Wives",
@@ -1538,8 +1383,7 @@ actor: hugh,
     musical: six,
     featured: "Adrianna Hicks, Andrea Macasaet, Abby Mueller, Brittney Mack, Samantha Pauly, Anna Uzele",
 actor: hicks,
-    image: "https://m.media-amazon.com/images/I/71ChQLRD8uL._SS500_.jpg",
-    music_video: "https://www.youtube.com/watch?v=3ygJY2d8daI&ab_channel=SIX"
+    image: "https://i.scdn.co/image/ab67616d0000b273d9cd8917de31257e2ac920a9"
         },
 {
     title: "Ex-Wives (Reprise)",
@@ -1547,8 +1391,7 @@ actor: hicks,
     musical: six,
     featured: "Adrianna Hicks, Andrea Macasaet, Abby Mueller, Brittney Mack, Samantha Pauly, Anna Uzele",
 actor: pauly,
-    image: "https://m.media-amazon.com/images/I/71ChQLRD8uL._SS500_.jpg",
-    music_video: "https://www.youtube.com/watch?v=-WiGGAUGzhE&ab_channel=SIX"
+    image: "https://i.scdn.co/image/ab67616d0000b273d9cd8917de31257e2ac920a9"
         },
 {
     title: "No Way",
@@ -1556,8 +1399,7 @@ actor: pauly,
     musical: six,
     featured: "Adrianna Hicks, Andrea Macasaet, Abby Mueller, Brittney Mack, Samantha Pauly, Anna Uzele",
 actor: hicks,
-    image: "https://m.media-amazon.com/images/I/71ChQLRD8uL._SS500_.jpg",
-    music_video: "https://www.youtube.com/watch?v=_U1NlmniTMk&ab_channel=SIX"
+    image: "https://i.scdn.co/image/ab67616d0000b273d9cd8917de31257e2ac920a9"
         },
 {
     title: "Don’t Lose Your Head",
@@ -1565,8 +1407,7 @@ actor: hicks,
     musical: six,
     featured: "Adrianna Hicks, Andrea Macasaet, Abby Mueller, Brittney Mack, Samantha Pauly, Anna Uzele",
 actor: dre,
-    image: "https://m.media-amazon.com/images/I/71ChQLRD8uL._SS500_.jpg",
-    music_video: "https://www.youtube.com/watch?v=xkCcm6lFGyo&ab_channel=SIX-Topic"
+    image: "https://i.scdn.co/image/ab67616d0000b273d9cd8917de31257e2ac920a9"
         },
 {
     title: "Heart of Stone",
@@ -1574,8 +1415,7 @@ actor: dre,
     musical: six,
     featured: "Adrianna Hicks, Andrea Macasaet, Abby Mueller, Brittney Mack, Samantha Pauly, Anna Uzele",
 actor: mueller,
-    image: "https://m.media-amazon.com/images/I/71ChQLRD8uL._SS500_.jpg",
-    music_video: "https://www.youtube.com/watch?v=leK_wkp3q20&ab_channel=SIX"
+    image: "https://i.scdn.co/image/ab67616d0000b273d9cd8917de31257e2ac920a9"
         },
 {
     title: "Haus of Holbein",
@@ -1583,8 +1423,7 @@ actor: mueller,
     musical: six,
     featured: "Adrianna Hicks, Andrea Macasaet, Abby Mueller, Brittney Mack, Samantha Pauly, Anna Uzele",
 actor: mack,
-    image: "https://m.media-amazon.com/images/I/71ChQLRD8uL._SS500_.jpg",
-    music_video: "https://www.youtube.com/watch?v=xkCcm6lFGyo&ab_channel=SIX-Topic"
+    image: "https://i.scdn.co/image/ab67616d0000b273d9cd8917de31257e2ac920a9"
         },
 {
     title: "Get Down",
@@ -1592,8 +1431,7 @@ actor: mack,
     musical: six,
     featured: "Adrianna Hicks, Andrea Macasaet, Abby Mueller, Brittney Mack, Samantha Pauly, Anna Uzele",
 actor: mack,
-    image: "https://m.media-amazon.com/images/I/71ChQLRD8uL._SS500_.jpg",
-    music_video: "https://www.youtube.com/watch?v=sEnC83ucgMA&ab_channel=SIX"
+    image: "https://i.scdn.co/image/ab67616d0000b273d9cd8917de31257e2ac920a9"
         },
 {
     title: "All You Wanna Do",
@@ -1601,8 +1439,7 @@ actor: mack,
     musical: six,
     featured: "Adrianna Hicks, Andrea Macasaet, Abby Mueller, Brittney Mack, Samantha Pauly, Anna Uzele",
 actor: pauly,
-    image: "https://m.media-amazon.com/images/I/71ChQLRD8uL._SS500_.jpg",
-    music_video: "https://www.youtube.com/watch?v=XMB3WIuocJY&ab_channel=SIX"
+    image: "https://i.scdn.co/image/ab67616d0000b273d9cd8917de31257e2ac920a9"
         },
 {
     title: "I Don’t Need Your Love",
@@ -1610,8 +1447,7 @@ actor: pauly,
     musical: six,
     featured: "Adrianna Hicks, Andrea Macasaet, Abby Mueller, Brittney Mack, Samantha Pauly, Anna Uzele",
 actor: uzele,
-    image: "https://m.media-amazon.com/images/I/71ChQLRD8uL._SS500_.jpg",
-    music_video: "https://www.youtube.com/watch?v=ZqMiXtVtmjw&ab_channel=SIX"
+    image: "https://i.scdn.co/image/ab67616d0000b273d9cd8917de31257e2ac920a9"
         },
 {
     title: "I Don’t Need Your Love (Reprise)",
@@ -1619,8 +1455,7 @@ actor: uzele,
     musical: six,
     featured: "Adrianna Hicks, Andrea Macasaet, Abby Mueller, Brittney Mack, Samantha Pauly, Anna Uzele",
 actor: uzele,
-    image: "https://m.media-amazon.com/images/I/714hhM4W1bL._SL1200_.jpg",
-    music_video: "https://www.youtube.com/watch?v=t35eGdYIuUI&ab_channel=SIX"
+    image: "https://m.media-amazon.com/images/I/714hhM4W1bL._SL1200_.jpg"
         },
 {
     title: "Six",
@@ -1628,8 +1463,7 @@ actor: uzele,
     musical: six,
     featured: "Adrianna Hicks, Andrea Macasaet, Abby Mueller, Brittney Mack, Samantha Pauly, Anna Uzele",
 actor: mueller,
-    image: "https://m.media-amazon.com/images/I/71ChQLRD8uL._SS500_.jpg",
-    music_video: "https://www.youtube.com/watch?v=Mm5ktlGqNWA&ab_channel=SIX"
+    image: "https://i.scdn.co/image/ab67616d0000b273d9cd8917de31257e2ac920a9"
         },
 {
     title: "MegaSix",
@@ -1637,8 +1471,7 @@ actor: mueller,
     musical: six,
     featured: "Adrianna Hicks, Andrea Macasaet, Abby Mueller, Brittney Mack, Samantha Pauly, Anna Uzele",
 actor: dre,
-    image: "https://m.media-amazon.com/images/I/71ChQLRD8uL._SS500_.jpg",
-    music_video: "https://www.youtube.com/watch?v=aepgA8dOct4&ab_channel=SIX"
+    image: "https://i.scdn.co/image/ab67616d0000b273d9cd8917de31257e2ac920a9"
         },
 {
     title: "Heart of Stone (Alternate)",
@@ -1646,8 +1479,7 @@ actor: dre,
     musical: six,
     featured: "Adrianna Hicks, Andrea Macasaet, Abby Mueller, Brittney Mack, Samantha Pauly, Anna Uzele",
 actor: mueller,
-    image: "https://m.media-amazon.com/images/I/71ChQLRD8uL._SS500_.jpg",
-    music_video: "https://www.youtube.com/watch?v=no0g4mMMYio&ab_channel=SIX"
+    image: "https://i.scdn.co/image/ab67616d0000b273d9cd8917de31257e2ac920a9"
         },
 {
     title: "Hello",
@@ -1655,8 +1487,7 @@ actor: mueller,
     musical: bom,
     featured: "Andrew Rannells, Josh Gad",
 actor: gad,
-    image: "https://m.media-amazon.com/images/I/71ChQLRD8uL._SS500_.jpg",
-    music_video: "https://www.youtube.com/watch?v=NHb_BNA3fn8&ab_channel=BrianSears-Topic"
+    image: "https://i.scdn.co/image/ab67616d0000b273d9cd8917de31257e2ac920a9"
         },
 {
     title: "Two by Two",
@@ -1664,8 +1495,7 @@ actor: gad,
     musical: bom,
     featured: "Andrew Rannells, Josh Gad",
 actor: rannells,
-    image: "https://m.media-amazon.com/images/I/71ChQLRD8uL._SS500_.jpg",
-    music_video: "https://www.youtube.com/watch?v=3SvANeOFWAU&ab_channel=BrianSears-Topic"
+    image: "https://i.scdn.co/image/ab67616d0000b273d9cd8917de31257e2ac920a9"
         },
 {
     title: "You and Me (But Mostly Me)",
@@ -1673,8 +1503,7 @@ actor: rannells,
     musical: bom,
     featured: "Andrew Rannells, Josh Gad",
 actor: rannells,
-    image: "https://m.media-amazon.com/images/I/71ChQLRD8uL._SS500_.jpg",
-    music_video: "https://www.youtube.com/watch?v=T-c82omcEn8&ab_channel=JoshGad-Topic"
+    image: "https://i.scdn.co/image/ab67616d0000b273d9cd8917de31257e2ac920a9"
         },
 {
     title: "Hasa Diga Eebowai",
@@ -1682,8 +1511,7 @@ actor: rannells,
     musical: bom,
     featured: "Andrew Rannells, Josh Gad",
 actor: rannells,
-    image: "https://m.media-amazon.com/images/I/71ChQLRD8uL._SS500_.jpg",
-    music_video: "https://www.youtube.com/watch?v=_qSkOnu6pBY&ab_channel=BroadcastZero"
+    image: "https://i.scdn.co/image/ab67616d0000b273d9cd8917de31257e2ac920a9"
         },
 {
     title: "Turn It Off",
@@ -1691,8 +1519,7 @@ actor: rannells,
     musical: bom,
     featured: "Andrew Rannells, Josh Gad",
 actor: rannells,
-    image: "https://m.media-amazon.com/images/I/71ChQLRD8uL._SS500_.jpg",
-    music_video: "https://www.youtube.com/watch?v=i_6iKKoKyBM&ab_channel=BrianSears-Topic"
+    image: "https://i.scdn.co/image/ab67616d0000b273d9cd8917de31257e2ac920a9"
         },
 {
     title: "I Am Here for You",
@@ -1700,8 +1527,7 @@ actor: rannells,
     musical: bom,
     featured: "Andrew Rannells, Josh Gad",
 actor: gad,
-    image: "https://m.media-amazon.com/images/I/71ChQLRD8uL._SS500_.jpg",
-    music_video: "https://www.youtube.com/watch?v=tk9dnGh4nnI&ab_channel=JoshGad-Topic"
+    image: "https://i.scdn.co/image/ab67616d0000b273d9cd8917de31257e2ac920a9"
         },
 {
     title: "All American Prophet",
@@ -1709,8 +1535,7 @@ actor: gad,
     musical: bom,
     featured: "Andrew Rannells, Josh Gad",
 actor: rannells,
-    image: "https://m.media-amazon.com/images/I/71ChQLRD8uL._SS500_.jpg",
-    music_video: "https://www.youtube.com/watch?v=aaeZowiFRbw&ab_channel=BrianSears-Topic"
+    image: "https://i.scdn.co/image/ab67616d0000b273d9cd8917de31257e2ac920a9"
         },
 {
     title: "Sal Tlay Ka Siti",
@@ -1718,8 +1543,7 @@ actor: rannells,
     musical: bom,
     featured: "Andrew Rannells, Josh Gad",
 actor: rannells,
-    image: "https://m.media-amazon.com/images/I/71ChQLRD8uL._SS500_.jpg",
-    music_video: "https://www.youtube.com/watch?v=gs4xVofzLVc&ab_channel=BroadcastZero"
+    image: "https://i.scdn.co/image/ab67616d0000b273d9cd8917de31257e2ac920a9"
         },
 {
     title: "Man Up",
@@ -1727,8 +1551,7 @@ actor: rannells,
     musical: bom,
     featured: "Andrew Rannells, Josh Gad",
 actor: gad,
-    image: "https://m.media-amazon.com/images/I/71ChQLRD8uL._SS500_.jpg",
-    music_video: "https://www.youtube.com/watch?v=bzUGL6BGMc4&ab_channel=JoshGad-Topic"
+    image: "https://i.scdn.co/image/ab67616d0000b273d9cd8917de31257e2ac920a9"
         },
 {
     title: "Making Things Up Again",
@@ -1736,8 +1559,7 @@ actor: gad,
     musical: bom,
     featured: "Andrew Rannells, Josh Gad",
 actor: gad,
-    image: "https://m.media-amazon.com/images/I/71ChQLRD8uL._SS500_.jpg",
-    music_video: "https://www.youtube.com/watch?v=JkQFhkpSeTk&ab_channel=BrianSears-Topic"
+    image: "https://i.scdn.co/image/ab67616d0000b273d9cd8917de31257e2ac920a9"
         },
 {
     title: "Spooky Mormon Hell Dream",
@@ -1745,8 +1567,7 @@ actor: gad,
     musical: bom,
     featured: "Andrew Rannells, Josh Gad",
 actor: rannells,
-    image: "https://m.media-amazon.com/images/I/71ChQLRD8uL._SS500_.jpg",
-    music_video: "https://www.youtube.com/watch?v=dtryxTPxVR4&ab_channel=MichaelPotts-Topic"
+    image: "https://i.scdn.co/image/ab67616d0000b273d9cd8917de31257e2ac920a9"
         },
 {
     title: "I Believe",
@@ -1754,8 +1575,7 @@ actor: rannells,
     musical: bom,
     featured: "Andrew Rannells, Josh Gad",
 actor: rannells,
-    image: "https://m.media-amazon.com/images/I/71ChQLRD8uL._SS500_.jpg",
-    music_video: "https://www.youtube.com/watch?v=P8yb2LQNXKY&ab_channel=AndrewRannells-Topic"
+    image: "https://i.scdn.co/image/ab67616d0000b273d9cd8917de31257e2ac920a9"
         },
 {
     title: "Baptize Me",
@@ -1763,8 +1583,7 @@ actor: rannells,
     musical: bom,
     featured: "Andrew Rannells, Josh Gad",
 actor: gad,
-    image: "https://m.media-amazon.com/images/I/71ChQLRD8uL._SS500_.jpg",
-    music_video: "https://www.youtube.com/watch?v=bex8IvpEkH8&ab_channel=JoshGad-Topic"
+    image: "https://i.scdn.co/image/ab67616d0000b273d9cd8917de31257e2ac920a9"
         },
 {
     title: "I Am Africa",
@@ -1772,8 +1591,7 @@ actor: gad,
     musical: bom,
     featured: "Andrew Rannells, Josh Gad",
 actor: gad,
-    image: "https://m.media-amazon.com/images/I/71ChQLRD8uL._SS500_.jpg",
-    music_video: "https://www.youtube.com/watch?v=FxxJ6_znGJs&ab_channel=BrianSears-Topic"
+    image: "https://i.scdn.co/image/ab67616d0000b273d9cd8917de31257e2ac920a9"
         },
 {
     title: "Joseph Smith American Moses",
@@ -1781,8 +1599,7 @@ actor: gad,
     musical: bom,
     featured: "Andrew Rannells, Josh Gad",
 actor: gad,
-    image: "https://m.media-amazon.com/images/I/71ChQLRD8uL._SS500_.jpg",
-    music_video: "https://www.youtube.com/watch?v=D7TLIJTZ1y4&ab_channel=VariousArtists-Topic"
+    image: "https://i.scdn.co/image/ab67616d0000b273d9cd8917de31257e2ac920a9"
         },
 {
     title: "Tomorrow Is Latter Day",
@@ -1790,8 +1607,7 @@ actor: gad,
     musical: bom,
     featured: "Andrew Rannells, Josh Gad",
 actor: rannells,
-    image: "https://m.media-amazon.com/images/I/71ChQLRD8uL._SS500_.jpg",
-    music_video: "https://www.youtube.com/watch?v=8jwypn_r-e0&ab_channel=JoshGad-Topic"
+    image: "https://i.scdn.co/image/ab67616d0000b273d9cd8917de31257e2ac920a9"
         },
 {
     title: "Overture",
@@ -1799,8 +1615,7 @@ actor: rannells,
     musical: aladdin,
     featured: "James Monroe Iglehart, The Original Broadway Cast of Aladdin",
 actor:  jmi,
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Aladdin-Bposter.png/220px-Aladdin-Bposter.png",
-    music_video: ""
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Aladdin-Bposter.png/220px-Aladdin-Bposter.png"
         },
 {
  title: "Arabian Nights",
@@ -1808,8 +1623,7 @@ actor:  jmi,
     musical: aladdin,
     featured: "James Monroe Iglehart, The Original Broadway Cast of Aladdin",
 actor:  jmi,
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Aladdin-Bposter.png/220px-Aladdin-Bposter.png",
-    music_video: ""
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Aladdin-Bposter.png/220px-Aladdin-Bposter.png"
         },
 {
 title: "One Jump",
@@ -1817,8 +1631,7 @@ title: "One Jump",
     musical: aladdin,
     featured: "Adam Jacobs, The Original Broadway Cast of Aladdin",
 actor:  jacobs,
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Aladdin-Bposter.png/220px-Aladdin-Bposter.png",
-    music_video: "https://www.youtube.com/watch?v=jTJK65BrHvc&list=PLagO64Dllw814aF_zjuscOFrZeCP7ICty&index=3&ab_channel=AdamJacobs-Topic"
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Aladdin-Bposter.png/220px-Aladdin-Bposter.png"
         },
  {
 title: "One Jump (Reprise)",
@@ -1826,8 +1639,7 @@ title: "One Jump (Reprise)",
     musical: aladdin,
     featured: "Adam Jacobs, The Original Broadway Cast of Aladdin",
 actor:  jacobs,
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Aladdin-Bposter.png/220px-Aladdin-Bposter.png",
-    music_video: "https://www.youtube.com/watch?v=B58mwDnhvcI&list=PLagO64Dllw814aF_zjuscOFrZeCP7ICty&index=4&ab_channel=AdamJacobs-Topic"
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Aladdin-Bposter.png/220px-Aladdin-Bposter.png"
         },
  {
 title: "Proud of Your Boy",
@@ -1835,8 +1647,7 @@ title: "Proud of Your Boy",
     musical: aladdin,
     featured: "Adam Jacobs, The Original Broadway Cast of Aladdin",
 actor:  jacobs,
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Aladdin-Bposter.png/220px-Aladdin-Bposter.png",
-    music_video: "https://www.youtube.com/watch?v=yg4qRCKROPc&list=PLagO64Dllw814aF_zjuscOFrZeCP7ICty&index=5&ab_channel=AdamJacobs-Topic"
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Aladdin-Bposter.png/220px-Aladdin-Bposter.png"
         },
 {
 title: "These Palace Walls",
@@ -1844,8 +1655,7 @@ title: "These Palace Walls",
     musical: aladdin,
     featured: "Courtney Reed, The Original Broadway Cast of Aladdin",
 actor: reed,
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Aladdin-Bposter.png/220px-Aladdin-Bposter.png",
-    music_video: "https://www.youtube.com/watch?v=rSLP5wjSgaM&list=PLagO64Dllw814aF_zjuscOFrZeCP7ICty&index=6&ab_channel=CourtneyReed-Topic"
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Aladdin-Bposter.png/220px-Aladdin-Bposter.png"
         },
 {
 title: "Babkak, Omar, Aladdin, Kassim",
@@ -1853,8 +1663,7 @@ title: "Babkak, Omar, Aladdin, Kassim",
     musical: aladdin,
     featured: "Adam Jacobs, The Original Broadway Cast of Aladdin",
 actor: jacobs,
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Aladdin-Bposter.png/220px-Aladdin-Bposter.png",
-    music_video: "https://www.youtube.com/watch?v=OqJrZe0HzPA&list=PLagO64Dllw814aF_zjuscOFrZeCP7ICty&index=7&ab_channel=AdamJacobs-Topic"
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Aladdin-Bposter.png/220px-Aladdin-Bposter.png"
         },
 {
 title: "A Million Miles Away",
@@ -1862,8 +1671,7 @@ title: "A Million Miles Away",
     musical: aladdin,
     featured: "Adam Jacobs, Courtney Reed, The Original Broadway Cast of Aladdin",
 actor: jacobs,
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Aladdin-Bposter.png/220px-Aladdin-Bposter.png",
-    music_video: "https://www.youtube.com/watch?v=XLMbAoJhZA8&list=PLagO64Dllw814aF_zjuscOFrZeCP7ICty&index=8&ab_channel=AdamJacobs-Topic"
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Aladdin-Bposter.png/220px-Aladdin-Bposter.png"
         },
 {
 title: "Diamond in the Rough",
@@ -1871,8 +1679,7 @@ title: "Diamond in the Rough",
     musical: aladdin,
     featured: "Adam Jacobs, Jonathan Freeman, The Original Broadway Cast of Aladdin",
 actor: jacobs,
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Aladdin-Bposter.png/220px-Aladdin-Bposter.png",
-    music_video: "https://www.youtube.com/watch?v=XLMbAoJhZA8&list=PLagO64Dllw814aF_zjuscOFrZeCP7ICty&index=8&ab_channel=AdamJacobs-Topic"
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Aladdin-Bposter.png/220px-Aladdin-Bposter.png"
         },
 {
 title: "Friend Like Me",
@@ -1880,8 +1687,7 @@ title: "Friend Like Me",
     musical: aladdin,
     featured: "Adam Jacobs, James Monroe Iglehart, The Original Broadway Cast of Aladdin",
 actor:  jmi,
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Aladdin-Bposter.png/220px-Aladdin-Bposter.png",
-    music_video: "https://www.youtube.com/watch?v=ier7ox9cO-8&list=PLagO64Dllw814aF_zjuscOFrZeCP7ICty&index=10&ab_channel=JamesMonroeIglehart-Topic"
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Aladdin-Bposter.png/220px-Aladdin-Bposter.png"
         },
 {
 title: "Act One Finale",
@@ -1889,8 +1695,7 @@ title: "Act One Finale",
     musical: aladdin,
     featured: "Adam Jacobs, James Monroe Iglehart, The Original Broadway Cast of Aladdin",
 actor:  jmi,
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Aladdin-Bposter.png/220px-Aladdin-Bposter.png",
-    music_video: "https://www.youtube.com/watch?v=8zKZH_65JkM&list=PLagO64Dllw814aF_zjuscOFrZeCP7ICty&index=12&ab_channel=JamesMonroeIglehart-Topic"
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Aladdin-Bposter.png/220px-Aladdin-Bposter.png"
         },
 {
 title: "Prince Ali",
@@ -1898,8 +1703,7 @@ title: "Prince Ali",
     musical: aladdin,
     featured: "Adam Jacobs, James Monroe Iglehart, Jonathan Freeman, The Original Broadway Cast of Aladdin",
 actor:  jmi,
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Aladdin-Bposter.png/220px-Aladdin-Bposter.png",
-    music_video: "https://www.youtube.com/watch?v=8zKZH_65JkM&list=PLagO64Dllw814aF_zjuscOFrZeCP7ICty&index=12&ab_channel=JamesMonroeIglehart-Topic"
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Aladdin-Bposter.png/220px-Aladdin-Bposter.png"
         },
 {
 title: "A Whole New World",
@@ -1907,8 +1711,7 @@ title: "A Whole New World",
     musical: aladdin,
     featured: "Adam Jacobs, Courtney Reed, The Original Broadway Cast of Aladdin",
 actor:  jacobs,
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Aladdin-Bposter.png/220px-Aladdin-Bposter.png",
-    music_video: "https://www.youtube.com/watch?v=4pQvyeq_JJk&list=PLagO64Dllw814aF_zjuscOFrZeCP7ICty&index=13&ab_channel=AdamJacobs-Topic"
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Aladdin-Bposter.png/220px-Aladdin-Bposter.png"
         },
 {
 title: "High Adventure",
@@ -1916,8 +1719,7 @@ title: "High Adventure",
     musical: aladdin,
     featured: "Adam Jacobs, The Original Broadway Cast of Aladdin",
 actor:  jacobs,
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Aladdin-Bposter.png/220px-Aladdin-Bposter.png",
-    music_video: "https://www.youtube.com/watch?v=c_QJSBBwHI0&list=PLagO64Dllw814aF_zjuscOFrZeCP7ICty&index=14&ab_channel=BrianGonzales-Topic"
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Aladdin-Bposter.png/220px-Aladdin-Bposter.png"
         },
 {
 title: "Somebody’s Got Your Back",
@@ -1925,8 +1727,7 @@ title: "Somebody’s Got Your Back",
     musical: aladdin,
     featured: "Adam Jacobs, James Monroe Iglehart, The Original Broadway Cast of Aladdin",
 actor:  jmi,
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Aladdin-Bposter.png/220px-Aladdin-Bposter.png",
-    music_video: "https://www.youtube.com/watch?v=eWvqCJOdt2A&list=PLagO64Dllw814aF_zjuscOFrZeCP7ICty&index=15&ab_channel=JamesMonroeIglehart-Topic"
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Aladdin-Bposter.png/220px-Aladdin-Bposter.png"
         },
 {
 title: "Proud of Your Boy (Reprise)",
@@ -1934,8 +1735,7 @@ title: "Proud of Your Boy (Reprise)",
     musical: aladdin,
     featured: "Adam Jacobs, The Original Broadway Cast of Aladdin",
 actor:  jacobs,
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Aladdin-Bposter.png/220px-Aladdin-Bposter.png",
-    music_video: "https://www.youtube.com/watch?v=R9XsxErOllU&list=PLagO64Dllw814aF_zjuscOFrZeCP7ICty&index=16&ab_channel=AdamJacobs-Topic"
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Aladdin-Bposter.png/220px-Aladdin-Bposter.png"
         },
 {
 title: "Prince Ali (Sultan Reprise)",
@@ -1943,8 +1743,7 @@ title: "Prince Ali (Sultan Reprise)",
     musical: aladdin,
     featured: "Adam Jacobs, Clifton Davis, The Original Broadway Cast of Aladdin",
 actor:  jacobs,
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Aladdin-Bposter.png/220px-Aladdin-Bposter.png",
-    music_video: "https://www.youtube.com/watch?v=nLHfHvbmrlI&list=PLagO64Dllw814aF_zjuscOFrZeCP7ICty&index=17&ab_channel=CliftonDavis-Topic"
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Aladdin-Bposter.png/220px-Aladdin-Bposter.png"
         },
 {
 title: "Prince Ali (Jafar Reprise)",
@@ -1952,8 +1751,7 @@ title: "Prince Ali (Jafar Reprise)",
     musical: aladdin,
     featured: "Adam Jacobs, Jonathan Freeman, The Original Broadway Cast of Aladdin",
 actor:  jacobs,
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Aladdin-Bposter.png/220px-Aladdin-Bposter.png",
-    music_video: "https://www.youtube.com/watch?v=76FgNnlaQWk&list=PLagO64Dllw814aF_zjuscOFrZeCP7ICty&index=18&ab_channel=JonathanFreeman-Topic"
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Aladdin-Bposter.png/220px-Aladdin-Bposter.png"
         },
 {
 title: "Finale Ultimo",
@@ -1961,8 +1759,7 @@ title: "Finale Ultimo",
     musical: aladdin,
     featured: "Adam Jacobs, James Monroe Iglehart, The Original Broadway Cast of Aladdin",
 actor:  jmi,
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Aladdin-Bposter.png/220px-Aladdin-Bposter.png",
-    music_video: "https://www.youtube.com/watch?v=Cqaz-8aYfqA&list=PLagO64Dllw814aF_zjuscOFrZeCP7ICty&index=19&ab_channel=%22Aladdin%22OriginalBroadwayCast-Topic"
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Aladdin-Bposter.png/220px-Aladdin-Bposter.png"
         },
 {
 title: "We’re Live",
@@ -1970,8 +1767,7 @@ title: "We’re Live",
     musical: sat_night,
     featured: "Jordan Gelber, Brian Gonzales",
 actor:  crystal,
-    image: "https://i.scdn.co/image/ab67616d00001e0268118f435519d7966f865688",
-    music_video: "https://www.youtube.com/watch?v=Df6DTq4MuoQ&list=OLAK5uy_kWhnJNkFQ62_NZynPx9gbZJHZwcGci4AU&index=1&ab_channel=VariousArtists-Topic"
+    image: "https://i.scdn.co/image/ab67616d00001e0268118f435519d7966f865688"
         },
 {
 title: "A Little Joy",
@@ -1979,8 +1775,7 @@ title: "A Little Joy",
     musical: sat_night,
     featured: "Billy Crystal",
 actor:  crystal,
-    image: "https://i.scdn.co/image/ab67616d00001e0268118f435519d7966f865688",
-    music_video: "https://www.youtube.com/watch?v=9ckVHDF-Woo&list=OLAK5uy_kWhnJNkFQ62_NZynPx9gbZJHZwcGci4AU&index=2&ab_channel=BillyCrystal-Topic"
+    image: "https://i.scdn.co/image/ab67616d00001e0268118f435519d7966f865688"
         },
 {
 title: "There’s A Chance",
@@ -1988,8 +1783,7 @@ title: "There’s A Chance",
     musical: sat_night,
     featured: "Shoshana Bean, Billy Crystal",
 actor:  bean,
-    image: "https://i.scdn.co/image/ab67616d00001e0268118f435519d7966f865688",
-    music_video: "https://www.youtube.com/watch?v=P6LABQ7qR2Q&list=OLAK5uy_kWhnJNkFQ62_NZynPx9gbZJHZwcGci4AU&index=3&ab_channel=VariousArtists-Topic"
+    image: "https://i.scdn.co/image/ab67616d00001e0268118f435519d7966f865688"
         },
 {
 title: "I Still Got It",
@@ -1997,8 +1791,7 @@ title: "I Still Got It",
     musical: sat_night,
     featured: "Billy Crystal, David Paymer",
 actor:  crystal,
-    image: "https://i.scdn.co/image/ab67616d00001e0268118f435519d7966f865688",
-    music_video: "https://www.youtube.com/watch?v=FBIT8mjG_c4&list=OLAK5uy_kWhnJNkFQ62_NZynPx9gbZJHZwcGci4AU&index=4&ab_channel=BillyCrystal-Topic"
+    image: "https://i.scdn.co/image/ab67616d00001e0268118f435519d7966f865688"
         },
 {
 title: "At Farber’s",
@@ -2006,8 +1799,7 @@ title: "At Farber’s",
     musical: sat_night,
     featured: "Jordan Gelber, Brian Gonzales",
 actor:  crystal,
-    image: "https://i.scdn.co/image/ab67616d00001e0268118f435519d7966f865688",
-    music_video: "https://www.youtube.com/watch?v=y5kKm7XrxwQ&list=OLAK5uy_kWhnJNkFQ62_NZynPx9gbZJHZwcGci4AU&index=5&ab_channel=VariousArtists-Topic"
+    image: "https://i.scdn.co/image/ab67616d00001e0268118f435519d7966f865688"
         },
 {
 title: "Buddy’s First Act",
@@ -2015,8 +1807,7 @@ title: "Buddy’s First Act",
     musical: sat_night,
     featured: "Billy Crystal",
 actor:  crystal,
-    image: "https://i.scdn.co/image/ab67616d00001e0268118f435519d7966f865688",
-    music_video: "https://www.youtube.com/watch?v=_huheVBmzqw&list=OLAK5uy_kWhnJNkFQ62_NZynPx9gbZJHZwcGci4AU&index=6&ab_channel=BillyCrystal-Topic"
+    image: "https://i.scdn.co/image/ab67616d00001e0268118f435519d7966f865688"
         },
 {
 title: "Until Now",
@@ -2024,8 +1815,7 @@ title: "Until Now",
     musical: sat_night,
     featured: "Billy Crystal, Randy Graff",
 actor:  crystal,
-    image: "https://i.scdn.co/image/ab67616d00001e0268118f435519d7966f865688",
-    music_video: "https://www.youtube.com/watch?v=Dv2i5DJSNiQ&list=OLAK5uy_kWhnJNkFQ62_NZynPx9gbZJHZwcGci4AU&index=7&ab_channel=BillyCrystal-Topic"
+    image: "https://i.scdn.co/image/ab67616d00001e0268118f435519d7966f865688"
         },
 {
 title: "Timing",
@@ -2033,8 +1823,7 @@ title: "Timing",
     musical: sat_night,
     featured: "Billy Crystal, Jordan Gelber, Brian Gonzales",
 actor:  crystal,
-    image: "https://i.scdn.co/image/ab67616d00001e0268118f435519d7966f865688",
-    music_video: "https://www.youtube.com/watch?v=AHNnganUEeo&list=OLAK5uy_kWhnJNkFQ62_NZynPx9gbZJHZwcGci4AU&index=8&ab_channel=BillyCrystal-Topic"
+    image: "https://i.scdn.co/image/ab67616d00001e0268118f435519d7966f865688"
         },
 {
 title: "What If I said?",
@@ -2042,8 +1831,7 @@ title: "What If I said?",
     musical: sat_night,
     featured: "Chasten Harmon",
 actor:  crystal,
-    image: "https://i.scdn.co/image/ab67616d00001e0268118f435519d7966f865688",
-    music_video: "https://www.youtube.com/watch?v=ABk0JxN8MFw&list=OLAK5uy_kWhnJNkFQ62_NZynPx9gbZJHZwcGci4AU&index=9&ab_channel=VariousArtists-Topic"
+    image: "https://i.scdn.co/image/ab67616d00001e0268118f435519d7966f865688"
         },
 {
 title: "Unbelievable",
@@ -2051,8 +1839,7 @@ title: "Unbelievable",
     musical: sat_night,
     featured: "Billy Crystal, Mr. Saturday Night Original Broadway Cast",
 actor:  crystal,
-    image: "https://i.scdn.co/image/ab67616d00001e0268118f435519d7966f865688",
-    music_video: "https://www.youtube.com/watch?v=EPXBU_-cKlk&list=OLAK5uy_kWhnJNkFQ62_NZynPx9gbZJHZwcGci4AU&index=10&ab_channel=BillyCrystal-Topic"
+    image: "https://i.scdn.co/image/ab67616d00001e0268118f435519d7966f865688"
         },
 {
 title: "What’s Playing at the Movies",
@@ -2060,8 +1847,7 @@ title: "What’s Playing at the Movies",
     musical: sat_night,
     featured: "Billy Crystal, Jordan Gelber, Mr. Saturday Night Original Broadway Cast",
 actor:  crystal,
-    image: "https://i.scdn.co/image/ab67616d00001e0268118f435519d7966f865688",
-    music_video: "https://www.youtube.com/watch?v=PJLp3reSie0&list=OLAK5uy_kWhnJNkFQ62_NZynPx9gbZJHZwcGci4AU&index=11&ab_channel=VariousArtists-Topic"
+    image: "https://i.scdn.co/image/ab67616d00001e0268118f435519d7966f865688"
         },
 {
 title: "Maybe It Starts With Me",
@@ -2069,8 +1855,7 @@ title: "Maybe It Starts With Me",
     musical: sat_night,
     featured: "Shoshana Bean, Mr. Saturday Night Original Broadway Cast",
 actor:  bean,
-    image: "https://i.scdn.co/image/ab67616d00001e0268118f435519d7966f865688",
-    music_video: "https://www.youtube.com/watch?v=J4fENkm3Ulk&list=OLAK5uy_kWhnJNkFQ62_NZynPx9gbZJHZwcGci4AU&index=12&ab_channel=VariousArtists-Topic"
+    image: "https://i.scdn.co/image/ab67616d00001e0268118f435519d7966f865688"
         },
 {
 title: "Tahiti",
@@ -2078,8 +1863,7 @@ title: "Tahiti",
     musical: sat_night,
     featured: "Randy Graff, David Paymer",
 actor:  crystal,
-    image: "https://i.scdn.co/image/ab67616d00001e0268118f435519d7966f865688",
-    music_video: "https://www.youtube.com/watch?v=1lNpQmSf96k&list=OLAK5uy_kWhnJNkFQ62_NZynPx9gbZJHZwcGci4AU&index=13&ab_channel=RandyGraff-Topic"
+    image: "https://i.scdn.co/image/ab67616d00001e0268118f435519d7966f865688"
         },
 {
 title: "Wonderful Pain In the Ass",
@@ -2087,8 +1871,7 @@ title: "Wonderful Pain In the Ass",
     musical: sat_night,
     featured: "Randy Graff, Billy Crystal",
 actor:  crystal,
-    image: "https://i.scdn.co/image/ab67616d00001e0268118f435519d7966f865688",
-    music_video: "https://www.youtube.com/watch?v=H3NKyl0-UKg&list=OLAK5uy_kWhnJNkFQ62_NZynPx9gbZJHZwcGci4AU&index=14&ab_channel=BillyCrystal-Topic"
+    image: "https://i.scdn.co/image/ab67616d00001e0268118f435519d7966f865688"
         },
 {
 title: "Broken",
@@ -2096,8 +1879,7 @@ title: "Broken",
     musical: sat_night,
     featured: "David Paymer",
 actor:  crystal,
-    image: "https://i.scdn.co/image/ab67616d00001e0268118f435519d7966f865688",
-    music_video: "https://www.youtube.com/watch?v=gexdgl0fBo8&list=OLAK5uy_kWhnJNkFQ62_NZynPx9gbZJHZwcGci4AU&index=15&ab_channel=VariousArtists-Topic"
+    image: "https://i.scdn.co/image/ab67616d00001e0268118f435519d7966f865688"
         },
 {
 title: "Any Man But Me",
@@ -2105,8 +1887,7 @@ title: "Any Man But Me",
     musical: sat_night,
     featured: "Billy Crystal, Mr. Saturday Night Original Broadway Cast",
 actor:  crystal,
-    image: "https://i.scdn.co/image/ab67616d00001e0268118f435519d7966f865688",
-    music_video: "https://www.youtube.com/watch?v=L344yJu78RM&list=OLAK5uy_kWhnJNkFQ62_NZynPx9gbZJHZwcGci4AU&index=16&ab_channel=BillyCrystal-Topic"
+    image: "https://i.scdn.co/image/ab67616d00001e0268118f435519d7966f865688"
         },
 {
 title: "Stick Around",
@@ -2114,8 +1895,7 @@ title: "Stick Around",
     musical: sat_night,
     featured: "Billy Crystal, Mr. Saturday Night Original Broadway Cast",
 actor:  crystal,
-    image: "https://i.scdn.co/image/ab67616d00001e0268118f435519d7966f865688",
-    music_video: "https://www.youtube.com/watch?v=NFKmvmyyO18&list=OLAK5uy_kWhnJNkFQ62_NZynPx9gbZJHZwcGci4AU&index=17&ab_channel=BillyCrystal-Topic"
+    image: "https://i.scdn.co/image/ab67616d00001e0268118f435519d7966f865688"
         },
 {
 title: "Prologue: Invisible",
@@ -2123,8 +1903,7 @@ title: "Prologue: Invisible",
     musical: beetlejuice,
     featured: "Alex Briughtman, Beetlejuice Original Broadway Cast",
 actor:  brightman,
-    image: "https://m.media-amazon.com/images/I/81zCfhnHo7L._SL1500_.jpg",
-    music_video: "https://www.youtube.com/watch?v=Q8Fkd5PcMQ0&list=PLFz9HEJrpQx-29bqIXa8i4bt9nfjuds61&ab_channel=VariousArtists-Topic"
+    image: "https://m.media-amazon.com/images/I/81zCfhnHo7L._SL1500_.jpg"
         },
 {
 title: "The Whole “Being Dead” Thing",
@@ -2132,8 +1911,7 @@ title: "The Whole “Being Dead” Thing",
     musical: beetlejuice,
     featured: "Alex Briughtman, Beetlejuice Original Broadway Cast",
 actor:  brightman,
-    image: "https://m.media-amazon.com/images/I/81zCfhnHo7L._SL1500_.jpg",
-    music_video: "https://www.youtube.com/watch?v=4ADY7FGtwmM&list=PLFz9HEJrpQx-29bqIXa8i4bt9nfjuds61&index=2&ab_channel=VariousArtists-Topic"
+    image: "https://m.media-amazon.com/images/I/81zCfhnHo7L._SL1500_.jpg"
         },
 {
 title: "Ready Set, Not Yet",
@@ -2141,8 +1919,7 @@ title: "Ready Set, Not Yet",
     musical: beetlejuice,
     featured: "Adam McClure, Kerry Butler, Beetlejuice Original Broadway Cast",
 actor:  brightman,
-    image: "https://m.media-amazon.com/images/I/81zCfhnHo7L._SL1500_.jpg",
-    music_video: "https://www.youtube.com/watch?v=bR-1BSMrHTk&list=PLFz9HEJrpQx-29bqIXa8i4bt9nfjuds61&index=3&ab_channel=AlexBrightman-Topic"
+    image: "https://m.media-amazon.com/images/I/81zCfhnHo7L._SL1500_.jpg"
         },
 {
 title: "The Whole “Being Dead” Thing, Pt. 2",
@@ -2150,8 +1927,7 @@ title: "The Whole “Being Dead” Thing, Pt. 2",
     musical: beetlejuice,
     featured: "Alex Brightman, Adam McClure, Kerry Butler, Beetlejuice Original Broadway Cast",
 actor:  brightman,
-    image: "https://m.media-amazon.com/images/I/81zCfhnHo7L._SL1500_.jpg",
-    music_video: "https://www.youtube.com/watch?v=HyjgSN22mLo&list=PLFz9HEJrpQx-29bqIXa8i4bt9nfjuds61&index=4&ab_channel=VariousArtists-Topic"
+    image: "https://m.media-amazon.com/images/I/81zCfhnHo7L._SL1500_.jpg"
         },
 {
 title: "Dead Mom",
@@ -2159,8 +1935,7 @@ title: "Dead Mom",
     musical: beetlejuice,
     featured: "Sophia Anne Caruso",
 actor:  brightman,
-    image: "https://m.media-amazon.com/images/I/81zCfhnHo7L._SL1500_.jpg",
-    music_video: "https://www.youtube.com/watch?v=KEct4Nod2iU&list=PLFz9HEJrpQx-29bqIXa8i4bt9nfjuds61&index=5&ab_channel=VariousArtists-Topic"
+    image: "https://m.media-amazon.com/images/I/81zCfhnHo7L._SL1500_.jpg"
         },
 {
 title: "Fright of Their Lives",
@@ -2168,8 +1943,7 @@ title: "Fright of Their Lives",
     musical: beetlejuice,
     featured: "Alex Brightman, Adam McClure, Kerry Butler",
 actor:  brightman,
-    image: "https://m.media-amazon.com/images/I/81zCfhnHo7L._SL1500_.jpg",
-    music_video: "https://www.youtube.com/watch?v=e-Hh50x-j8g&list=PLFz9HEJrpQx-29bqIXa8i4bt9nfjuds61&index=6&ab_channel=VariousArtists-Topic"
+    image: "https://m.media-amazon.com/images/I/81zCfhnHo7L._SL1500_.jpg"
         },
 {
 title: "Ready Set (Reprise)",
@@ -2177,8 +1951,7 @@ title: "Ready Set (Reprise)",
     musical: beetlejuice,
     featured: "Adam McClure, Kerry Butler",
 actor:  brightman,
-    image: "https://m.media-amazon.com/images/I/81zCfhnHo7L._SL1500_.jpg",
-    music_video: "https://www.youtube.com/watch?v=5kc9MeMrwz0&list=PLFz9HEJrpQx-29bqIXa8i4bt9nfjuds61&index=7&ab_channel=KerryButler-Topic"
+    image: "https://m.media-amazon.com/images/I/81zCfhnHo7L._SL1500_.jpg"
         },
 {
 title: "No Reason",
@@ -2186,8 +1959,7 @@ title: "No Reason",
     musical: beetlejuice,
     featured: "Leslie Kritzer, Beetlejuice Original Broadway Cast",
 actor:  brightman,
-    image: "https://m.media-amazon.com/images/I/81zCfhnHo7L._SL1500_.jpg",
-    music_video: "https://www.youtube.com/watch?v=LBMZ2Y_QGa4&list=PLFz9HEJrpQx-29bqIXa8i4bt9nfjuds61&index=8&ab_channel=LeslieKritzer-Topic"
+    image: "https://m.media-amazon.com/images/I/81zCfhnHo7L._SL1500_.jpg"
         },
 {
 title: "Invisible (Reprise)/On the Roof",
@@ -2195,8 +1967,7 @@ title: "Invisible (Reprise)/On the Roof",
     musical: beetlejuice,
     featured: "Alex Brightman, Beetlejuice Original Broadway Cast",
 actor:  brightman,
-    image: "https://m.media-amazon.com/images/I/81zCfhnHo7L._SL1500_.jpg",
-    music_video: "https://www.youtube.com/watch?v=nuZbwU8-K6o&list=PLFz9HEJrpQx-29bqIXa8i4bt9nfjuds61&index=9&ab_channel=AlexBrightman-Topic"
+    image: "https://m.media-amazon.com/images/I/81zCfhnHo7L._SL1500_.jpg"
         },
 {
 title: "Say My Name",
@@ -2204,8 +1975,7 @@ title: "Say My Name",
     musical: beetlejuice,
     featured: "Alex Brightman, Sophia Anne Caruso",
 actor:  brightman,
-    image: "https://m.media-amazon.com/images/I/81zCfhnHo7L._SL1500_.jpg",
-    music_video: "https://www.youtube.com/watch?v=nHKNP3sN_P4&list=PLFz9HEJrpQx-29bqIXa8i4bt9nfjuds61&index=10&ab_channel=AlexBrightman-Topic"
+    image: "https://m.media-amazon.com/images/I/81zCfhnHo7L._SL1500_.jpg"
         },
 {
 title: "Day-O",
@@ -2213,8 +1983,7 @@ title: "Day-O",
     musical: beetlejuice,
     featured: "Leslie Kritzer, Alex Brightman, Sophia Anne Caruso, Beetlejuice Original Broadway Cast",
 actor:  brightman,
-    image: "https://m.media-amazon.com/images/I/81zCfhnHo7L._SL1500_.jpg",
-    music_video: "https://www.youtube.com/watch?v=6c2N_YjbYGs&list=PLFz9HEJrpQx-29bqIXa8i4bt9nfjuds61&index=11&ab_channel=LeslieKritzer-Topic"
+    image: "https://m.media-amazon.com/images/I/81zCfhnHo7L._SL1500_.jpg"
         },
 {
 title: "Girl Scout",
@@ -2222,8 +1991,7 @@ title: "Girl Scout",
     musical: beetlejuice,
     featured: "Alex Brightman, Sophia Anne Caruso, Beetlejuice Original Broadway Cast",
 actor:  brightman,
-    image: "https://m.media-amazon.com/images/I/81zCfhnHo7L._SL1500_.jpg",
-    music_video: "https://www.youtube.com/watch?v=4RJ_bS1l1Gs&list=PLFz9HEJrpQx-29bqIXa8i4bt9nfjuds61&index=12&ab_channel=VariousArtists-Topic"
+    image: "https://m.media-amazon.com/images/I/81zCfhnHo7L._SL1500_.jpg"
         },
 {
 title: "The Beautiful Sound",
@@ -2231,8 +1999,7 @@ title: "The Beautiful Sound",
     musical: beetlejuice,
     featured: "Alex Brightman, Sophia Anne Caruso, Beetlejuice Original Broadway Cast",
 actor:  brightman,
-    image: "https://m.media-amazon.com/images/I/81zCfhnHo7L._SL1500_.jpg",
-    music_video: "https://www.youtube.com/watch?v=p35N1rtBETs&list=PLFz9HEJrpQx-29bqIXa8i4bt9nfjuds61&index=13&ab_channel=VariousArtists-Topic"
+    image: "https://m.media-amazon.com/images/I/81zCfhnHo7L._SL1500_.jpg"
         },
 {
 title: "Barbara 2.0",
@@ -2240,8 +2007,7 @@ title: "Barbara 2.0",
     musical: beetlejuice,
     featured: "Adam McClure, Kerry Butler",
 actor:  brightman,
-    image: "https://m.media-amazon.com/images/I/81zCfhnHo7L._SL1500_.jpg",
-    music_video: "https://www.youtube.com/watch?v=3PhbcVIMAgs&list=PLFz9HEJrpQx-29bqIXa8i4bt9nfjuds61&index=14&ab_channel=KerryButler-Topic"
+    image: "https://m.media-amazon.com/images/I/81zCfhnHo7L._SL1500_.jpg"
         },
 {
 title: "What I Know Now",
@@ -2249,8 +2015,7 @@ title: "What I Know Now",
     musical: beetlejuice,
     featured: "Leslie Kritzer",
 actor:  brightman,
-    image: "https://m.media-amazon.com/images/I/81zCfhnHo7L._SL1500_.jpg",
-    music_video: "https://www.youtube.com/watch?v=Eu4FfhQTWaM&list=PLFz9HEJrpQx-29bqIXa8i4bt9nfjuds61&index=15&ab_channel=LeslieKritzer-Topic"
+    image: "https://m.media-amazon.com/images/I/81zCfhnHo7L._SL1500_.jpg"
         },
 {
 title: "Home",
@@ -2258,8 +2023,7 @@ title: "Home",
     musical: beetlejuice,
     featured: "Sophia Anne Caruso",
 actor:  brightman,
-    image: "https://m.media-amazon.com/images/I/81zCfhnHo7L._SL1500_.jpg",
-    music_video: "https://www.youtube.com/watch?v=6Xt3WNuB-oc&list=PLFz9HEJrpQx-29bqIXa8i4bt9nfjuds61&index=16&ab_channel=VariousArtists-Topic"
+    image: "https://m.media-amazon.com/images/I/81zCfhnHo7L._SL1500_.jpg"
         },
 {
 title: "Creepy Old Guy",
@@ -2267,8 +2031,7 @@ title: "Creepy Old Guy",
     musical: beetlejuice,
     featured: "Alex Brightman, Sophia Anne Caruso",
 actor:  brightman,
-    image: "https://m.media-amazon.com/images/I/81zCfhnHo7L._SL1500_.jpg",
-    music_video: "https://www.youtube.com/watch?v=JYYNL1zbOq0&list=PLFz9HEJrpQx-29bqIXa8i4bt9nfjuds61&index=18&ab_channel=LeslieKritzer-Topic"
+    image: "https://m.media-amazon.com/images/I/81zCfhnHo7L._SL1500_.jpg"
         },
 {
 title: "Jump In Line/Dead Mom (Reprise)",
@@ -2276,8 +2039,7 @@ title: "Jump In Line/Dead Mom (Reprise)",
     musical: beetlejuice,
     featured: "Alex Brightman, Sophia Anne Caruso, Leslie Kritzer, Adam McClure, Kerry Butler, Beetlejuice Original Broadway Cast",
 actor:  brightman,
-    image: "https://m.media-amazon.com/images/I/81zCfhnHo7L._SL1500_.jpg",
-    music_video: "https://www.youtube.com/watch?v=BfJaJbyBQ2A&list=PLFz9HEJrpQx-29bqIXa8i4bt9nfjuds61&index=18&ab_channel=LeslieKritzer-Topic"
+    image: "https://m.media-amazon.com/images/I/81zCfhnHo7L._SL1500_.jpg"
         },
 {
 title: "Welcome To The Rock",
@@ -2285,8 +2047,7 @@ title: "Welcome To The Rock",
     musical: cfa,
     featured: "Come Far Away Original Broadway Cast",
 actor:  colella,
-    image: "https://upload.wikimedia.org/wikipedia/en/6/68/ComeFromAwayLogo.jpg",
-    music_video: "https://www.youtube.com/watch?v=V49bo9b9UQE&list=PLhyGNAmDNkQFa83vonw49VagpxMHBz0ps&index=1&ab_channel=JoelHatch-Topic"
+    image: "https://assets.danceinforma.com/public/assets/mce/Chelsea_News_2/Chelsea_News__3/COME_FROM_AWAY_Australian_Auditions.png"
         },
 {
 title: "38 Planes",
@@ -2294,8 +2055,7 @@ title: "38 Planes",
     musical: cfa,
     featured: "Jenn Colella, Petrina Bromley, Geno Carr, Joel Hatch, Come Far Away Original Broadway Cast",
 actor:  colella,
-    image: "https://upload.wikimedia.org/wikipedia/en/6/68/ComeFromAwayLogo.jpg",
-    music_video: "https://www.youtube.com/watch?v=hcw0uI0rT6o&list=PLhyGNAmDNkQFa83vonw49VagpxMHBz0ps&index=2&ab_channel=%27ComeFromAway%27Company-Topic"
+    image: "https://assets.danceinforma.com/public/assets/mce/Chelsea_News_2/Chelsea_News__3/COME_FROM_AWAY_Australian_Auditions.png"
         },
 {
 title: "Blankets And Bedding",
@@ -2303,8 +2063,7 @@ title: "Blankets And Bedding",
     musical: cfa,
     featured: "Jenn Colella, Petrina Bromley, Geno Carr, Joel Hatch, Come Far Away Original Broadway Cast",
 actor:  colella,
-    image: "https://upload.wikimedia.org/wikipedia/en/6/68/ComeFromAwayLogo.jpg",
-    music_video: "https://www.youtube.com/watch?v=ChH1xH5OJ9I&list=PLhyGNAmDNkQFa83vonw49VagpxMHBz0ps&index=3&ab_channel=%27ComeFromAway%27Company-Topic"
+    image: "https://assets.danceinforma.com/public/assets/mce/Chelsea_News_2/Chelsea_News__3/COME_FROM_AWAY_Australian_Auditions.png"
         },
 {
 title: "28 Hours, Wherever We Are",
@@ -2312,8 +2071,7 @@ title: "28 Hours, Wherever We Are",
     musical: cfa,
     featured: "Jenn Colella, Petrina Bromley, Geno Carr, Joel Hatch, Come Far Away Original Broadway Cast",
 actor:  colella,
-    image: "https://upload.wikimedia.org/wikipedia/en/6/68/ComeFromAwayLogo.jpg",
-    music_video: "https://www.youtube.com/watch?v=w6FB-JU0GGI&list=PLhyGNAmDNkQFa83vonw49VagpxMHBz0ps&index=4&ab_channel=JennColella-Topic"
+    image: "https://assets.danceinforma.com/public/assets/mce/Chelsea_News_2/Chelsea_News__3/COME_FROM_AWAY_Australian_Auditions.png"
         },
 {
 title: "Darkness And Trees",
@@ -2321,8 +2079,7 @@ title: "Darkness And Trees",
     musical: cfa,
     featured: "Jenn Colella, Petrina Bromley, Geno Carr, Joel Hatch, Come Far Away Original Broadway Cast",
 actor:  colella,
-    image: "https://upload.wikimedia.org/wikipedia/en/6/68/ComeFromAwayLogo.jpg",
-    music_video: "https://www.youtube.com/watch?v=ePVGw3oA1-8&list=PLhyGNAmDNkQFa83vonw49VagpxMHBz0ps&index=5&ab_channel=%27ComeFromAway%27Company-Topic"
+    image: "https://assets.danceinforma.com/public/assets/mce/Chelsea_News_2/Chelsea_News__3/COME_FROM_AWAY_Australian_Auditions.png"
         },
 {
 title: "On The Bus",
@@ -2330,8 +2087,7 @@ title: "On The Bus",
     musical: cfa,
     featured: "Jenn Colella, Petrina Bromley, Geno Carr, Joel Hatch, Come Far Away Original Broadway Cast",
 actor:  colella,
-    image: "https://upload.wikimedia.org/wikipedia/en/6/68/ComeFromAwayLogo.jpg",
-    music_video: "https://www.youtube.com/watch?v=wNHPpBszyTM&list=PLhyGNAmDNkQFa83vonw49VagpxMHBz0ps&index=6&ab_channel=%27ComeFromAway%27Company-Topic"
+    image: "https://assets.danceinforma.com/public/assets/mce/Chelsea_News_2/Chelsea_News__3/COME_FROM_AWAY_Australian_Auditions.png"
         },
 {
 title: "Darkness And Trees (Reprise)",
@@ -2339,8 +2095,7 @@ title: "Darkness And Trees (Reprise)",
     musical: cfa,
     featured: "Jenn Colella, Petrina Bromley, Geno Carr, Joel Hatch, Come Far Away Original Broadway Cast",
 actor:  colella,
-    image: "https://upload.wikimedia.org/wikipedia/en/6/68/ComeFromAwayLogo.jpg",
-    music_video: "https://www.youtube.com/watch?v=n92A6sVIU8A&list=PLhyGNAmDNkQFa83vonw49VagpxMHBz0ps&index=7&ab_channel=%27ComeFromAway%27Company-Topic"
+    image: "https://assets.danceinforma.com/public/assets/mce/Chelsea_News_2/Chelsea_News__3/COME_FROM_AWAY_Australian_Auditions.png"
         },
 {
 title: "Lead Us Out Of The Night",
@@ -2348,8 +2103,7 @@ title: "Lead Us Out Of The Night",
     musical: cfa,
     featured: "Jenn Colella, Petrina Bromley, Geno Carr, Joel Hatch, Come Far Away Original Broadway Cast",
 actor:  colella,
-    image: "https://upload.wikimedia.org/wikipedia/en/6/68/ComeFromAwayLogo.jpg",
-    music_video: "https://www.youtube.com/watch?v=8XVwXIEHEYo&list=PLhyGNAmDNkQFa83vonw49VagpxMHBz0ps&index=8&ab_channel=%27ComeFromAway%27Company-Topic"
+    image: "https://assets.danceinforma.com/public/assets/mce/Chelsea_News_2/Chelsea_News__3/COME_FROM_AWAY_Australian_Auditions.png"
         },
 {
 title: "Phoning Home",
@@ -2357,8 +2111,7 @@ title: "Phoning Home",
     musical: cfa,
     featured: "Jenn Colella, Petrina Bromley, Geno Carr, Joel Hatch, Come Far Away Original Broadway Cast",
 actor:  colella,
-    image: "https://upload.wikimedia.org/wikipedia/en/6/68/ComeFromAwayLogo.jpg",
-    music_video: "https://www.youtube.com/watch?v=BtYh1VNBUhY&list=PLhyGNAmDNkQFa83vonw49VagpxMHBz0ps&index=9&ab_channel=%27ComeFromAway%27Company-Topic"
+    image: "https://assets.danceinforma.com/public/assets/mce/Chelsea_News_2/Chelsea_News__3/COME_FROM_AWAY_Australian_Auditions.png"
         },
 {
 title: "Costume Party",
@@ -2366,8 +2119,7 @@ title: "Costume Party",
     musical: cfa,
     featured: "Jenn Colella, Petrina Bromley, Geno Carr, Joel Hatch, Come Far Away Original Broadway Cast",
 actor:  colella,
-    image: "https://upload.wikimedia.org/wikipedia/en/6/68/ComeFromAwayLogo.jpg",
-    music_video: "https://www.youtube.com/watch?v=woGE0Oq-WWs&list=PLhyGNAmDNkQFa83vonw49VagpxMHBz0ps&index=10&ab_channel=SharonWheatley-Topic"
+    image: "https://assets.danceinforma.com/public/assets/mce/Chelsea_News_2/Chelsea_News__3/COME_FROM_AWAY_Australian_Auditions.png"
         },
 {
 title: "I Am Here",
@@ -2375,8 +2127,7 @@ title: "I Am Here",
     musical: cfa,
     featured: "Jenn Colella, Petrina Bromley, Geno Carr, Joel Hatch, Come Far Away Original Broadway Cast",
 actor:  colella,
-    image: "https://upload.wikimedia.org/wikipedia/en/6/68/ComeFromAwayLogo.jpg",
-    music_video: "https://www.youtube.com/watch?v=N86TvVuCwWQ&list=PLhyGNAmDNkQFa83vonw49VagpxMHBz0ps&index=11&ab_channel=Q.Smith-Topic"
+    image: "https://assets.danceinforma.com/public/assets/mce/Chelsea_News_2/Chelsea_News__3/COME_FROM_AWAY_Australian_Auditions.png"
         },
 {
 title: "Prayer",
@@ -2384,8 +2135,7 @@ title: "Prayer",
     musical: cfa,
     featured: "Jenn Colella, Petrina Bromley, Geno Carr, Joel Hatch, Come Far Away Original Broadway Cast",
 actor:  colella,
-    image: "https://upload.wikimedia.org/wikipedia/en/6/68/ComeFromAwayLogo.jpg",
-    music_video: "https://www.youtube.com/watch?v=WYBTCHm48Ps&list=PLhyGNAmDNkQFa83vonw49VagpxMHBz0ps&index=12&ab_channel=ChadKimball-Topic"
+    image: "https://assets.danceinforma.com/public/assets/mce/Chelsea_News_2/Chelsea_News__3/COME_FROM_AWAY_Australian_Auditions.png"
         },
 {
 title: "On the Edge",
@@ -2393,8 +2143,7 @@ title: "On the Edge",
     musical: cfa,
     featured: "Jenn Colella, Petrina Bromley, Geno Carr, Joel Hatch, Come Far Away Original Broadway Cast",
 actor:  colella,
-    image: "https://upload.wikimedia.org/wikipedia/en/6/68/ComeFromAwayLogo.jpg",
-    music_video: "https://www.youtube.com/watch?v=ocgHA7ip26c&list=PLhyGNAmDNkQFa83vonw49VagpxMHBz0ps&index=13&ab_channel=%27ComeFromAway%27Company-Topic"
+    image: "https://assets.danceinforma.com/public/assets/mce/Chelsea_News_2/Chelsea_News__3/COME_FROM_AWAY_Australian_Auditions.png"
         },
 {
 title: "In The Bar/ Heave Away",
@@ -2402,8 +2151,7 @@ title: "In The Bar/ Heave Away",
     musical: cfa,
     featured: "Jenn Colella, Petrina Bromley, Geno Carr, Joel Hatch, Come Far Away Original Broadway Cast",
 actor:  colella,
-    image: "https://upload.wikimedia.org/wikipedia/en/6/68/ComeFromAwayLogo.jpg",
-    music_video: "https://www.youtube.com/watch?v=cQD7bfZ3KT8&list=PLhyGNAmDNkQFa83vonw49VagpxMHBz0ps&index=15&ab_channel=%27ComeFromAway%27Company-Topic"
+    image: "https://assets.danceinforma.com/public/assets/mce/Chelsea_News_2/Chelsea_News__3/COME_FROM_AWAY_Australian_Auditions.png"
         },
 {
 title: "Screech In",
@@ -2411,8 +2159,7 @@ title: "Screech In",
     musical: cfa,
     featured: "Jenn Colella, Petrina Bromley, Geno Carr, Joel Hatch, Come Far Away Original Broadway Cast",
 actor:  colella,
-    image: "https://upload.wikimedia.org/wikipedia/en/6/68/ComeFromAwayLogo.jpg",
-    music_video: "https://www.youtube.com/watch?v=pYEGnSf2zqc&list=PLhyGNAmDNkQFa83vonw49VagpxMHBz0ps&index=15&ab_channel=JoelHatch-Topic"
+    image: "https://assets.danceinforma.com/public/assets/mce/Chelsea_News_2/Chelsea_News__3/COME_FROM_AWAY_Australian_Auditions.png"
         },
 {
 title: "Me And The Sky",
@@ -2420,8 +2167,7 @@ title: "Me And The Sky",
     musical: cfa,
     featured: "Jenn Colella, Petrina Bromley, Geno Carr, Joel Hatch, Come Far Away Original Broadway Cast",
 actor:  colella,
-    image: "https://upload.wikimedia.org/wikipedia/en/6/68/ComeFromAwayLogo.jpg",
-    music_video: "https://www.youtube.com/watch?v=qiQ0pDudAAA&list=PLhyGNAmDNkQFa83vonw49VagpxMHBz0ps&index=16&ab_channel=JennColella-Topic"
+    image: "https://assets.danceinforma.com/public/assets/mce/Chelsea_News_2/Chelsea_News__3/COME_FROM_AWAY_Australian_Auditions.png"
         },
 {
 title: "The Dover Fault",
@@ -2429,8 +2175,7 @@ title: "The Dover Fault",
     musical: cfa,
     featured: "Jenn Colella, Petrina Bromley, Geno Carr, Joel Hatch, Come Far Away Original Broadway Cast",
 actor:  colella,
-    image: "https://upload.wikimedia.org/wikipedia/en/6/68/ComeFromAwayLogo.jpg",
-    music_video: "https://www.youtube.com/watch?v=q7vcDX15Uhw&list=PLhyGNAmDNkQFa83vonw49VagpxMHBz0ps&index=17&ab_channel=LeeMacDougall-Topic"
+    image: "https://assets.danceinforma.com/public/assets/mce/Chelsea_News_2/Chelsea_News__3/COME_FROM_AWAY_Australian_Auditions.png"
         },
 {
 title: "Stop The World",
@@ -2438,8 +2183,7 @@ title: "Stop The World",
     musical: cfa,
     featured: "Jenn Colella, Petrina Bromley, Geno Carr, Joel Hatch, Come Far Away Original Broadway Cast",
 actor:  colella,
-    image: "https://upload.wikimedia.org/wikipedia/en/6/68/ComeFromAwayLogo.jpg",
-    music_video: "https://www.youtube.com/watch?v=kBHQ3FrKC70&list=PLhyGNAmDNkQFa83vonw49VagpxMHBz0ps&index=18&ab_channel=LeeMacDougall-Topic"
+    image: "https://assets.danceinforma.com/public/assets/mce/Chelsea_News_2/Chelsea_News__3/COME_FROM_AWAY_Australian_Auditions.png"
         },
 {
 title: "38 Planes (Reprise) / Somewhere In The Middle Of Nowhere",
@@ -2447,8 +2191,7 @@ title: "38 Planes (Reprise) / Somewhere In The Middle Of Nowhere",
     musical: cfa,
     featured: "Jenn Colella, Petrina Bromley, Geno Carr, Joel Hatch, Come Far Away Original Broadway Cast",
 actor:  colella,
-    image: "https://upload.wikimedia.org/wikipedia/en/6/68/ComeFromAwayLogo.jpg",
-    music_video: "https://www.youtube.com/watch?v=lZPMZo2Mn-s&list=PLhyGNAmDNkQFa83vonw49VagpxMHBz0ps&index=19&ab_channel=JennColella-Topic"
+    image: "https://assets.danceinforma.com/public/assets/mce/Chelsea_News_2/Chelsea_News__3/COME_FROM_AWAY_Australian_Auditions.png"
         },
 {
 title: "Something’s Missing",
@@ -2456,8 +2199,7 @@ title: "Something’s Missing",
     musical: cfa,
     featured: "Jenn Colella, Petrina Bromley, Geno Carr, Joel Hatch, Come Far Away Original Broadway Cast",
 actor:  colella,
-    image: "https://upload.wikimedia.org/wikipedia/en/6/68/ComeFromAwayLogo.jpg",
-    music_video: "https://www.youtube.com/watch?v=c7wUoayqThw&list=PLhyGNAmDNkQFa83vonw49VagpxMHBz0ps&index=20&ab_channel=%27ComeFromAway%27Company-Topic"
+    image: "https://assets.danceinforma.com/public/assets/mce/Chelsea_News_2/Chelsea_News__3/COME_FROM_AWAY_Australian_Auditions.png"
         },
 {
 title: "10 Years Later",
@@ -2465,8 +2207,7 @@ title: "10 Years Later",
     musical: cfa,
     featured: "Jenn Colella, Petrina Bromley, Geno Carr, Joel Hatch, Come Far Away Original Broadway Cast",
 actor:  colella,
-    image: "https://upload.wikimedia.org/wikipedia/en/6/68/ComeFromAwayLogo.jpg",
-    music_video: "https://www.youtube.com/watch?v=kIcQ0MDdvmc&list=PLhyGNAmDNkQFa83vonw49VagpxMHBz0ps&index=22&ab_channel=%27ComeFromAway%27Company-Topic"
+    image: "https://assets.danceinforma.com/public/assets/mce/Chelsea_News_2/Chelsea_News__3/COME_FROM_AWAY_Australian_Auditions.png"
         },
 {
 title: "Finale",
@@ -2474,8 +2215,7 @@ title: "Finale",
     musical: cfa,
     featured: "Jenn Colella, Petrina Bromley, Geno Carr, Joel Hatch, Come Far Away Original Broadway Cast",
 actor:  colella,
-    image: "https://upload.wikimedia.org/wikipedia/en/6/68/ComeFromAwayLogo.jpg",
-    music_video: "https://www.youtube.com/watch?v=3basK8EYcvk&list=PLhyGNAmDNkQFa83vonw49VagpxMHBz0ps&index=22&ab_channel=JoelHatch-Topic"
+    image: "https://assets.danceinforma.com/public/assets/mce/Chelsea_News_2/Chelsea_News__3/COME_FROM_AWAY_Australian_Auditions.png"
         },
 {
 title: "Screech Out",
@@ -2483,8 +2223,7 @@ title: "Screech Out",
     musical: cfa,
     featured: "Jenn Colella, Petrina Bromley, Geno Carr, Joel Hatch, Come Far Away Original Broadway Cast",
 actor:  colella,
-    image: "https://upload.wikimedia.org/wikipedia/en/6/68/ComeFromAwayLogo.jpg",
-    music_video: "https://www.youtube.com/watch?v=b8sL4-JgpJ4&list=PLhyGNAmDNkQFa83vonw49VagpxMHBz0ps&index=23&ab_channel=BandofComeFromAway-Topic"
+    image: "https://assets.danceinforma.com/public/assets/mce/Chelsea_News_2/Chelsea_News__3/COME_FROM_AWAY_Australian_Auditions.png"
         },
 {
 title: "Road to Hell",
@@ -2492,8 +2231,7 @@ title: "Road to Hell",
     musical: hadestown,
     featured: "André De Shields, Hadestown Original Broadway Company",
 actor: ads,
-    image: "https://m.media-amazon.com/images/I/714o8djuCzL._SL1200_.jpg",
-    music_video: "https://www.youtube.com/watch?v=ZgsfT2w7FfM&list=PLcZhIiPR2E4UFVQ1tSFDpiPpd1V0v277M&ab_channel=Andr%C3%A9DeShields-Topic"
+    image: "https://m.media-amazon.com/images/I/714o8djuCzL._SL1200_.jpg"
         },
 {
 title: "Any Way the Wind Blows",
@@ -2501,8 +2239,7 @@ title: "Any Way the Wind Blows",
     musical: hadestown,
     featured: "André De Shields, Eva Noblezada, Jewelle Blackman, Hadestown Original Broadway Company",
 actor: ads,
-    image: "https://m.media-amazon.com/images/I/714o8djuCzL._SL1200_.jpg",
-    music_video: "https://www.youtube.com/watch?v=2N3FmSVcjwA&list=PLcZhIiPR2E4UFVQ1tSFDpiPpd1V0v277M&index=2&ab_channel=YvetteGonzalez%E2%80%90Nacer-Topic"
+    image: "https://m.media-amazon.com/images/I/714o8djuCzL._SL1200_.jpg"
         },
 {
 title: "Come Home with Me",
@@ -2510,8 +2247,7 @@ title: "Come Home with Me",
     musical: hadestown,
     featured: "André De Shields, Eva Noblezada, Reeve Carney, Hadestown Original Broadway Company",
 actor: ads,
-    image: "https://m.media-amazon.com/images/I/714o8djuCzL._SL1200_.jpg",
-    music_video: "https://www.youtube.com/watch?v=KpNEPwACYK4&list=PLcZhIiPR2E4UFVQ1tSFDpiPpd1V0v277M&index=3&ab_channel=AfraHines-Topic"
+    image: "https://m.media-amazon.com/images/I/714o8djuCzL._SL1200_.jpg"
         },
 {
 title: "Wedding Song",
@@ -2519,8 +2255,7 @@ title: "Wedding Song",
     musical: hadestown,
     featured: "Timothy Hughes, Eva Noblezada, Reeve Carney, Hadestown Original Broadway Company",
 actor: ads,
-    image: "https://m.media-amazon.com/images/I/714o8djuCzL._SL1200_.jpg",
-    music_video: "https://www.youtube.com/watch?v=zP47npl3rHo&list=PLcZhIiPR2E4UFVQ1tSFDpiPpd1V0v277M&index=4&ab_channel=AfraHines-Topic"
+    image: "https://m.media-amazon.com/images/I/714o8djuCzL._SL1200_.jpg"
         },
 {
 title: "Epic I",
@@ -2528,8 +2263,7 @@ title: "Epic I",
     musical: hadestown,
     featured: "André De Shields, Eva Noblezada, Reeve Carney, Hadestown Original Broadway Company",
 actor: ads,
-    image: "https://m.media-amazon.com/images/I/714o8djuCzL._SL1200_.jpg",
-    music_video: "https://www.youtube.com/watch?v=pN1Ws7qTGuM&list=PLcZhIiPR2E4UFVQ1tSFDpiPpd1V0v277M&index=5&ab_channel=Andr%C3%A9DeShields-Topic"
+    image: "https://m.media-amazon.com/images/I/714o8djuCzL._SL1200_.jpg"
         },
 {
 title: "Livin’ It Up on Top",
@@ -2537,8 +2271,7 @@ title: "Livin’ It Up on Top",
     musical: hadestown,
     featured: "André De Shields, Eva Noblezada, Reeve Carney, Hadestown Original Broadway Company",
 actor: ads,
-    image: "https://m.media-amazon.com/images/I/714o8djuCzL._SL1200_.jpg",
-    music_video: "https://www.youtube.com/watch?v=Qc_lZC55MI4&list=PLcZhIiPR2E4UFVQ1tSFDpiPpd1V0v277M&index=6&ab_channel=Ana%C3%AFsMitchell-Topic"
+    image: "https://m.media-amazon.com/images/I/714o8djuCzL._SL1200_.jpg"
         },
 {
 title: "All I've Ever Known (Intro)",
@@ -2546,8 +2279,7 @@ title: "All I've Ever Known (Intro)",
     musical: hadestown,
     featured: "André De Shields, Eva Noblezada, Reeve Carney, Hadestown Original Broadway Company",
 actor: ads,
-    image: "https://m.media-amazon.com/images/I/714o8djuCzL._SL1200_.jpg",
-    music_video: "https://www.youtube.com/watch?v=syKBNIFCc_g&list=PLcZhIiPR2E4UFVQ1tSFDpiPpd1V0v277M&index=7&ab_channel=Andr%C3%A9DeShields-Topic"
+    image: "https://m.media-amazon.com/images/I/714o8djuCzL._SL1200_.jpg"
         },
 {
 title: "All I've Ever Known",
@@ -2555,8 +2287,7 @@ title: "All I've Ever Known",
     musical: hadestown,
     featured: "Eva Noblezada, Reeve Carney, Hadestown Original Broadway Company",
 actor: ads,
-    image: "https://m.media-amazon.com/images/I/714o8djuCzL._SL1200_.jpg",
-    music_video: "https://www.youtube.com/watch?v=L5A__1-QK4w&list=PLcZhIiPR2E4UFVQ1tSFDpiPpd1V0v277M&index=8&ab_channel=EvaNoblezada-Topic"
+    image: "https://m.media-amazon.com/images/I/714o8djuCzL._SL1200_.jpg"
         },
 {
 title: "Way Down Hadestown",
@@ -2564,8 +2295,7 @@ title: "Way Down Hadestown",
     musical: hadestown,
     featured: "André De Shields, Eva Noblezada, Reeve Carney, Hadestown Original Broadway Company",
 actor: ads,
-    image: "https://m.media-amazon.com/images/I/714o8djuCzL._SL1200_.jpg",
-    music_video: "https://www.youtube.com/watch?v=nJIc3RtJK7U&list=PLcZhIiPR2E4UFVQ1tSFDpiPpd1V0v277M&index=9&ab_channel=HadestownOriginalBroadwayCompany-Topic"
+    image: "https://m.media-amazon.com/images/I/714o8djuCzL._SL1200_.jpg"
         },
 {
 title: "A Gathering Storm",
@@ -2573,8 +2303,7 @@ title: "A Gathering Storm",
     musical: hadestown,
     featured: "André De Shields, Eva Noblezada, Reeve Carney, Hadestown Original Broadway Company",
 actor: ads,
-    image: "https://m.media-amazon.com/images/I/714o8djuCzL._SL1200_.jpg",
-    music_video: "https://www.youtube.com/watch?v=aHYhu0zBEhQ&list=PLcZhIiPR2E4UFVQ1tSFDpiPpd1V0v277M&index=10&ab_channel=YvetteGonzalez%E2%80%90Nacer-Topic"
+    image: "https://m.media-amazon.com/images/I/714o8djuCzL._SL1200_.jpg"
         },
 {
 title: "Epic II",
@@ -2582,8 +2311,7 @@ title: "Epic II",
     musical: hadestown,
     featured: "Reeve Carney",
 actor: ads,
-    image: "https://m.media-amazon.com/images/I/714o8djuCzL._SL1200_.jpg",
-    music_video: "https://www.youtube.com/watch?v=_VVB2WWohM0&list=PLcZhIiPR2E4UFVQ1tSFDpiPpd1V0v277M&index=11&ab_channel=ReeveCarney-Topic"
+    image: "https://m.media-amazon.com/images/I/714o8djuCzL._SL1200_.jpg"
         },
 {
 title: "Chant",
@@ -2591,8 +2319,7 @@ title: "Chant",
     musical: hadestown,
     featured: "Hadestown Original Broadway Company",
 actor: ads,
-    image: "https://m.media-amazon.com/images/I/714o8djuCzL._SL1200_.jpg",
-    music_video: "https://www.youtube.com/watch?v=4bheXkre0yM&list=PLcZhIiPR2E4UFVQ1tSFDpiPpd1V0v277M&index=12&ab_channel=HadestownOriginalBroadwayCompany-Topic"
+    image: "https://m.media-amazon.com/images/I/714o8djuCzL._SL1200_.jpg"
         },
 
 {
@@ -2601,8 +2328,7 @@ title: "Hey, Little Songbird",
     musical: hadestown,
     featured: "Patrick Page, Eva Noblezada",
 actor: ads,
-    image: "https://m.media-amazon.com/images/I/714o8djuCzL._SL1200_.jpg",
-    music_video: "https://www.youtube.com/watch?v=hRGQqFfqps0&list=PLcZhIiPR2E4UFVQ1tSFDpiPpd1V0v277M&index=13&ab_channel=PatrickPage-Topic"
+    image: "https://m.media-amazon.com/images/I/714o8djuCzL._SL1200_.jpg"
         },
 {
 title: "When the Chips Are Down (Intro)",
@@ -2610,8 +2336,7 @@ title: "When the Chips Are Down (Intro)",
     musical: hadestown,
     featured: "André De Shields",
 actor: ads,
-    image: "https://m.media-amazon.com/images/I/714o8djuCzL._SL1200_.jpg",
-    music_video: "https://www.youtube.com/watch?v=UVjSwqZHJ1w&list=PLcZhIiPR2E4UFVQ1tSFDpiPpd1V0v277M&index=15&ab_channel=Andr%C3%A9DeShields-Topic"
+    image: "https://m.media-amazon.com/images/I/714o8djuCzL._SL1200_.jpg"
         },
 {
 title: "When the Chips Are Down",
@@ -2619,8 +2344,7 @@ title: "When the Chips Are Down",
     musical: hadestown,
     featured: "Jewelle Blackman, Yvette Gonzalez-Nacer, Kay Trinidad, Eva Noblezada",
 actor: ads,
-    image: "https://m.media-amazon.com/images/I/714o8djuCzL._SL1200_.jpg",
-    music_video: "https://www.youtube.com/watch?v=Qu4AhyJL_U4&list=PLcZhIiPR2E4UFVQ1tSFDpiPpd1V0v277M&index=16&ab_channel=YvetteGonzalez%E2%80%90Nacer-Topic"
+    image: "https://m.media-amazon.com/images/I/714o8djuCzL._SL1200_.jpg"
         },
 {
 title: "Gone, I’m Gone",
@@ -2628,8 +2352,7 @@ title: "Gone, I’m Gone",
     musical: hadestown,
     featured: "Eva Noblezada, Jewelle Blackman, Yvette Gonzalez-Nacer, Kay Trinidad",
 actor: ads,
-    image: "https://m.media-amazon.com/images/I/714o8djuCzL._SL1200_.jpg",
-    music_video: "https://www.youtube.com/watch?v=QhuyQfLXARs&list=PLcZhIiPR2E4UFVQ1tSFDpiPpd1V0v277M&index=16&ab_channel=YvetteGonzalez%E2%80%90Nacer-Topic"
+    image: "https://m.media-amazon.com/images/I/714o8djuCzL._SL1200_.jpg"
         },
 {
 title: "Wait for Me (Intro)",
@@ -2637,8 +2360,7 @@ title: "Wait for Me (Intro)",
     musical: hadestown,
     featured: "André De Shields, Reeve Carney",
 actor: ads,
-    image: "https://m.media-amazon.com/images/I/714o8djuCzL._SL1200_.jpg",
-    music_video: "https://www.youtube.com/watch?v=tXIXq1MM6iw&list=PLcZhIiPR2E4UFVQ1tSFDpiPpd1V0v277M&index=17&ab_channel=Andr%C3%A9DeShields-Topic"
+    image: "https://m.media-amazon.com/images/I/714o8djuCzL._SL1200_.jpg"
         },
 {
 title: "Wait for Me",
@@ -2646,8 +2368,7 @@ title: "Wait for Me",
     musical: hadestown,
     featured: "André De Shields, Reeve Carney, Jewelle Blackman",
 actor: ads,
-    image: "https://m.media-amazon.com/images/I/714o8djuCzL._SL1200_.jpg",
-    music_video: "https://www.youtube.com/watch?v=9nKTH0zx_H8&list=PLcZhIiPR2E4UFVQ1tSFDpiPpd1V0v277M&index=18&ab_channel=AfraHines-Topic"
+    image: "https://m.media-amazon.com/images/I/714o8djuCzL._SL1200_.jpg"
         },
 {
 title: "Why We Build the Wall",
@@ -2655,8 +2376,7 @@ title: "Why We Build the Wall",
     musical: hadestown,
     featured: "Patrick Page, Hadestown Original Broadway Company",
 actor: ads,
-    image: "https://m.media-amazon.com/images/I/714o8djuCzL._SL1200_.jpg",
-    music_video: "https://www.youtube.com/watch?v=Q1VDxMe54Og&list=PLcZhIiPR2E4UFVQ1tSFDpiPpd1V0v277M&index=19&ab_channel=PatrickPage-Topic"
+    image: "https://m.media-amazon.com/images/I/714o8djuCzL._SL1200_.jpg"
         },
 {
 title: "Why We Build the Wall (Outro)",
@@ -2664,8 +2384,7 @@ title: "Why We Build the Wall (Outro)",
     musical: hadestown,
     featured: "André De Shields",
 actor: ads,
-    image: "https://m.media-amazon.com/images/I/714o8djuCzL._SL1200_.jpg",
-    music_video: "https://www.youtube.com/watch?v=XLkyhkpBNaU&list=PLcZhIiPR2E4UFVQ1tSFDpiPpd1V0v277M&index=20&ab_channel=Andr%C3%A9DeShields-Topic"
+    image: "https://m.media-amazon.com/images/I/714o8djuCzL._SL1200_.jpg"
         },
 {
 title: "Our Lady of the Underground",
@@ -2673,8 +2392,7 @@ title: "Our Lady of the Underground",
     musical: hadestown,
     featured: "Amber Gray",
 actor: ads,
-    image: "https://m.media-amazon.com/images/I/714o8djuCzL._SL1200_.jpg",
-    music_video: "https://www.youtube.com/watch?v=vasNenR_DL0&list=PLcZhIiPR2E4UFVQ1tSFDpiPpd1V0v277M&index=22&ab_channel=HadestownOriginalBroadwayCompany-Topic"
+    image: "https://m.media-amazon.com/images/I/714o8djuCzL._SL1200_.jpg"
         },
 {
 title: "Way Down Hadestown (Reprise)",
@@ -2682,8 +2400,7 @@ title: "Way Down Hadestown (Reprise)",
     musical: hadestown,
     featured: "André De Shields, Jewelle Blackman, Yvette Gonzalez-Nacer",
 actor: ads,
-    image: "https://m.media-amazon.com/images/I/714o8djuCzL._SL1200_.jpg",
-    music_video: "https://www.youtube.com/watch?v=GrIOImWFcUM&list=PLcZhIiPR2E4UFVQ1tSFDpiPpd1V0v277M&index=22&ab_channel=AfraHines-Topic"
+    image: "https://m.media-amazon.com/images/I/714o8djuCzL._SL1200_.jpg"
         },
 {
 title: "Flowers",
@@ -2691,8 +2408,7 @@ title: "Flowers",
     musical: hadestown,
     featured: "Eva Noblezada",
 actor: ads,
-    image: "https://m.media-amazon.com/images/I/714o8djuCzL._SL1200_.jpg",
-    music_video: "https://www.youtube.com/watch?v=IzDzpJcQ8l4&list=PLcZhIiPR2E4UFVQ1tSFDpiPpd1V0v277M&index=23&ab_channel=EvaNoblezada-Topic"
+    image: "https://m.media-amazon.com/images/I/714o8djuCzL._SL1200_.jpg"
         },
 {
 title: "Come Home with Me (Reprise)",
@@ -2700,8 +2416,7 @@ title: "Come Home with Me (Reprise)",
     musical: hadestown,
     featured: "Reeve Carney, Eva Noblezada",
 actor: ads,
-    image: "https://m.media-amazon.com/images/I/714o8djuCzL._SL1200_.jpg",
-    music_video: "https://www.youtube.com/watch?v=r-0f9RbgdGA&list=PLcZhIiPR2E4UFVQ1tSFDpiPpd1V0v277M&index=24&ab_channel=EvaNoblezada-Topic"
+    image: "https://m.media-amazon.com/images/I/714o8djuCzL._SL1200_.jpg"
         },
 {
 title: "Papers (Intro)",
@@ -2709,8 +2424,7 @@ title: "Papers (Intro)",
     musical: hadestown,
     featured: "Reeve Carney, Eva Noblezada, Patrick Page, Amber Gray, André De Shields",
 actor: ads,
-    image: "https://m.media-amazon.com/images/I/714o8djuCzL._SL1200_.jpg",
-    music_video: "https://www.youtube.com/watch?v=fSMoZUUBfNs&list=PLcZhIiPR2E4UFVQ1tSFDpiPpd1V0v277M&index=25&ab_channel=PatrickPage-Topic"
+    image: "https://m.media-amazon.com/images/I/714o8djuCzL._SL1200_.jpg"
         },
 {
 title: "Nothing Changes",
@@ -2718,8 +2432,7 @@ title: "Nothing Changes",
     musical: hadestown,
     featured: "Jewelle Blackman, Yvette Gonzalez-Nacer, Kay Trinidad",
 actor: ads,
-    image: "https://m.media-amazon.com/images/I/714o8djuCzL._SL1200_.jpg",
-    music_video: "https://www.youtube.com/watch?v=tk_7g0uFD7w&list=PLcZhIiPR2E4UFVQ1tSFDpiPpd1V0v277M&index=27&ab_channel=YvetteGonzalez%E2%80%90Nacer-Topic"
+    image: "https://m.media-amazon.com/images/I/714o8djuCzL._SL1200_.jpg"
         },
 {
 title: "If It’s True",
@@ -2727,8 +2440,7 @@ title: "If It’s True",
     musical: hadestown,
     featured: "Reeve Carney, André De Shields, Afra Hines, Timothy Hughes, John Krause, Kimberly Marable, Ahmad Simmons",
 actor: ads,
-    image: "https://m.media-amazon.com/images/I/714o8djuCzL._SL1200_.jpg",
-    music_video: "https://www.youtube.com/watch?v=3ptcEt-_Ym4&list=PLcZhIiPR2E4UFVQ1tSFDpiPpd1V0v277M&index=28&ab_channel=AfraHines-Topic"
+    image: "https://m.media-amazon.com/images/I/714o8djuCzL._SL1200_.jpg"
         },
 {
 title: "How Long?",
@@ -2736,8 +2448,7 @@ title: "How Long?",
     musical: hadestown,
     featured: "Amber Gray, Patrick Page",
 actor: ads,
-    image: "https://m.media-amazon.com/images/I/714o8djuCzL._SL1200_.jpg",
-    music_video: "https://www.youtube.com/watch?v=Bim5CXHgy3s&list=PLcZhIiPR2E4UFVQ1tSFDpiPpd1V0v277M&index=29&ab_channel=PatrickPage-Topic"
+    image: "https://m.media-amazon.com/images/I/714o8djuCzL._SL1200_.jpg"
         },
 {
 title: "Chant (Reprise)",
@@ -2745,8 +2456,7 @@ title: "Chant (Reprise)",
     musical: hadestown,
     featured: "Hadestown Original Broadway Company",
 actor: ads,
-    image: "https://m.media-amazon.com/images/I/714o8djuCzL._SL1200_.jpg",
-    music_video: "https://www.youtube.com/watch?v=FVyH0sOTths&list=PLcZhIiPR2E4UFVQ1tSFDpiPpd1V0v277M&index=30&ab_channel=HadestownOriginalBroadwayCompany-Topic"
+    image: "https://m.media-amazon.com/images/I/714o8djuCzL._SL1200_.jpg"
         },
 {
 title: "Epic III",
@@ -2754,8 +2464,7 @@ title: "Epic III",
     musical: hadestown,
     featured: "Reeve Carney, Hadestown Original Broadway Company",
 actor: ads,
-    image: "https://m.media-amazon.com/images/I/714o8djuCzL._SL1200_.jpg",
-    music_video: "https://www.youtube.com/watch?v=8c05EMeY2E8&list=PLcZhIiPR2E4UFVQ1tSFDpiPpd1V0v277M&index=31&ab_channel=ReeveCarney-Topic"
+    image: "https://m.media-amazon.com/images/I/714o8djuCzL._SL1200_.jpg"
         },
 {
 title: "Promises",
@@ -2763,8 +2472,7 @@ title: "Promises",
     musical: hadestown,
     featured: "Reeve Carney, Eva Noblezada",
 actor: ads,
-    image: "https://m.media-amazon.com/images/I/714o8djuCzL._SL1200_.jpg",
-    music_video: "https://www.youtube.com/watch?v=9J3C9jKxF6w&list=PLcZhIiPR2E4UFVQ1tSFDpiPpd1V0v277M&index=33&ab_channel=EvaNoblezada-Topic"
+    image: "https://m.media-amazon.com/images/I/714o8djuCzL._SL1200_.jpg"
         },
 {
 title: "Word to the Wise",
@@ -2772,8 +2480,7 @@ title: "Word to the Wise",
     musical: hadestown,
     featured: "Jewelle Blackman, Yvette Gonzalez-Nacer, Kay Trinidad",
 actor: ads,
-    image: "https://m.media-amazon.com/images/I/714o8djuCzL._SL1200_.jpg",
-    music_video: "https://www.youtube.com/watch?v=QmHSW6OUl0Y&list=PLcZhIiPR2E4UFVQ1tSFDpiPpd1V0v277M&index=34&ab_channel=YvetteGonzalez%E2%80%90Nacer-Topic"
+    image: "https://m.media-amazon.com/images/I/714o8djuCzL._SL1200_.jpg"
         },
 {
 title: "His Kiss, the Riot",
@@ -2781,8 +2488,7 @@ title: "His Kiss, the Riot",
     musical: hadestown,
     featured: "Patrick Page",
 actor: ads,
-    image: "https://m.media-amazon.com/images/I/714o8djuCzL._SL1200_.jpg",
-    music_video: "https://www.youtube.com/watch?v=ITP3Ytddqf8&list=PLcZhIiPR2E4UFVQ1tSFDpiPpd1V0v277M&index=35&ab_channel=PatrickPage-Topic"
+    image: "https://m.media-amazon.com/images/I/714o8djuCzL._SL1200_.jpg"
         },
 {
 title: "Wait for Me (Reprise) (Intro)",
@@ -2790,8 +2496,7 @@ title: "Wait for Me (Reprise) (Intro)",
     musical: hadestown,
     featured: "André De Shields, Reeve Carney, Eva Noblezada",
 actor: ads,
-    image: "https://m.media-amazon.com/images/I/714o8djuCzL._SL1200_.jpg",
-    music_video: "https://www.youtube.com/watch?v=pj4VtPos_d0&list=PLcZhIiPR2E4UFVQ1tSFDpiPpd1V0v277M&index=36&ab_channel=AfraHines-Topic"
+    image: "https://m.media-amazon.com/images/I/714o8djuCzL._SL1200_.jpg"
         },
 {
 title: "Wait for Me (Reprise)",
@@ -2799,8 +2504,7 @@ title: "Wait for Me (Reprise)",
     musical: hadestown,
     featured: "André De Shields, Reeve Carney, Eva Noblezada",
 actor: ads,
-    image: "https://m.media-amazon.com/images/I/714o8djuCzL._SL1200_.jpg",
-    music_video: "https://www.youtube.com/watch?v=8u1vfsNpVpA&list=PLcZhIiPR2E4UFVQ1tSFDpiPpd1V0v277M&index=37&ab_channel=Andr%C3%A9DeShields-Topic"
+    image: "https://m.media-amazon.com/images/I/714o8djuCzL._SL1200_.jpg"
         },
 {
 title: "Doubt Comes In",
@@ -2808,8 +2512,7 @@ title: "Doubt Comes In",
     musical: hadestown,
     featured: "André De Shields, Reeve Carney, Eva Noblezada",
 actor: ads,
-    image: "https://m.media-amazon.com/images/I/714o8djuCzL._SL1200_.jpg",
-    music_video: "https://www.youtube.com/watch?v=HgAJn8gVGgQ&list=PLcZhIiPR2E4UFVQ1tSFDpiPpd1V0v277M&index=38&ab_channel=AfraHines-Topic"
+    image: "https://m.media-amazon.com/images/I/714o8djuCzL._SL1200_.jpg"
         },
 {
 title: "Road to Hell (Reprise)",
@@ -2817,8 +2520,7 @@ title: "Road to Hell (Reprise)",
     musical: hadestown,
     featured: "André De Shields, Reeve Carney, Eva Noblezadam, Hadestown Original Broadway Company",
 actor: ads,
-    image: "https://m.media-amazon.com/images/I/714o8djuCzL._SL1200_.jpg",
-    music_video: "https://www.youtube.com/watch?v=1oaMRk56tzo&list=PLcZhIiPR2E4UFVQ1tSFDpiPpd1V0v277M&index=39&ab_channel=Andr%C3%A9DeShields-Topic"
+    image: "https://m.media-amazon.com/images/I/714o8djuCzL._SL1200_.jpg"
         },
 {
 title: "We Raise Our Cups",
@@ -2826,8 +2528,7 @@ title: "We Raise Our Cups",
     musical: hadestown,
     featured: "André De Shields, Reeve Carney, Eva Noblezada, Hadestown Original Broadway Company",
 actor: ads,
-    image: "https://m.media-amazon.com/images/I/714o8djuCzL._SL1200_.jpg",
-    music_video: "https://www.youtube.com/watch?v=SHNe-S_UVs8&list=PLcZhIiPR2E4UFVQ1tSFDpiPpd1V0v277M&index=40&ab_channel=EvaNoblezada-Topic"
+    image: "https://m.media-amazon.com/images/I/714o8djuCzL._SL1200_.jpg"
         },
 {
 title: "Nutbush City Limits",
@@ -2835,8 +2536,7 @@ title: "Nutbush City Limits",
     musical: tina,
     featured: "Natey Jones, Claudia Elie, Tina: The Tina Turner Musical Original London Company",
 actor: nkeki,
-    image: "https://upload.wikimedia.org/wikipedia/en/7/70/Tina_musical_poster.png",
-    music_video: "https://www.youtube.com/watch?v=lCV5CRi3BRA&list=PL1ERvMunLuj6JoiDGkvcqbXw3NKQr8_qo&index=2&ab_channel=TinaBroadway"
+    image: "https://upload.wikimedia.org/wikipedia/en/7/70/Tina_musical_poster.png"
         },
 {
 title: "Don’t Turn Around",
@@ -2844,8 +2544,7 @@ title: "Don’t Turn Around",
     musical: tina,
     featured: "Natey Jones, Claudia Elie, Tina: The Tina Turner Musical Original London Company",
 actor:  nkeki,
-    image: "https://upload.wikimedia.org/wikipedia/en/7/70/Tina_musical_poster.png",
-    music_video: "https://www.youtube.com/watch?v=YMU3v0sJy0c&list=PL1ERvMunLuj6JoiDGkvcqbXw3NKQr8_qo&index=3&ab_channel=TinaBroadway"
+    image: "https://upload.wikimedia.org/wikipedia/en/7/70/Tina_musical_poster.png"
         },
 {
 title: "Shake A Tailfeather",
@@ -2853,8 +2552,7 @@ title: "Shake A Tailfeather",
     musical: tina,
     featured: "Natey Jones, Claudia Elie, Tina: The Tina Turner Musical Original London Company",
 actor:  nkeki,
-    image: "https://upload.wikimedia.org/wikipedia/en/7/70/Tina_musical_poster.png",
-    music_video: "https://www.youtube.com/watch?v=w5gWjaXrdGw&list=PL1ERvMunLuj6JoiDGkvcqbXw3NKQr8_qo&index=4&ab_channel=TinaBroadway"
+    image: "https://upload.wikimedia.org/wikipedia/en/7/70/Tina_musical_poster.png"
         },
 {
 title: "The Hunter",
@@ -2862,8 +2560,7 @@ title: "The Hunter",
     musical: tina,
     featured: "Kobna Holdbrook-Smith, Adrienne Warren, Tina: The Tina Turner Musical Original London Company",
 actor:  nkeki,
-    image: "https://upload.wikimedia.org/wikipedia/en/7/70/Tina_musical_poster.png",
-    music_video: "https://www.youtube.com/watch?v=A5H_stKtYj0&list=PL1ERvMunLuj6JoiDGkvcqbXw3NKQr8_qo&index=5&ab_channel=TinaBroadway"
+    image: "https://upload.wikimedia.org/wikipedia/en/7/70/Tina_musical_poster.png"
         },
 {
 title: "Matchbox",
@@ -2871,8 +2568,7 @@ title: "Matchbox",
     musical: tina,
     featured: "Kobna Holdbrook-Smith, Adrienne Warren, Tina: The Tina Turner Musical Original London Company",
 actor:  nkeki,
-    image: "https://upload.wikimedia.org/wikipedia/en/7/70/Tina_musical_poster.png",
-    music_video: "https://www.youtube.com/watch?v=q7q_Zee1PhI&list=PL1ERvMunLuj6JoiDGkvcqbXw3NKQr8_qo&index=6&ab_channel=TinaBroadway"
+    image: "https://upload.wikimedia.org/wikipedia/en/7/70/Tina_musical_poster.png"
         },
 {
 title: "It’s Gonna Work Out Fine",
@@ -2880,8 +2576,7 @@ title: "It’s Gonna Work Out Fine",
     musical: tina,
     featured: "Madeline Appiah, Kobna Holdbrook-Smith, Adrienne Warren, Tina: The Tina Turner Musical Original London Company",
 actor:  nkeki,
-    image: "https://upload.wikimedia.org/wikipedia/en/7/70/Tina_musical_poster.png",
-    music_video: "https://www.youtube.com/watch?v=MNNI3TY3b4s&list=PL1ERvMunLuj6JoiDGkvcqbXw3NKQr8_qo&index=7&ab_channel=TinaBroadway"
+    image: "https://upload.wikimedia.org/wikipedia/en/7/70/Tina_musical_poster.png"
         },
 {
 title: "A Fool in Love",
@@ -2889,8 +2584,7 @@ title: "A Fool in Love",
     musical: tina,
     featured: "Adrienne Warren, Pérola Congo, Sia Kiwa, Tsemaye Bob-Egbe, Tina: The Tina Turner Musical Original London Company",
 actor:  nkeki,
-    image: "https://upload.wikimedia.org/wikipedia/en/7/70/Tina_musical_poster.png",
-    music_video: "https://www.youtube.com/watch?v=Q4ibgCVncw4&list=PL1ERvMunLuj6JoiDGkvcqbXw3NKQr8_qo&index=8&ab_channel=TinaBroadway"
+    image: "https://upload.wikimedia.org/wikipedia/en/7/70/Tina_musical_poster.png"
         },
 {
 title: "Let’s Stay Together",
@@ -2898,8 +2592,7 @@ title: "Let’s Stay Together",
     musical: tina,
     featured: "Natey Jones, Adrienne Warren Tina: The Tina Turner Musical Original London Company",
 actor:  nkeki,
-    image: "https://upload.wikimedia.org/wikipedia/en/7/70/Tina_musical_poster.png",
-    music_video: "https://www.youtube.com/watch?v=Csx3hN3WBcM&list=PL1ERvMunLuj6JoiDGkvcqbXw3NKQr8_qo&index=9&ab_channel=TinaBroadway"
+    image: "https://upload.wikimedia.org/wikipedia/en/7/70/Tina_musical_poster.png"
         },
 {
 title: "Better Be Good To Me",
@@ -2907,8 +2600,7 @@ title: "Better Be Good To Me",
     musical: tina,
     featured: "Adrienne Warren, Tina: The Tina Turner Musical Original London Company",
 actor:  nkeki,
-    image: "https://upload.wikimedia.org/wikipedia/en/7/70/Tina_musical_poster.png",
-    music_video: "https://www.youtube.com/watch?v=GBLIB7jsC5M&list=PL1ERvMunLuj6JoiDGkvcqbXw3NKQr8_qo&index=10&ab_channel=TinaBroadway"
+    image: "https://upload.wikimedia.org/wikipedia/en/7/70/Tina_musical_poster.png"
         },
 {
 title: "Higher",
@@ -2916,8 +2608,7 @@ title: "Higher",
     musical: tina,
     featured: "Adrienne Warren, Tina: The Tina Turner Musical Original London Company",
 actor:  nkeki,
-    image: "https://upload.wikimedia.org/wikipedia/en/7/70/Tina_musical_poster.png",
-    music_video: "https://www.youtube.com/watch?v=yQaJM_4z-vE&list=PL1ERvMunLuj6JoiDGkvcqbXw3NKQr8_qo&index=11&ab_channel=TinaBroadway"
+    image: "https://upload.wikimedia.org/wikipedia/en/7/70/Tina_musical_poster.png"
         },
 {
 title: "River Deep",
@@ -2925,8 +2616,7 @@ title: "River Deep",
     musical: tina,
     featured: "Adrienne Warren, Tina: The Tina Turner Musical Original London Company",
 actor:  nkeki,
-    image: "https://upload.wikimedia.org/wikipedia/en/7/70/Tina_musical_poster.png",
-    music_video: "https://www.youtube.com/watch?v=xR-KAfTxtHI&list=PL1ERvMunLuj6JoiDGkvcqbXw3NKQr8_qo&index=12&ab_channel=TinaBroadway"
+    image: "https://upload.wikimedia.org/wikipedia/en/7/70/Tina_musical_poster.png"
         },
 {
 title: "Be Tender With me Baby",
@@ -2934,8 +2624,7 @@ title: "Be Tender With me Baby",
     musical: tina,
     featured: "Kobna Holdbrook-Smith, Adrienne Warren, Tina: The Tina Turner Musical Original London Company",
 actor:  nkeki,
-    image: "https://upload.wikimedia.org/wikipedia/en/7/70/Tina_musical_poster.png",
-    music_video: "https://www.youtube.com/watch?v=RTHWUUqafmI&list=PL1ERvMunLuj6JoiDGkvcqbXw3NKQr8_qo&index=13&ab_channel=TinaBroadway"
+    image: "https://upload.wikimedia.org/wikipedia/en/7/70/Tina_musical_poster.png"
         },
 {
 title: "Proud Mary",
@@ -2943,8 +2632,7 @@ title: "Proud Mary",
     musical: tina,
     featured: "Kobna Holdbrook-Smith, Adrienne Warren, Tina: The Tina Turner Musical Original London Company",
 actor:  nkeki,
-    image: "https://upload.wikimedia.org/wikipedia/en/7/70/Tina_musical_poster.png",
-    music_video: "https://www.youtube.com/watch?v=gvxVdsJB6G8&list=PL1ERvMunLuj6JoiDGkvcqbXw3NKQr8_qo&index=14&ab_channel=TinaBroadway"
+    image: "https://upload.wikimedia.org/wikipedia/en/7/70/Tina_musical_poster.png"
         },
 {
 title: "I Don’t Wanna Fight",
@@ -2952,8 +2640,7 @@ title: "I Don’t Wanna Fight",
     musical: tina,
     featured: "Adrienne Warren, Tina: The Tina Turner Musical Original London Company",
 actor:  nkeki,
-    image: "https://upload.wikimedia.org/wikipedia/en/7/70/Tina_musical_poster.png",
-    music_video: "https://www.youtube.com/watch?v=DjmfaNlnpm8&list=PL1ERvMunLuj6JoiDGkvcqbXw3NKQr8_qo&index=15&ab_channel=TinaBroadway"
+    image: "https://upload.wikimedia.org/wikipedia/en/7/70/Tina_musical_poster.png"
         },
 {
 title: "Private Dancer",
@@ -2961,8 +2648,7 @@ title: "Private Dancer",
     musical: tina,
     featured: "Kobna Holdbrook-Smith, Adrienne Warren, Tina: The Tina Turner Musical Original London Company",
 actor:  nkeki,
-    image: "https://upload.wikimedia.org/wikipedia/en/7/70/Tina_musical_poster.png",
-    music_video: "https://www.youtube.com/watch?v=xaXubPO-kq8&list=PL1ERvMunLuj6JoiDGkvcqbXw3NKQr8_qo&index=16&ab_channel=TinaBroadway"
+    image: "https://upload.wikimedia.org/wikipedia/en/7/70/Tina_musical_poster.png"
         },
 {
 title: "Disco Inferno",
@@ -2970,8 +2656,7 @@ title: "Disco Inferno",
     musical: tina,
     featured: "Adrienne Warren, Tina: The Tina Turner Musical Original London Company",
 actor:  nkeki,
-    image: "https://upload.wikimedia.org/wikipedia/en/7/70/Tina_musical_poster.png",
-    music_video: "https://www.youtube.com/watch?v=JNZLwQ3U2VA&list=PL1ERvMunLuj6JoiDGkvcqbXw3NKQr8_qo&index=17&ab_channel=TinaBroadway"
+    image: "https://upload.wikimedia.org/wikipedia/en/7/70/Tina_musical_poster.png"
         },
 {
 title: "Open Arms",
@@ -2979,8 +2664,7 @@ title: "Open Arms",
     musical: tina,
     featured: "Francesca Jackson, Adrienne Warren, Tina: The Tina Turner Musical Original London Company",
 actor:  nkeki,
-    image: "https://upload.wikimedia.org/wikipedia/en/7/70/Tina_musical_poster.png",
-    music_video: "https://www.youtube.com/watch?v=5YL8RrCTmdk&list=PL1ERvMunLuj6JoiDGkvcqbXw3NKQr8_qo&index=18&ab_channel=TinaBroadway"
+    image: "https://upload.wikimedia.org/wikipedia/en/7/70/Tina_musical_poster.png"
         },
 {
 title: "I Can’t Stand the Rain",
@@ -2988,8 +2672,7 @@ title: "I Can’t Stand the Rain",
     musical: tina,
     featured: "Francesca Jackson, Adrienne Warren, Tina: The Tina Turner Musical Original London Company",
 actor:  nkeki,
-    image: "https://upload.wikimedia.org/wikipedia/en/7/70/Tina_musical_poster.png",
-    music_video: "https://www.youtube.com/watch?v=eqfirxGfSZ0&list=PL1ERvMunLuj6JoiDGkvcqbXw3NKQr8_qo&index=19&ab_channel=TinaBroadway"
+    image: "https://upload.wikimedia.org/wikipedia/en/7/70/Tina_musical_poster.png"
         },
 {
 title: "Tonight",
@@ -2997,8 +2680,7 @@ title: "Tonight",
     musical: tina,
     featured: "Claudia Elie, Lorna Gayle, Adrienne Warren, Tina: The Tina Turner Musical Original London Company",
 actor:  nkeki,
-    image: "https://upload.wikimedia.org/wikipedia/en/7/70/Tina_musical_poster.png",
-    music_video: "https://www.youtube.com/watch?v=6llP5pZAdoE&list=PL1ERvMunLuj6JoiDGkvcqbXw3NKQr8_qo&index=20&ab_channel=TinaBroadway"
+    image: "https://upload.wikimedia.org/wikipedia/en/7/70/Tina_musical_poster.png"
         },
 {
 title: "What’s Love Got to Do with It",
@@ -3006,8 +2688,7 @@ title: "What’s Love Got to Do with It",
     musical: tina,
     featured: "Kayleigh McKnight, Pérola Congo, Baker Mukasa, Adrienne Warren, Tina: The Tina Turner Musical Original London Company",
 actor:  nkeki,
-    image: "https://upload.wikimedia.org/wikipedia/en/7/70/Tina_musical_poster.png",
-    music_video: "https://www.youtube.com/watch?v=9IR_yxCViNM&list=PL1ERvMunLuj6JoiDGkvcqbXw3NKQr8_qo&index=21&ab_channel=TinaBroadway"
+    image: "https://upload.wikimedia.org/wikipedia/en/7/70/Tina_musical_poster.png"
         },
 {
 title: "We Don’t Need Another Hero",
@@ -3015,8 +2696,7 @@ title: "We Don’t Need Another Hero",
     musical: tina,
     featured: "Adrienne Warren, Tina: The Tina Turner Musical Original London Company",
 actor:  nkeki,
-    image: "https://upload.wikimedia.org/wikipedia/en/7/70/Tina_musical_poster.png",
-    music_video: "https://www.youtube.com/watch?v=E4mq0ck7R8M&list=PL1ERvMunLuj6JoiDGkvcqbXw3NKQr8_qo&index=22&ab_channel=TinaBroadway"
+    image: "https://upload.wikimedia.org/wikipedia/en/7/70/Tina_musical_poster.png"
         },
 {
 title: "Simply the Best",
@@ -3024,8 +2704,7 @@ title: "Simply the Best",
     musical: tina,
     featured: "Adrienne Warren, Tina: The Tina Turner Musical Original London Company",
 actor:  nkeki,
-    image: "https://upload.wikimedia.org/wikipedia/en/7/70/Tina_musical_poster.png",
-    music_video: "https://www.youtube.com/watch?v=WiXrtK_MSTw&list=PL1ERvMunLuj6JoiDGkvcqbXw3NKQr8_qo&index=23&ab_channel=TinaBroadway"
+    image: "https://upload.wikimedia.org/wikipedia/en/7/70/Tina_musical_poster.png"
         },
 {
 title: "Finale",
@@ -3033,197 +2712,16 @@ title: "Finale",
     musical: tina,
     featured: "Tina: The Tina Turner Musical Original London Company",
 actor: nkeki,
-    image: "https://upload.wikimedia.org/wikipedia/en/7/70/Tina_musical_poster.png",
-    music_video: "https://www.youtube.com/watch?v=U7IRASfGFNw&list=PL1ERvMunLuj6JoiDGkvcqbXw3NKQr8_qo&index=24&ab_channel=TinaBroadway"
+    image: "https://upload.wikimedia.org/wikipedia/en/7/70/Tina_musical_poster.png"
         },
-{
-title: "Circle of Life",
-    year: 1997,
-    musical: lion_king,
-    featured: "Tsidii Le Loka, The Lion King Original Broadway Cast",
-actor: remy,
-    image: "https://www.musickorea.com/storage/woo680821EN/www/prefix/product/2017/05/O/product.10570.148601968432083.JPG",
-    music_video: "https://www.youtube.com/watch?v=5oAe_jy5BUg&list=PLB8184E2908C5916C&ab_channel=TheSonicMaster23"
-        },
-{
-title: "Grassland Chant",
-    year: 1997,
-    musical: lion_king,
-    featured: "The Lion King Original Broadway Cast",
-actor: remy,
-    image: "https://www.musickorea.com/storage/woo680821EN/www/prefix/product/2017/05/O/product.10570.148601968432083.JPG",
-    music_video: "https://www.youtube.com/watch?v=Z0yWJAEgo0g&list=PLB8184E2908C5916C&index=2&ab_channel=TheSonicMaster23"
-        },
-{
-title: "The Morning Report",
-    year: 1997,
-    musical: lion_king,
-    featured: "Geoff Hoyle, The Lion King Original Broadway Cast",
-actor: remy,
-    image: "https://www.musickorea.com/storage/woo680821EN/www/prefix/product/2017/05/O/product.10570.148601968432083.JPG",
-    music_video: "https://www.youtube.com/watch?v=gsJYQcaYPgw&list=PLB8184E2908C5916C&index=3&ab_channel=TheSonicMaster23"
-        },
-{
-title: "The Lioness Hunt",
-    year: 1997,
-    musical: lion_king,
-    featured: "Kajuana Shuford, The Lion King Original Broadway Cast",
-actor: remy,
-    image: "https://www.musickorea.com/storage/woo680821EN/www/prefix/product/2017/05/O/product.10570.148601968432083.JPG",
-    music_video: "https://www.youtube.com/watch?v=5-_NiZwyD-0&list=PLB8184E2908C5916C&index=4&ab_channel=TheSonicMaster23"
-        },
-{
-title: "I Just Can’t Wait to Be King",
-    year: 1997,
-    musical: lion_king,
-    featured: "Scott Irby-Ranniar, The Lion King Original Broadway Cast",
-actor: remy,
-    image: "https://www.musickorea.com/storage/woo680821EN/www/prefix/product/2017/05/O/product.10570.148601968432083.JPG",
-    music_video: "https://www.youtube.com/watch?v=RdZTLR4pvBY&list=PLB8184E2908C5916C&index=5&ab_channel=TheSonicMaster23"
-        },
-{
-title: "Chow Down",
-    year: 1997,
-    musical: lion_king,
-    featured: "Scott Irby-Ranniar, Kevin Cahoon, Tracy Nicole Chapman, Stanley Wayne Mathis, The Lion King Original Broadway Cast",
-actor: remy,
-    image: "https://www.musickorea.com/storage/woo680821EN/www/prefix/product/2017/05/O/product.10570.148601968432083.JPG",
-    music_video: "https://www.youtube.com/watch?v=6NSHzZQ0gPE&list=PLB8184E2908C5916C&index=6&ab_channel=TheSonicMaster23"
-        },
-{
-title: "They Live in You",
-    year: 1997,
-    musical: lion_king,
-    featured: "Scott Irby-Ranniar, Samuel E. Wright, The Lion King Original Broadway Cast",
-actor: remy,
-    image: "https://www.musickorea.com/storage/woo680821EN/www/prefix/product/2017/05/O/product.10570.148601968432083.JPG",
-    music_video: "https://www.youtube.com/watch?v=DChx_95_AmM&list=PLB8184E2908C5916C&index=7&ab_channel=TheSonicMaster23"
-        },
-{
-title: "Be Prepared",
-    year: 1997,
-    musical: lion_king,
-    featured: "John Vickery, The Lion King Original Broadway Cast",
-actor: remy,
-    image: "https://www.musickorea.com/storage/woo680821EN/www/prefix/product/2017/05/O/product.10570.148601968432083.JPG",
-    music_video: "https://www.youtube.com/watch?v=FKWOB8EoRBQ&list=PLB8184E2908C5916C&index=8&ab_channel=TheSonicMaster23"
-        },
-{
-title: "The Stampede",
-    year: 1997,
-    musical: lion_king,
-    featured: "The Lion King Original Broadway Cast",
-actor: remy,
-    image: "https://www.musickorea.com/storage/woo680821EN/www/prefix/product/2017/05/O/product.10570.148601968432083.JPG",
-    music_video: "https://www.youtube.com/watch?v=ASB7Zhmlhj0&list=PLB8184E2908C5916C&index=9&ab_channel=TheSonicMaster23"
-        },
-{
-title: "Rafiki Mourns",
-    year: 1997,
-    musical: lion_king,
-    featured: "Tsidii Le Loka, The Lion King Original Broadway Cast",
-actor: remy,
-    image: "https://www.musickorea.com/storage/woo680821EN/www/prefix/product/2017/05/O/product.10570.148601968432083.JPG",
-    music_video: "https://www.youtube.com/watch?v=-245r-u1o5M&list=PLB8184E2908C5916C&index=10&ab_channel=TheSonicMaster23"
-        },
-{
-title: "Hakuna Matata",
-    year: 1997,
-    musical: lion_king,
-    featured: "Jason Raize, Max Casella, Tom Alan Robbins, The Lion King Original Broadway Cast",
-actor: remy,
-    image: "https://www.musickorea.com/storage/woo680821EN/www/prefix/product/2017/05/O/product.10570.148601968432083.JPG",
-    music_video: "https://www.youtube.com/watch?v=_xUVa5u2gJQ&list=PLB8184E2908C5916C&index=11&ab_channel=TheSonicMaster23"
-        },
-{
-title: "One by One",
-    year: 1997,
-    musical: lion_king,
-    featured: "Jason Raize, The Lion King Original Broadway Cast",
-actor: remy,
-    image: "https://www.musickorea.com/storage/woo680821EN/www/prefix/product/2017/05/O/product.10570.148601968432083.JPG",
-    music_video: "https://www.youtube.com/watch?v=nN99Bg1OwAk&list=PLB8184E2908C5916C&index=12&ab_channel=TheSonicMaster23"
-        },
-{
-title: "The Madness of Scar",
-    year: 1997,
-    musical: lion_king,
-    featured: "John Vickery, The Lion King Original Broadway Cast",
-actor: remy,
-    image: "https://www.musickorea.com/storage/woo680821EN/www/prefix/product/2017/05/O/product.10570.148601968432083.JPG",
-    music_video: "https://www.youtube.com/watch?v=3PfXwHEYdlE&list=PLB8184E2908C5916C&index=13&ab_channel=TheSonicMaster23"
-        },
-{
-title: "Shadowland",
-    year: 1997,
-    musical: lion_king,
-    featured: "Heather Headley, The Lion King Original Broadway Cast",
-actor: khwezi,
-    image: "https://www.musickorea.com/storage/woo680821EN/www/prefix/product/2017/05/O/product.10570.148601968432083.JPG",
-    music_video: "https://www.youtube.com/watch?v=BX2e270rmeM&list=PLB8184E2908C5916C&index=14&ab_channel=TheSonicMaster23"
-        },
-{
-title: "The Lion Sleeps Tonight",
-    year: 1997,
-    musical: lion_king,
-    featured: "Max Casella, Tom Alan Robbins, The Lion King Original Broadway Cast",
-actor: remy,
-    image: "https://www.musickorea.com/storage/woo680821EN/www/prefix/product/2017/05/O/product.10570.148601968432083.JPG",
-    music_video: "https://www.youtube.com/watch?v=Tb87WgRrnH8&list=PLB8184E2908C5916C&index=15&ab_channel=TheSonicMaster23"
-        },
-{
-title: "Endless Night",
-    year: 1997,
-    musical: lion_king,
-    featured: "Jason Raize, The Lion King Original Broadway Cast",
-actor: remy,
-    image: "https://www.musickorea.com/storage/woo680821EN/www/prefix/product/2017/05/O/product.10570.148601968432083.JPG",
-    music_video: "https://www.youtube.com/watch?v=pLaChLkIY_g&list=PLB8184E2908C5916C&index=16&ab_channel=TheSonicMaster23"
-        },
-{
-title: "Can You Feel the Love Tonight",
-    year: 1997,
-    musical: lion_king,
-    featured: "Jason Raize, Heather Headley, Max Casella, Tom Alan Robbins, The Lion King Original Broadway Cast",
-actor: khwezi,
-    image: "https://www.musickorea.com/storage/woo680821EN/www/prefix/product/2017/05/O/product.10570.148601968432083.JPG",
-    music_video: "https://www.youtube.com/watch?v=OB1v4Vq1Oyw&list=PLB8184E2908C5916C&index=17&ab_channel=TheSonicMaster23"
-        },
-{
-title: "He Lives in You",
-    year: 1997,
-    musical: lion_king,
-    featured: "Tsidii Le Loka, The Lion King Original Broadway Cast",
-actor: remy,
-    image: "https://www.musickorea.com/storage/woo680821EN/www/prefix/product/2017/05/O/product.10570.148601968432083.JPG",
-    music_video: "https://www.youtube.com/watch?v=1GqyE7GiRJ4&list=PLB8184E2908C5916C&index=18&ab_channel=TheSonicMaster23"
-        },
-{
-title: "Simba Confronts Scar",
-    year: 1997,
-    musical: lion_king,
-    featured: "The Lion King Original Broadway Cast",
-actor: remy,
-    image: "https://www.musickorea.com/storage/woo680821EN/www/prefix/product/2017/05/O/product.10570.148601968432083.JPG",
-    music_video: "https://www.youtube.com/watch?v=QkD4mp4VnMo&list=PLB8184E2908C5916C&index=19&ab_channel=TheSonicMaster23"
-        },
-{
-title: "King of Pride Rock/ Circle of Life (Reprise)",
-    year: 1997,
-    musical: lion_king,
-    featured: "Tsidii Le Loka, The Lion King Original Broadway Cast",
-actor: remy,
-    image: "https://www.musickorea.com/storage/woo680821EN/www/prefix/product/2017/05/O/product.10570.148601968432083.JPG",
-    music_video: "https://www.youtube.com/watch?v=VtcXezrfgH0&list=PLB8184E2908C5916C&index=20&ab_channel=TheSonicMaster23"
-        },
+
 {
     title: "Intermission Song",
     year: 2019,
     musical: asl,
     featured: "Larry Owens, L Morgan Lee, James Jackson Jr., Jason Veasey, Antwayn Hopper, John-Michael Lyles, John-Andrew Morrison",
 actor: spivey,
-    image: "https://upload.wikimedia.org/wikipedia/en/a/a0/A_Strange_Loop_poster.jpeg",
-    music_video: "https://www.youtube.com/watch?v=eL5mrTLuQMM"
+    image: "https://pbs.twimg.com/profile_images/1494003954501308417/n0Bw9rq9_400x400.jpg"
         },
 {
     title: "Today",
@@ -3231,8 +2729,7 @@ actor: spivey,
     musical: asl,
     featured: "Larry Owens, L Morgan Lee, James Jackson Jr., Jason Veasey, Antwayn Hopper, John-Michael Lyles, John-Andrew Morrison",
 actor: spivey,
-    image: "https://upload.wikimedia.org/wikipedia/en/a/a0/A_Strange_Loop_poster.jpeg",
-    music_video: "https://www.youtube.com/watch?v=2-5W1eQc19A"
+    image: "https://pbs.twimg.com/profile_images/1494003954501308417/n0Bw9rq9_400x400.jpg",     music_video: "https://www.youtube.com/watch?v=Y9pgnWV29xA"
         },
 {
     title: "We Wanna Know",
@@ -3240,8 +2737,7 @@ actor: spivey,
     musical: asl,
     featured: "Larry Owens, L Morgan Lee, James Jackson Jr., Jason Veasey, Antwayn Hopper, John-Michael Lyles, John-Andrew Morrison",
 actor: spivey,
-    image: "https://upload.wikimedia.org/wikipedia/en/a/a0/A_Strange_Loop_poster.jpeg",
-    music_video: "https://www.youtube.com/watch?v=u2NR7qZEZw8"
+    image: "https://pbs.twimg.com/profile_images/1494003954501308417/n0Bw9rq9_400x400.jpg"
         },
 {
     title: "Inner White Girl",
@@ -3249,8 +2745,7 @@ actor: spivey,
     musical: asl,
     featured: "Larry Owens, L Morgan Lee, James Jackson Jr., Jason Veasey, Antwayn Hopper, John-Michael Lyles, John-Andrew Morrison",
 actor: spivey,
-    image: "https://upload.wikimedia.org/wikipedia/en/a/a0/A_Strange_Loop_poster.jpeg",
-    music_video: "https://www.youtube.com/watch?v=dkCiZ_wY054"
+    image: "https://pbs.twimg.com/profile_images/1494003954501308417/n0Bw9rq9_400x400.jpg"
         },
 {
     title: "Didn’t Want Nothin",
@@ -3258,8 +2753,7 @@ actor: spivey,
     musical: asl,
     featured: "Larry Owens, L Morgan Lee, James Jackson Jr., Jason Veasey, Antwayn Hopper, John-Michael Lyles, John-Andrew Morrison",
 actor: spivey,
-    image: "https://upload.wikimedia.org/wikipedia/en/a/a0/A_Strange_Loop_poster.jpeg",
-    music_video: "https://www.youtube.com/watch?v=7JqswjHHv4k"
+    image: "https://pbs.twimg.com/profile_images/1494003954501308417/n0Bw9rq9_400x400.jpg"
         },
 {
     title: "Exile in Gayville",
@@ -3267,8 +2761,7 @@ actor: spivey,
     musical: asl,
     featured: "Larry Owens, L Morgan Lee, James Jackson Jr., Jason Veasey, Antwayn Hopper, John-Michael Lyles, John-Andrew Morrison",
 actor: spivey,
-    image: "https://upload.wikimedia.org/wikipedia/en/a/a0/A_Strange_Loop_poster.jpeg",
-    music_video: "https://www.youtube.com/watch?v=nh3vQigIja4"
+    image: "https://pbs.twimg.com/profile_images/1494003954501308417/n0Bw9rq9_400x400.jpg"
         },
 {
     title: "Second Wave",
@@ -3276,8 +2769,7 @@ actor: spivey,
     musical: asl,
     featured: "Larry Owens",
 actor: spivey,
-    image: "https://upload.wikimedia.org/wikipedia/en/a/a0/A_Strange_Loop_poster.jpeg",
-    music_video: "https://www.youtube.com/watch?v=pDwRElTbaAg"
+    image: "https://pbs.twimg.com/profile_images/1494003954501308417/n0Bw9rq9_400x400.jpg"
         },
 {
     title: "Tyler Perry Writes Real Life",
@@ -3285,8 +2777,7 @@ actor: spivey,
     musical: asl,
     featured: "Larry Owens, L Morgan Lee, James Jackson Jr., Jason Veasey, Antwayn Hopper, John-Michael Lyles, John-Andrew Morrison",
 actor: spivey,
-    image: "https://upload.wikimedia.org/wikipedia/en/a/a0/A_Strange_Loop_poster.jpeg",
-    music_video: "https://www.youtube.com/watch?v=aDTsN-8PmZ8"
+    image: "https://pbs.twimg.com/profile_images/1494003954501308417/n0Bw9rq9_400x400.jpg"
         },
 {
     title: "Writing A Gospel Play",
@@ -3294,8 +2785,7 @@ actor: spivey,
     musical: asl,
     featured: "Larry Owens, L Morgan Lee, James Jackson Jr., Jason Veasey, Antwayn Hopper, John-Michael Lyles, John-Andrew Morrison",
 actor: spivey,
-    image: "https://upload.wikimedia.org/wikipedia/en/a/a0/A_Strange_Loop_poster.jpeg",
-    music_video: "https://www.youtube.com/watch?v=6fbQU2KDj9Q"
+    image: "https://pbs.twimg.com/profile_images/1494003954501308417/n0Bw9rq9_400x400.jpg"
         },
 {
     title: "A Sympathetic Ear",
@@ -3303,8 +2793,7 @@ actor: spivey,
     musical: asl,
     featured: "L Morgan Lee",
 actor: lml,
-    image: "https://upload.wikimedia.org/wikipedia/en/a/a0/A_Strange_Loop_poster.jpeg",
-    music_video: "https://www.youtube.com/watch?v=wvOPo4TF0XE"
+    image: "https://pbs.twimg.com/profile_images/1494003954501308417/n0Bw9rq9_400x400.jpg"
         },
 {
     title: "Inwood Daddy",
@@ -3312,8 +2801,7 @@ actor: lml,
     musical: asl,
     featured: "Larry Owens, L Morgan Lee, James Jackson Jr., Jason Veasey, Antwayn Hopper, John-Michael Lyles, John-Andrew Morrison",
 actor: spivey,
-    image: "https://upload.wikimedia.org/wikipedia/en/a/a0/A_Strange_Loop_poster.jpeg",
-    music_video: "https://www.youtube.com/watch?v=ejwTDVefvq0"
+    image: "https://pbs.twimg.com/profile_images/1494003954501308417/n0Bw9rq9_400x400.jpg"
         },
 {
     title: "Boundaries",
@@ -3321,8 +2809,7 @@ actor: spivey,
     musical: asl,
     featured: "Larry Owens",
 actor: spivey,
-    image: "https://upload.wikimedia.org/wikipedia/en/a/a0/A_Strange_Loop_poster.jpeg",
-    music_video: "https://www.youtube.com/watch?v=hp2kT9dIOhQ"
+    image: "https://pbs.twimg.com/profile_images/1494003954501308417/n0Bw9rq9_400x400.jpg"
         },
 {
     title: "Periodically",
@@ -3330,8 +2817,7 @@ actor: spivey,
     musical: asl,
     featured: "Larry Owens, John-Andrew Morrison",
 actor: spivey,
-    image: "https://upload.wikimedia.org/wikipedia/en/a/a0/A_Strange_Loop_poster.jpeg",
-    music_video: "https://www.youtube.com/watch?v=HIy7bOIHcVI"
+    image: "https://pbs.twimg.com/profile_images/1494003954501308417/n0Bw9rq9_400x400.jpg"
         },
 {
     title: "Didn’t Want Nothin Reprise",
@@ -3339,8 +2825,7 @@ actor: spivey,
     musical: asl,
     featured: "Jason Veasey",
 actor: spivey,
-    image: "https://upload.wikimedia.org/wikipedia/en/a/a0/A_Strange_Loop_poster.jpeg",
-    music_video: "https://www.youtube.com/watch?v=FVeG-S3KRA0&list=PLTiObFOxfef39IPtWy06EDxY3vMXLBfvZ&index=10"
+    image: "https://pbs.twimg.com/profile_images/1494003954501308417/n0Bw9rq9_400x400.jpg"
         },
 {
     title: "Precious Little Dream / AIDS Is God's Punishment",
@@ -3348,8 +2833,7 @@ actor: spivey,
     musical: asl,
     featured: "Larry Owens, L Morgan Lee, James Jackson Jr., Jason Veasey, Antwayn Hopper, John-Michael Lyles, John-Andrew Morrison",
 actor: spivey,
-    image: "https://upload.wikimedia.org/wikipedia/en/a/a0/A_Strange_Loop_poster.jpeg",
-    music_video: "https://www.youtube.com/watch?v=_ZZt3vxzZKs"
+    image: "https://pbs.twimg.com/profile_images/1494003954501308417/n0Bw9rq9_400x400.jpg"
         },
 {
     title: "Memory Song",
@@ -3357,8 +2841,7 @@ actor: spivey,
     musical: asl,
     featured: "Larry Owens, L Morgan Lee, James Jackson Jr., Jason Veasey, Antwayn Hopper, John-Michael Lyles, John-Andrew Morrison",
 actor: spivey,
-    image: "https://upload.wikimedia.org/wikipedia/en/a/a0/A_Strange_Loop_poster.jpeg",
-    music_video: "https://www.youtube.com/watch?v=VpS_KTB7HZs"
+    image: "https://pbs.twimg.com/profile_images/1494003954501308417/n0Bw9rq9_400x400.jpg"
         },
 {
     title: "A Strange Loop",
@@ -3366,8 +2849,7 @@ actor: spivey,
     musical: asl,
     featured: "Larry Owens, L Morgan Lee, James Jackson Jr., Jason Veasey, Antwayn Hopper, John-Michael Lyles, John-Andrew Morrison",
 actor: spivey,
-    image: "https://upload.wikimedia.org/wikipedia/en/a/a0/A_Strange_Loop_poster.jpeg",
-    music_video: "https://www.youtube.com/watch?v=Y9pgnWV29xA"
+    image: "https://pbs.twimg.com/profile_images/1494003954501308417/n0Bw9rq9_400x400.jpg"
         },
 {
     title: "Anybody Have a Map",
@@ -3375,7 +2857,7 @@ actor: spivey,
     musical: deh,
     featured: "Rachel Bay Jones, Jennifer Laura Thompson",
 actor: platt,
-    image: "https://upload.wikimedia.org/wikipedia/en/9/91/DearEvanposter.png",
+    image: "https://m.media-amazon.com/images/I/819TerrbN9L.jpg",
     music_video: "https://www.youtube.com/watch?v=6f1-QF9jvBM"
         },
 {
@@ -3384,8 +2866,7 @@ actor: platt,
     musical: deh,
     featured: "Ben Platt",
 actor: platt,
-    image: "https://upload.wikimedia.org/wikipedia/en/9/91/DearEvanposter.png",
-    music_video: "https://www.youtube.com/watch?v=kfnMvo87fQU"
+    image: "https://m.media-amazon.com/images/I/819TerrbN9L.jpg"
         },
 {
     title: "For Forever",
@@ -3393,8 +2874,7 @@ actor: platt,
     musical: deh,
     featured: "Ben Platt",
 actor: platt,
-    image: "https://upload.wikimedia.org/wikipedia/en/9/91/DearEvanposter.png",
-    music_video: "https://www.youtube.com/watch?v=xkdPRcY0k4o"
+    image: "https://m.media-amazon.com/images/I/819TerrbN9L.jpg"
         },
 {
     title: "Sincerely, Me",
@@ -3402,8 +2882,7 @@ actor: platt,
     musical: deh,
     featured: "Mike Faist, Ben Platt, Will Roland",
 actor: platt,
-    image: "https://upload.wikimedia.org/wikipedia/en/9/91/DearEvanposter.png",
-    music_video: "https://www.youtube.com/watch?v=HOYAA13Bm9M"
+    image: "https://m.media-amazon.com/images/I/819TerrbN9L.jpg"
         },
 {
     title: "Requiem",
@@ -3411,8 +2890,7 @@ actor: platt,
     musical: deh,
     featured: "Laura Dreyfuss, Michael Park, Jennifer Laura Thompson",
 actor: dreyfuss,
-    image: "https://upload.wikimedia.org/wikipedia/en/9/91/DearEvanposter.png",
-    music_video: "https://www.youtube.com/watch?v=AN9x0v2-deU"
+    image: "https://m.media-amazon.com/images/I/819TerrbN9L.jpg"
         },
 {
     title: "If I Could Tell Her",
@@ -3420,8 +2898,7 @@ actor: dreyfuss,
     musical: deh,
     featured: "Ben Platt, Laura Dreyfuss",
 actor: dreyfuss,
-    image: "https://upload.wikimedia.org/wikipedia/en/9/91/DearEvanposter.png",
-    music_video: "https://www.youtube.com/watch?v=B7h7c_L_Yp4"
+    image: "https://m.media-amazon.com/images/I/819TerrbN9L.jpg"
         },
 {
     title: "Disappear",
@@ -3429,8 +2906,7 @@ actor: dreyfuss,
     musical: deh,
     featured: "Ben Platt, Mike Faist, Kristolyn Lloyd, Will Roland, Jennifer Laura Thompson",
 actor: platt,
-    image: "https://upload.wikimedia.org/wikipedia/en/9/91/DearEvanposter.png",
-    music_video: "https://www.youtube.com/watch?v=Lx9oP2YyY88"
+    image: "https://m.media-amazon.com/images/I/819TerrbN9L.jpg"
         },
 {
     title: "You Will Be Found",
@@ -3438,8 +2914,7 @@ actor: platt,
     musical: deh,
     featured: "Ben Platt, Kristolyn Lloyd, Will Roland, Laura Dreyfuss",
 actor: platt,
-    image: "https://upload.wikimedia.org/wikipedia/en/9/91/DearEvanposter.png",
-    music_video: "https://www.youtube.com/watch?v=mSfH2AuhXfw"
+    image: "https://m.media-amazon.com/images/I/819TerrbN9L.jpg"
         },
 {
     title: "To Break in a Glove",
@@ -3447,8 +2922,7 @@ actor: platt,
     musical: deh,
     featured: "Michael Park, Ben Platt",
 actor: platt,
-    image: "https://upload.wikimedia.org/wikipedia/en/9/91/DearEvanposter.png",
-    music_video: "https://www.youtube.com/watch?v=h8z6qYV1qjA"
+    image: "https://m.media-amazon.com/images/I/819TerrbN9L.jpg"
         },
 {
     title: "Only Us",
@@ -3456,8 +2930,7 @@ actor: platt,
     musical: deh,
     featured: "Ben Platt, Laura Dreyfuss",
 actor: platt,
-    image: "https://upload.wikimedia.org/wikipedia/en/9/91/DearEvanposter.png",
-    music_video: "https://www.youtube.com/watch?v=PPvO1sZkOx0"
+    image: "https://m.media-amazon.com/images/I/819TerrbN9L.jpg"
         },
 {
     title: "Good for You",
@@ -3465,8 +2938,7 @@ actor: platt,
     musical: deh,
     featured: "Rachel Bay Jones, Kristolyn Lloyd, Will Roland, Ben Platt",
 actor: platt,
-    image: "https://upload.wikimedia.org/wikipedia/en/9/91/DearEvanposter.png",
-    music_video: "https://www.youtube.com/watch?v=v5B9RWJor4c"
+    image: "https://m.media-amazon.com/images/I/819TerrbN9L.jpg"
         },
 {
     title: "Words Fail",
@@ -3474,8 +2946,7 @@ actor: platt,
     musical: deh,
     featured: "Ben Platt",
 actor: platt,
-    image: "https://upload.wikimedia.org/wikipedia/en/9/91/DearEvanposter.png",
-    music_video: "https://www.youtube.com/watch?v=RKP9UdIcXFk"
+    image: "https://m.media-amazon.com/images/I/819TerrbN9L.jpg"
         },
 {
     title: "So Big / So Small",
@@ -3483,8 +2954,7 @@ actor: platt,
     musical: deh,
     featured: "Rachel Bay Jones",
 actor: platt,
-    image: "https://upload.wikimedia.org/wikipedia/en/9/91/DearEvanposter.png",
-    music_video: "https://www.youtube.com/watch?v=9vD2JBq0ns8"
+    image: "https://m.media-amazon.com/images/I/819TerrbN9L.jpg"
         },
 {
     title: "Finale",
@@ -3492,8 +2962,7 @@ actor: platt,
     musical: deh,
     featured: "Ben Platt",
 actor: platt,
-    image: "https://upload.wikimedia.org/wikipedia/en/9/91/DearEvanposter.png",
-    music_video: "https://www.youtube.com/watch?v=r-nKoW1rVu8"
+    image: "https://m.media-amazon.com/images/I/819TerrbN9L.jpg"
         },
 {
     title: "Beat It",
@@ -3501,8 +2970,7 @@ actor: platt,
     musical: mj,
     featured: "Myles Frost, John Edwards, Ayana George, Apollo Levine, Tavon Olds-Sample, Lamont Walker II",
 actor: frost,
-    image: "https://upload.wikimedia.org/wikipedia/en/9/9a/MJ_Musical.png",
-    music_video: "https://www.youtube.com/watch?v=GmPe10fEjOA"
+    image: "https://upload.wikimedia.org/wikipedia/en/9/9a/MJ_Musical.png"
         },
 {
     title: "Jackson 5 Medley",
@@ -3510,8 +2978,7 @@ actor: frost,
     musical: mj,
     featured: "Christian Wilson, Devin Trey Campbell, John Edwards, Apollo Levine, Lamont Walker II",
 actor: levine,
-    image: "https://upload.wikimedia.org/wikipedia/en/9/9a/MJ_Musical.png",
-    music_video: "https://www.youtube.com/watch?v=TZAOpH6-818"
+    image: "https://upload.wikimedia.org/wikipedia/en/9/9a/MJ_Musical.png"
         },
 {
     title: "I’ll Be There",
@@ -3519,17 +2986,15 @@ actor: levine,
     musical: mj,
     featured: "Ayana George, Christian Wilson, Myles Frost",
 actor: frost,
-    image: "https://upload.wikimedia.org/wikipedia/en/9/9a/MJ_Musical.png",
-    music_video: "https://www.youtube.com/watch?v=6noXIZhpSkM"
+    image: "https://upload.wikimedia.org/wikipedia/en/9/9a/MJ_Musical.png"
         },
 {
-    title: `Don\'t Stop \'Til You Get Enough / Blame It on the Boogie / Dancing Machine`,
+    title: "Blame It on the Boogie / Dancing Machine",
     year: 2022,
     musical: mj,
     featured: "Myles Frost, Tavon Olds-Sample, Original Broadway Cast of MJ",
 actor: frost,
-    image: "https://upload.wikimedia.org/wikipedia/en/9/9a/MJ_Musical.png",
-    music_video: "https://www.youtube.com/watch?v=ZM2R0XGBlsY"
+    image: "https://upload.wikimedia.org/wikipedia/en/9/9a/MJ_Musical.png"
         },
 {
     title: "Stranger in Moscow",
@@ -3537,8 +3002,7 @@ actor: frost,
     musical: mj,
     featured: "Myles Frost, John Edwards, Ayana George, Apollo Levine, Tavon Olds-Sample, Lamont Walker II",
 actor: frost,
-    image: "https://upload.wikimedia.org/wikipedia/en/9/9a/MJ_Musical.png",
-    music_video: "https://www.youtube.com/watch?v=sUuqMdAFlRw"
+    image: "https://upload.wikimedia.org/wikipedia/en/9/9a/MJ_Musical.png"
         },
 {
     title: "You Can’t Win",
@@ -3546,8 +3010,7 @@ actor: frost,
     musical: mj,
     featured: "Antoine L. Smith, Tavon Olds-Sample, Cast",
 actor: tos,
-    image: "https://upload.wikimedia.org/wikipedia/en/9/9a/MJ_Musical.png",
-    music_video: "https://www.youtube.com/watch?v=WGSj6LBzv-s"
+    image: "https://upload.wikimedia.org/wikipedia/en/9/9a/MJ_Musical.png"
         },
 {
     title: "I Can’t Help It",
@@ -3555,8 +3018,7 @@ actor: tos,
     musical: mj,
     featured: "Tavon Olds-Sample, Myles Frost",
 actor: frost,
-    image: "https://upload.wikimedia.org/wikipedia/en/9/9a/MJ_Musical.png",
-    music_video: "https://www.youtube.com/watch?v=ibCrc0YTQqM"
+    image: "https://upload.wikimedia.org/wikipedia/en/9/9a/MJ_Musical.png"
         },
 {
     title: "Keep the Faith",
@@ -3564,8 +3026,7 @@ actor: frost,
     musical: mj,
     featured: "Apollo Levine, Tavon Olds-Sample, John Edwards, Ayana George, Lamont Walker II",
 actor: tos,
-    image: "https://upload.wikimedia.org/wikipedia/en/9/9a/MJ_Musical.png",
-    music_video: "https://www.youtube.com/watch?v=KTPmGeiZA08"
+    image: "https://upload.wikimedia.org/wikipedia/en/9/9a/MJ_Musical.png"
         },
 {
     title: "Wanna Be Startin’ Somethin",
@@ -3573,8 +3034,7 @@ actor: tos,
     musical: mj,
     featured: "Tavon Olds-Sample, Myles Frost, Cast",
 actor: frost,
-    image: "https://upload.wikimedia.org/wikipedia/en/9/9a/MJ_Musical.png",
-    music_video: "https://www.youtube.com/watch?v=aGJBKRw6d3A"
+    image: "https://upload.wikimedia.org/wikipedia/en/9/9a/MJ_Musical.png"
         },
 {
     title: "Earth Song / They Don\'t Care About Us",
@@ -3582,8 +3042,7 @@ actor: frost,
     musical: mj,
     featured: "Myles Frost, Cast",
 actor: frost,
-    image: "https://upload.wikimedia.org/wikipedia/en/9/9a/MJ_Musical.png",
-    music_video: "https://www.youtube.com/watch?v=ld_6Q_sEAPk"
+    image: "https://upload.wikimedia.org/wikipedia/en/9/9a/MJ_Musical.png"
         },
 {
     title: "Billie Jean",
@@ -3591,8 +3050,7 @@ actor: frost,
     musical: mj,
     featured: "Myles Frost, John Edwards, Ayana George, Apollo Levine, Tavon Olds-Sample, Lamont Walker II",
 actor: frost,
-    image: "https://upload.wikimedia.org/wikipedia/en/9/9a/MJ_Musical.png",
-    music_video: "https://www.youtube.com/watch?v=cDu__D7XtHc"
+    image: "https://upload.wikimedia.org/wikipedia/en/9/9a/MJ_Musical.png"
         },
 {
     title: "Smooth Criminal",
@@ -3600,8 +3058,7 @@ actor: frost,
     musical: mj,
     featured: "Myles Frost, John Edwards, Ayana George, Apollo Levine, Tavon Olds-Sample, Lamont Walker II",
 actor: frost,
-    image: "https://upload.wikimedia.org/wikipedia/en/9/9a/MJ_Musical.png",
-    music_video: "https://www.youtube.com/watch?v=8N-JwOYV2gE"
+    image: "https://upload.wikimedia.org/wikipedia/en/9/9a/MJ_Musical.png"
         },
 {
     title: "Victory Tour (For the Love Of Money / Can You Feel It)",
@@ -3609,8 +3066,7 @@ actor: frost,
     musical: mj,
     featured: "Quentin Earl Darrington, Tavon Olds-Sample, Raymond Baynard, John Edwards, Ayana George, Apollo Levine, Lamont Walker II, Zelig Williams",
 actor: tos,
-    image: "https://upload.wikimedia.org/wikipedia/en/9/9a/MJ_Musical.png",
-    music_video: "https://www.youtube.com/watch?v=kUJkEJq4es0"
+    image: "https://upload.wikimedia.org/wikipedia/en/9/9a/MJ_Musical.png"
         },
 {
     title: "Keep the Faith (Reprise)",
@@ -3618,8 +3074,7 @@ actor: tos,
     musical: mj,
     featured: "Myles Frost, Quentin Earl Darrington, Cast",
 actor: frost,
-    image: "https://upload.wikimedia.org/wikipedia/en/9/9a/MJ_Musical.png",
-    music_video: "https://www.youtube.com/watch?v=659LWupwLow"
+    image: "https://upload.wikimedia.org/wikipedia/en/9/9a/MJ_Musical.png"
         },
 {
     title: "She\'s Out of My Life",
@@ -3627,8 +3082,7 @@ actor: frost,
     musical: mj,
     featured: "Myles Frost, Tavon Olds-Sample",
 actor: frost,
-    image: "https://upload.wikimedia.org/wikipedia/en/9/9a/MJ_Musical.png",
-    music_video: "https://www.youtube.com/watch?v=c9pl6yXsgW0"
+    image: "https://upload.wikimedia.org/wikipedia/en/9/9a/MJ_Musical.png"
         },
 {
     title: "Human Nature",
@@ -3636,8 +3090,7 @@ actor: frost,
     musical: mj,
     featured: "Myles Frost, Whitney Bashor, Cast",
 actor: frost,
-    image: "https://upload.wikimedia.org/wikipedia/en/9/9a/MJ_Musical.png",
-    music_video: "https://www.youtube.com/watch?v=xduowN1Ty28"
+    image: "https://upload.wikimedia.org/wikipedia/en/9/9a/MJ_Musical.png"
         },
 {
     title: "Bad / 2 Bad",
@@ -3645,8 +3098,7 @@ actor: frost,
     musical: mj,
     featured: "Myles Frost, Cast",
 actor: frost,
-    image: "https://upload.wikimedia.org/wikipedia/en/9/9a/MJ_Musical.png",
-    music_video: "https://www.youtube.com/watch?v=YejCXb_jfuo"
+    image: "https://upload.wikimedia.org/wikipedia/en/9/9a/MJ_Musical.png"
         },
 {
     title: "Thriller",
@@ -3654,8 +3106,7 @@ actor: frost,
     musical: mj,
     featured: "Myles Frost, Christian Wilson, Quentin Earl Darrington, John Edwards, Ayana George, Apollo Levine, Tavon Olds-Sample, Lamont Walker II",
 actor: frost,
-    image: "https://upload.wikimedia.org/wikipedia/en/9/9a/MJ_Musical.png",
-    music_video: "https://www.youtube.com/watch?v=y6gPTxH0IFw"
+    image: "https://upload.wikimedia.org/wikipedia/en/9/9a/MJ_Musical.png"
         },
 {
     title: "Man in the Mirror",
@@ -3663,8 +3114,7 @@ actor: frost,
     musical: mj,
     featured: "Cast",
 actor: frost,
-    image: "https://upload.wikimedia.org/wikipedia/en/9/9a/MJ_Musical.png",
-    music_video: "https://www.youtube.com/watch?v=3AmF9tjvyIk"
+    image: "https://upload.wikimedia.org/wikipedia/en/9/9a/MJ_Musical.png"
         },
 {
     title: "Finale (Jam / Black or White / Wanna Be Startin\' Somethin\')",
@@ -3672,8 +3122,7 @@ actor: frost,
     musical: mj,
     featured: "Cast",
 actor: frost,
-    image: "https://upload.wikimedia.org/wikipedia/en/9/9a/MJ_Musical.png",
-    music_video: "https://www.youtube.com/watch?v=zN7OUhS02oE"
+    image: "https://upload.wikimedia.org/wikipedia/en/9/9a/MJ_Musical.png"
         },
 {
     title: "Finale (Jam / Black or White / Wanna Be Startin\' Somethin\')",
@@ -3681,8 +3130,7 @@ actor: frost,
     musical: mj,
     featured: "Cast",
 actor: frost,
-    image: "https://upload.wikimedia.org/wikipedia/en/9/9a/MJ_Musical.png",
-    music_video: "https://www.youtube.com/watch?v=zN7OUhS02oE"
+    image: "https://upload.wikimedia.org/wikipedia/en/9/9a/MJ_Musical.png"
         },
 {
     title: "Prologue",
@@ -3690,8 +3138,7 @@ actor: frost,
     musical: anastasia,
     featured: "Anastasia Original Broadway Cast",
 actor: ramin,
-    image: "https://imaging.broadway.com/images/square-11/w800/83575-7.jpg",
-    music_video: "https://www.youtube.com/watch?v=7yiWmctknGA&list=PLZ-QxD8_O6sbBk0mnIUhCZyZg-fOQIl9i"
+    image: "https://covers3.booksamillion.com/covers/music/8/88/295/561/888295561334_3275017.jpg"
         },
 {
     title: "Rumor in St. Petersburg",
@@ -3699,8 +3146,7 @@ actor: ramin,
     musical: anastasia,
     featured: "Ramin Karimloo, Derek Klena, John Bolton, Anastasia Original Broadway Cast",
 actor: klena,
-    image: "https://imaging.broadway.com/images/square-11/w800/83575-7.jpg",
-    music_video: "https://www.youtube.com/watch?v=Qh7sIrvdnwc&ab_channel=JohnBolton-Topic"
+   image: "https://covers3.booksamillion.com/covers/music/8/88/295/561/888295561334_3275017.jpg"
         },
 {
     title: "In My Dreams",
@@ -3708,8 +3154,7 @@ actor: klena,
     musical: anastasia,
     featured: "Christy Altomare",
 actor: altomare,
-    image: "https://imaging.broadway.com/images/square-11/w800/83575-7.jpg",
-    music_video: "https://www.youtube.com/watch?v=4Jf0AeLepiE&list=PLZ-QxD8_O6sbBk0mnIUhCZyZg-fOQIl9i&index=3"
+image: "https://covers3.booksamillion.com/covers/music/8/88/295/561/888295561334_3275017.jpg"
         },
 {
     title: "Learn To Do It",
@@ -3717,8 +3162,7 @@ actor: altomare,
     musical: anastasia,
     featured: "Christy Altomare, John Bolton, Derek Klena",
 actor: jbolt,
-    image: "https://imaging.broadway.com/images/square-11/w800/83575-7.jpg",
-    music_video: "https://www.youtube.com/watch?v=hSxqfByKW6g&list=PLZ-QxD8_O6sbBk0mnIUhCZyZg-fOQIl9i&index=4"
+image: "https://covers3.booksamillion.com/covers/music/8/88/295/561/888295561334_3275017.jpg"
         },
 {
     title: "The Neva Flows",
@@ -3726,8 +3170,7 @@ actor: jbolt,
     musical: anastasia,
     featured: "Ramin Karimloo",
 actor: ramin,
-    image: "https://imaging.broadway.com/images/square-11/w800/83575-7.jpg",
-    music_video: "https://www.youtube.com/watch?v=y45QURGsDjc&list=PLZ-QxD8_O6sbBk0mnIUhCZyZg-fOQIl9i&index=5"
+image: "https://covers3.booksamillion.com/covers/music/8/88/295/561/888295561334_3275017.jpg"
         },
 {
     title: "My Petersburg",
@@ -3735,8 +3178,7 @@ actor: ramin,
     musical: anastasia,
     featured: "Derek Klena",
 actor: klena,
-    image: "https://imaging.broadway.com/images/square-11/w800/83575-7.jpg",
-    music_video: "https://www.youtube.com/watch?v=_hVaGhGLKqQ&list=PLZ-QxD8_O6sbBk0mnIUhCZyZg-fOQIl9i&index=6"
+image: "https://covers3.booksamillion.com/covers/music/8/88/295/561/888295561334_3275017.jpg"
         },
 {
     title: "Once Upon A December",
@@ -3744,8 +3186,7 @@ actor: klena,
     musical: anastasia,
     featured: "Christy Altomare",
 actor: altomare,
-    image: "https://imaging.broadway.com/images/square-11/w800/83575-7.jpg",
-    music_video: "https://www.youtube.com/watch?v=FfeFUOjQsVQ&list=PLZ-QxD8_O6sbBk0mnIUhCZyZg-fOQIl9i&index=7"
+image: "https://covers3.booksamillion.com/covers/music/8/88/295/561/888295561334_3275017.jpg"
         },
 {
     title: "Say, I Pray You",
@@ -3753,8 +3194,7 @@ actor: altomare,
     musical: anastasia,
     featured: "Christy Altomare, Derek Klena, Michael Bolton, Anastasia Original Broadway Cast",
 actor: jbolt,
-    image: "https://imaging.broadway.com/images/square-11/w800/83575-7.jpg",
-    music_video: "https://www.youtube.com/watch?v=1cvJo31jGfo&list=PLZ-QxD8_O6sbBk0mnIUhCZyZg-fOQIl9i&index=8"
+image: "https://covers3.booksamillion.com/covers/music/8/88/295/561/888295561334_3275017.jpg"
         },
 {
     title: "We’ll Go From There",
@@ -3762,8 +3202,7 @@ actor: jbolt,
     musical: anastasia,
     featured: "Christy Altomare, John Bolton, Derek Klena, Anastasia Original Broadway Cast",
 actor: jbolt,
-    image: "https://imaging.broadway.com/images/square-11/w800/83575-7.jpg",
-    music_video: "https://www.youtube.com/watch?v=_93XiuInY4M&list=PLZ-QxD8_O6sbBk0mnIUhCZyZg-fOQIl9i&index=9"
+image: "https://covers3.booksamillion.com/covers/music/8/88/295/561/888295561334_3275017.jpg"
         },
 {
     title: "Still",
@@ -3771,8 +3210,7 @@ actor: jbolt,
     musical: anastasia,
     featured: "Ramin Karimloo",
 actor: ramin,
-    image: "https://imaging.broadway.com/images/square-11/w800/83575-7.jpg",
-    music_video: "https://www.youtube.com/watch?v=07kj0aCpjIo&list=PLZ-QxD8_O6sbBk0mnIUhCZyZg-fOQIl9i&index=10"
+image:  "https://covers3.booksamillion.com/covers/music/8/88/295/561/888295561334_3275017.jpg"
         },
 {
     title: "Journey To The Past",
@@ -3780,8 +3218,7 @@ actor: ramin,
     musical: anastasia,
     featured: "Christy Altomare",
 actor: altomare,
-    image: "https://imaging.broadway.com/images/square-11/w800/83575-7.jpg",
-    music_video: "https://www.youtube.com/watch?v=0Cd7s2ujr3c&list=PLZ-QxD8_O6sbBk0mnIUhCZyZg-fOQIl9i&index=11"
+image:  "https://covers3.booksamillion.com/covers/music/8/88/295/561/888295561334_3275017.jpg"
         },
 {
     title: "Paris Holds The Key",
@@ -3789,8 +3226,7 @@ actor: altomare,
     musical: anastasia,
     featured: "Christy Altomare, John Bolton, Derek Klena, Anastasia Original Broadway Cast",
 actor: klena,
-    image: "https://imaging.broadway.com/images/square-11/w800/83575-7.jpg",
-    music_video: "https://www.youtube.com/watch?v=EkJggNuSE_E&list=PLZ-QxD8_O6sbBk0mnIUhCZyZg-fOQIl9i&index=12"
+image: "https://covers3.booksamillion.com/covers/music/8/88/295/561/888295561334_3275017.jpg"
         },
 {
     title: "Crossing This Bridge",
@@ -3798,8 +3234,7 @@ actor: klena,
     musical: anastasia,
     featured: "Christy Altomare",
 actor: altomare,
-    image: "https://imaging.broadway.com/images/square-11/w800/83575-7.jpg",
-    music_video: "https://www.youtube.com/watch?v=BPTGuXZfOyI&list=PLZ-QxD8_O6sbBk0mnIUhCZyZg-fOQIl9i&index=13"
+image:  "https://covers3.booksamillion.com/covers/music/8/88/295/561/888295561334_3275017.jpg"
         },
 {
     title: "Close the Door",
@@ -3807,8 +3242,7 @@ actor: altomare,
     musical: anastasia,
     featured: "Christy Altomare, John Bolton, Derek Klena, Anastasia Original Broadway Cast",
 actor: altomare,
-    image: "https://imaging.broadway.com/images/square-11/w800/83575-7.jpg",
-    music_video: "https://www.youtube.com/watch?v=2t6R--HWq4I&list=PLZ-QxD8_O6sbBk0mnIUhCZyZg-fOQIl9i&index=14"
+image:  "https://covers3.booksamillion.com/covers/music/8/88/295/561/888295561334_3275017.jpg"
         },
 {
     title: "Land of Yesterday",
@@ -3816,8 +3250,7 @@ actor: altomare,
     musical: anastasia,
     featured: "Christy Altomare, John Bolton, Derek Klena, Anastasia Original Broadway Cast",
 actor: jbolt,
-    image: "https://imaging.broadway.com/images/square-11/w800/83575-7.jpg",
-    music_video: "https://www.youtube.com/watch?v=I73pYRVNgGw&list=PLZ-QxD8_O6sbBk0mnIUhCZyZg-fOQIl9i&index=15"
+image:  "https://covers3.booksamillion.com/covers/music/8/88/295/561/888295561334_3275017.jpg"
         },
 {
     title: "The Countess and the Commonman",
@@ -3825,8 +3258,7 @@ actor: jbolt,
     musical: anastasia,
     featured: "John Bolton, Anastasia Original Broadway Cast",
 actor: jbolt,
-    image: "https://imaging.broadway.com/images/square-11/w800/83575-7.jpg",
-    music_video: "https://www.youtube.com/watch?v=r-yep960vio&list=PLZ-QxD8_O6sbBk0mnIUhCZyZg-fOQIl9i&index=16"
+image:  "https://covers3.booksamillion.com/covers/music/8/88/295/561/888295561334_3275017.jpg"
         },
 {
     title: "In A Crowd of Thousands",
@@ -3834,98 +3266,87 @@ actor: jbolt,
     musical: anastasia,
     featured: "Christy Altomare, Derek Klena",
 actor: klena,
-    image: "https://imaging.broadway.com/images/square-11/w800/83575-7.jpg",
-    music_video: "https://www.youtube.com/watch?v=x7B1cT0oQFY&list=PLZ-QxD8_O6sbBk0mnIUhCZyZg-fOQIl9i&index=17"
+image:  "https://covers3.booksamillion.com/covers/music/8/88/295/561/888295561334_3275017.jpg"
         },
 {
     title: "Meant To Be",
     year: 2016,
     musical: anastasia,
     featured: "Christy Altomare, Derek Klena, John Bolton, Anastasia Original Broadway Cast",
-actor: jbolt,
-    image: "https://imaging.broadway.com/images/square-11/w800/83575-7.jpg",
-    music_video: "https://www.youtube.com/watch?v=c79fJZfYhmA&list=PLZ-QxD8_O6sbBk0mnIUhCZyZg-fOQIl9i&index=18"
+    actor: jbolt,
+    image: "https://covers3.booksamillion.com/covers/music/8/88/295/561/888295561334_3275017.jpg"
         },
 {
     title: "Quartet at the Ballet",
     year: 2016,
     musical: anastasia,
     featured: "Anastasia Original Broadway Cast",
-actor: altomare,
-    image: "https://imaging.broadway.com/images/square-11/w800/83575-7.jpg",
-    music_video: "https://www.youtube.com/watch?v=alOABw4ePZo&list=PLZ-QxD8_O6sbBk0mnIUhCZyZg-fOQIl9i&index=19"
+    actor: altomare,
+    image:  "https://covers3.booksamillion.com/covers/music/8/88/295/561/888295561334_3275017.jpg"
         },
 {
     title: "Everything To Win",
     year: 2016,
     musical: anastasia,
     featured: "Derek Klena",
-actor: klena,
-    image: "https://imaging.broadway.com/images/square-11/w800/83575-7.jpg",
-    music_video: "https://www.youtube.com/watch?v=BqhAaMGR70A&list=PLZ-QxD8_O6sbBk0mnIUhCZyZg-fOQIl9i&index=20"
+    actor: klena,
+    image: "https://covers3.booksamillion.com/covers/music/8/88/295/561/888295561334_3275017.jpg"
         },
 {
     title: "Once Upon A December (Reprise)",
     year: 2016,
     musical: anastasia,
     featured: "Christy Altomare",
-actor: altomare,
-    image: "https://imaging.broadway.com/images/square-11/w800/83575-7.jpg",
-    music_video: "https://www.youtube.com/watch?v=T8wp0M7zxAQ&list=PLZ-QxD8_O6sbBk0mnIUhCZyZg-fOQIl9i&index=21"
+    actor: altomare,
+    image: "https://covers3.booksamillion.com/covers/music/8/88/295/561/888295561334_3275017.jpg"
         },
 {
     title: "The Press Conference",
     year: 2016,
     musical: anastasia,
     featured: "Anastasia Original Broadway Cast",
-actor: altomare,
-    image: "https://imaging.broadway.com/images/square-11/w800/83575-7.jpg",
-    music_video: "https://www.youtube.com/watch?v=pQT9AZh1gUU&list=PLZ-QxD8_O6sbBk0mnIUhCZyZg-fOQIl9i&index=22"
+    actor: altomare,
+    image: "https://covers3.booksamillion.com/covers/music/8/88/295/561/888295561334_3275017.jpg"
         },
 {
     title: "Everything To Win (Reprise)",
     year: 2016,
     musical: anastasia,
     featured: "Christy Altomare",
-actor: altomare,
-    image: "https://imaging.broadway.com/images/square-11/w800/83575-7.jpg",
-    music_video: "https://www.youtube.com/watch?v=B5jVo6zOng8&list=PLZ-QxD8_O6sbBk0mnIUhCZyZg-fOQIl9i&index=23"
+    actor: altomare,
+    image: "https://covers3.booksamillion.com/covers/music/8/88/295/561/888295561334_3275017.jpg"
         },
 {
     title: "Still/ The Nevs Flows (Reprise)",
     year: 2016,
     musical: anastasia,
     featured: "Christy Altomare, Ramin Karimloo",
-actor: ramin,
-    image: "https://imaging.broadway.com/images/square-11/w800/83575-7.jpg",
-    music_video: "https://www.youtube.com/watch?v=8C7npTee554&list=PLZ-QxD8_O6sbBk0mnIUhCZyZg-fOQIl9i&index=24"
+    actor: ramin,
+    image: "https://covers3.booksamillion.com/covers/music/8/88/295/561/888295561334_3275017.jpg"
         },
 {
     title: "Finale",
     year: 2016,
     musical: anastasia,
     featured: "Christy Altomare, Ramin Karimloo, Derek Klena, John Bolton, Anastasia Original Broadway Cast",
-actor: ramin,
-    image: "https://imaging.broadway.com/images/square-11/w800/83575-7.jpg",
-    music_video: "https://www.youtube.com/watch?v=xbJMHGa9fJ4&list=PLZ-QxD8_O6sbBk0mnIUhCZyZg-fOQIl9i&index=25"
+    actor: ramin,
+    image: "https://covers3.booksamillion.com/covers/music/8/88/295/561/888295561334_3275017.jpg"
         },
         {
     title: "Vuelie / Let the Sun Shine On",
     year: 2018,
     musical: frozen,
     featured: "Frozen Original Broadway Cast",
-actor: patti,
-    image: "https://d4ov6iqsvotvt.cloudfront.net/uploads/show/poster_image/2768/medium_1584472361-Frozen_Global_KeyArt_800x1200.jpg",
-    music_video: "https://www.youtube.com/watch?v=EiUM2vUOqkg"
+    actor: patti,
+    image: "https://images-na.ssl-images-amazon.com/images/I/811h3bZbdzL.jpg"
         },
 {
     title: "A Little Bit of You",
     year: 2018,
     musical: frozen,
     featured: "Brooklyn Nelson, Audrey Bennett",
-actor: patti,
-    image: "https://d4ov6iqsvotvt.cloudfront.net/uploads/show/poster_image/2768/medium_1584472361-Frozen_Global_KeyArt_800x1200.jpg",
-    music_video: "https://www.youtube.com/watch?v=-2dmTv2qNTM"
+    actor: patti,
+    image: "https://images-na.ssl-images-amazon.com/images/I/811h3bZbdzL.jpg"
         },
 {
     title: "Do You Want To Build A Snowman?",
@@ -3933,8 +3354,7 @@ actor: patti,
     musical: frozen,
     featured: "Patti Murin, Mattea Conforti, Caissie Levy, Ayla Schwartz",
 actor: patti,
-    image: "https://d4ov6iqsvotvt.cloudfront.net/uploads/show/poster_image/2768/medium_1584472361-Frozen_Global_KeyArt_800x1200.jpg",
-    music_video: "https://www.youtube.com/watch?v=KKP0Txebobg"
+    image: "https://images-na.ssl-images-amazon.com/images/I/811h3bZbdzL.jpg"
         },
 {
     title: "For the First Time in Forever",
@@ -3942,8 +3362,7 @@ actor: patti,
     musical: frozen,
     featured: "Patti Murin, Caissie Levy",
 actor: patti,
-    image: "https://d4ov6iqsvotvt.cloudfront.net/uploads/show/poster_image/2768/medium_1584472361-Frozen_Global_KeyArt_800x1200.jpg",
-    music_video: "https://www.youtube.com/watch?v=pmC9BhueIZo"
+    image: "https://images-na.ssl-images-amazon.com/images/I/811h3bZbdzL.jpg"
         },
 {
     title: "Hans of the Southern Isles",
@@ -3951,8 +3370,7 @@ actor: patti,
     musical: frozen,
     featured: "John Riddle",
 actor: riddle,
-    image: "https://d4ov6iqsvotvt.cloudfront.net/uploads/show/poster_image/2768/medium_1584472361-Frozen_Global_KeyArt_800x1200.jpg",
-    music_video: "https://www.youtube.com/watch?v=DCIuNPArM6Y"
+    image: "https://images-na.ssl-images-amazon.com/images/I/811h3bZbdzL.jpg"
         },
 {
     title: "Queen Anointed",
@@ -3960,8 +3378,7 @@ actor: riddle,
     musical: frozen,
     featured: "Frozen Original Broadway Cast",
 actor: levy,
-    image: "https://d4ov6iqsvotvt.cloudfront.net/uploads/show/poster_image/2768/medium_1584472361-Frozen_Global_KeyArt_800x1200.jpg",
-    music_video: "https://www.youtube.com/watch?v=huB2drpVigM"
+    image: "https://images-na.ssl-images-amazon.com/images/I/811h3bZbdzL.jpg"
         },
 {
     title: "Dangerous to Dream",
@@ -3969,8 +3386,7 @@ actor: levy,
     musical: frozen,
     featured: "Cassie Levy",
 actor: levy,
-    image: "https://d4ov6iqsvotvt.cloudfront.net/uploads/show/poster_image/2768/medium_1584472361-Frozen_Global_KeyArt_800x1200.jpg",
-    music_video: "https://www.youtube.com/watch?v=mteCnI5-NU8"
+    image: "https://images-na.ssl-images-amazon.com/images/I/811h3bZbdzL.jpg"
         },
 {
     title: "Love Is an Open Door",
@@ -3978,8 +3394,7 @@ actor: levy,
     musical: frozen,
     featured: "Patti Murin, John Riddle",
 actor: patti,
-    image: "https://d4ov6iqsvotvt.cloudfront.net/uploads/show/poster_image/2768/medium_1584472361-Frozen_Global_KeyArt_800x1200.jpg",
-    music_video: "https://www.youtube.com/watch?v=NvS7cpv2SX8"
+    image: "https://images-na.ssl-images-amazon.com/images/I/811h3bZbdzL.jpg"
         },
 {
     title: "Reindeer(s) Are Better Than People",
@@ -3987,8 +3402,7 @@ actor: patti,
     musical: frozen,
     featured: "Jelani Alladin",
 actor: jelani,
-    image: "https://d4ov6iqsvotvt.cloudfront.net/uploads/show/poster_image/2768/medium_1584472361-Frozen_Global_KeyArt_800x1200.jpg",
-    music_video: "https://www.youtube.com/watch?v=EBylFteXQvk"
+    image: "https://images-na.ssl-images-amazon.com/images/I/811h3bZbdzL.jpg"
         },
 {
     title: "What Do You Know About Love?",
@@ -3996,8 +3410,7 @@ actor: jelani,
     musical: frozen,
     featured: "Patti Murin, Jelani Alladin",
 actor: jelani,
-    image: "https://d4ov6iqsvotvt.cloudfront.net/uploads/show/poster_image/2768/medium_1584472361-Frozen_Global_KeyArt_800x1200.jpg",
-    music_video: "https://www.youtube.com/watch?v=0ActYfwTz_I"
+    image: "https://images-na.ssl-images-amazon.com/images/I/811h3bZbdzL.jpg"
         },
 {
     title: "In Summer",
@@ -4005,8 +3418,7 @@ actor: jelani,
     musical: frozen,
     featured: "Greg Hildreth",
 actor: jelani,
-    image: "https://d4ov6iqsvotvt.cloudfront.net/uploads/show/poster_image/2768/medium_1584472361-Frozen_Global_KeyArt_800x1200.jpg",
-    music_video: "https://www.youtube.com/watch?v=_XCEIxO16ZU"
+    image: "https://images-na.ssl-images-amazon.com/images/I/811h3bZbdzL.jpg"
         },
 {
     title: "Hans of the Southern Isles (reprise)",
@@ -4014,8 +3426,7 @@ actor: jelani,
     musical: frozen,
     featured: "John Riddle, Robert Creighton",
 actor: riddle,
-    image: "https://d4ov6iqsvotvt.cloudfront.net/uploads/show/poster_image/2768/medium_1584472361-Frozen_Global_KeyArt_800x1200.jpg",
-    music_video: "https://www.youtube.com/watch?v=VXQFB0CObbA"
+    image: "https://images-na.ssl-images-amazon.com/images/I/811h3bZbdzL.jpg"
         },
 {
     title: "Let It Go",
@@ -4023,8 +3434,7 @@ actor: riddle,
     musical: frozen,
     featured: "Cassie Levy",
 actor: levy,
-    image: "https://d4ov6iqsvotvt.cloudfront.net/uploads/show/poster_image/2768/medium_1584472361-Frozen_Global_KeyArt_800x1200.jpg",
-    music_video: "https://www.youtube.com/watch?v=sn-06qX_5ig"
+    image: "https://images-na.ssl-images-amazon.com/images/I/811h3bZbdzL.jpg"
         },
 {
     title: "Hygge",
@@ -4032,8 +3442,7 @@ actor: levy,
     musical: frozen,
     featured: "Patti Murin, Jelani Alladin, Greg Hildreth, Kevin Del Aguila",
 actor: patti,
-    image: "https://d4ov6iqsvotvt.cloudfront.net/uploads/show/poster_image/2768/medium_1584472361-Frozen_Global_KeyArt_800x1200.jpg",
-    music_video: "https://www.youtube.com/watch?v=Pfi8Jn6BoCY"
+    image: "https://images-na.ssl-images-amazon.com/images/I/811h3bZbdzL.jpg"
         },
 {
     title: "For the First Time in Forever (reprise)",
@@ -4041,8 +3450,7 @@ actor: patti,
     musical: frozen,
     featured: "Patti Murin, Caissie Levy",
 actor: patti,
-    image: "https://d4ov6iqsvotvt.cloudfront.net/uploads/show/poster_image/2768/medium_1584472361-Frozen_Global_KeyArt_800x1200.jpg",
-    music_video: "https://www.youtube.com/watch?v=TA_wSy8V1go"
+    image: "https://images-na.ssl-images-amazon.com/images/I/811h3bZbdzL.jpg"
         },
 {
     title: "Fixer Upper",
@@ -4050,8 +3458,7 @@ actor: patti,
     musical: frozen,
     featured: "Greg Hildreth, Timothy Hughes, Olivia Phillip",
 actor: jelani,
-    image: "https://d4ov6iqsvotvt.cloudfront.net/uploads/show/poster_image/2768/medium_1584472361-Frozen_Global_KeyArt_800x1200.jpg",
-    music_video: "https://www.youtube.com/watch?v=h4eU6NNEvNY"
+    image: "https://images-na.ssl-images-amazon.com/images/I/811h3bZbdzL.jpg"
         },
 {
     title: "Kristoff Lullaby",
@@ -4059,44 +3466,39 @@ actor: jelani,
     musical: frozen,
     featured: "Jelani Alladin",
 actor: jelani,
-    image: "https://d4ov6iqsvotvt.cloudfront.net/uploads/show/poster_image/2768/medium_1584472361-Frozen_Global_KeyArt_800x1200.jpg",
-    music_video: "https://www.youtube.com/watch?v=uFNkmYfsGoQ"
+    image: "https://images-na.ssl-images-amazon.com/images/I/811h3bZbdzL.jpg"
         },
 {
     title: "Monster",
     year: 2018,
     musical: frozen,
     featured: "Caissie Levy, John Riddle",
-actor: levy,
-    image: "https://d4ov6iqsvotvt.cloudfront.net/uploads/show/poster_image/2768/medium_1584472361-Frozen_Global_KeyArt_800x1200.jpg",
-    music_video: "https://www.youtube.com/watch?v=X-L40JAuaGU"
+    actor: levy,
+    image: "https://images-na.ssl-images-amazon.com/images/I/811h3bZbdzL.jpg"
         },
 {
     title: "True Love",
     year: 2018,
     musical: frozen,
     featured: "Patti Murin",
-actor: patti,
-    image: "https://d4ov6iqsvotvt.cloudfront.net/uploads/show/poster_image/2768/medium_1584472361-Frozen_Global_KeyArt_800x1200.jpg",
-    music_video: "https://www.youtube.com/watch?v=kQ_-3Gb4XVg"
+    actor: patti,
+    image: "https://images-na.ssl-images-amazon.com/images/I/811h3bZbdzL.jpg"
         },
 {
     title: "Colder by the Minute",
     year: 2018,
     musical: frozen,
     featured: "Patti Murin, Caissie Levy, Jelani Alladin, John Riddle",
-actor: riddle,
-    image: "https://d4ov6iqsvotvt.cloudfront.net/uploads/show/poster_image/2768/medium_1584472361-Frozen_Global_KeyArt_800x1200.jpg",
-    music_video: "https://www.youtube.com/watch?v=5dwHqzuxJfQ"
+    actor: riddle,
+    image: "https://images-na.ssl-images-amazon.com/images/I/811h3bZbdzL.jpg"
         },
 {
     title: "Finale / Let It Go",
     year: 2018,
     musical: frozen,
     featured: "Frozen Original Broadway Cast",
-actor: levy,
-    image: "https://d4ov6iqsvotvt.cloudfront.net/uploads/show/poster_image/2768/medium_1584472361-Frozen_Global_KeyArt_800x1200.jpg",
-    music_video: "https://www.youtube.com/watch?v=t7G3WUw0HCI"
+    actor: levy,
+    image: "https://images-na.ssl-images-amazon.com/images/I/811h3bZbdzL.jpg"
         },
 {
     title: "When Everything Falls Apart",
@@ -4104,17 +3506,15 @@ actor: levy,
     musical: frozen,
     featured: "Patti Murin, Jelani Alladin, Greg Hildreth",
 actor: patti,
-    image: "https://d4ov6iqsvotvt.cloudfront.net/uploads/show/poster_image/2768/medium_1584472361-Frozen_Global_KeyArt_800x1200.jpg",
-    music_video: "https://www.youtube.com/watch?v=8-GR4_stPhM"
+    image: "https://images-na.ssl-images-amazon.com/images/I/811h3bZbdzL.jpg"
         },
 {
     title: "Omigod You Guys",
     year: 2007,
     musical: lb,
     featured: "Laura Bell Bundy, Annaleigh Ashford, Leslie Kritzer, DeQuina Moore, Delta Nus",
-actor: bundy,
-    image: "https://bloximages.newyork1.vip.townnews.com/hometownnewstc.com/content/tncms/assets/v3/editorial/1/8d/18d03684-e4cb-11eb-b0b8-ff0750498b02/60ef22c0abc54.image.jpg",
-    music_video: "https://www.youtube.com/watch?v=duU09GD-KUU"
+    actor: bundy,
+    image: "https://is4-ssl.mzstatic.com/image/thumb/Music/c2/8a/dc/mzi.sgftupib.jpg/600x600bf-60.jpg"
         },
 {
     title: "Serious",
@@ -4122,8 +3522,7 @@ actor: bundy,
     musical: lb,
     featured: "Laura Bell Bundy, Richard H. Blake",
 actor: bundy,
-    image: "https://bloximages.newyork1.vip.townnews.com/hometownnewstc.com/content/tncms/assets/v3/editorial/1/8d/18d03684-e4cb-11eb-b0b8-ff0750498b02/60ef22c0abc54.image.jpg",
-    music_video: "https://www.youtube.com/watch?v=KOj0SuiRRko"
+    image: "https://is4-ssl.mzstatic.com/image/thumb/Music/c2/8a/dc/mzi.sgftupib.jpg/600x600bf-60.jpg"
         },
 {
     title: "What You Want",
@@ -4131,8 +3530,7 @@ actor: bundy,
     musical: lb,
     featured: "Laura Bell Bundy, Annaleigh Ashford, Leslie Kritzer, DeQuina Moore, Kate Wetherhead",
 actor: bundy,
-    image: "https://bloximages.newyork1.vip.townnews.com/hometownnewstc.com/content/tncms/assets/v3/editorial/1/8d/18d03684-e4cb-11eb-b0b8-ff0750498b02/60ef22c0abc54.image.jpg",
-    music_video: "https://www.youtube.com/watch?v=oWpizOZJzXw"
+    image: "https://is4-ssl.mzstatic.com/image/thumb/Music/c2/8a/dc/mzi.sgftupib.jpg/600x600bf-60.jpg"
         },
 {
     title: "The Harvard Variations",
@@ -4140,8 +3538,7 @@ actor: bundy,
     musical: lb,
     featured: "Christian Borle, Natalie Joy Johnson, 'Legally Blonde' Ensemble, Manuel Herrera, Noah Weisberg",
 actor: bundy,
-    image: "https://bloximages.newyork1.vip.townnews.com/hometownnewstc.com/content/tncms/assets/v3/editorial/1/8d/18d03684-e4cb-11eb-b0b8-ff0750498b02/60ef22c0abc54.image.jpg",
-    music_video: "https://www.youtube.com/watch?v=keoiHG8dCkY"
+    image: "https://is4-ssl.mzstatic.com/image/thumb/Music/c2/8a/dc/mzi.sgftupib.jpg/600x600bf-60.jpg"
         },
 {
     title: "Blood in the Water",
@@ -4149,8 +3546,7 @@ actor: bundy,
     musical: lb,
     featured: "Michael Rupert, 'Legally Blonde' Ensemble",
 actor: bundy,
-    image: "https://bloximages.newyork1.vip.townnews.com/hometownnewstc.com/content/tncms/assets/v3/editorial/1/8d/18d03684-e4cb-11eb-b0b8-ff0750498b02/60ef22c0abc54.image.jpg",
-    music_video: "https://www.youtube.com/watch?v=97RegRZpRsw"
+    image: "https://is4-ssl.mzstatic.com/image/thumb/Music/c2/8a/dc/mzi.sgftupib.jpg/600x600bf-60.jpg"
         },
 {
     title: "Positive",
@@ -4158,8 +3554,7 @@ actor: bundy,
     musical: lb,
     featured: "Laura Bell Bundy, Annaleigh Ashford, Leslie Kritzer, DeQuina Moore, 'Legally Blonde' Greek Chorus",
 actor: bundy,
-    image: "https://bloximages.newyork1.vip.townnews.com/hometownnewstc.com/content/tncms/assets/v3/editorial/1/8d/18d03684-e4cb-11eb-b0b8-ff0750498b02/60ef22c0abc54.image.jpg",
-    music_video: "https://www.youtube.com/watch?v=n1Ds-i3I4b0"
+    image: "https://is4-ssl.mzstatic.com/image/thumb/Music/c2/8a/dc/mzi.sgftupib.jpg/600x600bf-60.jpg"
         },
 {
     title: "Ireland",
@@ -4167,8 +3562,7 @@ actor: bundy,
     musical: lb,
     featured: "Orfeh",
 actor: bundy,
-    image: "https://bloximages.newyork1.vip.townnews.com/hometownnewstc.com/content/tncms/assets/v3/editorial/1/8d/18d03684-e4cb-11eb-b0b8-ff0750498b02/60ef22c0abc54.image.jpg",
-    music_video: "https://www.youtube.com/watch?v=JwjNa60fyuA"
+    image: "https://is4-ssl.mzstatic.com/image/thumb/Music/c2/8a/dc/mzi.sgftupib.jpg/600x600bf-60.jpg"
         },
 {
     title: "Ireland (Reprise)",
@@ -4176,8 +3570,7 @@ actor: bundy,
     musical: lb,
     featured: "Orfeh",
 actor: bundy,
-    image: "https://bloximages.newyork1.vip.townnews.com/hometownnewstc.com/content/tncms/assets/v3/editorial/1/8d/18d03684-e4cb-11eb-b0b8-ff0750498b02/60ef22c0abc54.image.jpg",
-    music_video: "https://www.youtube.com/watch?v=_GWF-Ffwzr4"
+    image: "https://is4-ssl.mzstatic.com/image/thumb/Music/c2/8a/dc/mzi.sgftupib.jpg/600x600bf-60.jpg"
         },
 {
     title: "Serious (Reprise)",
@@ -4185,8 +3578,7 @@ actor: bundy,
     musical: lb,
     featured: "Laura Bell Bundy, Richard H. Blake",
 actor: bundy,
-    image: "https://bloximages.newyork1.vip.townnews.com/hometownnewstc.com/content/tncms/assets/v3/editorial/1/8d/18d03684-e4cb-11eb-b0b8-ff0750498b02/60ef22c0abc54.image.jpg",
-    music_video: "https://www.youtube.com/watch?v=qXcV8025vbk"
+    image: "https://is4-ssl.mzstatic.com/image/thumb/Music/c2/8a/dc/mzi.sgftupib.jpg/600x600bf-60.jpg"
         },
 {
     title: "Chip on My Shoulder",
@@ -4194,8 +3586,7 @@ actor: bundy,
     musical: lb,
     featured: "Laura Bell Bundy, Christian Borle, 'Legally Blonde' Greek Chorus, 'Legally Blonde' Ensemble",
 actor: bundy,
-    image: "https://bloximages.newyork1.vip.townnews.com/hometownnewstc.com/content/tncms/assets/v3/editorial/1/8d/18d03684-e4cb-11eb-b0b8-ff0750498b02/60ef22c0abc54.image.jpg",
-    music_video: "https://www.youtube.com/watch?v=kVkfVV8EyBo"
+    image: "https://is4-ssl.mzstatic.com/image/thumb/Music/c2/8a/dc/mzi.sgftupib.jpg/600x600bf-60.jpg"
         },
 {
     title: "So Much Better",
@@ -4203,8 +3594,7 @@ actor: bundy,
     musical: lb,
     featured: "Laura Bell Bundy, 'Legally Blonde' Ensemble",
 actor: bundy,
-    image: "https://bloximages.newyork1.vip.townnews.com/hometownnewstc.com/content/tncms/assets/v3/editorial/1/8d/18d03684-e4cb-11eb-b0b8-ff0750498b02/60ef22c0abc54.image.jpg",
-    music_video: "https://www.youtube.com/watch?v=hmichxgD-Xc"
+    image: "https://is4-ssl.mzstatic.com/image/thumb/Music/c2/8a/dc/mzi.sgftupib.jpg/600x600bf-60.jpg"
         },
 {
     title: "Whipped into Shape",
@@ -4212,8 +3602,7 @@ actor: bundy,
     musical: lb,
     featured: "Michael Rupert, Nikki Snelson, 'Legally Blonde' Ensemble",
 actor: bundy,
-    image: "https://bloximages.newyork1.vip.townnews.com/hometownnewstc.com/content/tncms/assets/v3/editorial/1/8d/18d03684-e4cb-11eb-b0b8-ff0750498b02/60ef22c0abc54.image.jpg",
-    music_video: "https://www.youtube.com/watch?v=0DxjKpSYu5o"
+    image: "https://is4-ssl.mzstatic.com/image/thumb/Music/c2/8a/dc/mzi.sgftupib.jpg/600x600bf-60.jpg"
         },
 {
     title: "Take It Like a Man",
@@ -4221,8 +3610,7 @@ actor: bundy,
     musical: lb,
     featured: "Laura Bell Bundy, Christian Borle",
 actor: bundy,
-    image: "https://bloximages.newyork1.vip.townnews.com/hometownnewstc.com/content/tncms/assets/v3/editorial/1/8d/18d03684-e4cb-11eb-b0b8-ff0750498b02/60ef22c0abc54.image.jpg",
-    music_video: "https://www.youtube.com/watch?v=au9F-W09Lbw"
+    image: "https://is4-ssl.mzstatic.com/image/thumb/Music/c2/8a/dc/mzi.sgftupib.jpg/600x600bf-60.jpg"
         },
 {
     title: "Bend and Snap",
@@ -4230,8 +3618,7 @@ actor: bundy,
     musical: lb,
     featured: "Laura Bell Bundy, Annaleigh Ashford, Orfeh, Leslie Kritzer, DeQuina Moore, 'Legally Blonde' Ensemble",
 actor: bundy,
-    image: "https://bloximages.newyork1.vip.townnews.com/hometownnewstc.com/content/tncms/assets/v3/editorial/1/8d/18d03684-e4cb-11eb-b0b8-ff0750498b02/60ef22c0abc54.image.jpg",
-    music_video: "https://www.youtube.com/watch?v=TtAjmDYoa2g"
+    image: "https://is4-ssl.mzstatic.com/image/thumb/Music/c2/8a/dc/mzi.sgftupib.jpg/600x600bf-60.jpg"
         },
 {
     title: "There! Right There!",
@@ -4239,8 +3626,7 @@ actor: bundy,
     musical: lb,
     featured: "Laura Bell Bundy, Matthew Risch, Katherine Shindle, Amber Efé, 'Legally Blonde' Ensemble, Manuel Herrera",
 actor: bundy,
-    image: "https://bloximages.newyork1.vip.townnews.com/hometownnewstc.com/content/tncms/assets/v3/editorial/1/8d/18d03684-e4cb-11eb-b0b8-ff0750498b02/60ef22c0abc54.image.jpg",
-    music_video: "https://www.youtube.com/watch?v=j-01cO73qRU"
+    image: "https://is4-ssl.mzstatic.com/image/thumb/Music/c2/8a/dc/mzi.sgftupib.jpg/600x600bf-60.jpg"
         },
 {
     title: "Legally Blonde (Remix)",
@@ -4248,8 +3634,7 @@ actor: bundy,
     musical: lb,
     featured: "Laura Bell Bundy, Katherine Shindle, Natalie Joy Johnson, 'Legally Blonde' Ensemble",
 actor: bundy,
-    image: "https://bloximages.newyork1.vip.townnews.com/hometownnewstc.com/content/tncms/assets/v3/editorial/1/8d/18d03684-e4cb-11eb-b0b8-ff0750498b02/60ef22c0abc54.image.jpg",
-    music_video: "https://www.youtube.com/watch?v=jrEk-NiQ_8w"
+    image: "https://is4-ssl.mzstatic.com/image/thumb/Music/c2/8a/dc/mzi.sgftupib.jpg/600x600bf-60.jpg"
         },
 {
     title: "Find My Way / Finale",
@@ -4257,8 +3642,7 @@ actor: bundy,
     musical: lb,
     featured: "Laura Bell Bundy, Orfeh, 'Legally Blonde' Ensemble",
 actor: bundy,
-    image: "https://bloximages.newyork1.vip.townnews.com/hometownnewstc.com/content/tncms/assets/v3/editorial/1/8d/18d03684-e4cb-11eb-b0b8-ff0750498b02/60ef22c0abc54.image.jpg",
-    music_video: "https://www.youtube.com/watch?v=_zUJmKKUv3Y"
+    image: "https://is4-ssl.mzstatic.com/image/thumb/Music/c2/8a/dc/mzi.sgftupib.jpg/600x600bf-60.jpg"
         },
 {
     title: "Beautiful",
@@ -4266,8 +3650,7 @@ actor: bundy,
     musical: heathers,
     featured: "Barrett Wilbert Weed, Katie Ladner, Alice Lee, Jessica Keenan Wynn, Elle McLemore",
 actor: bww,
-    image: "http://www.playbillstore.com/images/Heathers_The_Musical_Off-Broadway_Poster.jpg",
-    music_video: "https://www.youtube.com/watch?v=hFrmswtFSz0"
+    image: "https://m.media-amazon.com/images/I/71YeLTtIvnL._SL1200_.jpg"
         },
 {
     title: "Candy Store",
@@ -4275,8 +3658,7 @@ actor: bww,
     musical: heathers,
     featured: "Jessica Keenan Wynn, Alice Lee, Elle McLemore",
 actor:bww ,
-    image: "http://www.playbillstore.com/images/Heathers_The_Musical_Off-Broadway_Poster.jpg",
-    music_video: "https://www.youtube.com/watch?v=_57ZW9kq1X8"
+    image: "https://m.media-amazon.com/images/I/71YeLTtIvnL._SL1200_.jpg"
         },
 {
     title: "Fight for Me",
@@ -4284,8 +3666,7 @@ actor:bww ,
     musical: heathers,
     featured: "Barrett Wilbert Weed",
 actor: bww,
-    image: "http://www.playbillstore.com/images/Heathers_The_Musical_Off-Broadway_Poster.jpg",
-    music_video: "https://www.youtube.com/watch?v=XCf-xT7hUsE"
+    image: "https://m.media-amazon.com/images/I/71YeLTtIvnL._SL1200_.jpg"
         },
 {
     title: "Freeze Your Brain",
@@ -4293,8 +3674,7 @@ actor: bww,
     musical: heathers,
     featured: "Ryan McCartan, Barrett Wilbert Weed",
 actor: bww,
-    image: "http://www.playbillstore.com/images/Heathers_The_Musical_Off-Broadway_Poster.jpg",
-    music_video: "https://www.youtube.com/watch?v=jqirJaFFHNw"
+    image: "https://m.media-amazon.com/images/I/71YeLTtIvnL._SL1200_.jpg"
         },
 {
     title: "Big Fun",
@@ -4302,8 +3682,7 @@ actor: bww,
     musical: heathers,
     featured: "Jon Eidson, Evan Todd, Barrett Wilbert Weed, Jessica Keenan Wynn,  Alice Lee",
 actor: bww,
-    image: "http://www.playbillstore.com/images/Heathers_The_Musical_Off-Broadway_Poster.jpg",
-    music_video: "https://www.youtube.com/watch?v=QJXbNfgC3Nk"
+    image: "https://m.media-amazon.com/images/I/71YeLTtIvnL._SL1200_.jpg"
         },
 {
     title: "Dead Girl Walking",
@@ -4311,8 +3690,7 @@ actor: bww,
     musical: heathers,
     featured: "Barrett Wilbert Weed, Ryan McCartan",
 actor: bww,
-    image: "http://www.playbillstore.com/images/Heathers_The_Musical_Off-Broadway_Poster.jpg",
-    music_video: "https://www.youtube.com/watch?v=mcU1VCgcUh8"
+    image: "https://m.media-amazon.com/images/I/71YeLTtIvnL._SL1200_.jpg"
         },
 {
     title: "The Me Inside of Me",
@@ -4320,8 +3698,7 @@ actor: bww,
     musical: heathers,
     featured: "Jessica Keenan Wynn, Daniel Cooney, Dan Domenech, AJ Meijer & Michelle Duffy",
 actor: bww,
-    image: "http://www.playbillstore.com/images/Heathers_The_Musical_Off-Broadway_Poster.jpg",
-    music_video: "https://www.youtube.com/watch?v=0pu11F72ynY"
+    image: "https://m.media-amazon.com/images/I/71YeLTtIvnL._SL1200_.jpg"
         },
 {
     title: "Blue",
@@ -4329,8 +3706,7 @@ actor: bww,
     musical: heathers,
     featured: "Evan Todd, Jon Eidson, Barrett Wilbert Weed, Alice Lee, Elle McLemore",
 actor: bww,
-    image: "http://www.playbillstore.com/images/Heathers_The_Musical_Off-Broadway_Poster.jpg",
-    music_video: "https://www.youtube.com/watch?v=bx_QfkusXUQ"
+    image: "https://m.media-amazon.com/images/I/71YeLTtIvnL._SL1200_.jpg"
         },
 {
     title: "Our Love is God",
@@ -4338,8 +3714,7 @@ actor: bww,
     musical: heathers,
     featured: "Ryan McCartan, Barrett Wilbert Weed, Jon Eidson, Evan Todd",
 actor: mccartan,
-    image: "http://www.playbillstore.com/images/Heathers_The_Musical_Off-Broadway_Poster.jpg",
-    music_video: "https://www.youtube.com/watch?v=6BtdOihBpuw"
+    image: "https://m.media-amazon.com/images/I/71YeLTtIvnL._SL1200_.jpg"
         },
 {
     title: "My Dead Gay Son",
@@ -4347,8 +3722,7 @@ actor: mccartan,
     musical: heathers,
     featured: "Anthony Crivello, Daniel Cooney",
 actor: bww,
-    image: "http://www.playbillstore.com/images/Heathers_The_Musical_Off-Broadway_Poster.jpg",
-    music_video: "https://www.youtube.com/watch?v=5iZfkwyqXHU"
+    image: "https://m.media-amazon.com/images/I/71YeLTtIvnL._SL1200_.jpg"
         },
 {
     title: "Seventeen",
@@ -4356,8 +3730,7 @@ actor: bww,
     musical: heathers,
     featured: "Barrett Wilbert Weed, Ryan McCartan",
 actor: mccartan,
-    image: "http://www.playbillstore.com/images/Heathers_The_Musical_Off-Broadway_Poster.jpg",
-    music_video: "https://www.youtube.com/watch?v=Er6cBpR63XA"
+    image: "https://m.media-amazon.com/images/I/71YeLTtIvnL._SL1200_.jpg"
         },
 {
     title: "Shine a Light",
@@ -4365,8 +3738,7 @@ actor: mccartan,
     musical: heathers,
     featured: "Michelle Duffy, AJ Meijer, Rachel Flynn, Dustin Sullivan, Charissa Hogeland",
 actor: bww,
-    image: "http://www.playbillstore.com/images/Heathers_The_Musical_Off-Broadway_Poster.jpg",
-    music_video: "https://www.youtube.com/watch?v=iKYU6B7I-Rs"
+    image: "https://m.media-amazon.com/images/I/71YeLTtIvnL._SL1200_.jpg"
         },
 {
     title: "Lifeboat",
@@ -4374,8 +3746,7 @@ actor: bww,
     musical: heathers,
     featured: "Elle McLemore",
 actor: bww,
-    image: "http://www.playbillstore.com/images/Heathers_The_Musical_Off-Broadway_Poster.jpg",
-    music_video: "https://www.youtube.com/watch?v=LEV0Ygy2950"
+    image: "https://m.media-amazon.com/images/I/71YeLTtIvnL._SL1200_.jpg"
         },
 {
     title: "Shine a Light (Reprise)",
@@ -4383,8 +3754,7 @@ actor: bww,
     musical: heathers,
     featured: "Alice Lee, Elle McLemore",
 actor: bww,
-    image: "http://www.playbillstore.com/images/Heathers_The_Musical_Off-Broadway_Poster.jpg",
-    music_video: "https://www.youtube.com/watch?v=_h_Zi4F1I8I"
+    image: "https://m.media-amazon.com/images/I/71YeLTtIvnL._SL1200_.jpg"
         },
 {
     title: "Kindergarten Boyfriend",
@@ -4392,8 +3762,7 @@ actor: bww,
     musical: heathers,
     featured: "Katie Ladner",
 actor: bww,
-    image: "http://www.playbillstore.com/images/Heathers_The_Musical_Off-Broadway_Poster.jpg",
-    music_video: "https://www.youtube.com/watch?v=fCG7Lwapypc"
+    image: "https://m.media-amazon.com/images/I/71YeLTtIvnL._SL1200_.jpg"
         },
 {
     title: "Yo Girl",
@@ -4401,8 +3770,7 @@ actor: bww,
     musical: heathers,
     featured: "Jessica Keenan Wynn, Evan Todd, Jon Eidson, Barrett Wilbert Weed, Michelle Duffy",
 actor: bww,
-    image: "http://www.playbillstore.com/images/Heathers_The_Musical_Off-Broadway_Poster.jpg",
-    music_video: "https://www.youtube.com/watch?v=7UG8eS6LtM8"
+    image: "https://m.media-amazon.com/images/I/71YeLTtIvnL._SL1200_.jpg"
         },
 {
     title: "Meant to Be Yours",
@@ -4410,8 +3778,7 @@ actor: bww,
     musical: heathers,
     featured: "Ryan McCartan, Barrett Wilbert Weed & Michelle Duffy",
 actor: mccartan,
-    image: "http://www.playbillstore.com/images/Heathers_The_Musical_Off-Broadway_Poster.jpg",
-    music_video: "https://www.youtube.com/watch?v=BbiGahwoFJk"
+    image: "https://m.media-amazon.com/images/I/71YeLTtIvnL._SL1200_.jpg"
         },
 {
     title: "Dead Girl Walking (Reprise)",
@@ -4419,8 +3786,7 @@ actor: mccartan,
     musical: heathers,
     featured: "Barrett Wilbert Weed, Michelle Duffy, Daniel Cooney, Ryan McCartan, Elle McLemore",
 actor: mccartan,
-    image: "http://www.playbillstore.com/images/Heathers_The_Musical_Off-Broadway_Poster.jpg",
-    music_video: "https://www.youtube.com/watch?v=WJ86q-leDSU"
+    image: "https://m.media-amazon.com/images/I/71YeLTtIvnL._SL1200_.jpg"
         },
 {
     title: "I Am Damaged",
@@ -4428,8 +3794,7 @@ actor: mccartan,
     musical: heathers,
     featured: "Ryan McCartan, Barrett Wilbert Weed",
 actor: mccartan,
-    image: "http://www.playbillstore.com/images/Heathers_The_Musical_Off-Broadway_Poster.jpg",
-    music_video: "https://www.youtube.com/watch?v=VmEH0BBKWuk"
+    image: "https://m.media-amazon.com/images/I/71YeLTtIvnL._SL1200_.jpg"
         },
 {
     title: "Seventeen (Reprise)",
@@ -4437,8 +3802,7 @@ actor: mccartan,
     musical: heathers,
     featured: "Barrett Wilbert Weed, Alice Lee, Katie Ladner, Elle McLemore",
 actor: bww,
-    image: "http://www.playbillstore.com/images/Heathers_The_Musical_Off-Broadway_Poster.jpg",
-    music_video: "https://www.youtube.com/watch?v=PbW2skRTqy0"
+    image: "https://m.media-amazon.com/images/I/71YeLTtIvnL._SL1200_.jpg"
         },
 {
     title: "A Cautionary Tale",
@@ -4446,8 +3810,7 @@ actor: bww,
     musical: mg,
     featured: "Barrett Wilbert Weed, Grey Henson",
 actor: bww,
-    image: "https://upload.wikimedia.org/wikipedia/en/3/3b/Mean_Girls-Musical-Poster.jpg",
-    music_video: "https://www.youtube.com/watch?v=WelAUOQQUmU"
+    image: "https://m.media-amazon.com/images/I/915e89J2+7L._SL1425_.jpg"
         },
 {
     title: "It Roars",
@@ -4455,8 +3818,7 @@ actor: bww,
     musical: mg,
     featured: "Erika Henningsen, Original Broadway Cast of Mean Girls",
 actor: erika,
-    image: "https://upload.wikimedia.org/wikipedia/en/3/3b/Mean_Girls-Musical-Poster.jpg",
-    music_video: "https://www.youtube.com/watch?v=jgIXCdLaRCs"
+    image: "https://m.media-amazon.com/images/I/915e89J2+7L._SL1425_.jpg"
         },
 {
     title: "Where Do You Belong?",
@@ -4464,8 +3826,7 @@ actor: erika,
     musical: mg,
     featured: "Barrett Wilbert Weed, Erika Henningsen, Grey Henson, Original Broadway Cast of Mean Girls",
 actor: bww,
-    image: "https://upload.wikimedia.org/wikipedia/en/3/3b/Mean_Girls-Musical-Poster.jpg",
-    music_video: "https://www.youtube.com/watch?v=x9YWi5kBIik"
+    image: "https://m.media-amazon.com/images/I/915e89J2+7L._SL1425_.jpg"
         },
 {
     title: "Meet The Plastics",
@@ -4473,8 +3834,7 @@ actor: bww,
     musical: mg,
     featured: "Ashley Park, Barrett Wilbert Weed, Taylor Louderman, Erika Henningsen, Kate Rockwell, Grey Henson",
 actor: erika,
-    image: "https://upload.wikimedia.org/wikipedia/en/3/3b/Mean_Girls-Musical-Poster.jpg",
-    music_video: "https://www.youtube.com/watch?v=8sfw21u-n4E"
+    image: "https://m.media-amazon.com/images/I/915e89J2+7L._SL1425_.jpg"
         },
 {
     title: "Stupid With Love",
@@ -4482,8 +3842,7 @@ actor: erika,
     musical: mg,
     featured: "Erika Henningsen, Original Broadway Cast of Mean Girls",
 actor: erika,
-    image: "https://upload.wikimedia.org/wikipedia/en/3/3b/Mean_Girls-Musical-Poster.jpg",
-    music_video: "https://www.youtube.com/watch?v=WyNTqzjeU8I"
+    image: "https://m.media-amazon.com/images/I/915e89J2+7L._SL1425_.jpg"
         },
 {
     title: "Apex Predator",
@@ -4491,8 +3850,7 @@ actor: erika,
     musical: mg,
     featured: "Barrett Wilbert Weed, Erika Henningsen",
 actor: erika,
-    image: "https://upload.wikimedia.org/wikipedia/en/3/3b/Mean_Girls-Musical-Poster.jpg",
-    music_video: "https://www.youtube.com/watch?v=Amv8T27SqCw"
+    image: "https://m.media-amazon.com/images/I/915e89J2+7L._SL1425_.jpg"
         },
 {
     title: "What's Wrong With Me?",
@@ -4500,8 +3858,7 @@ actor: erika,
     musical: mg,
     featured: "Ashley Park",
 actor: erika,
-    image: "https://upload.wikimedia.org/wikipedia/en/3/3b/Mean_Girls-Musical-Poster.jpg",
-    music_video: "https://www.youtube.com/watch?v=EJ49BwxV9ZA"
+    image: "https://m.media-amazon.com/images/I/915e89J2+7L._SL1425_.jpg"
         },
 {
     title: "Stupid With Love (Reprise)",
@@ -4509,8 +3866,7 @@ actor: erika,
     musical: mg,
     featured: "Erika Henningsen, Kyle Selig",
 actor: erika,
-    image: "https://upload.wikimedia.org/wikipedia/en/3/3b/Mean_Girls-Musical-Poster.jpg",
-    music_video: "https://www.youtube.com/watch?v=XpiigrtzNXI"
+    image: "https://m.media-amazon.com/images/I/915e89J2+7L._SL1425_.jpg"
         },
 {
     title: "Sexy",
@@ -4518,8 +3874,7 @@ actor: erika,
     musical: mg,
     featured: "Kate Rockwell, Original Broadway Cast of Mean Girls",
 actor: erika,
-    image: "https://upload.wikimedia.org/wikipedia/en/3/3b/Mean_Girls-Musical-Poster.jpg",
-    music_video: "https://www.youtube.com/watch?v=-KycXHeUxho"
+    image: "https://m.media-amazon.com/images/I/915e89J2+7L._SL1425_.jpg"
         },
 {
     title: "Someone Gets Hurt",
@@ -4527,8 +3882,7 @@ actor: erika,
     musical: mg,
     featured: "Kyle Selig, Taylor Louderman, Original Broadway Cast of Mean Girls",
 actor: louderman,
-    image: "https://upload.wikimedia.org/wikipedia/en/3/3b/Mean_Girls-Musical-Poster.jpg",
-    music_video: "https://www.youtube.com/watch?v=7hBy11aK-qw"
+    image: "https://m.media-amazon.com/images/I/915e89J2+7L._SL1425_.jpg"
         },
 {
     title: "Revenge Party",
@@ -4536,8 +3890,7 @@ actor: louderman,
     musical: mg,
     featured: "Barrett Wilbert Weed, Erika Henningsen, Grey Henson, Original Broadway Cast of Mean Girls",
 actor: bww,
-    image: "https://upload.wikimedia.org/wikipedia/en/3/3b/Mean_Girls-Musical-Poster.jpg",
-    music_video: "https://www.youtube.com/watch?v=Yj9nQbcMBgk"
+    image: "https://m.media-amazon.com/images/I/915e89J2+7L._SL1425_.jpg"
         },
 {
     title: "Fearless",
@@ -4545,8 +3898,7 @@ actor: bww,
     musical: mg,
     featured: "Ashley Park, Erika Henningsen, Kate Rockwell, Original Broadway Cast of Mean Girls",
 actor: erika,
-    image: "https://upload.wikimedia.org/wikipedia/en/3/3b/Mean_Girls-Musical-Poster.jpg",
-    music_video: "https://www.youtube.com/watch?v=N4gYlMyu7GM"
+    image: "https://m.media-amazon.com/images/I/915e89J2+7L._SL1425_.jpg"
         },
 {
     title: "Stop",
@@ -4554,8 +3906,7 @@ actor: erika,
     musical: mg,
     featured: "Kate Rockwell, Grey Henson, Original Broadway Cast of Mean Girls",
 actor: erika,
-    image: "https://upload.wikimedia.org/wikipedia/en/3/3b/Mean_Girls-Musical-Poster.jpg",
-    music_video: "https://www.youtube.com/watch?v=Y2vgfVm5Ol4"
+    image: "https://m.media-amazon.com/images/I/915e89J2+7L._SL1425_.jpg"
         },
 {
     title: "What's Wrong With Me? (Reprise)",
@@ -4563,8 +3914,7 @@ actor: erika,
     musical: mg,
     featured: "Ashley Park, Kerry Butler",
 actor: erika,
-    image: "https://upload.wikimedia.org/wikipedia/en/3/3b/Mean_Girls-Musical-Poster.jpg",
-    music_video: "https://www.youtube.com/watch?v=a_Qh7t5piBU"
+    image: "https://m.media-amazon.com/images/I/915e89J2+7L._SL1425_.jpg"
         },
 {
     title: "Whose House Is This?",
@@ -4572,8 +3922,7 @@ actor: erika,
     musical: mg,
     featured: "Ashley Park, Erika Henningsen, Kate Rockwell, Cheech Manohar, Original Broadway Cast of Mean Girls",
 actor: erika,
-    image: "https://upload.wikimedia.org/wikipedia/en/3/3b/Mean_Girls-Musical-Poster.jpg",
-    music_video: "https://www.youtube.com/watch?v=9J4l1DjRyMw"
+    image: "https://m.media-amazon.com/images/I/915e89J2+7L._SL1425_.jpg"
         },
 {
     title: "More Is Better",
@@ -4581,8 +3930,7 @@ actor: erika,
     musical: mg,
     featured: "Kyle Selig, Erika Henningsen",
 actor: erika,
-    image: "https://upload.wikimedia.org/wikipedia/en/3/3b/Mean_Girls-Musical-Poster.jpg",
-    music_video: "https://www.youtube.com/watch?v=3BEj3HyJQGU"
+    image: "https://m.media-amazon.com/images/I/915e89J2+7L._SL1425_.jpg"
         },
 {
     title: "Someone Gets Hurt (Reprise)",
@@ -4590,8 +3938,7 @@ actor: erika,
     musical: mg,
     featured: "Barrett Wilbert Weed, Grey Henson",
 actor: bww,
-    image: "https://upload.wikimedia.org/wikipedia/en/3/3b/Mean_Girls-Musical-Poster.jpg",
-    music_video: "https://www.youtube.com/watch?v=Ht-4BCp5Lv4"
+    image: "https://m.media-amazon.com/images/I/915e89J2+7L._SL1425_.jpg"
         },
 {
     title: "World Burn",
@@ -4599,8 +3946,7 @@ actor: bww,
     musical: mg,
     featured: "Taylor Louderman, Original Broadway Cast of Mean Girls",
 actor: louderman,
-    image: "https://upload.wikimedia.org/wikipedia/en/3/3b/Mean_Girls-Musical-Poster.jpg",
-    music_video: "https://www.youtube.com/watch?v=BWVRg6IOGWY"
+    image: "https://m.media-amazon.com/images/I/915e89J2+7L._SL1425_.jpg"
         },
 {
     title: "I'd Rather Be Me",
@@ -4608,8 +3954,7 @@ actor: louderman,
     musical: mg,
     featured: "Barrett Wilbert Weed, Original Broadway Cast of Mean Girls",
 actor: bww,
-    image: "https://upload.wikimedia.org/wikipedia/en/3/3b/Mean_Girls-Musical-Poster.jpg",
-    music_video: "https://www.youtube.com/watch?v=u075TmA_6TU"
+    image: "https://m.media-amazon.com/images/I/915e89J2+7L._SL1425_.jpg"
         },
 {
     title: "Do This Thing",
@@ -4617,8 +3962,7 @@ actor: bww,
     musical: mg,
     featured: "Erika Henningsen, Kerry Butler, Cheech Manohar, Original Broadway Cast of Mean Girls",
 actor: erika,
-    image: "https://upload.wikimedia.org/wikipedia/en/3/3b/Mean_Girls-Musical-Poster.jpg",
-    music_video: "https://www.youtube.com/watch?v=7aISN4eWvnw"
+    image: "https://m.media-amazon.com/images/I/915e89J2+7L._SL1425_.jpg"
         },
 {
     title: "I See Stars",
@@ -4626,8 +3970,7 @@ actor: erika,
     musical: mg,
     featured: "Erika Henningsen, Original Broadway Cast of Mean Girls",
 actor: erika,
-    image: "https://upload.wikimedia.org/wikipedia/en/3/3b/Mean_Girls-Musical-Poster.jpg",
-    music_video: "https://www.youtube.com/watch?v=q01VcTy-XGs"
+    image: "https://m.media-amazon.com/images/I/915e89J2+7L._SL1425_.jpg"
         },
 {
     title: "Overture",
@@ -4635,8 +3978,7 @@ actor: erika,
     musical: news,
     featured: "Alan Menken",
 actor: jj,
-    image: "https://upload.wikimedia.org/wikipedia/en/f/f7/Newsies_%28musical%29_poster.jpg",
-    music_video: "https://www.youtube.com/watch?v=QU3kNqWUj3I"
+    image: "https://m.media-amazon.com/images/I/81EYmCcjClL._SS500_.jpg"
         },
 {
     title: "Santa Fe (Prologue)",
@@ -4644,8 +3986,7 @@ actor: jj,
     musical: news,
     featured: "Jeremy Jordan, Andrew Keenan-Bolger",
 actor: jj,
-    image: "https://upload.wikimedia.org/wikipedia/en/f/f7/Newsies_%28musical%29_poster.jpg",
-    music_video: "https://www.youtube.com/watch?v=MWXezLjTaN0"
+    image: "https://m.media-amazon.com/images/I/81EYmCcjClL._SS500_.jpg"
         },
 {
     title: "Carrying The Banner",
@@ -4653,8 +3994,7 @@ actor: jj,
     musical: news,
     featured: "Jeremy Jordan, Original Broadway Cast",
 actor: jj,
-    image: "https://upload.wikimedia.org/wikipedia/en/f/f7/Newsies_%28musical%29_poster.jpg",
-    music_video: "https://www.youtube.com/watch?v=5-xFSp3vKhU"
+    image: "https://m.media-amazon.com/images/I/81EYmCcjClL._SS500_.jpg"
         },
 {
     title: "The Bottom Line",
@@ -4662,8 +4002,7 @@ actor: jj,
     musical: news,
     featured: "John Dossett, Nick Sullivan, Laurie Veldheer, Mark Aldrich",
 actor: doss,
-    image: "https://upload.wikimedia.org/wikipedia/en/f/f7/Newsies_%28musical%29_poster.jpg",
-    music_video: "https://www.youtube.com/watch?v=fovL1AORdec"
+    image: "https://m.media-amazon.com/images/I/81EYmCcjClL._SS500_.jpg"
         },
 {
     title: "That's Rich",
@@ -4671,8 +4010,7 @@ actor: doss,
     musical: news,
     featured: "Capathia Jenkins",
 actor: jj,
-    image: "https://upload.wikimedia.org/wikipedia/en/f/f7/Newsies_%28musical%29_poster.jpg",
-    music_video: "https://www.youtube.com/watch?v=cwt-7noTzZ4"
+    image: "https://m.media-amazon.com/images/I/81EYmCcjClL._SS500_.jpg"
         },
 {
     title: "I Never Planned On You / Don't Come A-Knocking",
@@ -4680,8 +4018,7 @@ actor: jj,
     musical: news,
     featured: "Jeremy Jordan, Julie Foldesi, Laurie Veldheer",
 actor: jj,
-    image: "https://upload.wikimedia.org/wikipedia/en/f/f7/Newsies_%28musical%29_poster.jpg",
-    music_video: "https://www.youtube.com/watch?v=v1dHvOpK8mg"
+    image: "https://m.media-amazon.com/images/I/81EYmCcjClL._SS500_.jpg"
         },
 {
     title: "The World Will Know",
@@ -4689,8 +4026,7 @@ actor: jj,
     musical: news,
     featured: "Jeremy Jordan, Original Broadway Cast",
 actor: jj,
-    image: "https://upload.wikimedia.org/wikipedia/en/f/f7/Newsies_%28musical%29_poster.jpg",
-    music_video: "https://www.youtube.com/watch?v=pQAgRVkI3hI"
+    image: "https://m.media-amazon.com/images/I/81EYmCcjClL._SS500_.jpg"
         },
 {
     title: "Watch What Happens",
@@ -4698,8 +4034,7 @@ actor: jj,
     musical: news,
     featured: "Kara Lindsay",
 actor: kara,
-    image: "https://upload.wikimedia.org/wikipedia/en/f/f7/Newsies_%28musical%29_poster.jpg",
-    music_video: "https://www.youtube.com/watch?v=ub8hHA96FVY"
+    image: "https://m.media-amazon.com/images/I/81EYmCcjClL._SS500_.jpg"
         },
 {
     title: "Seize The Day",
@@ -4707,8 +4042,7 @@ actor: kara,
     musical: news,
     featured: "Jeremy Jordan, Original Broadway Cast, Ben Fankhauser",
 actor: jj,
-    image: "https://upload.wikimedia.org/wikipedia/en/f/f7/Newsies_%28musical%29_poster.jpg",
-    music_video: "https://www.youtube.com/watch?v=g9Yy7aVteR4"
+    image: "https://m.media-amazon.com/images/I/81EYmCcjClL._SS500_.jpg"
         },
 {
     title: "Santa Fe",
@@ -4716,8 +4050,7 @@ actor: jj,
     musical: news,
     featured: "Jeremy Jordan",
 actor: jj,
-    image: "https://upload.wikimedia.org/wikipedia/en/f/f7/Newsies_%28musical%29_poster.jpg",
-    music_video: "https://www.youtube.com/watch?v=DbesLnmb3m8"
+    image: "https://m.media-amazon.com/images/I/81EYmCcjClL._SS500_.jpg"
         },
 {
     title: "King Of New York",
@@ -4725,8 +4058,7 @@ actor: jj,
     musical: news,
     featured: "Kara Lindsay, Original Broadway Cast, Ben Fankhauser, Lewis Grosso",
 actor: kara,
-    image: "https://upload.wikimedia.org/wikipedia/en/f/f7/Newsies_%28musical%29_poster.jpg",
-    music_video: "https://www.youtube.com/watch?v=V18l_o0u89g"
+    image: "https://m.media-amazon.com/images/I/81EYmCcjClL._SS500_.jpg"
         },
 {
     title: "Watch What Happens (Reprise)",
@@ -4734,8 +4066,7 @@ actor: kara,
     musical: news,
     featured: "Jeremy Jordan, Kara Lindsay, Ben Fankhauser, Lewis Grosso",
 actor: jj,
-    image: "https://upload.wikimedia.org/wikipedia/en/f/f7/Newsies_%28musical%29_poster.jpg",
-    music_video: "https://www.youtube.com/watch?v=aOboM5Gncmk"
+    image: "https://m.media-amazon.com/images/I/81EYmCcjClL._SS500_.jpg"
         },
 {
     title: "The Bottom Line (Reprise)",
@@ -4743,8 +4074,7 @@ actor: jj,
     musical: news,
     featured: "John Dossett, John E. Brady, Mark Aldrich",
 actor: doss,
-    image: "https://upload.wikimedia.org/wikipedia/en/f/f7/Newsies_%28musical%29_poster.jpg",
-    music_video: "https://www.youtube.com/watch?v=5A9SU7VZd_k"
+    image: "https://m.media-amazon.com/images/I/81EYmCcjClL._SS500_.jpg"
         },
 {
     title: "Brooklyn’s Here",
@@ -4752,8 +4082,7 @@ actor: doss,
     musical: news,
     featured: "Original Broadway Cast, Tommy Bracco",
 actor: jj,
-    image: "https://upload.wikimedia.org/wikipedia/en/f/f7/Newsies_%28musical%29_poster.jpg",
-    music_video: "https://www.youtube.com/watch?v=RVvBupYvXjc"
+    image: "https://m.media-amazon.com/images/I/81EYmCcjClL._SS500_.jpg"
         },
 {
     title: "Something To Believe In",
@@ -4761,8 +4090,7 @@ actor: jj,
     musical: news,
     featured: "Jeremy Jordan, Kara Lindsay",
 actor: jj,
-    image: "https://upload.wikimedia.org/wikipedia/en/f/f7/Newsies_%28musical%29_poster.jpg",
-    music_video: "https://www.youtube.com/watch?v=CCY-8FETQog"
+    image: "https://m.media-amazon.com/images/I/81EYmCcjClL._SS500_.jpg"
         },
 {
     title: "Once And For All",
@@ -4770,8 +4098,7 @@ actor: jj,
     musical: news,
     featured: "Jeremy Jordan, Alan Menken, Kara Lindsay, Ryan Breslin, Original Broadway Cast, Ben Fankhauser, Jack Feldman",
 actor: jj,
-    image: "https://upload.wikimedia.org/wikipedia/en/f/f7/Newsies_%28musical%29_poster.jpg",
-    music_video: "https://www.youtube.com/watch?v=ckuGMPTCOyE"
+    image: "https://m.media-amazon.com/images/I/81EYmCcjClL._SS500_.jpg"
         },
 {
     title: "Finale",
@@ -4779,8 +4106,7 @@ actor: jj,
     musical: news,
     featured: "Jeremy Jordan, Original Broadway Cast",
 actor: jj,
-    image: "https://upload.wikimedia.org/wikipedia/en/f/f7/Newsies_%28musical%29_poster.jpg",
-    music_video: "https://www.youtube.com/watch?v=96I3XJBEr04"
+    image: "https://m.media-amazon.com/images/I/81EYmCcjClL._SS500_.jpg"
         },
 {
     title: "Overture",
@@ -4788,8 +4114,7 @@ actor: jj,
     musical: mermaid,
     featured: "Alan Menken",
 actor: sierra,
-    image: "https://www.subplotstudio.com/resources/images/products/2574/product.437.jpg",
-    music_video: "https://www.youtube.com/watch?v=GJFin6sAf48"
+    image: "https://images-na.ssl-images-amazon.com/images/I/71B1PGDNUQL.jpg"
         },
 {
     title: "Fathoms Below",
@@ -4797,8 +4122,7 @@ actor: sierra,
     musical: mermaid,
     featured: "Sean Palmer, Jonathan Freeman, Ensemble",
 actor: sierra,
-    image: "https://www.subplotstudio.com/resources/images/products/2574/product.437.jpg",
-    music_video: "https://www.youtube.com/watch?v=_y6uAJeUca0"
+    image: "https://images-na.ssl-images-amazon.com/images/I/71B1PGDNUQL.jpg"
         },
 {
     title: "Daughters of Triton",
@@ -4806,8 +4130,7 @@ actor: sierra,
     musical: mermaid,
     featured: "Kay Trinidad, Chelsea Morgan Stock, Cathryn Basile, Zakiya Young Mizen, Michelle Lookadoo, Cicly Daniels, Tituss Burgess",
 actor: sierra,
-    image: "https://www.subplotstudio.com/resources/images/products/2574/product.437.jpg",
-    music_video: "https://www.youtube.com/watch?v=EX_XFOzMVT4"
+    image: "https://images-na.ssl-images-amazon.com/images/I/71B1PGDNUQL.jpg"
         },
 {
     title: "The World Above",
@@ -4815,8 +4138,7 @@ actor: sierra,
     musical: mermaid,
     featured: "Sierra Boggess",
 actor: sierra,
-    image: "https://www.subplotstudio.com/resources/images/products/2574/product.437.jpg",
-    music_video: "https://www.youtube.com/watch?v=MGetuZuJRNw"
+    image: "https://images-na.ssl-images-amazon.com/images/I/71B1PGDNUQL.jpg"
         },
 {
     title: "Human Stuff",
@@ -4824,8 +4146,7 @@ actor: sierra,
     musical: mermaid,
     featured: "Eddie Korbich, Tituss Burgess, Ensemble",
 actor: sierra,
-    image: "https://www.subplotstudio.com/resources/images/products/2574/product.437.jpg",
-    music_video: "https://www.youtube.com/watch?v=hf4A1ea8Guw"
+    image: "https://images-na.ssl-images-amazon.com/images/I/71B1PGDNUQL.jpg"
         },
 {
     title: "I Want the Good Times Back",
@@ -4833,8 +4154,7 @@ actor: sierra,
     musical: mermaid,
     featured: "Sherie René Scott, Tyler Maynard, Derrick Baskin",
 actor: sierra,
-    image: "https://www.subplotstudio.com/resources/images/products/2574/product.437.jpg",
-    music_video: "https://www.youtube.com/watch?v=xfjqeD5lnJc"
+    image: "https://images-na.ssl-images-amazon.com/images/I/71B1PGDNUQL.jpg"
         },
 {
     title: "Part of Your World",
@@ -4842,8 +4162,7 @@ actor: sierra,
     musical: mermaid,
     featured: "Sierra Boggess",
 actor: sierra,
-    image: "https://www.subplotstudio.com/resources/images/products/2574/product.437.jpg",
-    music_video: "https://www.youtube.com/watch?v=M_aVtIc7Dn8"
+    image: "https://images-na.ssl-images-amazon.com/images/I/71B1PGDNUQL.jpg"
         },
 {
     title: "Storm at Sea",
@@ -4851,8 +4170,7 @@ actor: sierra,
     musical: mermaid,
     featured: "Alan Menken",
 actor: sierra,
-    image: "https://www.subplotstudio.com/resources/images/products/2574/product.437.jpg",
-    music_video: "https://www.youtube.com/watch?v=aV2SNVrA_v0"
+    image: "https://images-na.ssl-images-amazon.com/images/I/71B1PGDNUQL.jpg"
         },
 {
     title: "Part of Your World (Reprise)",
@@ -4860,8 +4178,7 @@ actor: sierra,
     musical: mermaid,
     featured: "Sierra Boggess, Eddie Korbich",
 actor: sierra,
-    image: "https://www.subplotstudio.com/resources/images/products/2574/product.437.jpg",
-    music_video: "https://www.youtube.com/watch?v=WR0gfkvQdug"
+    image: "https://images-na.ssl-images-amazon.com/images/I/71B1PGDNUQL.jpg"
         },
 {
     title: "She’s in Love",
@@ -4869,8 +4186,7 @@ actor: sierra,
     musical: mermaid,
     featured: "Brian D'Addario, Kay Trinidad, Cicly Daniels, Michelle Lookadoo, Zakiya Young Mizen, Chelsea Morgan Stock",
 actor: sierra,
-    image: "https://www.subplotstudio.com/resources/images/products/2574/product.437.jpg",
-    music_video: "https://www.youtube.com/watch?v=f8oW7LVW_sQ"
+    image: "https://images-na.ssl-images-amazon.com/images/I/71B1PGDNUQL.jpg"
         },
 {
     title: "Her Voice",
@@ -4878,8 +4194,7 @@ actor: sierra,
     musical: mermaid,
     featured: "Sean Palmer",
 actor: sierra,
-    image: "https://www.subplotstudio.com/resources/images/products/2574/product.437.jpg",
-    music_video: "https://www.youtube.com/watch?v=41ksXCWJHwQ"
+    image: "https://images-na.ssl-images-amazon.com/images/I/71B1PGDNUQL.jpg"
         },
 {
     title: "The World Above (Reprise)",
@@ -4887,8 +4202,7 @@ actor: sierra,
     musical: mermaid,
     featured: "Norm Lewis, Sierra Boggess",
 actor: sierra,
-    image: "https://www.subplotstudio.com/resources/images/products/2574/product.437.jpg",
-    music_video: "https://www.youtube.com/watch?v=FSRQJz6JSWI"
+    image: "https://images-na.ssl-images-amazon.com/images/I/71B1PGDNUQL.jpg"
         },
 {
     title: "Under the Sea",
@@ -4896,8 +4210,7 @@ actor: sierra,
     musical: mermaid,
     featured: "Tituss Burgess, Ensemble",
 actor: sierra,
-    image: "https://www.subplotstudio.com/resources/images/products/2574/product.437.jpg",
-    music_video: "https://www.youtube.com/watch?v=kzcJevg11Ag"
+    image: "https://images-na.ssl-images-amazon.com/images/I/71B1PGDNUQL.jpg"
         },
 {
     title: "Under the Sea (Reprise)",
@@ -4905,8 +4218,7 @@ actor: sierra,
     musical: mermaid,
     featured: "Tituss Burgess, Ensemble",
 actor: sierra,
-    image: "https://www.subplotstudio.com/resources/images/products/2574/product.437.jpg",
-    music_video: "https://www.youtube.com/watch?v=CqjNPvJobAY"
+    image: "https://images-na.ssl-images-amazon.com/images/I/71B1PGDNUQL.jpg"
         },
 {
     title: "Sweet Child",
@@ -4914,8 +4226,7 @@ actor: sierra,
     musical: mermaid,
     featured: "Tyler Maynard, Derrick Baskin, Sierra Boggess",
 actor: sierra,
-    image: "https://www.subplotstudio.com/resources/images/products/2574/product.437.jpg",
-    music_video: "https://www.youtube.com/watch?v=KZoe0-l7sBs"
+    image: "https://images-na.ssl-images-amazon.com/images/I/71B1PGDNUQL.jpg"
         },
 {
     title: "Poor Unfortunate Souls",
@@ -4923,8 +4234,7 @@ actor: sierra,
     musical: mermaid,
     featured: "Sherie René Scott, Sierra Boggess",
 actor: sierra,
-    image: "https://www.subplotstudio.com/resources/images/products/2574/product.437.jpg",
-    music_video: "https://www.youtube.com/watch?v=ddCPr7luI1s"
+    image: "https://images-na.ssl-images-amazon.com/images/I/71B1PGDNUQL.jpg"
         },
 {
     title: "Positoovity",
@@ -4932,8 +4242,7 @@ actor: sierra,
     musical: mermaid,
     featured: "Eddie Korbich, Ensemble",
 actor: sierra,
-    image: "https://www.subplotstudio.com/resources/images/products/2574/product.437.jpg",
-    music_video: "https://www.youtube.com/watch?v=1VQkVYPv_7k"
+    image: "https://images-na.ssl-images-amazon.com/images/I/71B1PGDNUQL.jpg"
         },
 {
     title: "Beyond My Wildest Dreams",
@@ -4941,8 +4250,7 @@ actor: sierra,
     musical: mermaid,
     featured: "Sierra Boggess, Heidi Blickenstaff, Ensemble",
 actor: sierra,
-    image: "https://www.subplotstudio.com/resources/images/products/2574/product.437.jpg",
-    music_video: "https://www.youtube.com/watch?v=hyiBzgqU5Gc"
+    image: "https://images-na.ssl-images-amazon.com/images/I/71B1PGDNUQL.jpg"
         },
 {
     title: "Les Poissons",
@@ -4950,8 +4258,7 @@ actor: sierra,
     musical: mermaid,
     featured: "John Treacy Egan",
 actor: sierra,
-    image: "https://www.subplotstudio.com/resources/images/products/2574/product.437.jpg",
-    music_video: "https://www.youtube.com/watch?v=9DnD1vndkps"
+    image: "https://images-na.ssl-images-amazon.com/images/I/71B1PGDNUQL.jpg"
         },
 {
     title: "Les Poissons (Reprise)",
@@ -4959,8 +4266,7 @@ actor: sierra,
     musical: mermaid,
     featured: "John Treacy Egan, Ensemble",
 actor: sierra,
-    image: "https://www.subplotstudio.com/resources/images/products/2574/product.437.jpg",
-    music_video: "https://www.youtube.com/watch?v=vAMajWIFo0o"
+    image: "https://images-na.ssl-images-amazon.com/images/I/71B1PGDNUQL.jpg"
         },
 {
     title: "One Step Closer",
@@ -4968,8 +4274,7 @@ actor: sierra,
     musical: mermaid,
     featured: "Sean Palmer",
 actor: sierra,
-    image: "https://www.subplotstudio.com/resources/images/products/2574/product.437.jpg",
-    music_video: "https://www.youtube.com/watch?v=ksF5Df5QOIs"
+    image: "https://images-na.ssl-images-amazon.com/images/I/71B1PGDNUQL.jpg"
         },
 {
     title: "I Want the Good Times Back (Reprise)",
@@ -4977,8 +4282,7 @@ actor: sierra,
     musical: mermaid,
     featured: "Sherie René Scott, Tyler Maynard, Derrick Baskin",
 actor: sierra,
-    image: "https://www.subplotstudio.com/resources/images/products/2574/product.437.jpg",
-    music_video: "https://www.youtube.com/watch?v=U0sbLYlOKPU"
+    image: "https://images-na.ssl-images-amazon.com/images/I/71B1PGDNUQL.jpg"
         },
 {
     title: "Kiss the Girl",
@@ -4986,8 +4290,7 @@ actor: sierra,
     musical: mermaid,
     featured: "Tituss Burgess, Eddie Korbich, Sean Palmer, Ensemble",
 actor: sierra,
-    image: "https://www.subplotstudio.com/resources/images/products/2574/product.437.jpg",
-    music_video: "https://www.youtube.com/watch?v=j8i0_Q9iC0Y"
+    image: "https://images-na.ssl-images-amazon.com/images/I/71B1PGDNUQL.jpg"
         },
 {
     title: "Sweet Child (Reprise)",
@@ -4995,8 +4298,7 @@ actor: sierra,
     musical: mermaid,
     featured: "Tyler Maynard, Derrick Baskin",
 actor: sierra,
-    image: "https://www.subplotstudio.com/resources/images/products/2574/product.437.jpg",
-    music_video: "https://www.youtube.com/watch?v=abEpiWS39CA"
+    image: "https://images-na.ssl-images-amazon.com/images/I/71B1PGDNUQL.jpg"
         },
 {
     title: "If Only (Quartet)",
@@ -5004,8 +4306,7 @@ actor: sierra,
     musical: mermaid,
     featured: "Sierra Boggess, Sean Palmer, Tituss Burgess, Norm Lewis",
 actor: sierra,
-    image: "https://www.subplotstudio.com/resources/images/products/2574/product.437.jpg",
-    music_video: "https://www.youtube.com/watch?v=SwXg_rNomYI"
+    image: "https://images-na.ssl-images-amazon.com/images/I/71B1PGDNUQL.jpg"
         },
 {
     title: "The Contest",
@@ -5013,8 +4314,7 @@ actor: sierra,
     musical: mermaid,
     featured: "Jonathan Freeman, Ensemble",
 actor: sierra,
-    image: "https://www.subplotstudio.com/resources/images/products/2574/product.437.jpg",
-    music_video: "https://www.youtube.com/watch?v=XeOekN29dXw"
+    image: "https://images-na.ssl-images-amazon.com/images/I/71B1PGDNUQL.jpg"
         },
 {
     title: "Poor Unfortunate Souls (Reprise)",
@@ -5022,8 +4322,7 @@ actor: sierra,
     musical: mermaid,
     featured: "Norm Lewis, Sherie René Scott",
 actor: sierra,
-    image: "https://www.subplotstudio.com/resources/images/products/2574/product.437.jpg",
-    music_video: "https://www.youtube.com/watch?v=oiU5Tez97ns"
+    image: "https://images-na.ssl-images-amazon.com/images/I/71B1PGDNUQL.jpg"
         },
 {
     title: "If Only (Reprise)",
@@ -5031,8 +4330,7 @@ actor: sierra,
     musical: mermaid,
     featured: "Sierra Boggess, Norm Lewis",
 actor: sierra,
-    image: "https://www.subplotstudio.com/resources/images/products/2574/product.437.jpg",
-    music_video: "https://www.youtube.com/watch?v=y7z555cCDKQ"
+    image: "https://images-na.ssl-images-amazon.com/images/I/71B1PGDNUQL.jpg"
         },
 {
     title: "Finale Ultimo",
@@ -5040,8 +4338,7 @@ actor: sierra,
     musical: mermaid,
     featured: "Sean Palmer, Sierra Boggess, Company",
 actor: sierra,
-    image: "https://www.subplotstudio.com/resources/images/products/2574/product.437.jpg",
-    music_video: "https://www.youtube.com/watch?v=LGom9L9xOH0"
+    image: "https://images-na.ssl-images-amazon.com/images/I/71B1PGDNUQL.jpg"
         },
 
 {
@@ -5050,8 +4347,7 @@ actor: sierra,
     musical: sor,
     featured: "Sean Palmer, Sierra Boggess, School of Rock Original Broadway Cast",
 actor: brightman,
-    image: "https://m.media-amazon.com/images/I/71atz1rlv7L._SL1433_.jpg",
-    music_video: "https://www.youtube.com/watch?v=HClKUBTlUWo&list=PLoX7YCmg-yQDKZPR5b_szIgno1-xrhU6d"
+    image: "https://m.media-amazon.com/images/I/71atz1rlv7L._SL1433_.jpg"
         },
 {
     title: "Horace Green Alma Mater",
@@ -5059,8 +4355,7 @@ actor: brightman,
     musical: sor,
     featured: "Sierra Boggess, School of Rock Original Broadway Cast",
 actor: sierra,
-    image: "https://m.media-amazon.com/images/I/71atz1rlv7L._SL1433_.jpg",
-    music_video: "https://www.youtube.com/watch?v=JcOnXGem6W0&list=PLoX7YCmg-yQDKZPR5b_szIgno1-xrhU6d&index=2"
+    image: "https://m.media-amazon.com/images/I/71atz1rlv7L._SL1433_.jpg"
         },
 {
     title: "Here At Horace Green",
@@ -5068,8 +4363,7 @@ actor: sierra,
     musical: sor,
     featured: "Sierra Boggess, School of Rock Original Broadway Cast",
 actor: sierra,
-    image: "https://m.media-amazon.com/images/I/71atz1rlv7L._SL1433_.jpg",
-    music_video: "https://www.youtube.com/watch?v=OMkr9v3WdyI&list=PLoX7YCmg-yQDKZPR5b_szIgno1-xrhU6d&index=4"
+    image: "https://m.media-amazon.com/images/I/71atz1rlv7L._SL1433_.jpg"
         },
 {
     title: "Variation 7/ Children of Rock",
@@ -5077,8 +4371,7 @@ actor: sierra,
     musical: sor,
     featured: "Sean Palmer, Sierra Boggess, School of Rock Original Broadway Cast",
 actor: sierra,
-    image: "https://m.media-amazon.com/images/I/71atz1rlv7L._SL1433_.jpg",
-    music_video: "https://www.youtube.com/watch?v=cMK1Q5ArllU&list=PLoX7YCmg-yQDKZPR5b_szIgno1-xrhU6d&index=4"
+    image: "https://m.media-amazon.com/images/I/71atz1rlv7L._SL1433_.jpg"
         },
 {
     title: "Give Up Your Dreams",
@@ -5086,8 +4379,7 @@ actor: sierra,
     musical: sor,
     featured: "Sean Palmer, School of Rock Original Broadway Cast",
 actor: brightman,
-    image: "https://m.media-amazon.com/images/I/71atz1rlv7L._SL1433_.jpg",
-    music_video: "https://www.youtube.com/watch?v=nqRvX8RAx34&list=PLoX7YCmg-yQDKZPR5b_szIgno1-xrhU6d&index=5"
+    image: "https://m.media-amazon.com/images/I/71atz1rlv7L._SL1433_.jpg"
         },
 {
     title: "Queen of the Night",
@@ -5095,8 +4387,7 @@ actor: brightman,
     musical: sor,
     featured: "Sean Palmer, Sierra Boggess, School of Rock Original Broadway Cast",
 actor: sierra,
-    image: "https://m.media-amazon.com/images/I/71atz1rlv7L._SL1433_.jpg",
-    music_video: "https://www.youtube.com/watch?v=AtsouHY6534&list=PLoX7YCmg-yQDKZPR5b_szIgno1-xrhU6d&index=6"
+    image: "https://m.media-amazon.com/images/I/71atz1rlv7L._SL1433_.jpg"
         },
 {
     title: "You’re in the Band",
@@ -5104,8 +4395,7 @@ actor: sierra,
     musical: sor,
     featured: "Sean Palmer, School of Rock Original Broadway Cast",
 actor: brightman,
-    image: "https://m.media-amazon.com/images/I/71atz1rlv7L._SL1433_.jpg",
-    music_video: "https://www.youtube.com/watch?v=oxxUnczjkfc"
+    image: "https://m.media-amazon.com/images/I/71atz1rlv7L._SL1433_.jpg"
         },
 {
     title: "If Only You Would Listen",
@@ -5113,8 +4403,7 @@ actor: brightman,
     musical: sor,
     featured: "Sean Palmer, School of Rock Original Broadway Cast",
 actor: brightman,
-    image: "https://m.media-amazon.com/images/I/71atz1rlv7L._SL1433_.jpg",
-    music_video: "https://www.youtube.com/watch?v=Tpg0hEeCZcs&list=PLoX7YCmg-yQDKZPR5b_szIgno1-xrhU6d&index=8"
+    image: "https://m.media-amazon.com/images/I/71atz1rlv7L._SL1433_.jpg"
         },
 {
     title: "In the End of Time",
@@ -5122,8 +4411,7 @@ actor: brightman,
     musical: sor,
     featured: "Sean Palmer",
 actor: brightman,
-    image: "https://m.media-amazon.com/images/I/71atz1rlv7L._SL1433_.jpg",
-    music_video: "https://www.youtube.com/watch?v=1fIFgTynsoY&list=PLoX7YCmg-yQDKZPR5b_szIgno1-xrhU6d&index=9"
+    image: "https://m.media-amazon.com/images/I/71atz1rlv7L._SL1433_.jpg"
         },
 {
     title: "Faculty Quadrille",
@@ -5131,8 +4419,7 @@ actor: brightman,
     musical: sor,
     featured: "Sean Palmer, Sierra Boggess, School of Rock Original Broadway Cast",
 actor: sierra,
-    image: "https://m.media-amazon.com/images/I/71atz1rlv7L._SL1433_.jpg",
-    music_video: "https://www.youtube.com/watch?v=1Znuk4mehkU&list=PLoX7YCmg-yQDKZPR5b_szIgno1-xrhU6d&index=10"
+    image: "https://m.media-amazon.com/images/I/71atz1rlv7L._SL1433_.jpg"
         },
 {
     title: "Stick It To The Man",
@@ -5140,8 +4427,7 @@ actor: sierra,
     musical: sor,
     featured: "Sean Palmer, School of Rock Original Broadway Cast",
 actor: brightman,
-    image: "https://m.media-amazon.com/images/I/71atz1rlv7L._SL1433_.jpg",
-    music_video: "https://www.youtube.com/watch?v=u5JAQGUyIPE&list=PLoX7YCmg-yQDKZPR5b_szIgno1-xrhU6d&index=11"
+    image: "https://m.media-amazon.com/images/I/71atz1rlv7L._SL1433_.jpg"
         },
 {
     title: "Time to Play",
@@ -5149,8 +4435,7 @@ actor: brightman,
     musical: sor,
     featured: "School of Rock Original Broadway Cast",
 actor: sierra,
-    image: "https://m.media-amazon.com/images/I/71atz1rlv7L._SL1433_.jpg",
-    music_video: "https://www.youtube.com/watch?v=M3S9B44dsE4&list=PLoX7YCmg-yQDKZPR5b_szIgno1-xrhU6d&index=12"
+    image: "https://m.media-amazon.com/images/I/71atz1rlv7L._SL1433_.jpg"
         },
 {
     title: "Time to Play",
@@ -5158,8 +4443,7 @@ actor: sierra,
     musical: sor,
     featured: "Sierra Boggess",
 actor: sierra,
-    image: "https://m.media-amazon.com/images/I/71atz1rlv7L._SL1433_.jpg",
-    music_video: "https://www.youtube.com/watch?v=tpbKPo8AmIY&list=PLoX7YCmg-yQDKZPR5b_szIgno1-xrhU6d&index=13"
+    image: "https://m.media-amazon.com/images/I/71atz1rlv7L._SL1433_.jpg"
         },
 {
     title: "Time to Play",
@@ -5167,8 +4451,7 @@ actor: sierra,
     musical: sor,
     featured: "Sean Palmer, Sierra Boggess, School of Rock Original Broadway Cast",
 actor: brightman,
-    image: "https://m.media-amazon.com/images/I/71atz1rlv7L._SL1433_.jpg",
-    music_video: "https://www.youtube.com/watch?v=vS3N8Ln_s2E&list=PLoX7YCmg-yQDKZPR5b_szIgno1-xrhU6d&index=14"
+    image: "https://m.media-amazon.com/images/I/71atz1rlv7L._SL1433_.jpg"
         },
 {
     title: "I’m Too Hot For You",
@@ -5176,8 +4459,7 @@ actor: brightman,
     musical: sor,
     featured: "Sean Palmer, School of Rock Original Broadway Cast",
 actor: brightman,
-    image: "https://m.media-amazon.com/images/I/71atz1rlv7L._SL1433_.jpg",
-    music_video: "https://www.youtube.com/watch?v=fI9ZqPmRGPA&list=PLoX7YCmg-yQDKZPR5b_szIgno1-xrhU6d&index=18"
+    image: "https://m.media-amazon.com/images/I/71atz1rlv7L._SL1433_.jpg"
         },
 {
     title: "Teacher’s Pet",
@@ -5185,8 +4467,7 @@ actor: brightman,
     musical: sor,
     featured: "Sean Palmer, School of Rock Original Broadway Cast",
 actor: brightman,
-    image: "https://m.media-amazon.com/images/I/71atz1rlv7L._SL1433_.jpg",
-    music_video: "https://www.youtube.com/watch?v=OI0_3Z1Hkoo&list=PLoX7YCmg-yQDKZPR5b_szIgno1-xrhU6d&index=17"
+    image: "https://m.media-amazon.com/images/I/71atz1rlv7L._SL1433_.jpg"
         },
 {
     title: "Finale",
@@ -5194,8 +4475,7 @@ actor: brightman,
     musical: sor,
     featured: "Sean Palmer, School of Rock Original Broadway Cast",
 actor: brightman,
-    image: "https://m.media-amazon.com/images/I/71atz1rlv7L._SL1433_.jpg",
-    music_video: "https://www.youtube.com/watch?v=G6R8Yi-ppI0&list=PLoX7YCmg-yQDKZPR5b_szIgno1-xrhU6d&index=17"
+    image: "https://m.media-amazon.com/images/I/71atz1rlv7L._SL1433_.jpg"
         },
 {
     title: "What's Inside",
@@ -5203,8 +4483,7 @@ actor: brightman,
     musical: wait,
     featured: "Jessie Mueller, Waitress Original Broadway Cast Ensemble",
 actor: jessie,
-    image: "https://ih1.redbubble.net/image.594726314.5304/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg",
-    music_video: "https://www.youtube.com/watch?v=vSL4l-ReG3M"
+    image: "https://m.media-amazon.com/images/I/81X-mJgXtRL._SL1425_.jpg"
         },
 {
     title: "Opening Up",
@@ -5212,8 +4491,7 @@ actor: jessie,
     musical: wait,
     featured: "Keala Settle, Kimiko Glenn, Jessie Mueller, Cataldo, Waitress Original Broadway Cast Ensemble",
 actor: jessie,
-    image: "https://ih1.redbubble.net/image.594726314.5304/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg",
-    music_video: "https://www.youtube.com/watch?v=YQD1e6V7_ug"
+    image: "https://m.media-amazon.com/images/I/81X-mJgXtRL._SL1425_.jpg"
         },
 {
     title: "The Negative",
@@ -5221,8 +4499,7 @@ actor: jessie,
     musical: wait,
     featured: "Keala Settle, Kimiko Glenn, Jessie Mueller",
 actor: jessie,
-    image: "https://ih1.redbubble.net/image.594726314.5304/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg",
-    music_video: "https://www.youtube.com/watch?v=Rrq3i1ELNis"
+    image: "https://m.media-amazon.com/images/I/81X-mJgXtRL._SL1425_.jpg"
         },
 {
     title: "What Baking Can Do",
@@ -5230,8 +4507,7 @@ actor: jessie,
     musical: wait,
     featured: "Jessie Mueller, Waitress Original Broadway Cast Ensemble",
 actor: jessie,
-    image: "https://ih1.redbubble.net/image.594726314.5304/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg",
-    music_video: "https://www.youtube.com/watch?v=lRaSSfSpR5E"
+    image: "https://m.media-amazon.com/images/I/81X-mJgXtRL._SL1425_.jpg"
         },
 {
     title: "Club Knocked Up",
@@ -5239,8 +4515,7 @@ actor: jessie,
     musical: wait,
     featured: "Aisha Jackson, Molly Hager, Stephanie Torns, Charity Angél Dawson",
 actor: jessie,
-    image: "https://ih1.redbubble.net/image.594726314.5304/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg",
-    music_video: "https://www.youtube.com/watch?v=lLOzpW6ZJYo"
+    image: "https://m.media-amazon.com/images/I/81X-mJgXtRL._SL1425_.jpg"
         },
 {
     title: "Pomatter Pie",
@@ -5248,8 +4523,7 @@ actor: jessie,
     musical: wait,
     featured: "The Waitress Band",
 actor: jessie,
-    image: "https://ih1.redbubble.net/image.594726314.5304/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg",
-    music_video: "https://www.youtube.com/watch?v=cRjeDmzGf50"
+    image: "https://m.media-amazon.com/images/I/81X-mJgXtRL._SL1425_.jpg"
         },
 {
     title: "When He Sees Me",
@@ -5257,8 +4531,7 @@ actor: jessie,
     musical: wait,
     featured: "Keala Settle, Kimiko Glenn, Jessie Mueller, Waitress Original Broadway Cast Ensemble",
 actor: jessie,
-    image: "https://ih1.redbubble.net/image.594726314.5304/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg",
-    music_video: "https://www.youtube.com/watch?v=JeQZY9_451w"
+    image: "https://m.media-amazon.com/images/I/81X-mJgXtRL._SL1425_.jpg"
         },
 {
     title: "It Only Takes a Taste",
@@ -5266,8 +4539,7 @@ actor: jessie,
     musical: wait,
     featured: "Jessie Mueller, Drew Gehling",
 actor: jessie,
-    image: "https://ih1.redbubble.net/image.594726314.5304/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg",
-    music_video: "https://www.youtube.com/watch?v=-XJAbr7_l48"
+    image: "https://m.media-amazon.com/images/I/81X-mJgXtRL._SL1425_.jpg"
         },
 {
     title: "You Will Still Be Mine",
@@ -5275,8 +4547,7 @@ actor: jessie,
     musical: wait,
     featured: "Nick Cordero, Jessie Mueller",
 actor: jessie,
-    image: "https://ih1.redbubble.net/image.594726314.5304/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg",
-    music_video: "https://www.youtube.com/watch?v=7JLSifmKIYg"
+    image: "https://m.media-amazon.com/images/I/81X-mJgXtRL._SL1425_.jpg"
         },
 {
     title: "A Soft Place to Land",
@@ -5284,8 +4555,7 @@ actor: jessie,
     musical: wait,
     featured: "Keala Settle, Kimiko Glenn, Jessie Mueller",
 actor: jessie,
-    image: "https://ih1.redbubble.net/image.594726314.5304/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg",
-    music_video: "https://www.youtube.com/watch?v=bBClDyy2uSA"
+    image: "https://m.media-amazon.com/images/I/81X-mJgXtRL._SL1425_.jpg"
         },
 {
     title: "Never Ever Getting Rid of Me",
@@ -5293,8 +4563,7 @@ actor: jessie,
     musical: wait,
     featured: "Kimiko Glenn, Christopher Fitzgerald, Waitress Original Broadway Cast Ensemble",
 actor: glenn,
-    image: "https://ih1.redbubble.net/image.594726314.5304/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg",
-    music_video: "https://www.youtube.com/watch?v=oQvqDYrCi_k"
+    image: "https://m.media-amazon.com/images/I/81X-mJgXtRL._SL1425_.jpg"
         },
 {
     title: "Bad Idea",
@@ -5302,8 +4571,7 @@ actor: glenn,
     musical: wait,
     featured: "Jessie Mueller, Drew Gehling, Waitress Original Broadway Cast Ensemble",
 actor: jessie,
-    image: "https://ih1.redbubble.net/image.594726314.5304/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg",
-    music_video: "https://www.youtube.com/watch?v=aitXTXBqZcc"
+    image: "https://m.media-amazon.com/images/I/81X-mJgXtRL._SL1425_.jpg"
         },
 {
     title: "I Didn't Plan It",
@@ -5311,8 +4579,7 @@ actor: jessie,
     musical: wait,
     featured: "Keala Settle",
 actor: keala,
-    image: "https://ih1.redbubble.net/image.594726314.5304/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg",
-    music_video: "https://www.youtube.com/watch?v=uLsdNGR_n3w"
+    image: "https://m.media-amazon.com/images/I/81X-mJgXtRL._SL1425_.jpg"
         },
 {
     title: "Bad Idea (Reprise)",
@@ -5320,8 +4587,7 @@ actor: keala,
     musical: wait,
     featured: "Keala Settle, Kimiko Glenn, Jessie Mueller",
 actor: jessie,
-    image: "https://ih1.redbubble.net/image.594726314.5304/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg",
-    music_video: "https://www.youtube.com/watch?v=oqBXO3edYNI"
+    image: "https://m.media-amazon.com/images/I/81X-mJgXtRL._SL1425_.jpg"
         },
 {
     title: "You Matter to Me",
@@ -5329,8 +4595,7 @@ actor: jessie,
     musical: wait,
     featured: "Jessie Mueller, Drew Gehling",
 actor: jessie,
-    image: "https://ih1.redbubble.net/image.594726314.5304/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg",
-    music_video: "https://www.youtube.com/watch?v=AREDtpRZTSA"
+    image: "https://m.media-amazon.com/images/I/81X-mJgXtRL._SL1425_.jpg"
         },
 {
     title: "I Love You Like a Table",
@@ -5338,8 +4603,7 @@ actor: jessie,
     musical: wait,
     featured: "Kimiko Glenn, Christopher Fitzgerald, Waitress Original Broadway Cast Ensemble",
 actor: glenn,
-    image: "https://ih1.redbubble.net/image.594726314.5304/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg",
-    music_video: "https://www.youtube.com/watch?v=RqJXXxQFUOA"
+    image: "https://m.media-amazon.com/images/I/81X-mJgXtRL._SL1425_.jpg"
         },
 {
     title: "Take It from an Old Man",
@@ -5347,8 +4611,7 @@ actor: glenn,
     musical: wait,
     featured: "Dakin Matthews, Waitress Original Broadway Cast Ensemble",
 actor: jessie,
-    image: "https://ih1.redbubble.net/image.594726314.5304/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg",
-    music_video: "vid"
+    image: "https://m.media-amazon.com/images/I/81X-mJgXtRL._SL1425_.jpg"
         },
 {
     title: "Dear Baby",
@@ -5356,8 +4619,7 @@ actor: jessie,
     musical: wait,
     featured: "Jessie Mueller",
 actor: jessie,
-    image: "https://ih1.redbubble.net/image.594726314.5304/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg",
-    music_video: "https://www.youtube.com/watch?v=W44snFoSgs4"
+    image: "https://m.media-amazon.com/images/I/81X-mJgXtRL._SL1425_.jpg"
         },
 {
     title: "She Used to Be Mine",
@@ -5365,8 +4627,7 @@ actor: jessie,
     musical: wait,
     featured: "Jessie Mueller",
 actor: jessie,
-    image: "https://ih1.redbubble.net/image.594726314.5304/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg",
-    music_video: "https://www.youtube.com/watch?v=A2-aUNmYNLM"
+    image: "https://m.media-amazon.com/images/I/81X-mJgXtRL._SL1425_.jpg"
         },
 {
     title: "Contraction Ballet",
@@ -5374,8 +4635,7 @@ actor: jessie,
     musical: wait,
     featured: "Jessie Mueller, Waitress Original Broadway Cast Ensemble",
 actor: jessie,
-    image: "https://ih1.redbubble.net/image.594726314.5304/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg",
-    music_video: "https://www.youtube.com/watch?v=ruhqBX5fT2w"
+    image: "https://m.media-amazon.com/images/I/81X-mJgXtRL._SL1425_.jpg"
         },
 {
     title: "Everything Changes",
@@ -5383,8 +4643,7 @@ actor: jessie,
     musical: wait,
     featured: "Keala Settle, Kimiko Glenn, Jessie Mueller, Waitress Original Broadway Cast Ensemble",
 actor: jessie,
-    image: "https://ih1.redbubble.net/image.594726314.5304/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg",
-    music_video: "https://www.youtube.com/watch?v=kcMad0KHGBg"
+    image: "https://m.media-amazon.com/images/I/81X-mJgXtRL._SL1425_.jpg"
         },
 {
     title: "Opening Up (Finale)",
@@ -5392,8 +4651,7 @@ actor: jessie,
     musical: wait,
     featured: "Waitress Original Broadway Company",
 actor: jessie,
-    image: "https://ih1.redbubble.net/image.594726314.5304/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg",
-    music_video: "https://www.youtube.com/watch?v=j38DaAZw53g"
+    image: "https://m.media-amazon.com/images/I/81X-mJgXtRL._SL1425_.jpg"
         },
 {
     title: "Mama Who Bore Me",
@@ -5401,8 +4659,7 @@ actor: jessie,
     musical: sa,
     featured: "Lea Michele",
 actor: lea,
-    image: "https://thriftytheatrethinker.files.wordpress.com/2015/06/br.jpg?w=720",
-    music_video: "https://www.youtube.com/watch?v=N6MGzkAtIGk"
+    image: "https://thriftytheatrethinker.files.wordpress.com/2015/06/br.jpg?w=720"
         },
 {
     title: "Mama Who Bore Me (Reprise)",
@@ -5410,8 +4667,7 @@ actor: lea,
     musical: sa,
     featured: "Lea Michele, Lolo, Lilli Cooper, Phoebe Strole, Remy Zaken",
 actor: lea,
-    image: "https://thriftytheatrethinker.files.wordpress.com/2015/06/br.jpg?w=720",
-    music_video: "https://www.youtube.com/watch?v=STttCkQTJqM"
+    image: "https://thriftytheatrethinker.files.wordpress.com/2015/06/br.jpg?w=720"
         },
 {
     title: "All That's Known",
@@ -5419,8 +4675,7 @@ actor: lea,
     musical: sa,
     featured: "Jonathan Groff",
 actor: groff,
-    image: "https://thriftytheatrethinker.files.wordpress.com/2015/06/br.jpg?w=720",
-    music_video: "https://www.youtube.com/watch?v=E-yt__vIWe8"
+    image: "https://thriftytheatrethinker.files.wordpress.com/2015/06/br.jpg?w=720"
         },
 {
     title: "The Bitch Of Living",
@@ -5428,8 +4683,7 @@ actor: groff,
     musical: sa,
     featured: "Jonathan Groff, Skylar Astin, John Gallagher Jr., Jonathan B. Wright, Brian Johnson, Gideon Glick",
 actor: groff,
-    image: "https://thriftytheatrethinker.files.wordpress.com/2015/06/br.jpg?w=720",
-    music_video: "https://www.youtube.com/watch?v=2qCTc_sVO64"
+    image: "https://thriftytheatrethinker.files.wordpress.com/2015/06/br.jpg?w=720"
         },
 {
     title: "My Junk",
@@ -5437,8 +4691,7 @@ actor: groff,
     musical: sa,
     featured: "Lea Michele, Jonathan Groff, Skylar Astin, John Gallagher Jr. Lolo, Lilli Cooper, Phoebe Strole, Jonathan B. Wright, Brian Johnson, Gideon Glick, Remy Zaken",
 actor: lea,
-    image: "https://thriftytheatrethinker.files.wordpress.com/2015/06/br.jpg?w=720",
-    music_video: "https://www.youtube.com/watch?v=wNHYCs58ALI"
+    image: "https://thriftytheatrethinker.files.wordpress.com/2015/06/br.jpg?w=720"
         },
 {
     title: "Touch Me",
@@ -5446,8 +4699,7 @@ actor: lea,
     musical: sa,
     featured: "Lea Michele, Jonathan Groff, Skylar Astin, John Gallagher Jr. Lolo, Lilli Cooper, Phoebe Strole, Jonathan B. Wright, Brian Johnson, Gideon Glick, Remy Zaken",
 actor: lea,
-    image: "https://thriftytheatrethinker.files.wordpress.com/2015/06/br.jpg?w=720",
-    music_video: "https://www.youtube.com/watch?v=WGcX2ejeNYg"
+    image: "https://thriftytheatrethinker.files.wordpress.com/2015/06/br.jpg?w=720"
         },
 {
     title: "The Word Of Your Body",
@@ -5455,8 +4707,7 @@ actor: lea,
     musical: sa,
     featured: "Lea Michele, Jonathan Groff",
 actor: lea,
-    image: "https://thriftytheatrethinker.files.wordpress.com/2015/06/br.jpg?w=720",
-    music_video: "https://www.youtube.com/watch?v=tbLc6QjVmns"
+    image: "https://thriftytheatrethinker.files.wordpress.com/2015/06/br.jpg?w=720"
         },
 {
     title: "The Dark I Know Well",
@@ -5464,8 +4715,7 @@ actor: lea,
     musical: sa,
     featured: "Jonathan Groff, Skylar Astin, John Gallagher Jr., Lolo, Lilli Cooper, Jonathan B. Wright, Brian Johnson, Gideon Glick",
 actor: groff,
-    image: "https://thriftytheatrethinker.files.wordpress.com/2015/06/br.jpg?w=720",
-    music_video: "https://www.youtube.com/watch?v=SQDEsxvL86E"
+    image: "https://thriftytheatrethinker.files.wordpress.com/2015/06/br.jpg?w=720"
         },
 {
     title: "And Then There Were None",
@@ -5473,8 +4723,7 @@ actor: groff,
     musical: sa,
     featured: "Jonathan Groff, Skylar Astin, John Gallagher Jr., Jonathan B. Wright, Brian Johnson, Gideon Glick",
 actor: groff,
-    image: "https://thriftytheatrethinker.files.wordpress.com/2015/06/br.jpg?w=720",
-    music_video: "https://www.youtube.com/watch?v=WtaDporv4To"
+    image: "https://thriftytheatrethinker.files.wordpress.com/2015/06/br.jpg?w=720"
         },
 {
     title: "The Mirror-Blue Night",
@@ -5482,8 +4731,7 @@ actor: groff,
     musical: sa,
     featured: "Jonathan Groff, Skylar Astin, John Gallagher Jr., Jonathan B. Wright, Brian Johnson, Gideon Glick",
 actor: groff,
-    image: "https://thriftytheatrethinker.files.wordpress.com/2015/06/br.jpg?w=720",
-    music_video: "https://www.youtube.com/watch?v=xNi4igBP2_A"
+    image: "https://thriftytheatrethinker.files.wordpress.com/2015/06/br.jpg?w=720"
         },
 {
     title: "I Believe",
@@ -5491,8 +4739,7 @@ actor: groff,
     musical: sa,
     featured: "Lea Michele, Jonathan Groff, Skylar Astin, John Gallagher Jr. Lolo, Lilli Cooper, Phoebe Strole, Jonathan B. Wright, Brian Johnson, Gideon Glick, Remy Zaken",
 actor: lea,
-    image: "https://thriftytheatrethinker.files.wordpress.com/2015/06/br.jpg?w=720",
-    music_video: "https://www.youtube.com/watch?v=qQqrB0Ralm8"
+    image: "https://thriftytheatrethinker.files.wordpress.com/2015/06/br.jpg?w=720"
         },
 {
     title: "Don't Do Sadness/Blue Wind",
@@ -5500,8 +4747,7 @@ actor: lea,
     musical: sa,
     featured: "John Gallagher Jr., Lolo",
 actor: jgj,
-    image: "https://thriftytheatrethinker.files.wordpress.com/2015/06/br.jpg?w=720",
-    music_video: "https://www.youtube.com/watch?v=mJtjgFF9l-4"
+    image: "https://thriftytheatrethinker.files.wordpress.com/2015/06/br.jpg?w=720"
         },
 {
     title: "The Guilty Ones",
@@ -5509,8 +4755,7 @@ actor: jgj,
     musical: sa,
     featured: "Lea Michele, Jonathan Groff, Skylar Astin, John Gallagher Jr. Lolo, Lilli Cooper, Phoebe Strole, Jonathan B. Wright, Brian Johnson, Gideon Glick, Remy Zaken",
 actor: lea,
-    image: "https://thriftytheatrethinker.files.wordpress.com/2015/06/br.jpg?w=720",
-    music_video: "https://www.youtube.com/watch?v=QDwEVdz0l9E"
+    image: "https://thriftytheatrethinker.files.wordpress.com/2015/06/br.jpg?w=720"
         },
 {
     title: "Left Behind",
@@ -5518,8 +4763,7 @@ actor: lea,
     musical: sa,
     featured: "Lea Michele, Jonathan Groff, Skylar Astin, John Gallagher Jr. Lolo, Lilli Cooper, Phoebe Strole, Jonathan B. Wright, Brian Johnson, Gideon Glick, Remy Zaken",
 actor: lea,
-    image: "https://thriftytheatrethinker.files.wordpress.com/2015/06/br.jpg?w=720",
-    music_video: "https://www.youtube.com/watch?v=DBX6Rvd831c"
+    image: "https://thriftytheatrethinker.files.wordpress.com/2015/06/br.jpg?w=720"
         },
 {
     title: "Totally Fucked",
@@ -5527,8 +4771,7 @@ actor: lea,
     musical: sa,
     featured: "Lea Michele, Jonathan Groff, Skylar Astin, John Gallagher Jr. Lolo, Lilli Cooper, Phoebe Strole, Jonathan B. Wright, Brian Johnson, Gideon Glick, Remy Zaken",
 actor: lea,
-    image: "https://thriftytheatrethinker.files.wordpress.com/2015/06/br.jpg?w=720",
-    music_video: "https://www.youtube.com/watch?v=ms8EZbGDt1Q"
+    image: "https://thriftytheatrethinker.files.wordpress.com/2015/06/br.jpg?w=720"
         },
 {
     title: "The Word of Your Body (Reprise)",
@@ -5536,8 +4779,7 @@ actor: lea,
     musical: sa,
     featured: "Lea Michele, Jonathan Groff, Skylar Astin, John Gallagher Jr. Lolo, Lilli Cooper, Phoebe Strole, Jonathan B. Wright, Brian Johnson, Gideon Glick, Remy Zaken",
 actor: lea,
-    image: "https://thriftytheatrethinker.files.wordpress.com/2015/06/br.jpg?w=720",
-    music_video: "https://www.youtube.com/watch?v=j-RzOdF9xKM"
+    image: "https://thriftytheatrethinker.files.wordpress.com/2015/06/br.jpg?w=720"
         },
 {
     title: "Whispering",
@@ -5545,8 +4787,7 @@ actor: lea,
     musical: sa,
     featured: "Lea Michele",
 actor: lea,
-    image: "https://thriftytheatrethinker.files.wordpress.com/2015/06/br.jpg?w=720",
-    music_video: "https://www.youtube.com/watch?v=JtuaVpFJsfw"
+    image: "https://thriftytheatrethinker.files.wordpress.com/2015/06/br.jpg?w=720"
         },
 {
     title: "Those You've Known",
@@ -5554,8 +4795,7 @@ actor: lea,
     musical: sa,
     featured: "Lea Michele, Jonathan Groff, John Gallagher Jr.",
 actor: lea,
-    image: "https://thriftytheatrethinker.files.wordpress.com/2015/06/br.jpg?w=720",
-    music_video: "https://www.youtube.com/watch?v=Wlq_9JyBvC8"
+    image: "https://thriftytheatrethinker.files.wordpress.com/2015/06/br.jpg?w=720"
         },
 {
     title: "The Song Of Purple Summer",
@@ -5563,8 +4803,7 @@ actor: lea,
     musical: sa,
     featured: "Lea Michele, Jonathan Groff, Skylar Astin, John Gallagher Jr. Lolo, Lilli Cooper, Phoebe Strole, Jonathan B. Wright, Brian Johnson, Gideon Glick, Remy Zaken",
 actor: lea,
-    image: "https://thriftytheatrethinker.files.wordpress.com/2015/06/br.jpg?w=720",
-    music_video: "https://www.youtube.com/watch?v=Hl4ZsWVUCro"
+    image: "https://thriftytheatrethinker.files.wordpress.com/2015/06/br.jpg?w=720"
         },
 {
     title: "Prologue",
@@ -5572,8 +4811,7 @@ actor: lea,
     musical: ifthen,
     featured: "If/Then: A New Musical Orchestra",
 actor: idina,
-    image: "https://www.nycinsiderguide.com/wp-content/uploads/2014/04/if-then-idina-menzel-broadway.jpg",
-    music_video: "https://www.youtube.com/watch?v=6C_gU4EMpmw"
+    image: "https://www.nycinsiderguide.com/wp-content/uploads/2014/04/if-then-idina-menzel-broadway.jpg"
         },
 {
     title: "What If?",
@@ -5581,8 +4819,7 @@ actor: idina,
     musical: ifthen,
     featured: "Idina Menzel",
 actor: idina,
-    image: "https://www.nycinsiderguide.com/wp-content/uploads/2014/04/if-then-idina-menzel-broadway.jpg",
-    music_video: "https://www.youtube.com/watch?v=YAQ8Fk1DUso"
+    image: "https://www.nycinsiderguide.com/wp-content/uploads/2014/04/if-then-idina-menzel-broadway.jpg"
         },
 {
     title: "It's a Sign",
@@ -5590,8 +4827,7 @@ actor: idina,
     musical: ifthen,
     featured: "LaChanze",
 actor: lachanze,
-    image: "https://www.nycinsiderguide.com/wp-content/uploads/2014/04/if-then-idina-menzel-broadway.jpg",
-    music_video: "https://www.youtube.com/watch?v=c2ku__RECuA"
+    image: "https://www.nycinsiderguide.com/wp-content/uploads/2014/04/if-then-idina-menzel-broadway.jpg"
         },
 {
     title: "A Map of New York",
@@ -5599,8 +4835,7 @@ actor: lachanze,
     musical: ifthen,
     featured: "Idina Menzel, Jerry Dixon",
 actor: idina,
-    image: "https://www.nycinsiderguide.com/wp-content/uploads/2014/04/if-then-idina-menzel-broadway.jpg",
-    music_video: "https://www.youtube.com/watch?v=-C8KGMJtKc0"
+    image: "https://www.nycinsiderguide.com/wp-content/uploads/2014/04/if-then-idina-menzel-broadway.jpg"
         },
 {
     title: "You Never Know",
@@ -5608,8 +4843,7 @@ actor: idina,
     musical: ifthen,
     featured: "James Snyder",
 actor: idina,
-    image: "https://www.nycinsiderguide.com/wp-content/uploads/2014/04/if-then-idina-menzel-broadway.jpg",
-    music_video: "https://www.youtube.com/watch?v=yXZ_T7IcQVg"
+    image: "https://www.nycinsiderguide.com/wp-content/uploads/2014/04/if-then-idina-menzel-broadway.jpg"
         },
 {
     title: "Ain't No Man Manhattan",
@@ -5617,8 +4851,7 @@ actor: idina,
     musical: ifthen,
     featured: "Idina Menzel, Anthony Rapp, LaChanze, Jenn Colella, James Snyder",
 actor: idina,
-    image: "https://www.nycinsiderguide.com/wp-content/uploads/2014/04/if-then-idina-menzel-broadway.jpg",
-    music_video: "https://www.youtube.com/watch?v=5HVrJJ5Y2ZA"
+    image: "https://www.nycinsiderguide.com/wp-content/uploads/2014/04/if-then-idina-menzel-broadway.jpg"
         },
 {
     title: "What the F**k?",
@@ -5626,8 +4859,7 @@ actor: idina,
     musical: ifthen,
     featured: "Idina Menzel",
 actor: idina,
-    image: "https://www.nycinsiderguide.com/wp-content/uploads/2014/04/if-then-idina-menzel-broadway.jpg",
-    music_video: "https://www.youtube.com/watch?v=1ps5g4-srQk"
+    image: "https://www.nycinsiderguide.com/wp-content/uploads/2014/04/if-then-idina-menzel-broadway.jpg"
         },
 {
     title: "Here I Go",
@@ -5635,8 +4867,7 @@ actor: idina,
     musical: ifthen,
     featured: "Idina Menzel, James Snyder",
 actor: idina,
-    image: "https://www.nycinsiderguide.com/wp-content/uploads/2014/04/if-then-idina-menzel-broadway.jpg",
-    music_video: "https://www.youtube.com/watch?v=tFwBjfcMGNM"
+    image: "https://www.nycinsiderguide.com/wp-content/uploads/2014/04/if-then-idina-menzel-broadway.jpg"
         },
 {
     title: "You Don't Need to Love Me",
@@ -5644,8 +4875,7 @@ actor: idina,
     musical: ifthen,
     featured: "Anthony Rapp",
 actor: rapp,
-    image: "https://www.nycinsiderguide.com/wp-content/uploads/2014/04/if-then-idina-menzel-broadway.jpg",
-    music_video: "https://www.youtube.com/watch?v=6YeRxizTgss"
+    image: "https://www.nycinsiderguide.com/wp-content/uploads/2014/04/if-then-idina-menzel-broadway.jpg"
         },
 {
     title: "No More Wasted Time",
@@ -5653,8 +4883,7 @@ actor: rapp,
     musical: ifthen,
     featured: "Idina Menzel, LaChanze, Jenn Colella, Tamika Lawrence",
 actor: idina,
-    image: "https://www.nycinsiderguide.com/wp-content/uploads/2014/04/if-then-idina-menzel-broadway.jpg",
-    music_video: "https://www.youtube.com/watch?v=9-6pwOZ4yYI"
+    image: "https://www.nycinsiderguide.com/wp-content/uploads/2014/04/if-then-idina-menzel-broadway.jpg"
         },
 {
     title: "Surprise",
@@ -5662,8 +4891,7 @@ actor: idina,
     musical: ifthen,
     featured: "Idina Menzel, Anthony Rapp, LaChanze, Jenn Colella, Jerry Dixon, Jason Tam, Tamika Lawrence",
 actor: idina,
-    image: "https://www.nycinsiderguide.com/wp-content/uploads/2014/04/if-then-idina-menzel-broadway.jpg",
-    music_video: "https://www.youtube.com/watch?v=qQmfHbbHv7Q"
+    image: "https://www.nycinsiderguide.com/wp-content/uploads/2014/04/if-then-idina-menzel-broadway.jpg"
         },
 {
     title: "This Day / Walking by a Wedding",
@@ -5671,8 +4899,7 @@ actor: idina,
     musical: ifthen,
     featured: "Idina Menzel, Anthony Rapp, LaChanze, Jenn Colella, James Snyder, Jason Tam",
 actor: idina,
-    image: "https://www.nycinsiderguide.com/wp-content/uploads/2014/04/if-then-idina-menzel-broadway.jpg",
-    music_video: "https://www.youtube.com/watch?v=pOksORN-fjo"
+    image: "https://www.nycinsiderguide.com/wp-content/uploads/2014/04/if-then-idina-menzel-broadway.jpg"
         },
 {
     title: "Hey, Kid",
@@ -5680,8 +4907,7 @@ actor: idina,
     musical: ifthen,
     featured: "James Snyder",
 actor: idina,
-    image: "https://www.nycinsiderguide.com/wp-content/uploads/2014/04/if-then-idina-menzel-broadway.jpg",
-    music_video: "https://www.youtube.com/watch?v=1fQTtxPdVqs"
+    image: "https://www.nycinsiderguide.com/wp-content/uploads/2014/04/if-then-idina-menzel-broadway.jpg"
         },
 {
     title: "Some Other Me",
@@ -5689,8 +4915,7 @@ actor: idina,
     musical: ifthen,
     featured: "Idina Menzel, Anthony Rapp",
 actor: idina,
-    image: "https://www.nycinsiderguide.com/wp-content/uploads/2014/04/if-then-idina-menzel-broadway.jpg",
-    music_video: "https://www.youtube.com/watch?v=9gGsRRSrrZ4"
+    image: "https://www.nycinsiderguide.com/wp-content/uploads/2014/04/if-then-idina-menzel-broadway.jpg"
         },
 {
     title: "Best Worst Mistake",
@@ -5698,8 +4923,7 @@ actor: idina,
     musical: ifthen,
     featured: "Anthony Rapp, Jason Tam",
 actor: rapp,
-    image: "https://www.nycinsiderguide.com/wp-content/uploads/2014/04/if-then-idina-menzel-broadway.jpg",
-    music_video: "https://www.youtube.com/watch?v=r53hsqbz9jE"
+    image: "https://www.nycinsiderguide.com/wp-content/uploads/2014/04/if-then-idina-menzel-broadway.jpg"
         },
 {
     title: "I Hate You",
@@ -5707,8 +4931,7 @@ actor: rapp,
     musical: ifthen,
     featured: "Idina Menzel, James Snyder",
 actor: idina,
-    image: "https://www.nycinsiderguide.com/wp-content/uploads/2014/04/if-then-idina-menzel-broadway.jpg",
-    music_video: "https://www.youtube.com/watch?v=Yx6d2jNTfns"
+    image: "https://www.nycinsiderguide.com/wp-content/uploads/2014/04/if-then-idina-menzel-broadway.jpg"
         },
 {
     title: "A Map of New York (Reprise)",
@@ -5716,8 +4939,7 @@ actor: idina,
     musical: ifthen,
     featured: "Jerry Dixon",
 actor: idina,
-    image: "https://www.nycinsiderguide.com/wp-content/uploads/2014/04/if-then-idina-menzel-broadway.jpg",
-    music_video: "https://www.youtube.com/watch?v=0PfVoHOFjdY"
+    image: "https://www.nycinsiderguide.com/wp-content/uploads/2014/04/if-then-idina-menzel-broadway.jpg"
         },
 {
     title: "You Learn to Live Without",
@@ -5725,8 +4947,7 @@ actor: idina,
     musical: ifthen,
     featured: "Idina Menzel",
 actor: idina,
-    image: "https://www.nycinsiderguide.com/wp-content/uploads/2014/04/if-then-idina-menzel-broadway.jpg",
-    music_video: "https://www.youtube.com/watch?v=HV57XClQy7I"
+    image: "https://www.nycinsiderguide.com/wp-content/uploads/2014/04/if-then-idina-menzel-broadway.jpg"
         },
 {
     title: "The Moment Explodes",
@@ -5734,8 +4955,7 @@ actor: idina,
     musical: ifthen,
     featured: "Idina Menzel, Joe Aaron Reid",
 actor: idina,
-    image: "https://www.nycinsiderguide.com/wp-content/uploads/2014/04/if-then-idina-menzel-broadway.jpg",
-    music_video: "https://www.youtube.com/watch?v=FJY7a1GhfhQ"
+    image: "https://www.nycinsiderguide.com/wp-content/uploads/2014/04/if-then-idina-menzel-broadway.jpg"
         },
 {
     title: "Love While You Can",
@@ -5743,8 +4963,7 @@ actor: idina,
     musical: ifthen,
     featured: "Idina Menzel, LaChanze, Jenn Colella",
 actor: idina,
-    image: "https://www.nycinsiderguide.com/wp-content/uploads/2014/04/if-then-idina-menzel-broadway.jpg",
-    music_video: "https://www.youtube.com/watch?v=dBjt9FLD0vQ"
+    image: "https://www.nycinsiderguide.com/wp-content/uploads/2014/04/if-then-idina-menzel-broadway.jpg"
         },
 {
     title: "What Would You Do?",
@@ -5752,8 +4971,7 @@ actor: idina,
     musical: ifthen,
     featured: "Jason Tam",
 actor: idina,
-    image: "https://www.nycinsiderguide.com/wp-content/uploads/2014/04/if-then-idina-menzel-broadway.jpg",
-    music_video: "https://www.youtube.com/watch?v=VlU_zH8kL2E"
+    image: "https://www.nycinsiderguide.com/wp-content/uploads/2014/04/if-then-idina-menzel-broadway.jpg"
         },
 {
     title: "Always Starting Over",
@@ -5761,8 +4979,7 @@ actor: idina,
     musical: ifthen,
     featured: "Idina Menzel",
 actor: idina,
-    image: "https://www.nycinsiderguide.com/wp-content/uploads/2014/04/if-then-idina-menzel-broadway.jpg",
-    music_video: "https://www.youtube.com/watch?v=PoeBOzvNN1k"
+    image: "https://www.nycinsiderguide.com/wp-content/uploads/2014/04/if-then-idina-menzel-broadway.jpg"
         },
 {
     title: "What If (Reprise)",
@@ -5770,8 +4987,7 @@ actor: idina,
     musical: ifthen,
     featured: "Idina Menzel",
 actor: idina,
-    image: "https://www.nycinsiderguide.com/wp-content/uploads/2014/04/if-then-idina-menzel-broadway.jpg",
-    music_video: "https://www.youtube.com/watch?v=zfKip5nYu5U"
+    image: "https://www.nycinsiderguide.com/wp-content/uploads/2014/04/if-then-idina-menzel-broadway.jpg"
         },
 
 ]
@@ -5779,7 +4995,8 @@ actor: idina,
 
 
 array.each do |o|
-    Song.create(title: o[:title], year: o[:year], musical: o[:musical], featured: o[:featured], actor: o[:actor], image: o[:image], music_video: o[:music_video])
+    Song.create(title: o[:title], year: o[:year], musical: o[:musical], featured: o[:featured], actor: o[:actor], image: o[:image])
     end
     
     puts "✅ Done seeding!"
+

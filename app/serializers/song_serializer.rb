@@ -1,6 +1,6 @@
 class SongSerializer < ActiveModel::Serializer
  include Rails.application.routes.url_helpers
-  attributes :id, :title, :year, :musical, :featured, :actor, :image, :music_video, :audio_file
+  attributes :id, :title, :year, :musical, :featured, :actor, :image, :audio_file
 
   # , :file_url
 

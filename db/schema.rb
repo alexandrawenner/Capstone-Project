@@ -97,7 +97,6 @@ ActiveRecord::Schema.define(version: 2022_08_17_011722) do
     t.string "featured"
     t.bigint "actor_id", null: false
     t.string "image"
-    t.string "music_video"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["actor_id"], name: "index_songs_on_actor_id"
