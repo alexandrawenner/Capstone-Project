@@ -20,9 +20,14 @@ const ActorDetails = ( { currentUser } ) => {
   
   if (!isLoaded) return <h2>Loading...</h2>
   
-  const {name, birthday, bio, other_work} = actor
+  const {name, birthday, bio, other_work, songs} = actor
 
-  console.log(actor)
+  //console.log(songs)
+
+  const actorsSongArray = songs.map(song =>
+    <ActorSongList key={song} song={song} /> 
+    )
+
   
     return (
   
@@ -40,11 +45,15 @@ const ActorDetails = ( { currentUser } ) => {
           <p><b>Other Work:</b> {other_work}</p>
           </section>
 
-          <ol>
-            {actor.songs.map(song => {
-              <li><ActorSongList song={song}/></li>
+          <div>
+            {actorsSongArray}
+          </div>
+
+          {/* <ol>
+            {songs.map(song => {
+              <li><ActorSongList key={song} song={song}/></li>
             })}
-          </ol>
+          </ol> */}
         </div>
        
       </div>

@@ -1,7 +1,7 @@
 //import { useState, useEffect } from "react";
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
-import "./MusicalThumbnail.css"
+import "./css/MusicalThumbnail.css"
 import SongRow from "./SongRow";
 
 const MusicalThumbnail = ( { musical, currentUser } ) => {

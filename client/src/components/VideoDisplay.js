@@ -1,4 +1,5 @@
 import YouTube from 'react-youtube'
+import './css/VideoDisplay.css'
 
 const VideoDisplay = ({ video, currentUser }) => {
     
@@ -17,22 +18,26 @@ const VideoDisplay = ({ video, currentUser }) => {
     
     
     return(
-        <div>
-           <h1>{title}</h1>
-           {video_url
+        <div className='all-vids-container'>
+          <div className='all-vids-thumbnail'>
+           <h1 className='all-vids-titles'>{title}</h1>
+            <div className='all-vids-collection'>
+              {video_url
 
-            ? 
+                ? 
 
-            <YouTube videoId={videoId} opts={opts} className="url-post-vid"/>
+                <YouTube videoId={videoId} opts={opts} className="all-vids-url"/>
 
-            :
+                :
 
-            <video controls className='local-post-vid'>
-            <source src={video_file_url} type="video/mp4"/>
-            <source src={video_file_url} type="video/ogg"></source>
-            </video>
+                <video controls className='all-vids-local'>
+                <source src={video_file_url} type="video/mp4"/>
+                <source src={video_file_url} type="video/ogg"></source>
+                </video>
 
-            } 
+                } 
+            </div>
+          </div>
         </div>
     )
 }

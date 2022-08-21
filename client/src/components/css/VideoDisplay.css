@@ -1,0 +1,20 @@
+.all-vids-container {
+    margin: auto;
+}
+
+.all-vids-titles {
+    color: white
+}
+
+.all-vids-url {
+    display: inline-block;
+    zoom: 1;
+    display: inline;
+    width: 10%;
+    height: auto;
+    margin: 0 10px 10px 0;
+}
+
+.all-vids-collection {
+    grid: 2rem;
+}
