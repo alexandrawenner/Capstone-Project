@@ -45,12 +45,17 @@ function SongVideoForm( { id, currentUser, addSongVideos } ) {
           </div>
             <br/>
           <div className="video-sub-opts">
-            <input className='vid-url' type="text" id="video_url" placeholder="Video URL..." name="video_url" value={videoUrl} onChange={(e) => setVideoUrl(e.target.value)}/>
-
-            <input className='file-btn' type="file" accept="video/*" name="video_file" value={videoFile} />
-          </div>
+            <div>
+              <input className='vid-url' type="text" id="video_url" placeholder="Video URL..." name="video_url" value={videoUrl} onChange={(e) => setVideoUrl(e.target.value)}/>
+            </div>
           
+            <div>
+              <input className='file-btn' type="file" accept="video/*" name="video_file" value={videoFile} />
+            </div>
+          
+          </div>
 
+          
           <div> 
             <textarea className='textarea' id="comments" name="comments" placeholder="Description (optional)..." value={comments} onChange={(e) => setComments(e.target.value)} style={{height:80, width:400}}></textarea>
           </div>
