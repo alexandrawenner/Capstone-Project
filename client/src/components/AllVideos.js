@@ -2,7 +2,7 @@ import VideoDisplay from "./VideoDisplay"
 
 const AllVideos = ({ allVideos, currentUser, search, handleSearch }) => {
     return(
-        <div className='all-actors-page'>
+        <div className='all-videos-page'>
     
           <div className='search-container'>
             <form action="" className="searchbar">
@@ -11,6 +11,7 @@ const AllVideos = ({ allVideos, currentUser, search, handleSearch }) => {
             </form>
             
           </div>
+          <h1>All Videos</h1>
       
         <div className="all-videos-container">
         {allVideos.map(video =>

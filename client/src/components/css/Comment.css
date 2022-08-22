@@ -6,6 +6,7 @@
     display: block;
     text-align: center;
    margin: auto;
+   font-family: 'Raleway Dots', cursive;
 }
 
 .comment-sub-btn {
@@ -32,6 +33,7 @@
     /* text-align: justify; */
     line-height: 30px;
     font-size: 18px;
+    font-family: 'Raleway Dots', cursive;
     
 }
 
@@ -78,15 +80,16 @@
 
 
 .individualComments {
-    background-color: rgb(158, 167, 170);
-    color: black;
+    background-color: rgb(88, 88, 88);
+    color: rgb(0, 0, 0);
     width: 30%;
     padding: 10px;
     /* line-height: 25px; */
     border-radius: 5px;
     margin-top: 10px;
     margin-left: 200px;
-    
+    font-family: 'Raleway Dots', cursive;
+    font-size: 18px;
 }
 
 

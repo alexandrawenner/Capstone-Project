@@ -22,18 +22,23 @@
   .headline {
     float: none;
     text-align: left;
-    padding-left: 250px;
+   padding-left: 70px;
     color: white;
+    font-family: 'Raleway Dots', cursive;
    
   }
 
 .search-container {
   padding-left: 20px;
+  float:right;
 }
 
 .searchbar {
   display: flex;
   align-items: center;
+  padding-right: 60px;
+  padding-top: 20px;
+  
 }
 
 .fa-search {

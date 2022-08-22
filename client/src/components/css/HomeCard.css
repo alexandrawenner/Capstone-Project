@@ -99,11 +99,13 @@
 
   .cards h1 {
     color: #fff;
+    font-family: 'Raleway Dots', cursive;
   }
   
   .cards__item__text {
     color: white;
     font-size: 18px;
     line-height: 24px;
+    font-family: 'Raleway Dots', cursive;
   }
   

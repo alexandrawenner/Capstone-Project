@@ -2,6 +2,7 @@
     float: left;
     color: white;
     padding-left: 50px;
+    font-family: 'Raleway Dots', cursive;
 }
 
 .add-cover h1{
@@ -9,5 +10,6 @@
     display: block;
     text-align: center;
     padding-right: 400px;
+    font-family: 'Raleway Dots', cursive;
     
 }

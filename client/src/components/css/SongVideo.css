@@ -20,6 +20,7 @@
 
 .vid-title {
     padding: 10px;
+    font-family: 'Raleway Dots', cursive;
 }
 
 .vid-url {
@@ -66,6 +67,7 @@
     display: block;
     text-align: center;
     padding-right: 400px;
+    font-family: 'Raleway Dots', cursive;
 }
 
 .post-user {
@@ -114,4 +116,5 @@
     display: block;
     text-align: center;
     padding-right: 400px;
+    font-family: 'Raleway Dots', cursive;
 }

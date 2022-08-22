@@ -5,11 +5,14 @@
     display: grid;
     justify-content: space-evenly;
     grid-template-columns: 200px 200px 200px 200px;
-    grid-template-rows: 80px auto 80px; 
+    grid-template-rows: 270px auto 300px; 
     column-gap: 100px;
     row-gap: 100px;
     align-items: center;
-    margin-top: 80px;
+    margin-top: 10px;
+    height: 100vh;
+    width: 100%;
+    overflow-y: scroll;
 }
 
 /*VideoDisplay.js tags*/
@@ -37,3 +40,9 @@
 /* .all-vids-collection {
     grid: 2rem;
 } */
+
+.all-videos-page h1{
+    color: white;
+    padding-left: 20px;
+    font-family: 'Raleway Dots', cursive;
+}

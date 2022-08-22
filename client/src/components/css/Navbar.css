@@ -12,6 +12,8 @@
     display: inline-block;
     padding: 10px 20px;
     text-decoration: none;
+    font-family: 'Raleway Dots', cursive;
+    font-size: 20px;
     
 }
 
@@ -37,6 +39,8 @@ p {
     background-color: black;
     padding: 10px 20px;
     margin-right: 25px;
+    font-family: 'Raleway Dots', cursive;
+    font-size: 18px;
 }
 
 
@@ -45,5 +49,7 @@ p {
     background-color: black;
     padding: 10px 20px;
     margin-right: 25px;
+    font-family: 'Raleway Dots', cursive;
+    font-size: 18px;
 }
 

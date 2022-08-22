@@ -49,7 +49,7 @@ const Comment = ({ songVideoComment, handleDeleteComment, onUpdateComment, curre
         <div className="indiv-comments-container">
             <div className='individualComments'>
                 <div className={show ? "hide" : "display"}> 
-                    <p className="comment-username">By {user.username}</p>          
+                    <p className="comment-username">By: {user.username}</p>          
                     <p>{body}</p>
                 </div>
             <div className="comment-display">

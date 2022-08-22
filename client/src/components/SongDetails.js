@@ -77,7 +77,7 @@ const songVideoArray = songVideos.map(songVideo =>
               <SongVideoForm id={id} currentUser={currentUser} addSongVideos={addSongVideos}/> 
             </div>
             :
-            <h1>Sign Up to Share A Video!</h1> } 
+            <h1>Sign Up to Share A Video and Comment!</h1> } 
         </div>
       
       <div>
