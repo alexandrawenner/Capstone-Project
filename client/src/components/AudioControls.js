@@ -1,6 +1,4 @@
-
 import './css/AudioPlayer.css'
-
 
 const AudioControls = ({ isPlaying, onPlayPauseClick, onPrevClick, onNextClick }) => ( 
 
@@ -27,5 +25,4 @@ const AudioControls = ({ isPlaying, onPlayPauseClick, onPrevClick, onNextClick }
   </div>
 );
 
-  
   export default AudioControls;

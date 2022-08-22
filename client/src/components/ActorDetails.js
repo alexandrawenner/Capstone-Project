@@ -22,13 +22,10 @@ const ActorDetails = ( { currentUser } ) => {
   
   const {name, birthday, bio, other_work, songs} = actor
 
-  //console.log(songs)
-
   const actorsSongArray = songs.map(song =>
     <ActorSongList key={song} song={song} /> 
     )
 
-  
     return (
   
       <div className="actor_body">

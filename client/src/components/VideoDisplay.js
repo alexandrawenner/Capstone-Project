@@ -1,11 +1,9 @@
 import YouTube from 'react-youtube'
 import './css/VideoDisplay.css'
 
-const VideoDisplay = ({ video, currentUser }) => {
-    
-    console.log(video)
-
-    const {id, title, video_url, comments, user, video_file_url, song, song_video_comments} = video
+const VideoDisplay = ({ video }) => {
+  
+    const {title, video_url, video_file_url} = video
     
       //Youtube Video Dimensions
   const opts = {
@@ -14,8 +12,6 @@ const VideoDisplay = ({ video, currentUser }) => {
 };
 
   const videoId = video_url.slice(32, 43)
-    
-    
     
     return(
           <div className='all-vids-thumbnail'>
