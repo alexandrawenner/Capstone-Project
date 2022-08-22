@@ -84,7 +84,7 @@ const songVideoArray = songVideos.map(songVideo =>
        {songVideoArray}
       </div>   
 
-      <div>
+      <div className="audio-add-file">
         <form onSubmit={handleAudioSubmit}>
           <h2>Upload mp3</h2>
           <input type="file" accept="audio/*" onChange={(e) => setAudioFile(e.target.files[0])}/>
