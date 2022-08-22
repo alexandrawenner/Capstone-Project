@@ -11,7 +11,7 @@ function HomeCard ({ currentUser }) {
                         <li className="cards__item">
                             <NavLink to="/musicals" className="cards__item__link">
                                 <figure className="cards__item__pic-wrap" data-category="Musicals">
-                                    <img src='https://www.claremont-project.org/wp-content/uploads/2021/09/broadway-artmarketjapan.jpg' alt="Musicals" 
+                                    <img src='https://www.claremont-project.org/wp-content/uploads/2021/09/broadway-artmarketjapan.jpg' alt="Musicals Image" 
                                     className="cards__item__img"/>
                                 </figure>
                                 <div className="cards__item__info">
@@ -20,7 +20,7 @@ function HomeCard ({ currentUser }) {
                             </NavLink>
                             <NavLink to="/actors" className="cards__item__link" >
                                 <figure className="cards__item__pic-wrap" data-category="Actors">
-                                    <img src='https://theatre.fsu.edu/wp-content/uploads/sites/12/2017/12/Drowsy-Playbill_Final_Page_09.jpg' alt="Actors" 
+                                    <img src='https://theatre.fsu.edu/wp-content/uploads/sites/12/2017/12/Drowsy-Playbill_Final_Page_09.jpg' alt="Actors Image" 
                                     className="cards__item__img"/>
                                 </figure>
                                 <div className="cards__item__info">

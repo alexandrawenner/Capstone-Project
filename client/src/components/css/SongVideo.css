@@ -23,25 +23,17 @@
     font-family: 'Raleway Dots', cursive;
 }
 
-/* .video-form-container placeholder {
-    color: black;
-} */
-
 .vid-url {
     margin-top: 15px;
     padding: 8px;
     display: block;
-    margin-left: 100px;
-    padding-left: 60px;
 }
 
 .file-btn {
     color: yellow;
     border: none;
-    padding-top: 20px;
-    padding-left: 120px;
-    display: flex;
-    float: right;
+    padding: 10px 20px;
+    display: block;
 }
 
 .video-sub-opts {
