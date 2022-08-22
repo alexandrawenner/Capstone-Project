@@ -17,6 +17,7 @@ import Navbar from './components/Navbar';
 function App() {
 
   const [currentUser, setCurrentUser] = useState(false)
+  const [errors, setErrors] = useState(false)
   const [musicals, setMusicals] = useState([])
   const [actors, setActors] = useState([])
   const [search, setSearch] = useState("")
