@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import './css/ActorThumbnail.css'
 
 const ActorThumbnail = ( { actor } ) => {
 

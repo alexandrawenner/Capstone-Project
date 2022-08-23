@@ -5,22 +5,7 @@
     border-radius: 5px;
 }
 
-/* .all-musicals-container {
-    margin: auto;
-    display: grid;
-    justify-content: space-evenly;
-    grid-template-columns: 200px 200px 200px 200px;
-    grid-template-rows: 270px auto 300px; 
-    column-gap: 100px;
-    row-gap: 100px;
-    align-items: center;
-    margin-top: 10px;
-    height: 100vh;
-    width: 100%;
-    overflow-y: scroll;
-} */
-
-.all-musicals-container{
+.thumbnail_container{
     background-color: black;
     margin-right: 20px;
     border-radius: 5px;
@@ -51,6 +36,16 @@
     color: black;
 }
 
+.thumbnail_info a{
+    text-decoration: none;
+    color: white;
+}
+
+.thumbnail_info p{
+    font-size: 13px;
+    margin: 0;
+}
+
 .thumbnail_title{
     margin-bottom: 15px;
     margin-left: 5px;
@@ -61,10 +56,34 @@
     cursor: pointer;
 }
 
-.musical-name {
-    text-align: center;  
+.musical-thumbnail-display {
+    /* overflow: scroll; */
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    max-width: 1120px;
+    /* float: none;
+    clear: both;
+    padding: 4rem; */
 }
 
+.column_one{
+    float: left;
+    width: 85%;
+}
+
+.musical-name {
+    text-align: center;
+   
+}
+
+.fa-hyphen {
+    color: white;
+}
+
+.fa-plus {
+    color: white;
+}
 
 .search-container {
     display: flex;
