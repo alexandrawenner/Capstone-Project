@@ -5,7 +5,7 @@ const VideoDisplay = ({ video }) => {
     
     console.log(video)
 
-    const {id, title, video_url, comments, user, video_file_url, song, song_video_comments} = video
+    const { title, video_url, video_file_url } = video
     
       //Youtube Video Dimensions
   const opts = {

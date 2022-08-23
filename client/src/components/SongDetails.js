@@ -1,10 +1,9 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import YouTube from 'react-youtube'
 import SongVideo from "./SongVideo";
 import "./css/SongDetails.css"
 import SongVideoForm from "./SongVideoForm";
-import VideoDisplay from "./VideoDisplay";
+
 
 const SongDetails = ( { currentUser } ) => {
 
@@ -43,9 +42,6 @@ const SongDetails = ( { currentUser } ) => {
 
 if (!isLoaded) return <h2>Loading...</h2>
 
-//original main youtube video in songVideos pg
-// const videoId = song.music_video.slice(32, 43)
-
 //Adds A new SongVideo to each song per user's choice
 function addSongVideos(newVideo) {
   setSongVideos([...songVideos, newVideo])
@@ -67,9 +63,6 @@ const songVideoArray = songVideos.map(songVideo =>
   <div className="song-body-container">
      <h1 className="songTitle">{song.title}</h1>
     <div className="song_body">
-      {/* <YouTube videoId={videoId} opts={opts} className="song_video"/> */}
-      
-
         <div className='add-cover'>
           { currentUser ? 
             <div>
@@ -91,7 +84,6 @@ const songVideoArray = songVideos.map(songVideo =>
           <button type="submit">Submit</button>
         </form>
       </div> 
-
     </div>
   </div>
   );
