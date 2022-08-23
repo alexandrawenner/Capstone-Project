@@ -4,8 +4,10 @@
     justify-content:right;
     padding-top: 40px;
     padding-left: 10%;
-    text-decoration: none;
+    text-decoration: none;   
 }
+
+
 
 .navbar-opts {
     list-style-type: none;
@@ -20,6 +22,10 @@
 .welcome {
     color: white;
     text-align: left;
+    font-family: 'Raleway Dots', cursive;
+    font-size: 22px;
+    float: left;
+    font-weight: bolder;
 }
 
 p {

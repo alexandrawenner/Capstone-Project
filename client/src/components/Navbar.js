@@ -39,20 +39,20 @@ const Navbar = ({ currentUser, setCurrentUser}) => {
                     </NavLink>
                 </li>
             </ul>
-                <button className='login-btn'>
+                <button className='login-btn' style={{textDecoration:"none"}}>
                     { currentUser ?
                         <NavLink to='/' onClick={ handleLogout }>
                         <p>Logout</p>
                         </NavLink>
                         :
-                        <NavLink to='/login'>
+                        <NavLink to='/login' style={{textDecoration:"none"}}>
                         <p>Login</p>
                         </NavLink>
                     }
                 </button>
                 
                     { currentUser ? null :
-                    <button className='signup-btn'>
+                    <button className='signup-btn' style={{textDecoration:"none"}}>
                         <NavLink to='/signup' >
                             <p>Signup</p>
                         </NavLink> 
