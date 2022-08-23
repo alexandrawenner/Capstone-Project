@@ -13,7 +13,7 @@ const MusicalThumbnail = ( { musical} ) => {
               key={id} 
               src={image} 
               alt={name}
-              className="thumbnail_image"/>
+              className="musicals-thumbnail_image"/>
       </NavLink>
 
       <div className="thumbnail_info">

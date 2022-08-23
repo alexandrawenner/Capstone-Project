@@ -5,8 +5,9 @@
 .commentForm {
     display: block;
     text-align: center;
-   margin: auto;
-   font-family: 'Raleway Dots', cursive;
+    margin: auto;
+    /* font-family: 'Raleway Dots', cursive; */
+    /* color: black; */
 }
 
 .comment-sub-btn {
@@ -33,8 +34,8 @@
     /* text-align: justify; */
     line-height: 30px;
     font-size: 18px;
-    font-family: 'Raleway Dots', cursive;
-    
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* font-family: 'Raleway Dots', cursive;  */
 }
 
 
@@ -54,6 +55,7 @@
 
 .display {
     text-align: center;
+    
 }
 
 .hide{
@@ -97,5 +99,9 @@
 
 .comment-username {
     color: black;
+}
+
+.comment-username p {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 

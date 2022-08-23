@@ -2,7 +2,9 @@
     float: left;
     color: white;
     padding-left: 50px;
-    font-family: 'Raleway Dots', cursive;
+    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+    text-shadow: 0 0 10px rgb(0, 0, 0), 0 0 20px rgb(0, 0, 0), 0 0 30px #ffdf53, 0 0 40px #ffdf53, 0 0 50px #ffdf53, 0 0 60px #ffdf53, 0 0 70px #ffdf53;
 }
 
 .add-cover h1{
