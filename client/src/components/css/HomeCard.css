@@ -65,12 +65,12 @@
     position: absolute;
     bottom: 0;
     margin-left: 10px;
-    padding: 6px 8px;
+    padding: 6px 9px;
     max-width: calc((100%) - 60px);
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 700;
-    color: #fff;
-    background-color: #1f98f4;
+    color: rgb(0, 0, 0);
+    background-color: #8be4ff;
     box-sizing: border-box;
   }
   
