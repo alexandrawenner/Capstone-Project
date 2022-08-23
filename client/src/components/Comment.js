@@ -36,10 +36,10 @@ const Comment = ({ songVideoComment, handleDeleteComment, onUpdateComment, curre
     currentUser && currentUser.id === user.id ? 
         displayComments = 
         <div className={'display-comments'}>
-            <button className={'fa-regular fa-pen-to-square'} onClick={handleShow}></button>
+            <button className={show ? 'fa-solid fa-xmark' : 'fa-regular fa-pen-to-square'} onClick={handleShow}></button>
             <button className='fa-regular fa-trash-can' onClick={() =>handleDeleteComment(id)}></button>
             <form className={show ? "display" : "hide"} onSubmit={handleSubmit}>
-                <textarea className="editInput" type='text' required id='name' name='name' onChange={handleChange} value={edit}/>
+                <textarea className="editInput" type='text' required id='name' name='name' onChange={handleChange} value={edit} style={{fontFamily: 'Franklin Gothic Medium', marginTop: 10, marginLeft:60}}/>
                 <button className={'fa-regular fa-square-check'} type='submit'></button>
             </form>
          </div>
@@ -48,9 +48,9 @@ const Comment = ({ songVideoComment, handleDeleteComment, onUpdateComment, curre
     return(
         <div className="indiv-comments-container">
             <div className='individualComments'>
-                <div className={show ? "hide" : "display"}> 
+                <div className={show ? "hide" : "display"} > 
                     <p className="comment-username">By: {user.username}</p>          
-                    <p>{body}</p>
+                    <p >{body}</p>
                 </div>
             <div className="comment-display">
                 {displayComments}

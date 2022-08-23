@@ -80,6 +80,17 @@
 }
 
 
+.fa-xmark{
+    margin: 14px 14px;
+    margin-bottom: 0px;
+    padding: 7px; 
+    width: 30px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
 
 .individualComments {
     background-color: rgb(88, 88, 88);
@@ -93,7 +104,6 @@
     font-family: 'Raleway Dots', cursive;
     font-size: 18px;
 }
-
 
 
 
