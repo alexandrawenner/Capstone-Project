@@ -1,7 +1,7 @@
 import YouTube from 'react-youtube'
 import './css/VideoDisplay.css'
 
-const VideoDisplay = ({ video, currentUser }) => {
+const VideoDisplay = ({ video }) => {
     
     console.log(video)
 

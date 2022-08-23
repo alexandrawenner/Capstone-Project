@@ -17,10 +17,6 @@
 
 /*VideoDisplay.js tags*/
 
-/* .all-vids-thumbnail {
-    margin: auto;
-} */
-
 .all-vids-titles {
     color: white;
     font-size: 14px;
@@ -34,12 +30,7 @@
 .all-vids-local {
     width: 130%;
     height: auto;
-    /* display: grid; */
 }
-
-/* .all-vids-collection {
-    grid: 2rem;
-} */
 
 .all-videos-page h1{
     color: white;
