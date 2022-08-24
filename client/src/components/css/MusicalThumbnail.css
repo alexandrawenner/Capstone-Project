@@ -8,22 +8,6 @@
     grid-template-columns: 200px 200px 200px 200px;
 }
 
-/* .all-musicals-container {
-    margin: auto;
-    display: grid;
-    justify-content: space-evenly;
-    grid-template-columns: 200px 200px 200px 200px;
-    grid-template-rows: 270px auto 300px; 
-    column-gap: 100px;
-    row-gap: 100px;
-    align-items: center;
-    margin-top: 10px;
-    height: 100vh;
-    width: 100%;
-    overflow-y: scroll;
-} */
-
-
 .all-musicals-container{
     background-color: black;
     margin-right: 20px;

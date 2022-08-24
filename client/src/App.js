@@ -75,7 +75,7 @@ function App() {
       <Navbar currentUser={currentUser} setCurrentUser={setCurrentUser}/>
       <Switch>
           <Route exact path="/">
-            <Home />
+            <Home currentUser={currentUser}/>
           </Route>
           <Route exact path="/login">
             <LoginForm setCurrentUser={setCurrentUser} />
