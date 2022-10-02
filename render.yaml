@@ -1,18 +1,18 @@
 databases:
-  - name: capstone-project
-    databaseName: capstone-project
-    user: capstone-project
+  - name: broadway-hub
+    databaseName: broadway-hub
+    user: broadway-hub
 
 services:
   - type: web
-    name: capstone-project
+    name: broadway-hub
     env: ruby
     buildCommand: "./bin/render-build.sh"
     startCommand: "bundle exec puma -C config/puma.rb"
     envVars:
       - key: DATABASE_URL
         fromDatabase:
-          name: capstone-project
+          name: broadway-hub
           property: connectionString
       - key: RAILS_MASTER_KEY
         sync: false
